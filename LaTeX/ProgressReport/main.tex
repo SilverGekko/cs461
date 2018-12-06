@@ -1,0 +1,220 @@
+\documentclass[onecolumn, draftclsnofoot,10pt, compsoc]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./} }
+\usepackage{caption}
+\usepackage{url}
+\usepackage{setspace}
+%\usepackage{parskip}
+\usepackage{longtable}
+
+\usepackage{geometry}
+\geometry{textheight=9.5in, textwidth=7in}
+
+% 1. Fill in these details
+\title{Group 73: Progress Update}
+\author{Stephen Hoffmann, Stewart Rodger, Nicholas Pugliese, Kyle Tyler, Symon Ramos}
+\date{November 2018}
+\def \CapstoneTeamName{		    Group 73: Virtual Reality Printing }
+\def \CapstoneTeamNumber{		73}
+\def \GroupMemberOne{			Symon Ramos}
+\def \GroupMemberTwo{			Stephen Hoffman}
+\def \GroupMemberThree{			Nicholas Pugliese}
+\def \GroupMemberFour{			Stewart Rodger}
+\def \GroupMemberFive{			Kyle Tyler}
+\def \CapstoneProjectName{		Developing Virtual Reality Based Training Experiences for HP's PageWide Web Press Product Line}
+\def \CapstoneSponsorCompany{	HP Inc}
+\def \CapstoneSponsorPerson{		Tim Holt}
+
+
+
+% 2. Uncomment the appropriate line below so that the document type works
+\def \DocType{		
+				Design Document
+				%Progress Report
+				}
+			
+\newcommand{\NameSigPair}[1]{\par
+\makebox[2.75in][r]{#1} \hfil 	\makebox[3.25in]{\makebox[2.25in]{\hrulefill} \hfill		\makebox[.75in]{\hrulefill}}
+\par\vspace{-12pt} \textit{\tiny\noindent
+\makebox[2.75in]{} \hfil		\makebox[3.25in]{\makebox[2.25in][r]{Signature} \hfill	\makebox[.75in][r]{Date}}}}
+% 3. If the document is not to be signed, uncomment the RENEWcommand below
+%\renewcommand{\NameSigPair}[1]{#1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+    \begin{abstract}
+    % Copied from group problem statement
+   Virtual reality (VR) training simulations provide the opportunity to implement an interactive learning experience that improves on traditional learning methodologies. We propose a series of VR-based training scenarios designed to train personnel on how to operate machinery from HP’s PageWide Web Press product line. Developing these training scenarios will improve the effectiveness of HP’s current training procedure as well as mitigate the costs and risks of handling real machinery by the trainees. Using the Unreal engine, the Datasmith CAD model importer, and HP's Microsoft Mixed Reality headset we will build a program to solve the inefficient training problem. Data recording of user actions will be collected to measure and justify the simulation’s effectiveness. By integrating VR training simulations into the current training procedure, we enable the training process to be more effective while at the same time adding incentive for HP to further pursue VR training-related development.
+    \end{abstract}
+\newpage
+\pagenumbering{arabic}
+\tableofcontents
+% 7. uncomment this (if applicable). Consider adding a page break.
+%\listoffigures
+%\listoftables
+\clearpage
+
+% 8. now you write!
+\section{Recap of Project Purposes and Goals}
+
+This project's goal is to create a virtual reality training program for HP industrial "Web Press" printers. HP is looking for a cheaper option to get customers trained on the operation and maintenance of these printers. The current method is a week long seminar at an HP Web Press location. These seminars require HP to pay for airline tickets and hotel/food costs for each customer that attends. The solution our group is working on is to create a virtual reality simulation of the Web Press. This simulation will serve as a feasibility test for HP upper management to show that virtual reality is a viable option for replacing the seminar.
+
+\section{Current State of Project}
+
+% what to write about? we haven't really developed anything yet
+We have met with the client multiple times outline specific details for our testing scenarios. We have used these details in all of our documents, and final requirements are still being put together as our team receives that official training documentation from HP, hopefully with in the next few weeks. The team also signed an Non Disclosure Agreement to grant access to company only CAD models to use as base line creating assets in our 3d modeling application 3DSMax. 
+
+Individual training on the various tools have also started, along with overviews on individual responsibilities and work-flow management.
+
+Currently the project is nearly conceptualized fully on paper, where implementation is ready to begin. A summary of each of the documents we wrote this term are as follows:
+\begin{itemize}
+    \item Problem Statement: Training people on the Web Press is a costly and time-consuming process.
+    \item Requirements Document: HP needs to find a cheaper way to train people on the Web Press.
+    \item Tech Reviews: 
+    \begin{itemize}
+        \item Nick: Education methods.
+        
+        Recommendation: use both a lecture-based module system and a sandbox mode for different learning styles.
+        \item Kyle: Comparison between different types of VR headsets.
+        \item Stephen: Comparison between Blender, Maya, and 3DSMax.
+        \item Symon: Virtual, Augmented, and Mixed Reality. While Augmented and Mixed Reality could assist in maintenance task performance in the case of actual tasks that need to be completed, the fact that it still requires Web Press printer usage ultimately doesn't accomplish the goal of increasing the cost-effectiveness of HP's training procedure.
+        \item Stewart: Comparison between different viewpoints: first, second, and third person perspectives.
+    \end{itemize}
+    \item Design Document: We will be using Virtual Reality to create a training simulation that allows customers to train on the operation and maintenance of the Web Press from a remote location.
+\end{itemize}
+
+Once HP gives us the last remaining pieces, and we acquire hardware from the school, we can fully commit to building the project. We have sent all of the documentation we have created this term to our client Tim Holt for approval, and he has sent his minor revisions to our work back to us to be integrated back into the documents. As it stands currently, we can only begin to learn the tools suggested in our tech reviews.
+
+\section{Problems and Proposed Solutions}
+
+HP has a catalogue of 3D CAD models made for each of the Web Press printers. However in order to access them to use in our project, we had to sign a non-disclosure agreement stating that we won't distribute the 3D models outside of HP or use them in our project. Additionally the HP 3D models are made with too high of a polygon count to feasibly be used in a VR application that targets middle of the range laptops for its running hardware. The solution to both of these problems is that our team will create derivative 3D models based of the high poly-count ones from HP. HP made it clear to our group that if we only used the 3D models as a reference, any derivative model (as long as it was made 100\% by our group) would not fall under the NDA and would be allowed to be included in our project. The NDA also does not extend to the project as a whole. Our group's project will not be the sole property of HP. HP will own it, but our group will be allowed to show it off and claim it as our own work and make derivatives of that work as we see fit.
+
+In our initial composition of our requirements document, our team wrote an in-depth design of the components of our project. We detailed the equipment, software, processes, testing, and procedures. When presented to Kirsten, however, she told us that while the document was well-written, it was more of a design document rather than a requirements document. A requirements document should be high-level and include no implementation pertaining to the project itself, but rather the goals to which the project hopes to accomplish. She gracefully gave us a couple more days to re-write our requirements document, with which we were able to develop a more accurate representation of our high-level goals and parameters. While this required us to perform slightly extra work, it ultimately worked to our benefit because we were able to use our initial requirements document in the composition of our design document later in the term. We still had to incorporate some new elements, such as which software design methodology to use (we decided to use agile), but most of the work was completed, enabling us more time to proofread and refine our document.
+
+Our group has not gained access to proper development hardware. We contacted McGrath and he told us that 
+
+% probably don't need this section as described...
+% but are there any other cool / interesting things we have seen and could talk about?
+\section{Interesting Code}
+Our group did not write any code this term. We decided to take what McGrath said about "students who start the fun things early fail" into consideration and write all of the documentation first before starting any development.
+%if(1 === 1)
+%    return true
+% <?php Nick hates JavaScript   ?>
+%\section{Week by Week Summary}
+
+\section{Retrospective: a Week by Week Summary}
+
+The following outlines what we have done during each week of this term. We describe what good happened that week, what changes need to be implemented, and what actions will be implemented to create the necessary changes.
+
+\begin{longtable}{ |p{2cm}||p{5cm}|p{5cm}|p{5cm}|  }
+ \hline
+ \multicolumn{4}{|c|}{\textbf{Fall Term Retrospective}} \\
+ \hline
+ \textbf{Week} & \textbf{Positives} & \textbf{Deltas} & \textbf{Actions}\\
+ \hline
+  % Week one
+ 1 & 
+    Class Overview 
+    %column two
+    & ??? 
+    %column three
+    & ???\\
+ \hline
+ % Week two
+ 2 & Project Selection Process 
+     %column two
+    & ??? 
+    %column three
+    & ???\\
+ \hline
+ % Week three
+ 
+ 3 & Project is assigned 
+ 
+    Group communication begins
+ 
+    Client contacted
+ 
+    TA meetings set up. 
+ 
+    Wrote Problem Statements. 
+    %column two
+    & ??? 
+    %column three
+    & ???\\
+\hline
+% Week four
+ 4 & Met as group and completed problem statement.
+ 
+     Asked McGrath for hardware per client request. 
+     
+     Started requirement document.
+     %column two
+     & Nick met with Kirsten to talk about the requirements document. Turns out we accidentally wrote a design document instead. We needed to start again, this time only writing a requirements doc.
+     %column three
+     & 
+    
+    Save the incorrect "design" document we wrote for later use and rewrite the information as a requirements document.\\
+\hline
+% Week five
+ 5 & Completed requirements document draft with known knowledge. 
+    %column two
+    & McGrath said that we would not be allowed hardware until winter term started. 
+    
+    
+    %column three
+    & Use personal and Snell Hall VR equipment for experimentation; wait until winter term access for development.
+    \\
+\hline
+% Week six
+ 6 & Met Tim at HP and got Tour of HP printing.
+ 
+    Gathered initial starting requirements. 
+    %column two
+    & Tim said that in order to acquire HP 3D CAD models our group would need to sign an NDA. 
+    %column three
+    & Talk to our grading TA Chris about what an NDA would mean for this project.\\
+\hline
+% Week seven
+ 7 & Tech reviews completed.
+     Reminded Tim of Cad Models and Documents.
+     %column two
+     & McGrath said no hardware again; informed class that statistically student with access to hardware in Fall usually fail capstone.
+     %column three
+     & Work with what personal equipment we have.\\
+\hline
+% Week eight
+ 8 & Emailing Tim for NDA and sending him all of the documents we have created thus far for approval.
+ 
+    Tim also mentioned that we might be able to get HP to purchase some VR equipment for our project.
+ 
+    Started Design Document.
+    %column two
+    & We did not adhere to the IEEE standard for our requirements document, so this time we needed to make sure we read and followed the instructions properly.
+    %column three
+    & Update the requirements document with the proper IEEE template.\\
+\hline
+% Week nine
+ 9 & Signed NDA.
+     
+     Meet up with Tim for the last time this term. Tim reserved a workspace for our group at HP with space for us to work in VR. He also agreed to have weekly meetings with us to keep track of our development work.
+     %column two
+     & Tim informed us that our original idea of the project was too broad of a scope. Tim wants our project to be a proof of concept for HP management to get them to fund a larger scale product.
+     %column three
+     & Scale back our plans to account for the narrower scope of the project. We are now focusing on only one module and sandbox mode for the training program.\\
+\hline
+% Week ten
+ 10 & Finished Video presentation.
+ 
+      Completed Latex progress report. 
+      %column two
+      & Our tech reviews did not receive the scores we were hoping for. They need to be revisised with the grader's comments in mind.
+      %column three
+      &  Update the requirements document and tech review with the feedback from out graders in mind. \\
+ \hline
+\end{longtable}
+
+\end{document}
+

@@ -1,0 +1,125 @@
+\documentclass[onecolumn, draftclsnofoot,10pt, compsoc]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{setspace}
+
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+
+\usepackage{geometry}
+\geometry{textheight=9.5in, textwidth=7in}
+
+\addbibresource{problemstatementbib.bib}
+
+% 1. Fill in these details
+\def \CapstoneTeamName{		    Group 73}
+\def \CapstoneTeamNumber{		73}
+\def \GroupMemberOne{			Symon Ramos}
+\def \GroupMemberTwo{			Stephen Hoffman}
+\def \GroupMemberThree{			Nicholas Pugliese}
+\def \GroupMemberFour{			Stewart Rodger}
+\def \GroupMemberFive{			Kyle Tyler}
+\def \CapstoneProjectName{		Developing Virtual Reality Based Training Experiences for HP's PageWide Web Press Product Line}
+\def \CapstoneSponsorCompany{	HP Inc}
+\def \CapstoneSponsorPerson{		Tim Holt}
+
+% 2. Uncomment the appropriate line below so that the document type works
+\def \DocType{		Problem Statement
+				%Requirements Document
+				%Technology Review
+				%Design Document
+				%Progress Report
+				}
+			
+\newcommand{\NameSigPair}[1]{\par
+\makebox[2.75in][r]{#1} \hfil 	\makebox[3.25in]{\makebox[2.25in]{\hrulefill} \hfill		\makebox[.75in]{\hrulefill}}
+\par\vspace{-12pt} \textit{\tiny\noindent
+\makebox[2.75in]{} \hfil		\makebox[3.25in]{\makebox[2.25in][r]{Signature} \hfill	\makebox[.75in][r]{Date}}}}
+% 3. If the document is not to be signed, uncomment the RENEWcommand below
+%\renewcommand{\NameSigPair}[1]{#1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{titlepage}
+    \pagenumbering{gobble}
+    \begin{singlespace}
+        \hfill 
+        % 4. If you have a logo, use this includegraphics command to put it on the coversheet.
+        %\includegraphics[height=4cm]{CompanyLogo}   
+        \par\vspace{.2in}
+        \centering
+        \scshape{
+            \huge CS Capstone \DocType \par
+            {\large\today}\par
+            \vspace{.5in}
+            \textbf{\Huge\CapstoneProjectName}\par
+            \vfill
+            {\large Prepared for}\par
+            \Huge \CapstoneSponsorCompany\par
+            \vspace{5pt}
+            {\Large\NameSigPair{\CapstoneSponsorPerson}\par}
+            {\large Prepared by }\par
+            Group\CapstoneTeamNumber\par
+            % 5. comment out the line below this one if you do not wish to name your team
+            %\CapstoneTeamName\par 
+            \vspace{5pt}
+            {\Large
+                \NameSigPair{\GroupMemberOne}\par
+                \NameSigPair{\GroupMemberTwo}\par
+                \NameSigPair{\GroupMemberThree}\par
+                \NameSigPair{\GroupMemberFour}\par
+                \NameSigPair{\GroupMemberFive}\par
+            }
+            \vspace{20pt}
+        }
+        \begin{abstract}
+        Virtual Reality (VR) training simulations provide the opportunity to implement an interactive learning experience that improves on traditional learning methodologies. We propose a series of VR-based training scenarios designed to train personnel on how to operate machinery from HP’s PageWide Web Press product line. Developing these training scenarios will improve the effectiveness of HP’s current training procedure as well as mitigate the costs and risks of handling real machinery by the trainees. Data recording of user actions will be recorded to measure and justify the simulation’s effectiveness. By integrating VR training simulations into the current training procedure, we enable the training process to be more effective while at the same time adding incentive for HP to further pursue VR training-related development.
+        \end{abstract}     
+    \end{singlespace}
+\end{titlepage}
+\newpage
+\pagenumbering{arabic}
+\tableofcontents
+% 7. uncomment this (if applicable). Consider adding a page break.
+%\listoffigures
+%\listoftables
+\clearpage
+
+% 8. now you write!
+\section{Definition and Description}
+HP Inc. is a well-known technology company that specializes in the development and manufacturing of laptops, desktop computers, and printers. Among their technologies is the PageWide Web Press product line, which consists of large-scale printing presses that produce sheets in high-volume with a high degree of efficiency and effectiveness. Training personnel to monitor and manage these machines requires an extensive amount of time and traditionally entails access to real presses, an expensive commodity that needs production time to be reserved for the sake of training. Trainees are subject to travel to a training site to receive training as well, which adds to the expenses accrued. The amount of work hours spent by skilled personnel to train new users is also another factor that could potentially improve if training regimens could be delegated to a self-contained training procedure. The current methodology is also bound by the nominal workflow cases as it isn’t applicable to cause errors and problems with the machine for the sake of teaching personnel how to correctly handle them.
+
+\section{Problem Solution}
+The proposed solution is to improve the quality of learning and knowledge of HP's PageWide Web Press equipment by implementing Virtual Reality (VR) based training scenarios. This will drastically save on training costs and provide trainees the unique experience of being trained in a virtual space without actually needing to use the equipment itself. In addition, VR will also enable the company to simulate edge cases and potential errors that could occur, allowing the user to gain situational experience without affecting the machines.
+
+The development of this environment will be completed with the Unreal Engine and Datasmith, two development platforms currently supported by other departments within HP. HP and Microsoft’s Mixed Reality headsets will also be utilized, as it is supported by HP and is used in other company sectors. All of the software and equipment as well as existing training materials will be provided by HP. The development of framework is also within project scope as it could serve as a foundation for future VR training implementations. In addition, the development of the VR training environments should involve quantifiable user actions in which a direct assessment of user learning can be performed. Doing so will improve future implementations and analysis as well as provide discrete data that supports VR and the scope of our project.
+
+The growing body of VR research is revealing the potency of VR as a means to train and hone skills. Research that explores how effective VR can be in training simulations and assembly tasks have found numerous benefits that advocate the use of VR over traditional training methods. These benefits include the ability to design VR simulations that can assist in specific learning tasks, the manipulation of objects in a spatial environment to improve relative comprehension, and the novelty of an engaging form of visualization \cite{1}. An investigation of the attitudes of participants in an educational environment \cite{2} found that VR was considered to be a fun and motivating experience, supporting the claim that the novelty of VR versus traditional training methods could improve engagement. Dalgarno, Hedberg, and Harper \cite{3} assert that 3D environments can improve comprehension of tasks by utilizing spatial cognition as a means of appropriating tasks done in VR with tasks done in real life. Supported by these studies, incorporating VR into HP’s training procedure for their Web Presses should benefit not only the company itself, but each trainee and their individual experience.
+
+\section{Performance Metrics}
+In order to successfully complete this project to the satisfaction of our client, we must perform a great deal of business analysis to fully comprehend the HP PageWide Web Press systems and its various components. In addition, the team must also research and design appropriate environments using the Unity Engine to create comprehensive virtual training scenarios. As a metric of performance, our goal is to complete several of these scenarios that can replace the current training material used to train users on how to operate the machinery. The scope of this project also entails the initial user acceptance testing of the virtual reality training and comparing it with the effectiveness of the previous training method. By gathering statistical and quantifiable data that establishes the effectiveness of virtual reality training for the Web Press Systems, a precedent can ultimately be set internally that can incentivize HP to pursue the development of more virtual reality training scenarios and environments. 
+
+A signification portion of this project that should be taken into account when evaluating the project metric is the design and architecture of the training scenarios. A cohesive storytelling experience should be implemented to fully demonstrate the technical details of the Web Presses. This is crucial as the design will be used to provide the foundation of the technical implementation. 
+
+A notable contingency of this project is the assumption that a virtual reality training method will be more effective than the traditional training procedure and will improve training as a whole. As articulated by Pantelidis \cite{1}, “virtual reality is not appropriate for every instructional objective” but could be utilized when under several conditions, such as if traditional training is more difficult to perform or if mistakes could cause unintended property damage. Our project metric thus will also assume that a virtual reality methodology will be more effective than the current process.
+
+However, the implementation of the Virtual Reality training scenarios will not serve as a substitute for the entire training procedure but rather will be incorporated into the existing process in order to improve in efficiency and effectiveness as well as mitigate potential shortcomings with the current system in place. 
+
+
+%\bibliographystyle{IEEEtran}
+%\bibliography{ProblemStatementBib}
+\begin{thebibliography}{00}
+
+\bibitem{1} T. Mikropoulos, A. Chalkidis, and A. Katskikis A. Emvalotis. “Students’ attitudes towards educational virtual environ-ments.” In:Education and Information Technologies3 (1961), pp. 137–148.
+
+\bibitem{2} B. Dalgarno, J. Hedberg, and B. Harper. “The contribution of 3D environments to conceptual understanding”. In: \emph{In Proceedings of the 19th Annual Conference of the Australian Society for Computers in Tertiary Education (ASCILITE)1} (2002), p. 51.
+
+\bibitem{3} V. Pantelidis. “Reasons to Use Virtual Reality in Education and Training Courses and a Model to Determine When toUse Virtual Reality”. In: \emph{Themes In Science and Technology Education} 2 (2009), pp. 59–70.
+
+\end{thebibliography}
+
+\end{document}
+

@@ -1,0 +1,87 @@
+\documentclass[10pt,draftclsnofoot,onecolumn]{IEEEtran}
+\usepackage[letterpaper, margin=0.75in]{geometry}
+
+\usepackage[
+backend=bibtex,
+style=numeric,
+sorting=ynt
+]{biblatex}
+
+\addbibresource{citations.bib}
+
+\title{ Virtual Reality Training Program for HP WebPress Printing Technology Proposal }
+\author{
+    Stephen Hoffmann \\
+    Nicholas Pugliese \\
+    Symon Ramos \\
+    Stewart Roger \\
+    Kyle Tyler 
+}
+\begin{document}
+
+\maketitle
+
+\begin{center}
+    CS 461 - Senior Capstone I \\
+    October 18 \\
+    Fall 2018
+\end{center}
+\bigskip
+
+\begin{abstract}
+Virtual reality (VR) training simulations provide the opportunity to implement an interactive learning experience that improves on traditional learning methodologies. We propose a series of VR-based training scenarios designed to train personnel on how to operate machinery from HP’s PageWide Web Press product line. Developing these training scenarios will improve the effectiveness of HP’s current training procedure as well as mitigate the costs and risks of handling real machinery by the trainees. Using the Unreal engine, the Datasmith CAD model importer, and HP's Microsoft Mixed Reality headset we will build a program to solve the inefficient training problem. Data recording of user actions will be collected to measure and justify the simulation’s effectiveness. By integrating VR training simulations into the current training procedure, we enable the training process to be more effective while at the same time adding incentive for HP to further pursue VR training-related development.
+\end{abstract}
+
+\clearpage
+\section{Problem}
+HP Inc. is a technology company that specializes in the development and manufacturing of laptops, desktop computers, and printers. Among their technologies is the PageWide Web Press product line, which consists of large-scale printing presses that produce sheets in high-volume with a high degree of efficiency and effectiveness. These printers are room-sized and capable of printing up to 600 feet of sheets per minute. They are used to print a vast number of products, from posters to detailed product boxes (such as kitchen aid mixers) to junk mail runs. The printers are efficient at printing large batch jobs because the print heads are stationary and the paper is transferred from a spool onto the conveyor belt system that rolls the paper past the print heads at great speeds. However, HP's PageWide Web Press is a very large and expensive piece of machinery. As a result, only a small quantity of Web Presses are available for use, which can lead to limitations on the amount of personnel that can be trained at any given time. Because it is also impractical to ship presses to different locations due to their size, non-local trainees must travel to a location with an available training machine setup; this drives up the accrued expenses of training as HP must compensate for travel and lodging on the trainees' behalves. This also takes up valuable time as it complicates training scheduling. In addition, the number of training setups can be inadequate for the number of people who need to be trained. Additionally, all of the Web Presses at HP are constantly in use. The machine's current job schedule would have to be interrupted to make time for the company's representatives to go through the training program. These issues, compounded with the fact that it isn't applicable to introduce Web Press malfunctions to illustrate how to handle them, create a less than ideal environment for training that leaves room for improvement. HP is looking for a way to get more people trained on their PageWide Web Presses in a faster and more cost-effective method. Our project goal is to reduce the cost and impact of training people to use the PageWide Web Press.
+\bigskip
+
+\section{Solution}
+\bigskip
+%Symon's Solution/Methodology ---------------------
+The proposed solution is to improve the quality of learning and knowledge of HP's PageWide Web Press equipment by implementing virtual reality based training scenarios. This will drastically save on training costs and provide trainees the unique experience of being trained in a virtual space without actually needing to use the equipment itself. In addition, VR will also enable the company to simulate edge cases and potential errors that could occur, allowing the user to gain situational experience without negatively affecting the machines. Our group will also be meeting HP's current VR Development team for advice, technology, and scope. They will be a tool to help ensure outcomes are met as well as achievable for our client by the end of spring. Along with them we will need to personally go through the training at HP so we know how to incorporate the training into a game. This will involve working closely with our client, HP instructors, and HP's VR Team to ensure requirements and specifications.
+
+\bigskip
+\par The development of this environment will be completed with the Unreal Engine and Datasmith, two development platforms currently supported within HP. HP and Microsoft’s Mixed Reality headsets and hand controllers will also be utilized, as they are supported by HP and are used in other company departments. The headset will track the user's position, height, and rotation, while providing visual and audio feedback. The VR hand-held controllers will track arm motion, finger gestures, and arm motion, while also providing motor-based vibration feedback. We will use sound recorders and audio software to create in-game sound, as well as use cameras to capture factory textures and environmental details for level design. Using all the tools the simulation will attempt to allow the user to make the most out of there sense of Direction, Sound, Sight, and touch. All of the software and equipment as well as existing training materials will be provided by HP. The development of a framework is also within the project scope as it could serve as a foundation for future VR training implementations. In addition, the development of the VR training environments should involve quantifiable user actions in which a direct assessment of user learning can be performed. Doing so will improve future implementations and analysis as well as provide discrete data that supports VR and the scope of our project.
+
+\bigskip
+\par One way that we will ensure that our program is successful is to pull lessons from video game development. Using the language of video games will allow us to create engaging virtual reality experiences. What we want to do is put a person into a virtual environment and give them the tools they need to solve a problem in the space. The field of video games has been using virtual environments to solve problems for years, and as a result there are well defined tools and methods for creating good games. By using games as a touchstone we can benefit from techniques we see in games such as: user tutorials, system interaction, and the feeling of immersion. Games must teach players how to use the software itself, and often do so in playful ways. Most games are the result of many complex systems that interact with one another in ways that are fun for a player to interact with. All of this leads to a sense of immersion for the player, and that feeling of immersion can be pushed even further with VR. We hope to use these lessons to build a complex system that is a fun, educational, and immersive. experience for users.
+
+\bigskip
+\par The growing body of VR research is revealing the potency of VR as a means to train and hone skills. Research that explores how effective VR can be in training simulations and assembly tasks have found numerous benefits that advocate the use of VR over traditional training methods. These benefits include the ability to design VR simulations that can assist in specific learning tasks, the manipulation of objects in a spatial environment to improve relative comprehension, and the novelty of an engaging form of visualization \cite{1}. An investigation of the attitudes of participants in an educational environment \cite{2} found that VR was considered to be a fun and motivating experience, supporting the claim that the novelty of VR versus traditional training methods could improve engagement. Dalgarno, Hedberg, and Harper \cite{3} assert that 3D environments can improve comprehension of tasks by utilizing spatial cognition as a means of appropriating tasks done in VR with tasks done in real life. Supported by these studies, incorporating VR into HP’s training procedure for their Web Presses should benefit not only the company itself, but each trainee and their individual experience.
+
+\bigskip
+\newpage
+\section{Performance Metrics}
+The project will reach a completed state when:
+
+\bigskip
+1. A VR environment is construction with a PageWide Web Press in the scene. This environment should include recognizable graphics, sounds, and appear to represent a real world work environment to a reasonable extent.
+
+2. The user can move around within the scene using the provided VR headset, and the user can interact with the press in at least one way using the provided controllers. 
+
+3. The interactive parts of the VR press simulate at least one major function in virtual reality that would be covered in the physical reality training. Instructions should be given to the user with in-game-audio and visual cues.  
+
+4. The virtual reality press simulates failure when the VR press is operated incorrectly (control's used in the wrong order) in at least one (ideally all) of the functions in the training.
+
+5. Outside individuals with no prior knowledge can complete the training successfully, without triggering a failure (when allowed repeat attempts), using only the instructions and prompts within the VR simulation. 
+
+6. Positive user feedback on interaction and intuitive game-play mechanisms, especially for users with no background in virtual reality or gaming controls in general.
+
+7. Framework that can be used to easily implement future training scenarios after completion of capstone.
+
+8. After completing the VR training program, Users can correctly identify parts and functions of the real press that were covered in the program.
+
+\bigskip
+\begin{thebibliography}{00}
+
+\bibitem{1} T. Mikropoulos, A. Chalkidis, and A. Katskikis A. Emvalotis. “Students’ attitudes towards educational virtual environ-ments.” In:Education and Information Technologies3 (1961), pp. 137–148.
+
+\bibitem{2} B. Dalgarno, J. Hedberg, and B. Harper. “The contribution of 3D environments to conceptual understanding”. In: \emph{In Proceedings of the 19th Annual Conference of the Australian Society for Computers in Tertiary Education (ASCILITE)1} (2002), p. 51.
+
+\bibitem{3} V. Pantelidis. “Reasons to Use Virtual Reality in Education and Training Courses and a Model to Determine When toUse Virtual Reality”. In: \emph{Themes In Science and Technology Education} 2 (2009), pp. 59–70.
+
+\end{thebibliography}
+
+\end{document}

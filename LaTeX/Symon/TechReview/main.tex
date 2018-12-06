@@ -1,0 +1,122 @@
+\documentclass[onecolumn, draftclsnofoot,10pt, compsoc]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{setspace}
+\usepackage{parskip}
+
+\usepackage{geometry}
+\geometry{textheight=9.5in, textwidth=7in}
+
+% 1. Fill in these details
+\def \CapstoneTeamName{		    Group 73: Virtual Reality Printing }
+\def \CapstoneTeamNumber{		73}
+\def \GroupMemberOne{			Symon Ramos}
+\def \CapstoneProjectName{		Analyzing The Applications of Virtual, Augmented, and Mixed Reality Environments}
+\def \CapstoneSponsorCompany{	HP Inc}
+\def \CapstoneSponsorPerson{		Tim Holt}
+
+% 2. Uncomment the appropriate line below so that the document type works
+\def \DocType{		
+				Technology Review
+				%Design Document
+				%Progress Report
+				}
+			
+\newcommand{\NameSigPair}[1]{\par
+\makebox[2.75in][r]{#1} \hfil 	\makebox[3.25in]{\makebox[2.25in]{\hrulefill} \hfill		\makebox[.75in]{\hrulefill}}
+\par\vspace{-12pt} \textit{\tiny\noindent
+\makebox[2.75in]{} \hfil		\makebox[3.25in]{\makebox[2.25in][r]{Signature} \hfill	\makebox[.75in][r]{Date}}}}
+% 3. If the document is not to be signed, uncomment the RENEWcommand below
+\renewcommand{\NameSigPair}[1]{#1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{titlepage}
+    \pagenumbering{gobble}
+    \begin{singlespace}
+        \hfill 
+        % 4. If you have a logo, use this includegraphics command to put it on the coversheet.
+        %\includegraphics[height=4cm]{CompanyLogo}   
+        \par\vspace{.2in}
+        \centering
+        \scshape{
+            \huge CS Capstone \DocType \par
+            {\large\today}\par
+            \vspace{.5in}
+            \textbf{\Huge\CapstoneProjectName}\par
+            \vfill
+            {\large Prepared for}\par
+            \Huge \CapstoneSponsorCompany\par
+            \vspace{5pt}
+            {\Large\NameSigPair{\CapstoneSponsorPerson}\par}
+            {\large Prepared by }\par
+            \CapstoneTeamName\par
+            % 5. comment out the line below this one if you do not wish to name your team
+            %\CapstoneTeamName\par 
+            \vspace{5pt}
+            {\Large
+                \NameSigPair{\GroupMemberOne}\par
+            }
+            \vspace{20pt}
+        }
+        \begin{abstract}
+            Virtual, Augmented, and Mixed Reality are growing technologies, each with their own merits and limitations. Many fields and industries are incorporating some sort of virtual immersion. As more studies are performed, an advancement of knowledge in the three technologies will occur, thereby assisting in their development and popularity.
+        \end{abstract}  
+    \end{singlespace}
+\end{titlepage}
+\newpage
+\pagenumbering{arabic}
+\tableofcontents
+% 7. uncomment this (if applicable). Consider adding a page break.
+%\listoffigures
+%\listoftables
+\newpage
+
+\section {Project Goal}
+ Improve the quality of learning and knowledge of HP's PageWide Web Press equipment and reduce expenses and resources spent by implementing virtual reality based training scenarios.
+ 
+\section{Introduction}
+    %Define what VR/AR/MR are
+    In a generation abundant with innovative technologies, Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR) are exciting forms of displaying information that have the potential to change the way we think, improve the way we teach, and revolutionize many fields and industries. 
+    %Purpose of VR/AR/MR
+    The goal of all three of these systems is to immerse a user in a virtual world that can be interacted with. This can be accomplished with the use of a headset, a set of virtual environment rendering equipment, or even a smartphone. How the virtual objects are displayed within the environment depends on which type (VR, AR, and MR) is being used. All three have strengths and limitations depending on the scenario, field, and availability of one over the others. This document will define each technology and its applicability before evaluating what contrasts it from the other two technologies. Afterwards, the technologies will be analyzed based on their relevance to our project.
+    
+\section{Virtual Reality}
+    %Define VR, Pro Cons
+    VR involves complete immersion into a virtual world. Consequently, because the user is fully immersed, the user fails to sense or identify their real-life surroundings. In addition, some individuals can be prone to a phenomenon known as VR sickness, where the visually induced perception of self-motion can cause disorientation, discomfort, headache, and nausea \cite{2}. One distinct advantage that VR has over AR and MR, however, is the fact that VR can fully immerse users into any given virtual environment, therefore not confining them to the real world they are in (like the classroom or the living room). Instead, as Farshid notes, users can virtually experience going skydiving, visiting famous location, and interacting with exotic animals without having to spend expenses and resources to experience those places \cite{2}. This ability to experience places and objects at any setting makes VR extremely versatile and portable, as it could be used at any location in the world with the same effect.
+
+    The most prominent method of experiencing VR is through the use of VR headsets, which are strapped to the head and, while obscuring vision from the real world, can fully immerse the user no matter what orientation they're is looking at. While most typically associate VR with headsets, there are other ways to accomplish full immersion into a virtual world, such as web applications like the website of the Metropolitan Museum of Art in New York, which provides a substantial virtual tour \cite{2}. Another example would be Google Cardboard as well as other similar headsets that only require the use of a smartphone to create a virtual reality experience. Having readily-available outlets such as those is key to the growth and expansion of VR, as the cost of high-end VR headsets is a limiting factor to its success. 
+
+    VR can be utilized in many fields, such as education and training. Unlike actual real world training, employees of companies who offer VR simulation training can perform modules as many times as they would like to grasp a concept, task, or procedure. Examples of areas where VR technology is improving learning include sales, public speaking, medical surgery, and operating heavy-duty equipment \cite{2}. VR has also been used in education to create more engaging environments that allow students to seamlessly interact with virtual models to teach them concepts in the fields of cosmology, physics, geography, and biology \cite{2}. As VR continues to expand, more fields and industries will find more applicable uses for the technology.
+ 
+\section{Augmented Reality}
+    %Define AR, Pro Cons
+    AR, in contrast to VR, is predicated on partial immersion of the virtual world, where virtual objects are displayed in the real world. This allows users to participate in the physical environment while manipulating virtual objects, allowing them to sense and adapt to their surroundings and react accordingly \cite{1}. As described in Farshid's paper in Business Horizons, "actual objects and people cast an information shadow: an aura of data which, when captured and processed intelligently, can offer extraordinary value to consumers" \cite{2}. AR is unique in that it produces information that is readily accessible to users and allows them to perceive digital content in the real world. AR can be generated through many methods such as smart glasses that utilize retinal projection to display virtual data to the wearer's eyes (such as Google Glass or Vaunt by Intel) and (the more commonly used) smartphones \cite{2}. AR layers, as specified by Farshid, can be sensory (which involves the use of sound, video, graphics, or haptics) or only display data \cite{2}.  
+    
+    One notable example that expresses the novelty of AR is the AR application that Realtor.com has developed which allows potential home buyers to use their phone camera to instantly display information about a certain home, such as last sale price, taxes, and lot size, enabling the user to determine whether an actual market price listing is fair \cite{2}. Another area of life that AR could affect is the act of shopping at grocery stores. With AR-enabled smart glasses or phones, users would be able to quickly and easily be conveyed information about the foods they are looking at, such as dietary restrictions \cite{2}. Driving could also be advanced with the inclusion of AR, which could allow businesses to better display directions and information for possible tourists. Other possible fields where AR could be used are in entertainment, medicine, robotics, and training/maintenance tasks \cite{2}. In regards to maintenance tasks, there are many studies where AR was used as a support mechanism to augment information from manuals when performing tasks on military turrets and aircraft \cite{1}. In the medical field, AR has also been used to guide interactions and improve skills in real-life scenarios \cite{3}. A combination of visual, auditory, and tactile information all assist in rehabilitative experiences for participants. In addition, flexibility was noted as another advantage of AR. These studies have found that having the information displayed directly in the user's field of vision improves efficiency significantly by minimizing the time taken to look back and forth from the manual.
+
+\section{Mixed Reality}
+    %Define MR, Pro Cons
+    MR is a type of virtual immersion that is within the spectrum of augmented reality and virtual reality. Often regarded more as a form of augmented reality, MR will augment virtual objects into the real world with the objective of making the object be integrated as seamlessly into the real world as possible. Typically a physical foundation, such as a table, the ground, or specially-designed markers, is used in MR scenarios to convey information. 
+    
+    By combining aspects of the real world with virtual objects, MR can allow us to experience scenarios that don't actually exist, such as a live video stream of the real world. One notable example of MR is within the field of healthcare, where mannequins that can be used as a physical representation of a person and have augmentations appear on the mannequin to better convey information \cite{2}. Another example that shows the influence that MR can have to technology is the rise and popularity of the app, Pokemon Go, which blends the real world with creatures from an imaginary one \cite{2}. The novelty of seeing your environment within your game, whether it be on the street or on campus or on a hiking trail, can improve the quality of an experience. 
+
+\section{Conclusion}
+    While each of these three technologies utilize virtual objects and environments to display information in a novel and effective way, the differences between the three are notable. VR fully immerses users into a virtual environment of the application's design albeit void of any real world interaction. While both AR and MR have a real world interaction component in their presentation of information, they are bound by the real world and can't fully immerse the user in an entirely different location. 
+    Ultimately, as technological advancements are made over time, the fields of VR/AR/MR will grow in both understanding and interest. As explored in this document, there are many applications for each and there are scenarios where one might be favored over the other types of simulations. As research continues, the uncertainty between using one method versus the others will gradually decrease, allowing each to form an identity around particular regions of applicability, such as in education/academics, assembly tasks, and locomotive assistance. 
+    
+    In regards to the project given to our team to improve the current training method for personnel to learn how to operate HP Web Press printers, using VR to implement new modules was a preliminary decision already made by our client. It's still worth reviewing the advantages and disadvantages to each of the three technologies, however, as it can improve our understanding of why VR is the most applicable option. AR has some merit in that augmentations can be performed on the Web Press printers themselves, thereby displaying additional information (similar to the military turret maintenance example) to assist in task performance, but it ultimately doesn't remedy one major aspect of the project's goal, which is to improve the cost-effectiveness of training personnel. Using AR would still require the allocation of time and resources to use the Web Press printers, whereas in VR, the printer can be created as a virtual object. The argument to use MR also concludes similarly for AR, as both would achieve similar benefits at the cost of similar limitations. Thus, our project goal aligns best with what VR can offer, which ultimately justifies the use of the technology for this project. 
+
+\clearpage
+
+\begin{thebibliography}{}
+\bibitem{1}
+M. Sidiq and T. Lanker and K. Makhdoomi, "International Journal of Computer Science and Mobile Computing", Vol. 6. Issue 6, June 2017. pp. 324-327.
+\bibitem{2}
+M. Farshid, J. Paschen, T. Eriksson, and J. Kietzmann, "Go boldly!: Explore augmented reality (AR), virtual reality (VR), and mixed reality (MR) for business", Business Horizons, Vol. 61. Issue 5, 2018. pp. 657-663.
+\bibitem{3}
+F. Gallun, A. Seitz, T. Vallier, D. Lewis,  "Designing rehabilitative experiences for virtual, mixed, and augmented reality environments", The Journal of the Acoustical Society of America, Vol. 143. Issue 3, 2018.
+\end{thebibliography}
+
+\end{document}
+
