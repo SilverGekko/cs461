@@ -1,0 +1,104 @@
+\documentclass[onecolumn, draftclsnofoot,10pt, compsoc]{IEEEtran}
+\usepackage[utf8]{inputenc}
+
+\title{Tech Review}
+\author{
+\begin{center}
+\item Stephen Hoffmann 
+\item Group 73 
+\item HP Printer Press VR 
+\item Senior Capstone Fall 2018
+\end{center}
+}
+\date{November 2018}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+HP is looking for a Virtual Reality solution to help train employees and costumers on their giant industrial printers. The proposed solution is to create a simulated game that will act as supplementary training based on different printer functions and scenarios. This will save time, while also saving money, by providing less in-person formal training at HP’s Corvallis training center. To achieve this goal, our group understands that games require a lot of 3d models. Models define everything you see and interact within a game and simulation. This tech review will go over a range of widely used graphics modeling solutions to find the best fit for this project’s goals.
+\end{abstract}
+\newpage
+\section{Definitions}
+\begin{enumerate}
+    \item Model - A simulated object that is rendered to appear 3d.
+    \item Mesh - The Model's surface skin that is also made up of various geometry, usually triangles
+    \item CAD - A file type that holds 3d models, typically used by engineers
+    \item Kinematics - creating motion in animations with the use of physics.
+    \item UV Maps - The mesh of an object flattened onto a plane, typically used  to paint texture on to models.
+    \item Textures - The image the is rendered over a mesh to give the model color, texture, and even shading
+\end{enumerate}
+
+\section{Graphics 3d Modeling Tools}
+3D animation software suites cover typically the following features:
+
+\begin{enumerate}
+    \item 3D modeling
+    \item Mesh UV unwrapping
+    \item UV texturing
+    \item Frame by frame animation
+    \item Bone and Kinematic animation
+    \item 3D Sculpting and transformation
+    \item Physics and advanced simulation
+    \item Programming language based modifications
+    \item Rendering[1]
+\end{enumerate}
+
+Each feature can consist of a large amount of work depending on the goal, such that individuals can dedicate a whole career on just one of the features.
+
+3D graphics are used for many things, not only games. They are used to create scientific research models, simulations, animated movies, special effects, and much more. The tools that create these models are very complex and require considerable training and experience to use effectively. Depending on the application, producing acceptable results can be achieved in just a few weeks of training, however current industry standards can take an individual years to achieve with one application. So picking a certain tool can impact an entire career in 3d modeling. 
+ 
+Deciding on which tool to use will depend on goals, budget, and the benefits of the tool. I will be reviewing the top three products on the commercial market below, analyzing functionality in respect to modeling, animating, and texturing, while also looking for work-flow speed, costs, targeted audience.
+
+\section{Maya}
+Maya is an industry standard tool for 3d modeling and animation. This product is used by a lot of professional movie studios, as well as game companies. 
+
+Maya also is a fully developed application containing all features found in current competitive applications. What stands out most about Maya is the animation tool-set. Maya supports automatic blending of kinematics to 3d mesh(skin), along with multiple methods to create custom animation bindings. Maya also includes multiple tools and algorithms to transform 3d mesh in multiple ways[1]. 
+
+CAD files are also supported in0 Maya, which is the primary source reference for HP’s printer models. This well allow us to open HP’s custom models and create our own game version, which lowers our team’s time spend on asset creation. Maya does have some noteworthy drawbacks. Due to Maya’s large amount of features and functionality the work-flow can become slow, especially for beginners. However, in spite of this Maya has a quick learning curve due to the features and documentation, including free educational e-books.
+
+While Maya is free for students, Maya is priced at a steep \$3,500 due to targeting large businesses.
+\section{3DS Max}
+3DS Max is similar to Maya and is even published by the same Company, Auto-CAD. The primary difference is the targeted audience. 3DS Max is targeted towards designers and artists, such as Game Artists, Architects, and special effects designers. Like Maya, 3DS Max is priced at \$3500, while still being free to use for students. This program takes features away from Maya like scientific simulations and replaces them with stronger features suited for artists. These features include improved modeling tools and improved sculpting tools[1]. 
+
+3DS Max also supports work-flow management by providing linkers to other tools, like Unity, Unreal, and Photoshop. This allows you to work on textures or other game elements within a game engine, while still seeing all updates in 3DS Max load straight-in your game engine. This can greatly reduce overhead in development time due to the costs of always restructuring files and re-importing them in other programs. 
+
+3DS Max also supports custom tools and modifications created by third-party developers to add additional features to games, such as simulated non-physics based cloth movement, hair rendering, and humanoid-type model creation tools with preset animations and layering.
+
+HP’s CAD files are also supported for importing into 3DS MAX.
+
+\section{Blender} 
+Blender is a free open-source 3d modeling and animation tool. Blender is a very capable application that can accomplish anything that Maya and 3DS Max can create. The only issue is that blender is not as developed as other not open-source applications. One potential problem is that Blender does not have native support to import CAD files, which could be a potential issue due to project requirements. Blender also has the largest learning, of both Maya and 3DS Max, due to interface design and a shorter list of overall functionality, but documentation and resources are available. Blender is typically seen as a more manual and involved program for asset creation. 
+
+While Blender has an animation tool-set, it is not as in-depth as the other two programs, missing a few features such as complex layering, and automatic binding of bones. This makes animating take more time, increasing the average time it would take too work on each 3d Asset[2]. 
+
+Blender, however, does support a good sculpting tool-set, that is comparable to 3DS Max, but this does not help in game design due to the nature of need lower polygon count models. Sculpting is usually intended to create highly detailed 3d models that can contain hundreds-of-thousands of polygons[2]. 
+
+Lastly, Blender’s texturing work-flow is fairly straightforward and well supported. The UV unwrapping works intuitively, while also allowing the user to paint directly to the object’s surface. Similar to Maya and 3DS Max, Blender can export UV wraps for easy editing and painting with programs like Adobe Photoshop.
+
+\section{Conclusion}
+Each tool has unique sets of features but ultimately can achieve the same outcome. So when considering we can look at the project's requirements, the tool’s cost and difficulty to learn. 
+
+Starting with Maya, we see high costs, good features, and low learning curve. Along with this, Maya is also a great professional tool for investing time to learn, due to industry demands. 
+
+3DS Max is targeting specifically towards game design, with stronger modeling tools then Maya and a medium learning curve. Again, this is an industry tool, making 3DS Max a good tool to learn. 
+
+Blender is a free and open source program. Blender also has the necessary tools to accomplish the project's requirements, other than having to work around opening HP’s CAD models. Blender also has the highest learning curve and is not a professionally licensed tool. 
+
+Considering the above, 3DS Max stands out in the middle, in terms of project requirements, costs, and learning curve. While costs are high, our team will be able to use it for free, since this project is just a prototype for HP and not a product. If licensing issues a brought up later, then switching to Blender will be as simple as re-saving files in Blender.
+\newpage
+
+\section{References}
+\begin{enumerate}
+    \item “Comparison of 3ds Max and Maya,” Autodesk Support \& Learning. [Online]. Available\newline
+    https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/sfdcarticles/sfdcarticles/\newline
+    Comparison-of-3ds-Max-and-Maya.html. [Accessed: 10-Nov-2018].
+    \item  Foundation, “Features,” blender.org. [Online]. Available: https://www.blender.org/features/.\newline
+    [Accessed: 10-Nov-2018].
+\end{enumerate}
+
+
+
+
+\end{document}
