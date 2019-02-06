@@ -1,0 +1,1760 @@
+﻿Log file open, 02/06/19 14:28:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PressVR
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.395154
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogStreaming: Display: Took  0.062s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.28.0
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.02.06-22.28.01:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.06-22.28.01:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.02.06-22.28.01:056][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.02.06-22.28.01:059][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.06-22.28.01:059][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.06-22.28.01:059][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.06-22.28.01:059][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.06-22.28.01:070][  0]LogHAL: Display: Platform has ~ 16 GB [16964153344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.06-22.28.01:070][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.06-22.28.01:070][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.06-22.28.01:070][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.06-22.28.01:071][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.06-22.28.01:071][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.02.06-22.28.01:071][  0]LogInit: Computer: DESKTOP-1KNH53N
+[2019.02.06-22.28.01:071][  0]LogInit: User: kylet
+[2019.02.06-22.28.01:071][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.02.06-22.28.01:071][  0]LogInit: High frequency timer resolution =2.156252 MHz
+[2019.02.06-22.28.01:071][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.02.06-22.28.01:071][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.06-22.28.01:071][  0]LogMemory: Process Physical Memory: 107.73 MB used, 107.73 MB peak
+[2019.02.06-22.28.01:071][  0]LogMemory: Process Virtual Memory: 96.61 MB used, 96.61 MB peak
+[2019.02.06-22.28.01:071][  0]LogMemory: Physical Memory: 6455.58 MB used,  9722.70 MB free, 16178.28 MB total
+[2019.02.06-22.28.01:071][  0]LogMemory: Virtual Memory: 4686.98 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.02.06-22.28.01:086][  0]LogInit: Using OS detected language (en-US).
+[2019.02.06-22.28.01:086][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.06-22.28.01:087][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.06-22.28.01:394][  0]LogStreaming: Display: Took  0.308s to InitEngineTextLocalization.
+[2019.02.06-22.28.01:394][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.06-22.28.01:422][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.06-22.28.01:422][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.06-22.28.01:629][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.02.06-22.28.01:629][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.06-22.28.01:688][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (Feature Level 11_0)
+[2019.02.06-22.28.01:689][  0]LogD3D11RHI:       6052/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.06-22.28.01:702][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.02.06-22.28.01:702][  0]LogD3D11RHI:       128/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.06-22.28.01:704][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.06-22.28.01:704][  0]LogD3D11RHI:       0/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.06-22.28.01:704][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.06-22.28.01:728][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.06-22.28.01:728][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.06-22.28.01:728][  0]LogWindows: EnumDisplayDevices:
+[2019.02.06-22.28.01:728][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.02.06-22.28.01:728][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.02.06-22.28.01:728][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.02.06-22.28.01:728][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
+[2019.02.06-22.28.01:728][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.02.06-22.28.01:728][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 with Max-Q Design
+[2019.02.06-22.28.01:728][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.02.06-22.28.01:728][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.02.06-22.28.01:728][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.02.06-22.28.01:764][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.06-22.28.01:784][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.06-22.28.02:008][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.06-22.28.02:018][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.06-22.28.02:028][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.06-22.28.02:037][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.06-22.28.02:047][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.06-22.28.02:057][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.06-22.28.02:068][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.06-22.28.02:077][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.06-22.28.02:082][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.06-22.28.02:140][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.06-22.28.02:194][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.06-22.28.02:194][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.06-22.28.02:212][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.06-22.28.02:212][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.06-22.28.02:221][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.06-22.28.02:231][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.06-22.28.02:240][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.06-22.28.02:250][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.06-22.28.02:284][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.06-22.28.02:285][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.06-22.28.02:285][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.06-22.28.02:323][  0]LogShaderCompilers: Guid format shader working directory is 29 characters bigger than the processId version (D:/cs461/PressVR/Intermediate/Shaders/WorkingDirectory/22416/).
+[2019.02.06-22.28.02:324][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kylet/AppData/Local/Temp/UnrealShaderWorkingDir/DDE38B7F470B5942F4907EA248791656/'.
+[2019.02.06-22.28.02:325][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.06-22.28.02:325][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.06-22.28.02:325][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.06-22.28.02:759][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.06-22.28.02:809][  0]LogDerivedDataCache: Loaded boot cache 0.05s 86MB C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.06-22.28.02:809][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.06-22.28.02:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/cs461/PressVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.06-22.28.02:809][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.06-22.28.02:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/cs461/PressVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.06-22.28.02:809][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.06-22.28.02:821][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.06-22.28.02:823][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.02.06-22.28.02:835][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kylet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.06-22.28.02:835][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.06-22.28.02:835][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.06-22.28.02:854][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.06-22.28.02:855][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.06-22.28.02:855][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.06-22.28.02:928][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2019.02.06-22.28.03:170][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.06-22.28.03:289][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.06-22.28.03:292][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.06-22.28.03:292][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.06-22.28.03:292][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.06-22.28.03:292][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.06-22.28.03:302][  0]LogNetVersion: PressVR 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 297391646)
+[2019.02.06-22.28.03:704][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 2 prioritized culture(s) in 0.075662 seconds
+[2019.02.06-22.28.03:708][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.06-22.28.03:708][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.02.06-22.28.03:708][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.06-22.28.04:384][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.02.06-22.28.04:386][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.06-22.28.04:399][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.06-22.28.04:951][  0]SourceControl: Source control is disabled
+[2019.02.06-22.28.04:951][  0]SourceControl: Source control is disabled
+[2019.02.06-22.28.04:953][  0]SourceControl: Source control is disabled
+[2019.02.06-22.28.04:953][  0]SourceControl: Source control is disabled
+[2019.02.06-22.28.05:099][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.06-22.28.05:138][  0]LogOcInput: OculusInput pre-init called
+[2019.02.06-22.28.06:354][  0]LogEngine: Initializing Engine...
+[2019.02.06-22.28.06:391][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.02.06-22.28.06:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.06-22.28.06:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.06-22.28.06:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.06-22.28.06:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.06-22.28.06:581][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.06-22.28.06:590][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.06-22.28.06:596][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.06-22.28.07:705][  0]LogInit: FAudioDevice initialized.
+[2019.02.06-22.28.07:706][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.06-22.28.07:848][  0]LogDerivedDataCache: Saved boot cache 0.14s 86MB C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.06-22.28.07:864][  0]LogInit: Texture streaming: Enabled
+[2019.02.06-22.28.07:875][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.06-22.28.07:885][  0]LogInit: Transaction tracking system initialized
+[2019.02.06-22.28.07:901][  0]BlueprintLog: New page: Editor Load
+[2019.02.06-22.28.07:947][  0]LocalizationService: Localization service is disabled
+[2019.02.06-22.28.08:359][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/' took 0.02s
+[2019.02.06-22.28.08:359][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.06-22.28.08:359][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.06-22.28.08:359][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.06-22.28.08:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.06-22.28.08:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.06-22.28.08:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.06-22.28.08:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.06-22.28.09:463][  0]SourceControl: Source control is disabled
+[2019.02.06-22.28.09:463][  0]Cmd: MAP LOAD FILE="D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.06-22.28.09:463][  0]LightingResults: New page: Lighting Build
+[2019.02.06-22.28.09:465][  0]MapCheck: New page: Map Check
+[2019.02.06-22.28.09:465][  0]LightingResults: New page: Lighting Build
+[2019.02.06-22.28.09:802][  0]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] OnActorEndOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2019.02.06-22.28.09:802][  0]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2019.02.06-22.28.09:802][  0]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] Node  Unknown  is not referencing a valid level actor
+[2019.02.06-22.28.09:802][  0]LogBlueprint: Error: [Compiler PersistentLevel.MainMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2019.02.06-22.28.09:802][  0]LogBlueprint: Error: [Compiler PersistentLevel.MainMap] Couldn't find object for bound event node  OnActorEndOverlap (None)
+[2019.02.06-22.28.09:803][  0]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] [0011.01] Compile of PersistentLevel.MainMap failed. 2 Fatal Issue(s) 3 Warning(s) [in 1 ms] (/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap)
+[2019.02.06-22.28.10:129][  0]LogAIModule: Creating AISystem for world MainMap
+[2019.02.06-22.28.10:137][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.06-22.28.10:164][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.06-22.28.10:164][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.084ms to complete.
+[2019.02.06-22.28.10:164][  0]LogFileHelpers: Loading map 'MainMap' took 0.701
+[2019.02.06-22.28.10:247][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.06-22.28.10:256][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.06-22.28.10:264][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.06-22.28.10:270][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.06-22.28.10:274][  0]LogCollectionManager: Loaded 0 collections in 0.000914 seconds
+[2019.02.06-22.28.10:289][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Saved/Collections/' took 0.01s
+[2019.02.06-22.28.10:289][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/Developers/kylet/Collections/' took 0.00s
+[2019.02.06-22.28.10:289][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/Collections/' took 0.00s
+[2019.02.06-22.28.10:289][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.06-22.28.10:296][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2723 classes and 659 folders.
+[2019.02.06-22.28.10:300][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.06-22.28.10:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:309][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:309][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:310][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:310][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:310][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:311][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:311][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:311][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.06-22.28.10:344][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.06-22.28.10:347][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.02.06-22.28.10:409][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.06-22.28.10:411][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.06-22.28.10:415][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.06-22.28.10:479][  0]LogRenderer: Reallocating scene render targets to support 936x472 Format 26 NumSamples 1 (Frame:1).
+[2019.02.06-22.28.10:611][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.06-22.28.10:611][  0]LogLoad: (Engine Initialization) Total time: 11.82 seconds
+[2019.02.06-22.28.10:611][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.06-22.28.10:623][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.06-22.28.10:682][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.06-22.28.10:691][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.06-22.28.10:696][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.02.06-22.28.10:817][  2]LogAssetRegistry: Asset discovery search completed in 7.9112 seconds
+[2019.02.06-22.28.10:818][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.06-22.28.10:818][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2019.02.06-22.28.24:670][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-22.28.44:990][883]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.06-22.28.44:992][883]LogStaticMesh: Building static mesh Component_17...
+[2019.02.06-22.28.44:996][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M093d84a8df6665aede7b5a83430efd95_1.Component_17
+[2019.02.06-22.28.44:998][883]LogStaticMesh: Building static mesh Component_17...
+[2019.02.06-22.28.45:000][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M093d84a8df6665aede7b5a83430efd95_2.Component_17
+[2019.02.06-22.28.45:012][883]LogStaticMesh: Building static mesh Component_24...
+[2019.02.06-22.28.45:015][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M09c3a0ca8b8929143df09907d1a0b8c3_1.Component_24
+[2019.02.06-22.28.45:020][883]LogStaticMesh: Building static mesh Component_7...
+[2019.02.06-22.28.45:022][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M0b919fd16179060766e2dd63f90bc35d_1.Component_7
+[2019.02.06-22.28.45:029][883]LogStaticMesh: Building static mesh Component_27...
+[2019.02.06-22.28.45:031][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M0d73d2f248dea3a8c7f74977f2db5faa_1.Component_27
+[2019.02.06-22.28.45:036][883]LogStaticMesh: Building static mesh Component_26...
+[2019.02.06-22.28.45:047][883]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse2/Geometries/M0e98aaf65a95d34cf3b3531304d0ebc4_1.Component_26
+[2019.02.06-22.28.45:055][883]LogStaticMesh: Building static mesh Component_25...
+[2019.02.06-22.28.45:058][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M1ee6af0187e1138b29449b055198929e_1.Component_25
+[2019.02.06-22.28.45:061][883]LogStaticMesh: Building static mesh Component_13...
+[2019.02.06-22.28.45:064][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M231144f37287a05352159b4047760d69_1.Component_13
+[2019.02.06-22.28.45:066][883]LogStaticMesh: Building static mesh Component_18...
+[2019.02.06-22.28.45:077][883]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse2/Geometries/M3872e88c4aab75ce714f32e33ada84e4_1.Component_18
+[2019.02.06-22.28.45:080][883]LogStaticMesh: Building static mesh Component_21...
+[2019.02.06-22.28.45:084][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M3b7e391f9e6311263e735a1d5955505a_1.Component_21
+[2019.02.06-22.28.45:092][883]LogStaticMesh: Building static mesh Component_28...
+[2019.02.06-22.28.45:093][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M3bae01c7402c4b3a99e54213ec00d3c3_1.Component_28
+[2019.02.06-22.28.45:152][883]LogStaticMesh: Building static mesh Component_30...
+[2019.02.06-22.28.45:176][883]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse2/Geometries/M40e20cb613dea7710088a1a3f0b71a85_1.Component_30
+[2019.02.06-22.28.45:179][883]LogStaticMesh: Building static mesh Component_6...
+[2019.02.06-22.28.45:180][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M466e9639c2789a92a8f71a46b1f26080_1.Component_6
+[2019.02.06-22.28.45:183][883]LogStaticMesh: Building static mesh Component_14...
+[2019.02.06-22.28.45:186][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M573a9fd226444d99c6f46d9a9c38b40d_1.Component_14
+[2019.02.06-22.28.45:188][883]LogStaticMesh: Building static mesh Component_10...
+[2019.02.06-22.28.45:193][883]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse2/Geometries/M67d6d23f8adddc14043de40e34cff9fd_1.Component_10
+[2019.02.06-22.28.45:197][883]LogStaticMesh: Building static mesh Component_31...
+[2019.02.06-22.28.45:213][883]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse2/Geometries/M81be6c5c9ab18e94059b6a82f089a8b7_1.Component_31
+[2019.02.06-22.28.45:216][883]LogStaticMesh: Building static mesh Component_31...
+[2019.02.06-22.28.45:231][883]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse2/Geometries/M81be6c5c9ab18e94059b6a82f089a8b7_2.Component_31
+[2019.02.06-22.28.45:234][883]LogStaticMesh: Building static mesh Component_31...
+[2019.02.06-22.28.45:250][883]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse2/Geometries/M81be6c5c9ab18e94059b6a82f089a8b7_3.Component_31
+[2019.02.06-22.28.45:253][883]LogStaticMesh: Building static mesh Component_23...
+[2019.02.06-22.28.45:255][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M855f52e6cc6cbeb394085d543f70b146_1.Component_23
+[2019.02.06-22.28.45:258][883]LogStaticMesh: Building static mesh Component_20...
+[2019.02.06-22.28.45:262][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/M907da940f0e2597ec7be61e95bda51c4_1.Component_20
+[2019.02.06-22.28.45:265][883]LogStaticMesh: Building static mesh Component_11...
+[2019.02.06-22.28.45:270][883]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse2/Geometries/M9a05d0b64b48b624ac44941e0263aede_1.Component_11
+[2019.02.06-22.28.45:271][883]LogStaticMesh: Building static mesh Component_19...
+[2019.02.06-22.28.45:278][883]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse2/Geometries/Ma5f9eb18b6d052a786ea2022d8b39d25_1.Component_19
+[2019.02.06-22.28.45:287][883]LogStaticMesh: Building static mesh Component_4...
+[2019.02.06-22.28.45:291][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/Ma96997ae3cc96382b47d19925360efa8_1.Component_4
+[2019.02.06-22.28.45:294][883]LogStaticMesh: Building static mesh Component_8...
+[2019.02.06-22.28.45:309][883]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse2/Geometries/Mac07c9fe103f158fc730c2a66d483bba_1.Component_8
+[2019.02.06-22.28.45:312][883]LogStaticMesh: Building static mesh Component_8...
+[2019.02.06-22.28.45:318][883]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse2/Geometries/Mac07c9fe103f158fc730c2a66d483bba_2.Component_8
+[2019.02.06-22.28.45:320][883]LogStaticMesh: Building static mesh Component_8...
+[2019.02.06-22.28.45:326][883]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse2/Geometries/Mac07c9fe103f158fc730c2a66d483bba_3.Component_8
+[2019.02.06-22.28.45:327][883]LogStaticMesh: Building static mesh Component_29...
+[2019.02.06-22.28.45:333][883]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse2/Geometries/Mafbd4a13bcf83a4a2b8ae8a82e96f18d_1.Component_29
+[2019.02.06-22.28.45:335][883]LogStaticMesh: Building static mesh Component_12...
+[2019.02.06-22.28.45:339][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/Mb44efa32c30d168b0ff1dcebdd494814_1.Component_12
+[2019.02.06-22.28.45:342][883]LogStaticMesh: Building static mesh Component_5...
+[2019.02.06-22.28.45:344][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/Mb9514b61901ad169c238a1d50fd47d38_1.Component_5
+[2019.02.06-22.28.45:346][883]LogStaticMesh: Building static mesh Component_9...
+[2019.02.06-22.28.45:352][883]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse2/Geometries/Md244a746e91fe0bc5d3aee39bad3a1ae_1.Component_9
+[2019.02.06-22.28.45:354][883]LogStaticMesh: Building static mesh Component_15...
+[2019.02.06-22.28.45:355][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/Md49f2c97218f969a2b8055c5ba0d362a_1.Component_15
+[2019.02.06-22.28.45:366][883]LogStaticMesh: Building static mesh Component_16...
+[2019.02.06-22.28.45:368][883]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse2/Geometries/Mffda9af8e2617fa024b560113db0891f_1.Component_16
+[2019.02.06-22.28.53:238][883]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.06-22.28.53:244][883]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.06-22.29.54:311][331]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.02.06-22.29.57:251][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-22.30.05:457][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-22.30.16:945][  5]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.02.06-22.30.21:001][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-22.30.36:386][305]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.02.06-22.30.59:565][ 76]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2019.02.06-22.31.08:230][ 94]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.02.06-22.31.09:160][200]Cmd: DELETE
+[2019.02.06-22.31.09:160][200]Cmd: ACTOR DELETE
+[2019.02.06-22.31.09:167][200]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-22.31.09:750][200]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap_2] OnActorEndOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2019.02.06-22.31.09:751][200]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap_2] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2019.02.06-22.31.09:751][200]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap_2] Node  Unknown  is not referencing a valid level actor
+[2019.02.06-22.31.09:751][200]LogBlueprint: Error: [Compiler PersistentLevel.MainMap_2] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2019.02.06-22.31.09:751][200]LogBlueprint: Error: [Compiler PersistentLevel.MainMap_2] Couldn't find object for bound event node  OnActorEndOverlap (None)
+[2019.02.06-22.31.09:752][200]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap_2] [0190.96] Compile of PersistentLevel.MainMap_2 failed. 2 Fatal Issue(s) 3 Warning(s) [in 2 ms] (/Game/VirtualRealityBP/Maps/MainMap_2.MainMap_2:PersistentLevel.MainMap_2)
+[2019.02.06-22.31.09:887][200]LogStaticMesh: Building static mesh Group98_1...
+[2019.02.06-22.31.09:889][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mfd0eb5ff6b50726972d064ab9c00f42f_1.Group98_1
+[2019.02.06-22.31.09:890][200]LogStaticMesh: Building static mesh Group74_1...
+[2019.02.06-22.31.09:891][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mf7f80f4e3416a39c7ef39d9e1bc9a056_1.Group74_1
+[2019.02.06-22.31.09:891][200]LogStaticMesh: Building static mesh Group11_1...
+[2019.02.06-22.31.09:892][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mecaec0686cfdc111c15455cf7fe953bb_9.Group11_1
+[2019.02.06-22.31.09:892][200]LogStaticMesh: Building static mesh Group11_1...
+[2019.02.06-22.31.09:893][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mecaec0686cfdc111c15455cf7fe953bb_8.Group11_1
+[2019.02.06-22.31.09:894][200]LogStaticMesh: Building static mesh Group11_1...
+[2019.02.06-22.31.09:895][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mecaec0686cfdc111c15455cf7fe953bb_7.Group11_1
+[2019.02.06-22.31.09:896][200]LogStaticMesh: Building static mesh Group11_1...
+[2019.02.06-22.31.09:896][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mecaec0686cfdc111c15455cf7fe953bb_6.Group11_1
+[2019.02.06-22.31.09:897][200]LogStaticMesh: Building static mesh Group11_1...
+[2019.02.06-22.31.09:898][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mecaec0686cfdc111c15455cf7fe953bb_5.Group11_1
+[2019.02.06-22.31.09:899][200]LogStaticMesh: Building static mesh Group11_1...
+[2019.02.06-22.31.09:900][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mecaec0686cfdc111c15455cf7fe953bb_4.Group11_1
+[2019.02.06-22.31.09:900][200]LogStaticMesh: Building static mesh Group11_1...
+[2019.02.06-22.31.09:902][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mecaec0686cfdc111c15455cf7fe953bb_3.Group11_1
+[2019.02.06-22.31.09:902][200]LogStaticMesh: Building static mesh Group11_1...
+[2019.02.06-22.31.09:904][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mecaec0686cfdc111c15455cf7fe953bb_2.Group11_1
+[2019.02.06-22.31.09:912][200]LogStaticMesh: Building static mesh Group11_1...
+[2019.02.06-22.31.09:918][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/Mecaec0686cfdc111c15455cf7fe953bb_1.Group11_1
+[2019.02.06-22.31.09:919][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:923][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_9.Group35_1
+[2019.02.06-22.31.09:924][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:928][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_8.Group35_1
+[2019.02.06-22.31.09:929][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:933][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_7.Group35_1
+[2019.02.06-22.31.09:934][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:937][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_6.Group35_1
+[2019.02.06-22.31.09:938][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:942][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_5.Group35_1
+[2019.02.06-22.31.09:943][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:947][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_4.Group35_1
+[2019.02.06-22.31.09:948][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:952][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_2.Group35_1
+[2019.02.06-22.31.09:953][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:956][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_19.Group35_1
+[2019.02.06-22.31.09:957][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:961][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_18.Group35_1
+[2019.02.06-22.31.09:962][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:966][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_17.Group35_1
+[2019.02.06-22.31.09:967][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:971][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_16.Group35_1
+[2019.02.06-22.31.09:972][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:975][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_15.Group35_1
+[2019.02.06-22.31.09:977][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:980][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_14.Group35_1
+[2019.02.06-22.31.09:981][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:985][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_13.Group35_1
+[2019.02.06-22.31.09:986][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:990][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_12.Group35_1
+[2019.02.06-22.31.09:991][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.09:996][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_11.Group35_1
+[2019.02.06-22.31.09:996][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.10:000][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_10.Group35_1
+[2019.02.06-22.31.10:001][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.10:005][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_1.Group35_1
+[2019.02.06-22.31.10:006][200]LogStaticMesh: Building static mesh Group94_1...
+[2019.02.06-22.31.10:006][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me17482020684e1186af26f9bf363ca55_1.Group94_1
+[2019.02.06-22.31.10:007][200]LogStaticMesh: Building static mesh Group66_1...
+[2019.02.06-22.31.10:008][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mde8bbfaeb1016c6f47978fd1d72175d9_1.Group66_1
+[2019.02.06-22.31.10:009][200]LogStaticMesh: Building static mesh Group33_1...
+[2019.02.06-22.31.10:010][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mcbef94c8e287c91ff2bcc17ebd1d99cd_8.Group33_1
+[2019.02.06-22.31.10:011][200]LogStaticMesh: Building static mesh Group33_1...
+[2019.02.06-22.31.10:012][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mcbef94c8e287c91ff2bcc17ebd1d99cd_7.Group33_1
+[2019.02.06-22.31.10:012][200]LogStaticMesh: Building static mesh Group33_1...
+[2019.02.06-22.31.10:015][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mcbef94c8e287c91ff2bcc17ebd1d99cd_6.Group33_1
+[2019.02.06-22.31.10:015][200]LogStaticMesh: Building static mesh Group33_1...
+[2019.02.06-22.31.10:018][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mcbef94c8e287c91ff2bcc17ebd1d99cd_5.Group33_1
+[2019.02.06-22.31.10:019][200]LogStaticMesh: Building static mesh Group33_1...
+[2019.02.06-22.31.10:022][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mcbef94c8e287c91ff2bcc17ebd1d99cd_4.Group33_1
+[2019.02.06-22.31.10:022][200]LogStaticMesh: Building static mesh Group33_1...
+[2019.02.06-22.31.10:024][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mcbef94c8e287c91ff2bcc17ebd1d99cd_3.Group33_1
+[2019.02.06-22.31.10:025][200]LogStaticMesh: Building static mesh Group33_1...
+[2019.02.06-22.31.10:027][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mcbef94c8e287c91ff2bcc17ebd1d99cd_2.Group33_1
+[2019.02.06-22.31.10:028][200]LogStaticMesh: Building static mesh Group33_1...
+[2019.02.06-22.31.10:030][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mcbef94c8e287c91ff2bcc17ebd1d99cd_1.Group33_1
+[2019.02.06-22.31.10:031][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:033][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_9.Group27_1
+[2019.02.06-22.31.10:034][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:037][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_8.Group27_1
+[2019.02.06-22.31.10:037][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:041][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_7.Group27_1
+[2019.02.06-22.31.10:042][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:044][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_6.Group27_1
+[2019.02.06-22.31.10:045][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:047][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_5.Group27_1
+[2019.02.06-22.31.10:048][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:050][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_4.Group27_1
+[2019.02.06-22.31.10:051][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:054][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_3.Group27_1
+[2019.02.06-22.31.10:054][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:057][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_26.Group27_1
+[2019.02.06-22.31.10:057][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:059][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_25.Group27_1
+[2019.02.06-22.31.10:060][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:063][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_24.Group27_1
+[2019.02.06-22.31.10:064][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:066][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_23.Group27_1
+[2019.02.06-22.31.10:067][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:068][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_22.Group27_1
+[2019.02.06-22.31.10:069][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:069][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_21.Group27_1
+[2019.02.06-22.31.10:070][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:071][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_20.Group27_1
+[2019.02.06-22.31.10:071][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:074][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_2.Group27_1
+[2019.02.06-22.31.10:075][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:076][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_19.Group27_1
+[2019.02.06-22.31.10:077][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:079][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_18.Group27_1
+[2019.02.06-22.31.10:079][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:082][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_17.Group27_1
+[2019.02.06-22.31.10:082][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:084][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_16.Group27_1
+[2019.02.06-22.31.10:085][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:085][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_15.Group27_1
+[2019.02.06-22.31.10:086][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:089][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_14.Group27_1
+[2019.02.06-22.31.10:089][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:092][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_13.Group27_1
+[2019.02.06-22.31.10:093][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:096][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_12.Group27_1
+[2019.02.06-22.31.10:096][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:100][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_11.Group27_1
+[2019.02.06-22.31.10:100][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:101][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_10.Group27_1
+[2019.02.06-22.31.10:102][200]LogStaticMesh: Building static mesh Group27_1...
+[2019.02.06-22.31.10:105][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mbad73431d38da27b692b48563a27f800_1.Group27_1
+[2019.02.06-22.31.10:105][200]LogStaticMesh: Building static mesh Group78_1...
+[2019.02.06-22.31.10:107][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mb422efbdecb4b19d59486bbadef35651_1.Group78_1
+[2019.02.06-22.31.10:108][200]LogStaticMesh: Building static mesh Group86_1...
+[2019.02.06-22.31.10:109][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Mac9c2d13e15706380d48504b26364469_1.Group86_1
+[2019.02.06-22.31.10:110][200]LogStaticMesh: Building static mesh Chris...
+[2019.02.06-22.31.10:121][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M944facfeb153b4f01916a0f166fcc315_1.Chris
+[2019.02.06-22.31.10:122][200]LogStaticMesh: Building static mesh Group46_1...
+[2019.02.06-22.31.10:123][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M8fb559ceafc0143c9a45c6d76228eb4d_1.Group46_1
+[2019.02.06-22.31.10:123][200]LogStaticMesh: Building static mesh Group70_1...
+[2019.02.06-22.31.10:124][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M88ee722cfd09c684bcfaac9e98f626c1_1.Group70_1
+[2019.02.06-22.31.10:125][200]LogStaticMesh: Building static mesh Group58_1...
+[2019.02.06-22.31.10:126][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M862f9eda90e5e5627e981907f7680a63_1.Group58_1
+[2019.02.06-22.31.10:127][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:129][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_9.Group25_1
+[2019.02.06-22.31.10:130][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:143][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_82.Group25_1
+[2019.02.06-22.31.10:144][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:146][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_81.Group25_1
+[2019.02.06-22.31.10:146][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:148][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_80.Group25_1
+[2019.02.06-22.31.10:149][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:150][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_8.Group25_1
+[2019.02.06-22.31.10:151][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:153][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_79.Group25_1
+[2019.02.06-22.31.10:154][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:156][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_78.Group25_1
+[2019.02.06-22.31.10:156][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:158][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_77.Group25_1
+[2019.02.06-22.31.10:159][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:161][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_76.Group25_1
+[2019.02.06-22.31.10:162][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:165][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_75.Group25_1
+[2019.02.06-22.31.10:165][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:166][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_74.Group25_1
+[2019.02.06-22.31.10:166][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:167][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_73.Group25_1
+[2019.02.06-22.31.10:168][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:169][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_72.Group25_1
+[2019.02.06-22.31.10:170][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:182][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_71.Group25_1
+[2019.02.06-22.31.10:183][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:193][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_70.Group25_1
+[2019.02.06-22.31.10:194][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:196][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_7.Group25_1
+[2019.02.06-22.31.10:196][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:206][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_69.Group25_1
+[2019.02.06-22.31.10:206][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:208][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_68.Group25_1
+[2019.02.06-22.31.10:209][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:211][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_67.Group25_1
+[2019.02.06-22.31.10:212][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:214][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_66.Group25_1
+[2019.02.06-22.31.10:215][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:217][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_65.Group25_1
+[2019.02.06-22.31.10:218][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:220][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_64.Group25_1
+[2019.02.06-22.31.10:221][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:223][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_63.Group25_1
+[2019.02.06-22.31.10:224][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:226][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_62.Group25_1
+[2019.02.06-22.31.10:227][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:240][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_61.Group25_1
+[2019.02.06-22.31.10:241][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:253][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_60.Group25_1
+[2019.02.06-22.31.10:253][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:254][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_6.Group25_1
+[2019.02.06-22.31.10:255][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:268][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_59.Group25_1
+[2019.02.06-22.31.10:269][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:282][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_58.Group25_1
+[2019.02.06-22.31.10:283][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:297][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_57.Group25_1
+[2019.02.06-22.31.10:298][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:311][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_56.Group25_1
+[2019.02.06-22.31.10:311][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:312][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_55.Group25_1
+[2019.02.06-22.31.10:313][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:314][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_54.Group25_1
+[2019.02.06-22.31.10:314][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:315][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_53.Group25_1
+[2019.02.06-22.31.10:316][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:317][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_52.Group25_1
+[2019.02.06-22.31.10:317][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:318][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_51.Group25_1
+[2019.02.06-22.31.10:319][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:320][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_50.Group25_1
+[2019.02.06-22.31.10:320][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:321][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_5.Group25_1
+[2019.02.06-22.31.10:322][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:323][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_49.Group25_1
+[2019.02.06-22.31.10:324][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:325][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_48.Group25_1
+[2019.02.06-22.31.10:325][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:326][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_47.Group25_1
+[2019.02.06-22.31.10:327][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:330][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_46.Group25_1
+[2019.02.06-22.31.10:330][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:331][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_45.Group25_1
+[2019.02.06-22.31.10:332][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:335][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_44.Group25_1
+[2019.02.06-22.31.10:335][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:337][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_43.Group25_1
+[2019.02.06-22.31.10:338][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:341][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_42.Group25_1
+[2019.02.06-22.31.10:342][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:345][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_41.Group25_1
+[2019.02.06-22.31.10:345][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:346][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_40.Group25_1
+[2019.02.06-22.31.10:347][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:348][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_4.Group25_1
+[2019.02.06-22.31.10:348][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:351][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_39.Group25_1
+[2019.02.06-22.31.10:352][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:354][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_38.Group25_1
+[2019.02.06-22.31.10:355][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:356][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_31.Group25_1
+[2019.02.06-22.31.10:357][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:358][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_30.Group25_1
+[2019.02.06-22.31.10:359][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:360][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_3.Group25_1
+[2019.02.06-22.31.10:360][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:380][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_29.Group25_1
+[2019.02.06-22.31.10:381][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:381][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_28.Group25_1
+[2019.02.06-22.31.10:383][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:383][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_27.Group25_1
+[2019.02.06-22.31.10:384][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:385][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_26.Group25_1
+[2019.02.06-22.31.10:385][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:387][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_25.Group25_1
+[2019.02.06-22.31.10:388][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:392][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_24.Group25_1
+[2019.02.06-22.31.10:392][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:393][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_23.Group25_1
+[2019.02.06-22.31.10:394][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:396][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_22.Group25_1
+[2019.02.06-22.31.10:396][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:397][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_21.Group25_1
+[2019.02.06-22.31.10:398][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:399][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_20.Group25_1
+[2019.02.06-22.31.10:399][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:400][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_2.Group25_1
+[2019.02.06-22.31.10:401][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:403][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_19.Group25_1
+[2019.02.06-22.31.10:404][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:405][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_18.Group25_1
+[2019.02.06-22.31.10:406][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:406][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_17.Group25_1
+[2019.02.06-22.31.10:407][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:409][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_16.Group25_1
+[2019.02.06-22.31.10:410][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:412][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_15.Group25_1
+[2019.02.06-22.31.10:413][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:415][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_14.Group25_1
+[2019.02.06-22.31.10:415][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:416][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_13.Group25_1
+[2019.02.06-22.31.10:417][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:419][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_12.Group25_1
+[2019.02.06-22.31.10:419][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:420][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_11.Group25_1
+[2019.02.06-22.31.10:421][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:421][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_10.Group25_1
+[2019.02.06-22.31.10:422][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.10:434][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_1.Group25_1
+[2019.02.06-22.31.10:436][200]LogStaticMesh: Building static mesh Group54_1...
+[2019.02.06-22.31.10:437][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M71fd404ca4a4462b6bbc362c038ec6f0_1.Group54_1
+[2019.02.06-22.31.10:438][200]LogStaticMesh: Building static mesh Group90_1...
+[2019.02.06-22.31.10:440][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M652e539b65ac1fe3a66fb434a427000a_1.Group90_1
+[2019.02.06-22.31.10:440][200]LogStaticMesh: Building static mesh Group39_1...
+[2019.02.06-22.31.10:445][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M5c7c744e69736ff7448e794681e5fd1d_1.Group39_1
+[2019.02.06-22.31.10:446][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.10:472][200]LogStaticMesh: Built static mesh [0.03s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_9.Group37_1
+[2019.02.06-22.31.10:473][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.10:477][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_20.Group35_1
+[2019.02.06-22.31.10:477][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.10:481][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_3.Group35_1
+[2019.02.06-22.31.10:482][200]LogStaticMesh: Building static mesh Group35_1...
+[2019.02.06-22.31.10:485][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/Me24f684e2ced436a57696d4adc460906_21.Group35_1
+[2019.02.06-22.31.10:497][200]LogStaticMesh: Building static mesh Group102_1...
+[2019.02.06-22.31.10:498][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M32159260fa5e2c6617e7093a645d4833_1.Group102_1
+[2019.02.06-22.31.10:499][200]LogStaticMesh: Building static mesh Group17_1...
+[2019.02.06-22.31.10:652][200]LogStaticMesh: Built static mesh [0.15s] /Game/Models/warehouse/Geometries/M24b70b748b93792c32300f7060db6e72_1.Group17_1
+[2019.02.06-22.31.10:662][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:675][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_9.Group23_1
+[2019.02.06-22.31.10:675][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:688][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_10.Group23_1
+[2019.02.06-22.31.10:688][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:690][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_11.Group23_1
+[2019.02.06-22.31.10:691][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:694][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_12.Group23_1
+[2019.02.06-22.31.10:695][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:698][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_13.Group23_1
+[2019.02.06-22.31.10:699][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:712][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_14.Group23_1
+[2019.02.06-22.31.10:713][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:724][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_15.Group23_1
+[2019.02.06-22.31.10:724][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:737][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_16.Group23_1
+[2019.02.06-22.31.10:738][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:740][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_17.Group23_1
+[2019.02.06-22.31.10:740][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:744][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_18.Group23_1
+[2019.02.06-22.31.10:744][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:760][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_1.Group23_1
+[2019.02.06-22.31.10:760][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:762][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_19.Group23_1
+[2019.02.06-22.31.10:763][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:767][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_20.Group23_1
+[2019.02.06-22.31.10:768][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:786][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_21.Group23_1
+[2019.02.06-22.31.10:787][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:801][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_22.Group23_1
+[2019.02.06-22.31.10:802][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:816][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_23.Group23_1
+[2019.02.06-22.31.10:816][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:834][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_24.Group23_1
+[2019.02.06-22.31.10:834][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:848][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_25.Group23_1
+[2019.02.06-22.31.10:849][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:865][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_26.Group23_1
+[2019.02.06-22.31.10:868][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:881][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_27.Group23_1
+[2019.02.06-22.31.10:882][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:896][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_28.Group23_1
+[2019.02.06-22.31.10:897][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:910][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_2.Group23_1
+[2019.02.06-22.31.10:911][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:924][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_29.Group23_1
+[2019.02.06-22.31.10:925][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:938][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_30.Group23_1
+[2019.02.06-22.31.10:939][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:950][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_31.Group23_1
+[2019.02.06-22.31.10:950][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:960][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_32.Group23_1
+[2019.02.06-22.31.10:961][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:968][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_33.Group23_1
+[2019.02.06-22.31.10:968][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:979][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_34.Group23_1
+[2019.02.06-22.31.10:979][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:980][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_35.Group23_1
+[2019.02.06-22.31.10:980][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:981][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_36.Group23_1
+[2019.02.06-22.31.10:982][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:983][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_37.Group23_1
+[2019.02.06-22.31.10:983][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:984][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_38.Group23_1
+[2019.02.06-22.31.10:984][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:997][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_3.Group23_1
+[2019.02.06-22.31.10:998][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.10:999][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_39.Group23_1
+[2019.02.06-22.31.10:999][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:002][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_40.Group23_1
+[2019.02.06-22.31.11:003][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:003][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_41.Group23_1
+[2019.02.06-22.31.11:004][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:006][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_42.Group23_1
+[2019.02.06-22.31.11:007][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:010][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_43.Group23_1
+[2019.02.06-22.31.11:011][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:013][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_44.Group23_1
+[2019.02.06-22.31.11:013][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:014][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_45.Group23_1
+[2019.02.06-22.31.11:015][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:017][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_46.Group23_1
+[2019.02.06-22.31.11:017][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:019][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_47.Group23_1
+[2019.02.06-22.31.11:020][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:022][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_48.Group23_1
+[2019.02.06-22.31.11:023][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:040][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_4.Group23_1
+[2019.02.06-22.31.11:041][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:041][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_49.Group23_1
+[2019.02.06-22.31.11:042][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:062][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_5.Group23_1
+[2019.02.06-22.31.11:063][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:077][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_6.Group23_1
+[2019.02.06-22.31.11:079][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:093][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_7.Group23_1
+[2019.02.06-22.31.11:094][200]LogStaticMesh: Building static mesh Group23_1...
+[2019.02.06-22.31.11:107][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M1d3f77df2102a784ddb1025b9b0759eb_8.Group23_1
+[2019.02.06-22.31.11:108][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.11:110][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_32.Group25_1
+[2019.02.06-22.31.11:111][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.11:113][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_33.Group25_1
+[2019.02.06-22.31.11:114][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.11:117][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_34.Group25_1
+[2019.02.06-22.31.11:118][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.11:119][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_35.Group25_1
+[2019.02.06-22.31.11:119][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.11:122][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_36.Group25_1
+[2019.02.06-22.31.11:122][200]LogStaticMesh: Building static mesh Group25_1...
+[2019.02.06-22.31.11:123][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M79c0f020e7555b55f0c70a3fd8a67c3c_37.Group25_1
+[2019.02.06-22.31.11:124][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:126][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_9.Group31_1
+[2019.02.06-22.31.11:126][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:127][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_10.Group31_1
+[2019.02.06-22.31.11:128][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:129][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_11.Group31_1
+[2019.02.06-22.31.11:130][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:131][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_12.Group31_1
+[2019.02.06-22.31.11:131][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:132][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_13.Group31_1
+[2019.02.06-22.31.11:133][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:134][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_14.Group31_1
+[2019.02.06-22.31.11:134][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:135][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_15.Group31_1
+[2019.02.06-22.31.11:136][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:137][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_16.Group31_1
+[2019.02.06-22.31.11:138][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:139][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_17.Group31_1
+[2019.02.06-22.31.11:139][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:140][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_18.Group31_1
+[2019.02.06-22.31.11:141][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:142][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_1.Group31_1
+[2019.02.06-22.31.11:143][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:144][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_19.Group31_1
+[2019.02.06-22.31.11:144][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:145][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_20.Group31_1
+[2019.02.06-22.31.11:146][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:147][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_21.Group31_1
+[2019.02.06-22.31.11:147][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:149][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_22.Group31_1
+[2019.02.06-22.31.11:149][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:150][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_23.Group31_1
+[2019.02.06-22.31.11:151][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:152][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_24.Group31_1
+[2019.02.06-22.31.11:153][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:154][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_25.Group31_1
+[2019.02.06-22.31.11:154][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:156][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_26.Group31_1
+[2019.02.06-22.31.11:156][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:157][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_27.Group31_1
+[2019.02.06-22.31.11:158][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:159][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_28.Group31_1
+[2019.02.06-22.31.11:160][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:161][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_2.Group31_1
+[2019.02.06-22.31.11:162][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:163][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_29.Group31_1
+[2019.02.06-22.31.11:163][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:164][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_30.Group31_1
+[2019.02.06-22.31.11:165][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:166][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_31.Group31_1
+[2019.02.06-22.31.11:166][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:167][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_32.Group31_1
+[2019.02.06-22.31.11:168][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:169][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_33.Group31_1
+[2019.02.06-22.31.11:170][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:171][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_34.Group31_1
+[2019.02.06-22.31.11:171][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:172][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_35.Group31_1
+[2019.02.06-22.31.11:173][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:174][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_36.Group31_1
+[2019.02.06-22.31.11:174][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:175][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_37.Group31_1
+[2019.02.06-22.31.11:176][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:177][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_38.Group31_1
+[2019.02.06-22.31.11:177][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:180][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_3.Group31_1
+[2019.02.06-22.31.11:181][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:182][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_39.Group31_1
+[2019.02.06-22.31.11:183][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:184][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_40.Group31_1
+[2019.02.06-22.31.11:185][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:186][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_41.Group31_1
+[2019.02.06-22.31.11:187][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:188][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_42.Group31_1
+[2019.02.06-22.31.11:188][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:190][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_43.Group31_1
+[2019.02.06-22.31.11:190][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:192][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_44.Group31_1
+[2019.02.06-22.31.11:193][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:195][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_45.Group31_1
+[2019.02.06-22.31.11:196][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:197][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_46.Group31_1
+[2019.02.06-22.31.11:198][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:199][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_47.Group31_1
+[2019.02.06-22.31.11:199][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:200][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_48.Group31_1
+[2019.02.06-22.31.11:201][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:202][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_4.Group31_1
+[2019.02.06-22.31.11:202][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:203][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_49.Group31_1
+[2019.02.06-22.31.11:204][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:205][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_50.Group31_1
+[2019.02.06-22.31.11:205][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:206][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_51.Group31_1
+[2019.02.06-22.31.11:207][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:208][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_52.Group31_1
+[2019.02.06-22.31.11:209][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:210][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_53.Group31_1
+[2019.02.06-22.31.11:210][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:211][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_54.Group31_1
+[2019.02.06-22.31.11:212][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:213][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_55.Group31_1
+[2019.02.06-22.31.11:214][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:215][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_56.Group31_1
+[2019.02.06-22.31.11:215][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:216][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_5.Group31_1
+[2019.02.06-22.31.11:217][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:218][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_6.Group31_1
+[2019.02.06-22.31.11:219][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:220][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_7.Group31_1
+[2019.02.06-22.31.11:221][200]LogStaticMesh: Building static mesh Group31_1...
+[2019.02.06-22.31.11:225][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M438f35b45ad16caa7042125bc5dbb884_8.Group31_1
+[2019.02.06-22.31.11:226][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:246][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_10.Group37_1
+[2019.02.06-22.31.11:247][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:251][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_11.Group37_1
+[2019.02.06-22.31.11:252][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:276][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_12.Group37_1
+[2019.02.06-22.31.11:278][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:296][200]LogStaticMesh: Built static mesh [0.02s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_13.Group37_1
+[2019.02.06-22.31.11:297][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:311][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_14.Group37_1
+[2019.02.06-22.31.11:312][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:326][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_15.Group37_1
+[2019.02.06-22.31.11:327][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:330][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_16.Group37_1
+[2019.02.06-22.31.11:330][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:333][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_17.Group37_1
+[2019.02.06-22.31.11:334][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:337][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_18.Group37_1
+[2019.02.06-22.31.11:338][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:352][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_1.Group37_1
+[2019.02.06-22.31.11:352][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:355][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_19.Group37_1
+[2019.02.06-22.31.11:356][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:360][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_20.Group37_1
+[2019.02.06-22.31.11:360][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:364][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_21.Group37_1
+[2019.02.06-22.31.11:365][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:379][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_22.Group37_1
+[2019.02.06-22.31.11:379][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:393][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_23.Group37_1
+[2019.02.06-22.31.11:393][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:408][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_24.Group37_1
+[2019.02.06-22.31.11:409][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:411][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_25.Group37_1
+[2019.02.06-22.31.11:412][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:425][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_26.Group37_1
+[2019.02.06-22.31.11:425][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:427][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_27.Group37_1
+[2019.02.06-22.31.11:428][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:431][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_28.Group37_1
+[2019.02.06-22.31.11:432][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:446][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_2.Group37_1
+[2019.02.06-22.31.11:447][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:449][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_29.Group37_1
+[2019.02.06-22.31.11:450][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:454][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_30.Group37_1
+[2019.02.06-22.31.11:455][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:459][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_31.Group37_1
+[2019.02.06-22.31.11:460][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:464][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_32.Group37_1
+[2019.02.06-22.31.11:464][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:468][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_33.Group37_1
+[2019.02.06-22.31.11:469][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:473][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_34.Group37_1
+[2019.02.06-22.31.11:474][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:477][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_35.Group37_1
+[2019.02.06-22.31.11:479][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:482][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_36.Group37_1
+[2019.02.06-22.31.11:483][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:486][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_37.Group37_1
+[2019.02.06-22.31.11:487][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:490][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_38.Group37_1
+[2019.02.06-22.31.11:491][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:506][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_3.Group37_1
+[2019.02.06-22.31.11:507][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:519][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_39.Group37_1
+[2019.02.06-22.31.11:519][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:531][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_40.Group37_1
+[2019.02.06-22.31.11:532][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:533][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_41.Group37_1
+[2019.02.06-22.31.11:534][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:536][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_42.Group37_1
+[2019.02.06-22.31.11:536][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:538][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_43.Group37_1
+[2019.02.06-22.31.11:539][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:542][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_44.Group37_1
+[2019.02.06-22.31.11:543][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:545][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_45.Group37_1
+[2019.02.06-22.31.11:546][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:548][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_46.Group37_1
+[2019.02.06-22.31.11:548][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:550][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_47.Group37_1
+[2019.02.06-22.31.11:550][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:551][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_48.Group37_1
+[2019.02.06-22.31.11:552][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:564][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_4.Group37_1
+[2019.02.06-22.31.11:565][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:566][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_49.Group37_1
+[2019.02.06-22.31.11:567][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:569][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_50.Group37_1
+[2019.02.06-22.31.11:569][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:571][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_51.Group37_1
+[2019.02.06-22.31.11:571][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:573][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_52.Group37_1
+[2019.02.06-22.31.11:573][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:574][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_53.Group37_1
+[2019.02.06-22.31.11:575][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:576][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_54.Group37_1
+[2019.02.06-22.31.11:576][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:578][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_55.Group37_1
+[2019.02.06-22.31.11:578][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:590][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_56.Group37_1
+[2019.02.06-22.31.11:590][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:593][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_57.Group37_1
+[2019.02.06-22.31.11:593][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:605][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_5.Group37_1
+[2019.02.06-22.31.11:606][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:619][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_6.Group37_1
+[2019.02.06-22.31.11:619][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:632][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_7.Group37_1
+[2019.02.06-22.31.11:633][200]LogStaticMesh: Building static mesh Group37_1...
+[2019.02.06-22.31.11:645][200]LogStaticMesh: Built static mesh [0.01s] /Game/Models/warehouse/Geometries/M4c15667eb9d1ed1e23c38dd91ebb7519_8.Group37_1
+[2019.02.06-22.31.11:646][200]LogStaticMesh: Building static mesh Group50_1...
+[2019.02.06-22.31.11:649][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M0faeff3ac66603a738df7d4ad75b2610_1.Group50_1
+[2019.02.06-22.31.11:650][200]LogStaticMesh: Building static mesh Group62_1...
+[2019.02.06-22.31.11:651][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M0a9a504b27feb62978211ee08407551d_1.Group62_1
+[2019.02.06-22.31.11:652][200]LogStaticMesh: Building static mesh Group82_1...
+[2019.02.06-22.31.11:652][200]LogStaticMesh: Built static mesh [0.00s] /Game/Models/warehouse/Geometries/M067f8cf58515ed22e2f1e11b1984e114_1.Group82_1
+[2019.02.06-22.31.11:662][200]LogAIModule: Creating AISystem for world MainMap_2
+[2019.02.06-22.31.11:703][200]LogEditorActor: Deleted Actor: PostProcessVolume
+[2019.02.06-22.31.11:737][200]LogEditorActor: Deleted 1 Actors (2.577 secs)
+[2019.02.06-22.31.15:247][609]Cmd: TRANSACTION UNDO
+[2019.02.06-22.31.15:247][609]LogEditorTransaction: Undo Delete Actors
+[2019.02.06-22.31.23:631][607]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2019.02.06-22.31.25:498][828]Cmd: DELETE
+[2019.02.06-22.31.25:498][828]Cmd: ACTOR DELETE
+[2019.02.06-22.31.25:501][828]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2019.02.06-22.31.25:525][828]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.02.06-22.31.29:355][288]Cmd: TRANSACTION UNDO
+[2019.02.06-22.31.29:355][288]LogEditorTransaction: Undo Delete Actors
+[2019.02.06-22.31.32:852][705]Cmd: DELETE
+[2019.02.06-22.31.32:852][705]Cmd: ACTOR DELETE
+[2019.02.06-22.31.32:855][705]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2019.02.06-22.31.32:880][705]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.02.06-22.31.34:394][887]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.02.06-22.31.35:181][976]Cmd: DELETE
+[2019.02.06-22.31.35:181][976]Cmd: ACTOR DELETE
+[2019.02.06-22.31.35:184][976]LogEditorActor: Deleted Actor: PostProcessVolume
+[2019.02.06-22.31.35:209][976]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.02.06-22.31.38:350][353]Cmd: TRANSACTION UNDO
+[2019.02.06-22.31.38:350][353]LogEditorTransaction: Undo Delete Actors
+[2019.02.06-22.31.40:682][626]Cmd: DELETE
+[2019.02.06-22.31.40:682][626]Cmd: ACTOR DELETE
+[2019.02.06-22.31.40:686][626]LogEditorActor: Deleted Actor: PostProcessVolume
+[2019.02.06-22.31.40:710][626]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.02.06-22.31.41:853][763]Cmd: TRANSACTION UNDO
+[2019.02.06-22.31.41:853][763]LogEditorTransaction: Undo Delete Actors
+[2019.02.06-22.31.43:041][899]Cmd: DELETE
+[2019.02.06-22.31.43:041][899]Cmd: ACTOR DELETE
+[2019.02.06-22.31.43:044][899]LogEditorActor: Deleted Actor: PostProcessVolume
+[2019.02.06-22.31.43:069][899]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.02.06-22.31.43:803][987]Cmd: TRANSACTION UNDO
+[2019.02.06-22.31.43:803][987]LogEditorTransaction: Undo Delete Actors
+[2019.02.06-22.31.45:659][204]Cmd: DELETE
+[2019.02.06-22.31.45:659][204]Cmd: ACTOR DELETE
+[2019.02.06-22.31.45:662][204]LogEditorActor: Deleted Actor: PostProcessVolume
+[2019.02.06-22.31.45:687][204]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.02.06-22.31.52:757][ 50]Cmd: TRANSACTION UNDO
+[2019.02.06-22.31.52:757][ 50]LogEditorTransaction: Undo Delete Actors
+[2019.02.06-22.31.54:306][225]Cmd: DELETE
+[2019.02.06-22.31.54:306][225]Cmd: ACTOR DELETE
+[2019.02.06-22.31.54:309][225]LogEditorActor: Deleted Actor: PostProcessVolume
+[2019.02.06-22.31.54:333][225]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.02.06-22.31.54:884][291]Cmd: TRANSACTION UNDO
+[2019.02.06-22.31.54:884][291]LogEditorTransaction: Undo Delete Actors
+[2019.02.06-22.32.13:461][475]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-22.32.13:474][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/MainMap" FILE="D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.06-22.32.13:511][475]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] OnActorEndOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2019.02.06-22.32.13:511][475]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2019.02.06-22.32.13:511][475]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] Node  Unknown  is not referencing a valid level actor
+[2019.02.06-22.32.13:511][475]LogBlueprint: Error: [Compiler PersistentLevel.MainMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2019.02.06-22.32.13:511][475]LogBlueprint: Error: [Compiler PersistentLevel.MainMap] Couldn't find object for bound event node  OnActorEndOverlap (None)
+[2019.02.06-22.32.13:512][475]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] [0254.72] Compile of PersistentLevel.MainMap failed. 2 Fatal Issue(s) 3 Warning(s) [in 2 ms] (/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap)
+[2019.02.06-22.32.13:630][475]LogSavePackage: Moving 'D:/cs461/PressVR/Saved/MainMap8A94B9D74CCE79D90713B88F5A23C804.tmp' to 'D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap'
+[2019.02.06-22.32.13:664][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/MainMap_BuiltData" FILE="D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2019.02.06-22.32.13:805][475]LogSavePackage: Moving 'D:/cs461/PressVR/Saved/MainMap_BuiltData01358DEA4A61EE51903ECE927FE798FD.tmp' to 'D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap_BuiltData.uasset'
+[2019.02.06-22.32.19:243][118]Cmd: DELETE
+[2019.02.06-22.32.19:243][118]Cmd: ACTOR DELETE
+[2019.02.06-22.32.19:246][118]LogEditorActor: Deleted Actor: Brush
+[2019.02.06-22.32.19:273][118]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.02.06-22.32.21:201][345]Cmd: DELETE
+[2019.02.06-22.32.21:201][345]Cmd: ACTOR DELETE
+[2019.02.06-22.32.21:203][345]LogEditorActor: Deleted Actor: Brush
+[2019.02.06-22.32.21:232][345]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.02.06-22.32.22:901][541]Cmd: DELETE
+[2019.02.06-22.32.22:901][541]Cmd: ACTOR DELETE
+[2019.02.06-22.32.22:904][541]LogEditorActor: Deleted Actor: Brush
+[2019.02.06-22.32.22:931][541]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.02.06-22.32.24:674][746]Cmd: DELETE
+[2019.02.06-22.32.24:674][746]Cmd: ACTOR DELETE
+[2019.02.06-22.32.24:678][746]LogEditorActor: Deleted Actor: Brush
+[2019.02.06-22.32.24:703][746]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.02.06-22.32.30:743][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-22.32.32:117][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-22.32.35:893][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-22.34.12:005][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-22.35.01:234][608]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-22.35.01:244][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/MainMap" FILE="D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.06-22.35.01:275][608]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] OnActorEndOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2019.02.06-22.35.01:275][608]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2019.02.06-22.35.01:275][608]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] Node  Unknown  is not referencing a valid level actor
+[2019.02.06-22.35.01:275][608]LogBlueprint: Error: [Compiler PersistentLevel.MainMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2019.02.06-22.35.01:275][608]LogBlueprint: Error: [Compiler PersistentLevel.MainMap] Couldn't find object for bound event node  OnActorEndOverlap (None)
+[2019.02.06-22.35.01:276][608]LogBlueprint: Warning: [Compiler PersistentLevel.MainMap] [0422.49] Compile of PersistentLevel.MainMap failed. 2 Fatal Issue(s) 3 Warning(s) [in 3 ms] (/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap)
+[2019.02.06-22.35.01:714][608]LogSavePackage: Moving 'D:/cs461/PressVR/Saved/MainMap69D072BF42EF1ACD977E5C802627E74E.tmp' to 'D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap'
+[2019.02.06-22.35.01:743][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/MainMap_BuiltData" FILE="D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2019.02.06-22.35.01:870][608]LogSavePackage: Moving 'D:/cs461/PressVR/Saved/MainMap_BuiltData99A2761D4B0AB232D4E9D38A59732A6E.tmp' to 'D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap_BuiltData.uasset'
+[2019.02.06-22.35.05:017][947]LogSlate: Window 'PressVR - Unreal Editor' being destroyed
+[2019.02.06-22.35.05:232][948]Cmd: QUIT_EDITOR
+[2019.02.06-22.35.05:252][948]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.06-22.35.05:260][948]LogExit: Preparing to exit.
+[2019.02.06-22.35.05:649][948]LogExit: Editor shut down
+[2019.02.06-22.35.05:649][948]LogExit: Transaction tracking system shut down
+[2019.02.06-22.35.05:849][948]LogExit: Object subsystem successfully closed.
+[2019.02.06-22.35.05:870][948]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.02.06-22.35.05:873][948]LogD3D11RHI: Shutdown
+[2019.02.06-22.35.05:873][948]LogD3D11RHI: CleanupD3DDevice
+[2019.02.06-22.35.05:875][948]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module MeshBuilder (654)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (652)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module SceneOutliner (650)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module AddContentDialog (648)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module WidgetCarousel (647)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module EditorWidgets (644)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module CollectionManager (642)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module StatsViewer (640)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module FoliageEdit (638)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module LandscapeEditor (636)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module MeshPaintMode (634)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (632)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module ActorPickerMode (630)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module GeometryMode (628)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module TextureAlignMode (626)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module BspMode (624)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (622)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (620)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module AutomationWorker (618)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module DatasmithFBXImporter (616)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module DatasmithDeltaGenImporter (614)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module DatasmithVREDImporter (612)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (610)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (608)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (606)
+[2019.02.06-22.35.05:894][948]LogModuleManager: Shutting down and abandoning module PlacementMode (605)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module MaterialEditor (604)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (600)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (598)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (596)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (594)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module WebMMedia (592)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (590)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (588)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module SequenceRecorder (587)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (584)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (582)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (580)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (578)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (576)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (574)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (572)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (570)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (568)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (566)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module CharacterAI (564)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module SmartSnapping (562)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module SessionServices (560)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module ViewportSnapping (558)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module ViewportInteraction (556)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module ClothPainter (554)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (553)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module LogVisualizer (550)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module IntroTutorials (548)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (547)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (544)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (542)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (540)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (538)
+[2019.02.06-22.35.05:895][948]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (537)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (534)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (532)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (530)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (528)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (526)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module InputBindingEditor (524)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module MergeActors (522)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (520)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module LocalizationService (519)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module HardwareTargeting (516)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (514)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module UndoHistory (512)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module XmlParser (510)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module Blutility (508)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (506)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (505)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (502)
+[2019.02.06-22.35.06:357][948]LogModuleManager: Shutting down and abandoning module SettingsEditor (500)
+[2019.02.06-22.35.06:359][948]LogModuleManager: Shutting down and abandoning module ProjectLauncher (498)
+[2019.02.06-22.35.06:359][948]LogModuleManager: Shutting down and abandoning module SessionFrontend (496)
+[2019.02.06-22.35.06:359][948]LogModuleManager: Shutting down and abandoning module ProfilerClient (494)
+[2019.02.06-22.35.06:359][948]LogModuleManager: Shutting down and abandoning module DeviceManager (492)
+[2019.02.06-22.35.06:359][948]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (491)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module AutomationController (488)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module AutomationWindow (486)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module Layers (484)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (482)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module DetailCustomizations (480)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module PackagesDialog (478)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module Persona (476)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module AnimGraph (475)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module Kismet (472)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module GraphEditor (470)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module ClassViewer (468)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module Toolbox (466)
+[2019.02.06-22.35.06:422][948]LogModuleManager: Shutting down and abandoning module ModuleUI (464)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module MovieSceneTools (462)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module OutputLog (460)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module GammaUI (458)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module Documentation (456)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module DesktopPlatform (430)
+[2019.02.06-22.35.06:423][948]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (428)
+[2019.02.06-22.35.06:425][948]LogModuleManager: Shutting down and abandoning module ProfilerService (426)
+[2019.02.06-22.35.06:534][948]LogModuleManager: Shutting down and abandoning module TaskGraph (424)
+[2019.02.06-22.35.06:534][948]LogModuleManager: Shutting down and abandoning module DatasmithCADImporter (422)
+[2019.02.06-22.35.06:534][948]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (420)
+[2019.02.06-22.35.06:534][948]LogModuleManager: Shutting down and abandoning module SubstanceSource (418)
+[2019.02.06-22.35.06:534][948]LogModuleManager: Shutting down and abandoning module SubstanceEditor (416)
+[2019.02.06-22.35.06:534][948]LogModuleManager: Shutting down and abandoning module VariantManager (414)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module StaticMeshEditorExtension (412)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (411)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (410)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module MeshProcessingLibrary (407)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module MDLImporter (404)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module DatasmithImporter (402)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
+[2019.02.06-22.35.06:535][948]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module HTML5Networking (368)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (366)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (364)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module BackChannel (362)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module AppleVision (360)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (358)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module AppleImageUtils (356)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module AlembicImporter (354)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module AlembicLibrary (353)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module GeometryCache (352)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (351)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module VariantManagerContent (346)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (342)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module PluginBrowser (340)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (338)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module PolygonModeling (336)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module MeshEditor (334)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (332)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.02.06-22.35.06:538][948]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (296)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (294)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module PhysXVehicles (292)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module OculusEditor (290)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.02.06-22.35.06:539][948]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.02.06-22.35.06:640][948]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module SubstanceCore (280)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.02.06-22.35.06:741][948]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.02.06-22.35.06:742][948]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.02.06-22.35.06:742][948]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.02.06-22.35.06:742][948]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.02.06-22.35.06:742][948]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.02.06-22.35.06:742][948]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.02.06-22.35.06:742][948]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.02.06-22.35.06:742][948]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.02.06-22.35.06:742][948]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.02.06-22.35.06:744][948]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.02.06-22.35.06:750][948]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.02.06-22.35.06:752][948]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.02.06-22.35.06:790][948]LogDerivedDataCache: Shutdown
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.02.06-22.35.06:790][948]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.02.06-22.35.06:791][948]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.02.06-22.35.06:791][948]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.02.06-22.35.06:791][948]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.02.06-22.35.06:791][948]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.02.06-22.35.06:791][948]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.02.06-22.35.06:791][948]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.02.06-22.35.06:791][948]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.02.06-22.35.06:791][948]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.02.06-22.35.06:792][948]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.02.06-22.35.06:792][948]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.02.06-22.35.06:792][948]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.02.06-22.35.06:792][948]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.02.06-22.35.06:797][948]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.02.06-22.35.06:797][948]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.02.06-22.35.06:798][948]LogHMD: Freeing OpenVRDLLHandle.
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.02.06-22.35.06:798][948]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.02.06-22.35.06:799][948]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.02.06-22.35.06:799][948]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.02.06-22.35.06:824][948]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.02.06-22.35.06:824][948]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.06-22.35.06:824][948]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B73832997-4FCE-37A8-68E6-5A85E7DD9EF8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=f53cb0104292a9acc466a8919dade885%7C40213eb9e16146ae864713a4e96186db%7Cda97df83-58aa-446d-9ad7-9c91458fdea6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.06-22.35.06:857][948]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.02.06-22.35.06:858][948]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.02.06-22.35.06:858][948]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.02.06-22.35.06:859][948]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.02.06-22.35.06:859][948]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.06-22.35.06:859][948]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.06-22.35.06:859][948]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.06-22.35.06:868][948]LogExit: Exiting.
+[2019.02.06-22.35.06:872][948]Log file closed, 02/06/19 14:35:06
