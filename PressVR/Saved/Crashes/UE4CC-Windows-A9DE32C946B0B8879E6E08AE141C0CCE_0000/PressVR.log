@@ -1,0 +1,1660 @@
+﻿Log file open, 03/25/19 10:48:34
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PressVR
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.414895
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMixedReality
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogStreaming: Display: Took  0.083s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.28.0
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.03.25-17.48.35:135][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.25-17.48.35:135][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.25-17.48.35:136][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.03.25-17.48.35:136][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.03.25-17.48.35:137][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.25-17.48.35:137][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.25-17.48.35:138][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.25-17.48.35:138][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.25-17.48.35:138][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.25-17.48.35:153][  0]LogHAL: Display: Platform has ~ 16 GB [16964153344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.25-17.48.35:154][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.25-17.48.35:154][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.25-17.48.35:154][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.03.25-17.48.35:155][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.25-17.48.35:155][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.25-17.48.35:155][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.25-17.48.35:157][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.25-17.48.35:157][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.03.25-17.48.35:158][  0]LogInit: Computer: DESKTOP-1KNH53N
+[2019.03.25-17.48.35:158][  0]LogInit: User: kylet
+[2019.03.25-17.48.35:158][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.03.25-17.48.35:158][  0]LogInit: High frequency timer resolution =2.156249 MHz
+[2019.03.25-17.48.35:158][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.03.25-17.48.35:158][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.25-17.48.35:158][  0]LogMemory: Process Physical Memory: 109.07 MB used, 109.07 MB peak
+[2019.03.25-17.48.35:158][  0]LogMemory: Process Virtual Memory: 108.75 MB used, 108.75 MB peak
+[2019.03.25-17.48.35:158][  0]LogMemory: Physical Memory: 8882.63 MB used,  7295.65 MB free, 16178.28 MB total
+[2019.03.25-17.48.35:158][  0]LogMemory: Virtual Memory: 4700.09 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2019.03.25-17.48.35:281][  0]LogInit: Using OS detected language (en-US).
+[2019.03.25-17.48.35:281][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.25-17.48.35:282][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.25-17.48.35:626][  0]LogStreaming: Display: Took  0.346s to InitEngineTextLocalization.
+[2019.03.25-17.48.35:626][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.25-17.48.35:677][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.25-17.48.35:677][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.25-17.48.37:118][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.25-17.48.37:175][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (Feature Level 11_0)
+[2019.03.25-17.48.37:175][  0]LogD3D11RHI:       6052/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.25-17.48.37:193][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.03.25-17.48.37:193][  0]LogD3D11RHI:       128/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.25-17.48.37:195][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.25-17.48.37:195][  0]LogD3D11RHI:       0/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.25-17.48.37:195][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.25-17.48.37:223][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.25-17.48.37:223][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.25-17.48.37:223][  0]LogWindows: EnumDisplayDevices:
+[2019.03.25-17.48.37:223][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.03.25-17.48.37:223][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.03.25-17.48.37:223][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.03.25-17.48.37:224][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
+[2019.03.25-17.48.37:224][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.03.25-17.48.37:224][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 with Max-Q Design
+[2019.03.25-17.48.37:224][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.25-17.48.37:224][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.25-17.48.37:224][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.25-17.48.37:260][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.25-17.48.37:286][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.25-17.48.52:749][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.25-17.48.52:759][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.25-17.48.52:770][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.25-17.48.52:780][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.25-17.48.52:795][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.25-17.48.52:806][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.25-17.48.52:816][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.25-17.48.52:827][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.25-17.48.52:832][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.25-17.48.52:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.25-17.48.52:900][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.25-17.48.52:959][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.25-17.48.52:959][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.25-17.48.52:978][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.25-17.48.52:978][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.25-17.48.52:988][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.25-17.48.52:998][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.25-17.48.53:009][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.25-17.48.53:024][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.25-17.48.53:063][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.25-17.48.53:063][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.25-17.48.53:063][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.25-17.48.53:125][  0]LogShaderCompilers: Guid format shader working directory is 30 characters bigger than the processId version (D:/cs461/PressVR/Intermediate/Shaders/WorkingDirectory/4960/).
+[2019.03.25-17.48.53:125][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kylet/AppData/Local/Temp/UnrealShaderWorkingDir/BAA430D4471E4CF2CEED6A9B76BF62A6/'.
+[2019.03.25-17.48.53:126][  0]LogXGEController: Cleaning working directory: C:/Users/kylet/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.25-17.48.53:127][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.25-17.48.53:127][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.25-17.48.53:127][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.25-17.48.54:315][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.25-17.48.54:362][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.25-17.48.54:362][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.25-17.48.54:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/cs461/PressVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.25-17.48.54:362][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.25-17.48.54:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/cs461/PressVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.25-17.48.54:362][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.25-17.48.54:377][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.25-17.48.54:385][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.03.25-17.48.54:397][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kylet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.25-17.48.54:397][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.25-17.48.54:397][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.25-17.48.54:416][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.25-17.48.54:417][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.25-17.48.54:427][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.25-17.48.54:658][  0]LogAssetRegistry: FAssetRegistry took 0.0312 seconds to start up
+[2019.03.25-17.48.54:908][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.25-17.48.55:018][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.25-17.48.55:021][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.25-17.48.55:021][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.25-17.48.55:021][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.25-17.48.55:021][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.25-17.48.55:118][  0]LogNetVersion: PressVR 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 297391646)
+[2019.03.25-17.48.55:959][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 2 prioritized culture(s) in 0.104151 seconds
+[2019.03.25-17.48.55:964][  0]LogUObjectArray: 39790 objects as part of root set at end of initial load.
+[2019.03.25-17.48.55:964][  0]LogUObjectAllocator: 6917680 out of 0 bytes used by permanent object pool.
+[2019.03.25-17.48.55:964][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.25-17.48.58:333][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.03.25-17.48.58:339][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.25-17.48.58:351][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.25-17.48.59:002][  0]SourceControl: Source control is disabled
+[2019.03.25-17.48.59:002][  0]SourceControl: Source control is disabled
+[2019.03.25-17.48.59:003][  0]SourceControl: Source control is disabled
+[2019.03.25-17.48.59:004][  0]SourceControl: Source control is disabled
+[2019.03.25-17.48.59:182][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.25-17.48.59:229][  0]LogOcInput: OculusInput pre-init called
+[2019.03.25-17.49.00:748][  0]LogEngine: Initializing Engine...
+[2019.03.25-17.49.06:909][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.03.25-17.49.06:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.25-17.49.06:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.25-17.49.06:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.25-17.49.06:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.25-17.49.07:239][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.25-17.49.07:248][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.25-17.49.07:292][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.25-17.49.07:363][  0]LogInit: FAudioDevice initialized.
+[2019.03.25-17.49.07:363][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.25-17.49.07:501][  0]LogDerivedDataCache: Saved boot cache 0.14s 72MB C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.25-17.49.07:515][  0]LogInit: Texture streaming: Enabled
+[2019.03.25-17.49.07:527][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.25-17.49.07:541][  0]LogInit: Transaction tracking system initialized
+[2019.03.25-17.49.07:558][  0]BlueprintLog: New page: Editor Load
+[2019.03.25-17.49.07:613][  0]LocalizationService: Localization service is disabled
+[2019.03.25-17.49.07:893][  0]LogLinker: Warning: Can't find file '/Game/VehicleAdvBP/AdvancedVehicleOverview'
+[2019.03.25-17.49.07:893][  0]LogLinker: Warning: Can't find file '/Game/VehicleAdvBP/AdvancedVehicleOverview'
+[2019.03.25-17.49.07:893][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/VehicleAdvBP/AdvancedVehicleOverview.AdvancedVehicleOverview_C'
+[2019.03.25-17.49.08:433][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/' took 0.02s
+[2019.03.25-17.49.08:433][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.25-17.49.08:433][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.25-17.49.08:434][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.25-17.49.08:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.25-17.49.08:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.25-17.49.08:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.25-17.49.08:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.25-17.49.09:806][  0]SourceControl: Source control is disabled
+[2019.03.25-17.49.09:807][  0]Cmd: MAP LOAD FILE="D:/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.25-17.49.09:812][  0]LightingResults: New page: Lighting Build
+[2019.03.25-17.49.09:814][  0]MapCheck: New page: Map Check
+[2019.03.25-17.49.09:814][  0]LightingResults: New page: Lighting Build
+[2019.03.25-17.49.16:256][  0]LogAIModule: Creating AISystem for world MainMap
+[2019.03.25-17.49.16:257][  0]LogMaterial: Warning: Material /DatasmithContent/Materials/SketchUpMaster.SketchUpMaster needed to have new flag set bUsedWithStaticLighting !
+[2019.03.25-17.49.16:264][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.03.25-17.49.16:313][  0]MapCheck: Warning: SketchUpMaster Material /DatasmithContent/Materials/SketchUpMaster.SketchUpMaster was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.25-17.49.16:316][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.03.25-17.49.16:342][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.25-17.49.16:342][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.25-17.49.16:342][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.25-17.49.16:342][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.25-17.49.16:342][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.03.25-17.49.16:423][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.25-17.49.16:423][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.25-17.49.16:423][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.25-17.49.16:423][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.25-17.49.16:423][  0]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.03.25-17.49.16:423][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.03.25-17.49.16:489][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.49.16:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.49.16:489][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.49.16:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.49.16:489][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.49.16:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.49.16:494][  0]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.03.25-17.49.16:517][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6.EmergencyButtonButton: Material index 2 is invalid.
+[2019.03.25-17.49.16:517][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.03.25-17.49.16:518][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9.EmergencyButtonButton: Material index 2 is invalid.
+[2019.03.25-17.49.16:518][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.03.25-17.49.16:519][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12.EmergencyButtonButton: Material index 2 is invalid.
+[2019.03.25-17.49.16:519][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.03.25-17.49.16:520][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3.EmergencyButtonButton: Material index 2 is invalid.
+[2019.03.25-17.49.16:520][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.03.25-17.49.16:541][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.25-17.49.16:590][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.25-17.49.16:591][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.247ms to complete.
+[2019.03.25-17.49.16:597][  0]LogFileHelpers: Loading map 'MainMap' took 6.790
+[2019.03.25-17.49.16:742][  0]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.03.25-17.49.16:742][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.49.16:757][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.49.16:771][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.49.16:785][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.49.16:799][  0]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.03.25-17.49.16:799][  0]LogCollectionManager: Loaded 0 collections in 0.001834 seconds
+[2019.03.25-17.49.16:830][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Saved/Collections/' took 0.01s
+[2019.03.25-17.49.16:830][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/Developers/kylet/Collections/' took 0.00s
+[2019.03.25-17.49.16:830][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/Collections/' took 0.01s
+[2019.03.25-17.49.16:830][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.25-17.49.16:847][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2724 classes and 662 folders.
+[2019.03.25-17.49.16:855][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.25-17.49.16:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:883][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:909][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:924][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:933][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:940][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:948][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:958][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:968][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:977][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:985][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.16:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:002][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:009][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:017][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:050][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:057][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:065][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:072][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:113][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:120][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:128][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:136][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:153][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:161][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:170][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.25-17.49.17:424][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.25-17.49.17:434][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.03.25-17.49.17:689][  0]LogSlate: Took 0.005797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.25-17.49.17:696][  0]LogSlate: Took 0.005297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.25-17.49.17:711][  0]LogSlate: Took 0.006765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.25-17.49.17:879][  0]LogRenderer: Reallocating scene render targets to support 1484x488 Format 26 NumSamples 1 (Frame:1).
+[2019.03.25-17.49.17:961][  0]LogSlate: Took 0.006794 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.25-17.49.18:093][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.25-17.49.18:093][  0]LogLoad: (Engine Initialization) Total time: 46.13 seconds
+[2019.03.25-17.49.18:094][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.25-17.49.18:187][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.25-17.49.18:254][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.03.25-17.49.19:198][  6]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.03.25-17.49.19:362][  8]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.03.25-17.49.19:413][  8]LogAssetRegistry: Asset discovery search completed in 24.7770 seconds
+[2019.03.25-17.49.19:417][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.25-17.49.19:417][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000114 seconds (updated 0 objects)
+[2019.03.25-17.49.22:445][178]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.25-17.49.22:592][190]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.25-17.49.22:904][215]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.25-17.49.23:181][232]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.25-17.49.23:338][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.25-17.49.32:061][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.25-17.49.34:909][ 30]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.25-17.49.34:924][ 30]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Desktop/rhmodel.fbx)
+[2019.03.25-17.49.34:938][ 30]LogFbx: Loading FBX Scene from D:/Desktop/rhmodel.fbx
+[2019.03.25-17.49.34:953][ 30]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.25-17.49.46:110][ 30]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.8] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805360.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.8) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.8 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.8]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.3] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805360.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.3) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.3 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.3]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.5] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805360.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.5) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.5 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.5]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.1] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805360.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.1) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.1 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.1]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.2] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805360.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.2) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.2 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.2]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.7] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805360.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.7) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.7 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.7]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.6] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805360.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.6) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.6 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.6]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.4] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805360.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.4) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.4 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.4]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.8] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805304.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.8) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.8 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.8]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.3] 
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Total Deformer Count -664805304.
+[2019.03.25-17.49.46:162][ 30]LogFbx: 	Attribute (Object.3) Type (4).
+[2019.03.25-17.49.46:162][ 30]LogFbx: 		[Node Attribute Child 1] Object.3 (Type Mesh).
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node END [Object.3]
+[2019.03.25-17.49.46:162][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:162][ 30]LogFbx: Dumping Node START [Object.5] 
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Total Deformer Count -664805304.
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Attribute (Object.5) Type (4).
+[2019.03.25-17.49.46:163][ 30]LogFbx: 		[Node Attribute Child 1] Object.5 (Type Mesh).
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node END [Object.5]
+[2019.03.25-17.49.46:163][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node START [Object.1] 
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Total Deformer Count -664805304.
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Attribute (Object.1) Type (4).
+[2019.03.25-17.49.46:163][ 30]LogFbx: 		[Node Attribute Child 1] Object.1 (Type Mesh).
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node END [Object.1]
+[2019.03.25-17.49.46:163][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node START [Object.2] 
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Total Deformer Count -664805304.
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Attribute (Object.2) Type (4).
+[2019.03.25-17.49.46:163][ 30]LogFbx: 		[Node Attribute Child 1] Object.2 (Type Mesh).
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node END [Object.2]
+[2019.03.25-17.49.46:163][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node START [Object.7] 
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Total Deformer Count -664805304.
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Attribute (Object.7) Type (4).
+[2019.03.25-17.49.46:163][ 30]LogFbx: 		[Node Attribute Child 1] Object.7 (Type Mesh).
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node END [Object.7]
+[2019.03.25-17.49.46:163][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node START [Object.6] 
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Total Deformer Count -664805304.
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Attribute (Object.6) Type (4).
+[2019.03.25-17.49.46:163][ 30]LogFbx: 		[Node Attribute Child 1] Object.6 (Type Mesh).
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node END [Object.6]
+[2019.03.25-17.49.46:163][ 30]LogFbx: =================================================
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node START [Object.4] 
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Total Deformer Count -664805304.
+[2019.03.25-17.49.46:163][ 30]LogFbx: 	Attribute (Object.4) Type (4).
+[2019.03.25-17.49.46:163][ 30]LogFbx: 		[Node Attribute Child 1] Object.4 (Type Mesh).
+[2019.03.25-17.49.46:163][ 30]LogFbx: Dumping Node END [Object.4]
+[2019.03.25-17.49.46:325][ 30]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.03.25-17.49.46:330][ 30]LogSkeletalMesh: Section 0: 178 vertices, 1 active bones
+[2019.03.25-17.49.46:330][ 30]LogSkeletalMesh: Section 0: Material=0, 278 triangles
+[2019.03.25-17.49.46:330][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_8...
+[2019.03.25-17.49.46:330][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_8
+[2019.03.25-17.49.53:820][ 30]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.49.56:394][ 30]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.49.58:018][ 30]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.49.58:028][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_8_PhysicsAsset'
+[2019.03.25-17.49.58:028][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_8_PhysicsAsset'
+[2019.03.25-17.49.58:035][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_8...
+[2019.03.25-17.49.58:035][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_8
+[2019.03.25-17.49.58:036][ 30]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.03.25-17.49.58:046][ 30]LogSkeletalMesh: Section 0: 262 vertices, 1 active bones
+[2019.03.25-17.49.58:046][ 30]LogSkeletalMesh: Section 0: Material=0, 442 triangles
+[2019.03.25-17.49.58:047][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_3...
+[2019.03.25-17.49.58:047][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_3
+[2019.03.25-17.49.58:048][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_3_PhysicsAsset'
+[2019.03.25-17.49.58:048][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_3_PhysicsAsset'
+[2019.03.25-17.49.58:052][ 30]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.03.25-17.49.58:056][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_3...
+[2019.03.25-17.49.58:056][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_3
+[2019.03.25-17.49.58:057][ 30]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.03.25-17.49.58:064][ 30]LogSkeletalMesh: Section 0: 149 vertices, 1 active bones
+[2019.03.25-17.49.58:064][ 30]LogSkeletalMesh: Section 0: Material=0, 222 triangles
+[2019.03.25-17.49.58:065][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_5...
+[2019.03.25-17.49.58:065][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_5
+[2019.03.25-17.49.58:065][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_5_PhysicsAsset'
+[2019.03.25-17.49.58:065][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_5_PhysicsAsset'
+[2019.03.25-17.49.58:070][ 30]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.03.25-17.49.58:073][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_5...
+[2019.03.25-17.49.58:073][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_5
+[2019.03.25-17.49.58:075][ 30]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.03.25-17.49.58:087][ 30]LogSkeletalMesh: Section 0: 462 vertices, 1 active bones
+[2019.03.25-17.49.58:087][ 30]LogSkeletalMesh: Section 0: Material=0, 832 triangles
+[2019.03.25-17.49.58:088][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_1...
+[2019.03.25-17.49.58:088][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_1
+[2019.03.25-17.49.58:089][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_1_PhysicsAsset'
+[2019.03.25-17.49.58:089][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_1_PhysicsAsset'
+[2019.03.25-17.49.58:097][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_1...
+[2019.03.25-17.49.58:098][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_1
+[2019.03.25-17.49.58:100][ 30]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.03.25-17.49.58:118][ 30]LogSkeletalMesh: Section 0: 569 vertices, 1 active bones
+[2019.03.25-17.49.58:118][ 30]LogSkeletalMesh: Section 0: Material=0, 932 triangles
+[2019.03.25-17.49.58:118][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_2...
+[2019.03.25-17.49.58:119][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_2
+[2019.03.25-17.49.58:120][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_2_PhysicsAsset'
+[2019.03.25-17.49.58:120][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_2_PhysicsAsset'
+[2019.03.25-17.49.58:124][ 30]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_7:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.03.25-17.49.58:127][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_2...
+[2019.03.25-17.49.58:128][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_2
+[2019.03.25-17.49.58:129][ 30]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.03.25-17.49.58:137][ 30]LogSkeletalMesh: Section 0: 216 vertices, 1 active bones
+[2019.03.25-17.49.58:137][ 30]LogSkeletalMesh: Section 0: Material=0, 330 triangles
+[2019.03.25-17.49.58:138][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_7...
+[2019.03.25-17.49.58:138][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_7
+[2019.03.25-17.49.58:138][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_7_PhysicsAsset'
+[2019.03.25-17.49.58:138][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_7_PhysicsAsset'
+[2019.03.25-17.49.58:144][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_7...
+[2019.03.25-17.49.58:144][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_7
+[2019.03.25-17.49.58:145][ 30]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.03.25-17.49.58:150][ 30]LogSkeletalMesh: Section 0: 236 vertices, 1 active bones
+[2019.03.25-17.49.58:150][ 30]LogSkeletalMesh: Section 0: Material=0, 328 triangles
+[2019.03.25-17.49.58:151][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_6...
+[2019.03.25-17.49.58:151][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_6
+[2019.03.25-17.49.58:151][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_6_PhysicsAsset'
+[2019.03.25-17.49.58:151][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_6_PhysicsAsset'
+[2019.03.25-17.49.58:156][ 30]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.03.25-17.49.58:160][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_6...
+[2019.03.25-17.49.58:160][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_6
+[2019.03.25-17.49.58:169][ 30]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.03.25-17.49.58:280][ 30]LogSkeletalMesh: Section 0: 2659 vertices, 1 active bones
+[2019.03.25-17.49.58:280][ 30]LogSkeletalMesh: Section 0: Material=0, 3746 triangles
+[2019.03.25-17.49.58:280][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_4...
+[2019.03.25-17.49.58:283][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_4
+[2019.03.25-17.49.58:284][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_4_PhysicsAsset'
+[2019.03.25-17.49.58:284][ 30]LogLinker: Can't find file '/Game/Meshes/rhmodel_Object_4_PhysicsAsset'
+[2019.03.25-17.49.58:290][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_4...
+[2019.03.25-17.49.58:293][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_4
+[2019.03.25-17.49.58:300][ 30]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.25-17.49.58:300][ 30]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.49.58:301][ 30]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.49.58:301][ 30]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.49.58:301][ 30]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.49.58:301][ 30]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.49.58:301][ 30]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.49.58:301][ 30]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.49.58:301][ 30]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.49.58:308][ 30]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_4...
+[2019.03.25-17.49.58:313][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_4
+[2019.03.25-17.50.01:335][360]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.50.01:338][360]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.50.13:537][679]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Meshes/RightHandModel.RightHandModel
+[2019.03.25-17.50.13:542][679]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.25-17.50.16:568][679]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.50.16:574][679]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.25-17.50.16:577][679]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.03.25-17.50.16:618][679]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.25-17.50.16:847][679]LogSlate: Took 0.002982 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.25-17.50.16:886][679]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.03.25-17.50.16:903][679]LogRenderer: Reallocating scene render targets to support 1484x672 Format 26 NumSamples 1 (Frame:1).
+[2019.03.25-17.50.19:911][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.25-17.50.19:987][871]LogSlate: Window 'RightHandModel' being destroyed
+[2019.03.25-17.50.19:994][871]LogSlate: Window 'RightHandModel' being destroyed
+[2019.03.25-17.50.31:505][ 20]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Meshes/rhmodel.rhmodel_Object_4
+[2019.03.25-17.50.32:945][ 20]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.50.32:951][ 20]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.25-17.50.32:989][ 20]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.25-17.50.42:394][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.25-17.50.42:460][860]LogSlate: Window 'rhmodel_Object_4*' being destroyed
+[2019.03.25-17.50.42:467][860]LogSlate: Window 'rhmodel_Object_4*' being destroyed
+[2019.03.25-17.50.52:965][591]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.25-17.50.54:406][591]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_4...
+[2019.03.25-17.50.54:409][591]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_4
+[2019.03.25-17.50.54:413][591]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_6...
+[2019.03.25-17.50.54:414][591]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_6
+[2019.03.25-17.50.54:417][591]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_7...
+[2019.03.25-17.50.54:417][591]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_7
+[2019.03.25-17.50.54:420][591]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_2...
+[2019.03.25-17.50.54:421][591]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_2
+[2019.03.25-17.50.54:424][591]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_1...
+[2019.03.25-17.50.54:425][591]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_1
+[2019.03.25-17.50.54:428][591]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_5...
+[2019.03.25-17.50.54:428][591]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_5
+[2019.03.25-17.50.54:431][591]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_3...
+[2019.03.25-17.50.54:432][591]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_3
+[2019.03.25-17.50.54:435][591]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_8...
+[2019.03.25-17.50.54:436][591]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_8
+[2019.03.25-17.51.05:169][ 53]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Desktop/rhmodel.fbx)
+[2019.03.25-17.51.05:179][ 53]LogFbx: Loading FBX Scene from D:/Desktop/rhmodel.fbx
+[2019.03.25-17.51.05:191][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.25-17.51.09:228][ 53]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.25-17.51.09:267][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:267][ 53]LogFbx: Dumping Node START [Object.8] 
+[2019.03.25-17.51.09:267][ 53]LogFbx: 	Total Deformer Count 1763401352.
+[2019.03.25-17.51.09:267][ 53]LogFbx: 	Attribute (Object.8) Type (4).
+[2019.03.25-17.51.09:267][ 53]LogFbx: 		[Node Attribute Child 1] Object.8 (Type Mesh).
+[2019.03.25-17.51.09:267][ 53]LogFbx: Dumping Node END [Object.8]
+[2019.03.25-17.51.09:267][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:267][ 53]LogFbx: Dumping Node START [Object.3] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401352.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.3) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.3 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.3]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.5] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401352.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.5) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.5 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.5]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.1] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401352.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.1) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.1 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.1]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.2] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401352.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.2) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.2 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.2]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.7] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401352.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.7) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.7 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.7]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.6] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401352.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.6) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.6 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.6]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.4] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401352.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.4) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.4 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.4]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.8] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401688.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.8) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.8 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.8]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.3] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401688.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.3) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.3 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.3]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.5] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401688.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.5) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.5 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.5]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.1] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401688.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.1) Type (4).
+[2019.03.25-17.51.09:268][ 53]LogFbx: 		[Node Attribute Child 1] Object.1 (Type Mesh).
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node END [Object.1]
+[2019.03.25-17.51.09:268][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:268][ 53]LogFbx: Dumping Node START [Object.2] 
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Total Deformer Count 1763401688.
+[2019.03.25-17.51.09:268][ 53]LogFbx: 	Attribute (Object.2) Type (4).
+[2019.03.25-17.51.09:269][ 53]LogFbx: 		[Node Attribute Child 1] Object.2 (Type Mesh).
+[2019.03.25-17.51.09:269][ 53]LogFbx: Dumping Node END [Object.2]
+[2019.03.25-17.51.09:269][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:269][ 53]LogFbx: Dumping Node START [Object.7] 
+[2019.03.25-17.51.09:269][ 53]LogFbx: 	Total Deformer Count 1763401688.
+[2019.03.25-17.51.09:269][ 53]LogFbx: 	Attribute (Object.7) Type (4).
+[2019.03.25-17.51.09:269][ 53]LogFbx: 		[Node Attribute Child 1] Object.7 (Type Mesh).
+[2019.03.25-17.51.09:269][ 53]LogFbx: Dumping Node END [Object.7]
+[2019.03.25-17.51.09:269][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:269][ 53]LogFbx: Dumping Node START [Object.6] 
+[2019.03.25-17.51.09:269][ 53]LogFbx: 	Total Deformer Count 1763401688.
+[2019.03.25-17.51.09:269][ 53]LogFbx: 	Attribute (Object.6) Type (4).
+[2019.03.25-17.51.09:269][ 53]LogFbx: 		[Node Attribute Child 1] Object.6 (Type Mesh).
+[2019.03.25-17.51.09:269][ 53]LogFbx: Dumping Node END [Object.6]
+[2019.03.25-17.51.09:269][ 53]LogFbx: =================================================
+[2019.03.25-17.51.09:269][ 53]LogFbx: Dumping Node START [Object.4] 
+[2019.03.25-17.51.09:269][ 53]LogFbx: 	Total Deformer Count 1763401688.
+[2019.03.25-17.51.09:269][ 53]LogFbx: 	Attribute (Object.4) Type (4).
+[2019.03.25-17.51.09:269][ 53]LogFbx: 		[Node Attribute Child 1] Object.4 (Type Mesh).
+[2019.03.25-17.51.09:269][ 53]LogFbx: Dumping Node END [Object.4]
+[2019.03.25-17.51.09:271][ 53]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2019.03.25-17.51.09:277][ 53]LogSkeletalMesh: Section 0: 178 vertices, 1 active bones
+[2019.03.25-17.51.09:277][ 53]LogSkeletalMesh: Section 0: Material=0, 278 triangles
+[2019.03.25-17.51.09:279][ 53]LogSkeletalMesh: Building Skeletal Mesh rhmodel_Object_8...
+[2019.03.25-17.51.09:280][ 53]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Meshes/rhmodel.rhmodel_Object_8
+[2019.03.25-17.51.22:795][ 53]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.51.22:801][ 53]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.25-17.51.22:801][ 53]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.51.24:617][ 53]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.51.24:623][ 53]LogAssetTools: Warning: Failed to import 'D:/Desktop/rhmodel.fbx'. Failed to create asset '/Game/Meshes/rhmodel'.
+Please see Output Log for details.
+[2019.03.25-17.51.29:354][608]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.51.29:358][608]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.52.18:140][123]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (53.499 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.25-17.55.54:827][783]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Desktop/rhmodel.fbx)
+[2019.03.25-17.55.54:836][783]LogFbx: Loading FBX Scene from D:/Desktop/rhmodel.fbx
+[2019.03.25-17.55.54:850][783]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.25-17.55.58:626][783]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.25-17.55.58:650][783]LogFbx: =================================================
+[2019.03.25-17.55.58:650][783]LogFbx: Dumping Node START [RightHandModel.001] 
+[2019.03.25-17.55.58:650][783]LogFbx: 	Total Deformer Count -2012589312.
+[2019.03.25-17.55.58:650][783]LogFbx: 	Attribute (RightHandModel) Type (4).
+[2019.03.25-17.55.58:650][783]LogFbx: 		[Node Attribute Child 1] RightHandModel.001 (Type Mesh).
+[2019.03.25-17.55.58:650][783]LogFbx: Dumping Node END [RightHandModel.001]
+[2019.03.25-17.55.58:650][783]LogFbx: =================================================
+[2019.03.25-17.55.58:650][783]LogFbx: Dumping Node START [RightHandModel.001] 
+[2019.03.25-17.55.58:650][783]LogFbx: 	Total Deformer Count -2012589312.
+[2019.03.25-17.55.58:650][783]LogFbx: 	Attribute (RightHandModel) Type (4).
+[2019.03.25-17.55.58:650][783]LogFbx: 		[Node Attribute Child 1] RightHandModel.001 (Type Mesh).
+[2019.03.25-17.55.58:650][783]LogFbx: Dumping Node END [RightHandModel.001]
+[2019.03.25-17.55.58:650][783]LogFbx: =================================================
+[2019.03.25-17.55.58:650][783]LogFbx: Dumping Node START [RightHandModel.001] 
+[2019.03.25-17.55.58:650][783]LogFbx: 	Total Deformer Count -2012589312.
+[2019.03.25-17.55.58:650][783]LogFbx: 	Attribute (RightHandModel) Type (4).
+[2019.03.25-17.55.58:650][783]LogFbx: 		[Node Attribute Child 1] RightHandModel.001 (Type Mesh).
+[2019.03.25-17.55.58:650][783]LogFbx: Dumping Node END [RightHandModel.001]
+[2019.03.25-17.55.58:666][783]LogFbx: Warning: Bones digested - 3  Depth of hierarchy - 2
+[2019.03.25-17.55.58:847][783]LogSkeletalMesh: Section 0: 4731 vertices, 1 active bones
+[2019.03.25-17.55.58:847][783]LogSkeletalMesh: Section 0: Material=0, 7110 triangles
+[2019.03.25-17.55.58:848][783]LogSkeletalMesh: Building Skeletal Mesh rhmodel...
+[2019.03.25-17.55.58:854][783]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Meshes/rhmodel.rhmodel
+[2019.03.25-17.56.03:297][783]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.56.04:926][783]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.56.06:292][783]LogSlate: Window 'Message' being destroyed
+[2019.03.25-17.56.06:304][783]LogLinker: Can't find file '/Game/Meshes/rhmodel_PhysicsAsset'
+[2019.03.25-17.56.06:304][783]LogLinker: Can't find file '/Game/Meshes/rhmodel_PhysicsAsset'
+[2019.03.25-17.56.06:310][783]LogSkeletalMesh: Building Skeletal Mesh rhmodel...
+[2019.03.25-17.56.06:316][783]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Meshes/rhmodel.rhmodel
+[2019.03.25-17.56.06:322][783]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.25-17.56.06:322][783]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2019.03.25-17.56.06:330][783]LogSkeletalMesh: Building Skeletal Mesh rhmodel...
+[2019.03.25-17.56.06:336][783]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Meshes/rhmodel.rhmodel
+[2019.03.25-17.56.06:383][784]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:052][961]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.56.08:057][961]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.56.08:391][  0]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:445][  5]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:496][ 10]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:545][ 15]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:598][ 20]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:647][ 25]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:697][ 30]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:748][ 35]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:796][ 40]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:843][ 45]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:890][ 50]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:939][ 55]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.08:986][ 60]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:034][ 65]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:083][ 70]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:134][ 75]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:185][ 80]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:239][ 85]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:284][ 90]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:331][ 95]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:379][100]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:428][105]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:475][110]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:520][115]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:566][120]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:614][125]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:660][130]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:706][135]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:751][140]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:800][145]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:848][150]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:894][155]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:940][160]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.09:987][165]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:033][170]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:079][175]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:126][180]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:171][185]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:218][190]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:265][195]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:314][200]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:361][205]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:410][210]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:462][215]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:507][220]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:552][225]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:596][230]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:643][235]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:685][240]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:728][245]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:771][250]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:814][255]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:857][260]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:899][265]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:942][270]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.10:986][275]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:030][280]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:071][285]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:115][290]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:159][295]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:203][300]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:249][305]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:293][310]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:337][315]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:380][320]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:423][325]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:467][330]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:511][335]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:555][340]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:600][345]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:647][350]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:689][355]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:732][360]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:774][365]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:819][370]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:863][375]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:905][380]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:948][385]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.11:993][390]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:035][395]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:078][400]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:121][405]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:163][410]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:204][415]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:247][420]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:287][425]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:330][430]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:373][435]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:416][440]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:460][445]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:503][450]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:550][455]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:599][460]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:650][465]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:699][470]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:748][475]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:801][480]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:853][485]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:905][490]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:952][495]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.12:997][500]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:044][505]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:095][510]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:143][515]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:196][520]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:246][525]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:296][530]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:344][535]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:388][540]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:433][545]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:562][560]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.13:615][565]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Meshes/rhmodel.rhmodel
+[2019.03.25-17.56.13:625][565]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.25-17.56.13:646][565]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.25-17.56.13:808][565]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.14:130][570]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.31:249][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.25-17.56.31:314][238]LogSlate: Window 'rhmodel*' being destroyed
+[2019.03.25-17.56.31:318][238]LogSlate: Window 'rhmodel*' being destroyed
+[2019.03.25-17.56.31:720][254]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.31:764][259]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.31:810][264]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.31:853][269]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.31:897][274]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.31:951][279]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.31:998][284]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:047][289]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:103][294]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:150][299]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:195][304]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:240][309]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:288][314]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:337][319]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:388][324]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:437][329]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:482][334]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:527][339]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:575][344]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:624][349]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:668][354]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:714][359]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:760][364]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:806][369]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:852][374]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:900][379]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:951][384]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.32:999][389]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:044][394]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:089][399]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:135][404]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:179][409]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:228][414]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:280][419]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:328][424]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:370][429]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:628][460]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:671][465]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:713][470]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:756][475]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:807][481]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:850][486]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:892][491]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:934][496]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.33:976][501]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.34:018][506]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.34:061][511]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.34:103][516]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.34:145][521]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.34:187][526]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.34:228][531]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.56.38:701][ 54]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.03.25-17.56.38:701][ 54]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.03.25-17.56.40:902][306]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController
+[2019.03.25-17.56.41:343][306]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.03.25-17.56.42:036][306]LogSlate: Took 0.002861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.25-17.57.39:896][507]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:261][540]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:269][541]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:284][542]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:295][543]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:303][544]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:313][545]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:321][546]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:335][547]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:347][548]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:360][549]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:370][550]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:433][555]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:443][556]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:454][557]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:464][558]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:475][559]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:486][560]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:499][561]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:512][562]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:524][563]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:535][564]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:547][565]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:562][566]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:571][567]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:582][568]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:597][569]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:610][570]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:620][571]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:631][572]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:642][573]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:653][574]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:665][575]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:680][576]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:691][577]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:702][578]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:718][579]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:729][580]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:739][581]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:752][582]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:766][583]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:777][584]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:789][585]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:801][586]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:813][587]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:828][588]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:840][589]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:853][590]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:865][591]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:878][592]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:889][593]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:911][594]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:920][595]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:936][596]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:949][597]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:961][598]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:971][599]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:985][600]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.40:995][601]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:005][602]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:018][603]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:031][604]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:040][605]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:051][606]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:065][607]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:076][608]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:086][609]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:099][610]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:113][611]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:123][612]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:136][613]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:147][614]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:157][615]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:169][616]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:181][617]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:191][618]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:201][619]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:220][620]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:231][621]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:243][622]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:254][623]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:266][624]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:281][625]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:290][626]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:300][627]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:313][628]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:328][629]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:336][630]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:348][631]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:359][632]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:368][633]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:381][634]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:392][635]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:403][636]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:415][637]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:428][638]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:438][639]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:449][640]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:459][641]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:469][642]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:483][643]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:494][644]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:503][645]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:514][646]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:528][647]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:537][648]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:547][649]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:558][650]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:570][651]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:582][652]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:592][653]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:602][654]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:614][655]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:626][656]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:635][657]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:650][658]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:662][659]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:672][660]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:686][661]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:703][662]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:715][663]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:730][664]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:740][665]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:752][666]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:764][667]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:782][668]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:800][669]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:811][670]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:822][671]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:832][672]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:847][673]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:858][674]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:868][675]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:884][676]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:894][677]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:905][678]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:921][679]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:936][680]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:951][681]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:968][682]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:981][683]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.41:992][684]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:001][685]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:017][686]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:030][687]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:043][688]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:054][689]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:066][690]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:079][691]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:091][692]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:101][693]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:113][694]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:124][695]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:135][696]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:146][697]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:156][698]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:169][699]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:181][700]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:192][701]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:201][702]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:214][703]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:224][704]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:233][705]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:245][706]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:255][707]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:266][708]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:278][709]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:291][710]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:304][711]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:319][712]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:337][713]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:350][714]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:362][715]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:376][716]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:386][717]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:398][718]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:409][719]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:423][720]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:433][721]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:444][722]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:453][723]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:465][724]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:476][725]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:485][726]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:495][727]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:504][728]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:518][729]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:529][730]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:542][731]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:553][732]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:565][733]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:578][734]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:588][735]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:605][736]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:619][737]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:632][738]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:643][739]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:652][740]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:666][741]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:676][742]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:685][743]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:696][744]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:709][745]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:719][746]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:730][747]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:748][748]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:758][749]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:767][750]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.42:782][751]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.57.44:858][936]BlueprintLog: New page: Compile BP_MotionController
+[2019.03.25-17.57.46:400][ 25]LogTemp: Repeating last play command: Simulate
+[2019.03.25-17.57.46:422][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.57.46:422][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.25-17.57.46:423][ 25]PIE: New page: SIE session: MainMap (Mar 25, 2019, 3:57:46 AM)
+[2019.03.25-17.57.46:435][ 25]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap
+[2019.03.25-17.57.46:515][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080142s)
+[2019.03.25-17.57.46:516][ 25]LogAIModule: Creating AISystem for world MainMap
+[2019.03.25-17.57.46:516][ 25]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2019.03.25-17.57.46:516][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMap.MainMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap (0.081250s)
+[2019.03.25-17.57.46:549][ 25]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.25-17.57.46:621][ 25]LogInit: FAudioDevice initialized.
+[2019.03.25-17.57.46:679][ 25]LogLoad: Game class is 'BP_GameMode_C'
+[2019.03.25-17.57.46:682][ 25]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.57.46:682][ 25]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.57.46:682][ 25]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.57.46:682][ 25]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.57.46:682][ 25]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.57.46:682][ 25]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.57.46:685][ 25]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.03.25-17.57.46:690][ 25]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.03.25-10.57.46
+[2019.03.25-17.57.46:690][ 25]LogWorld: Bringing up level for play took: 0.010567
+[2019.03.25-17.57.46:702][ 25]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.03.25-17.57.46:707][ 25]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.03.25-17.57.46:709][ 25]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.03.25-17.57.46:709][ 25]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.03.25-17.57.46:709][ 25]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.03.25-17.57.46:710][ 25]LogSlate: Slate User Unregistered.  User Index 8
+[2019.03.25-17.57.46:710][ 25]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.03.25-17.57.46:711][ 25]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap -0.054
+[2019.03.25-17.57.46:725][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.58.00:412][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.58.00:412][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.58.00:450][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.25-17.58.00:451][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.58.00:488][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.58.00:523][750]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.03.25-17.58.02:851][931]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.58.02:860][931]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.58.06:852][370]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.58.06:852][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.25-17.58.06:852][370]PIE: New page: PIE session: MainMap (Mar 25, 2019, 3:58:06 AM)
+[2019.03.25-17.58.06:853][370]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap
+[2019.03.25-17.58.06:933][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080026s)
+[2019.03.25-17.58.06:933][370]LogAIModule: Creating AISystem for world MainMap
+[2019.03.25-17.58.06:933][370]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2019.03.25-17.58.06:934][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMap.MainMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap (0.080735s)
+[2019.03.25-17.58.06:967][370]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.25-17.58.07:037][370]LogInit: FAudioDevice initialized.
+[2019.03.25-17.58.07:044][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.58.07:259][370]LogLoad: Game class is 'BP_GameMode_C'
+[2019.03.25-17.58.07:264][370]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.58.07:264][370]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.58.07:264][370]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.58.07:264][370]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.58.07:265][370]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.58.07:265][370]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.58.07:273][370]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.03.25-17.58.07:286][370]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.03.25-10.58.07
+[2019.03.25-17.58.07:288][370]LogWorld: Bringing up level for play took: 0.027742
+[2019.03.25-17.58.07:306][370]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.03.25-17.58.07:306][370]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.03.25-17.58.07:306][370]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.03.25-17.58.07:307][370]LogSlate: Slate User Unregistered.  User Index 8
+[2019.03.25-17.58.07:307][370]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.03.25-17.58.07:307][370]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.03.25-17.58.07:307][370]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.03.25-17.58.07:313][370]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap 0.549
+[2019.03.25-17.58.07:314][370]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.58.07:374][370]LogRenderer: Reallocating scene render targets to support 2824x1412 Format 26 NumSamples 1 (Frame:1).
+[2019.03.25-17.58.07:460][370]LogRenderer: Reallocating scene render targets to support 3528x1764 Format 26 NumSamples 1 (Frame:2).
+[2019.03.25-17.58.07:521][371]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.03.25-17.58.07:521][371]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.03.25-17.58.07:521][371]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:0309
+[2019.03.25-17.58.07:521][371]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.03.25-17.58.20:838][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.58.20:854][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.58.20:893][253]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.25-17.58.20:941][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.25-17.58.20:942][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.58.21:078][254]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.25-17.58.23:300][415]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.58.23:313][415]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.58.28:618][875]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.28:908][898]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.28:921][899]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.28:937][900]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.28:948][901]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.28:961][902]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.28:973][903]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.28:986][904]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.28:996][905]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:010][906]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:024][907]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:035][908]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:053][909]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:064][910]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:077][911]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:092][912]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:105][913]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:118][914]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:128][915]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:143][916]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:155][917]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:168][918]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:180][919]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:198][920]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:210][921]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:221][922]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:232][923]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:244][924]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:259][925]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:270][926]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:284][927]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:301][928]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:311][929]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:326][930]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:338][931]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:350][932]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:362][933]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:376][934]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:395][935]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:408][936]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:421][937]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:431][938]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:444][939]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:457][940]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:469][941]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:480][942]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:493][943]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:506][944]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:520][945]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:531][946]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:543][947]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:559][948]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:572][949]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:584][950]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:594][951]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:609][952]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:620][953]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:630][954]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:645][955]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:658][956]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:671][957]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:689][958]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:702][959]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:714][960]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:726][961]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:739][962]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:752][963]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:764][964]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:775][965]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:787][966]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:801][967]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:811][968]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:823][969]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:838][970]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:850][971]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:861][972]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:873][973]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:887][974]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:898][975]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:909][976]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:929][977]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:940][978]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:954][979]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:967][980]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.29:977][981]LogAnimation: Warning: SkeletalMesh rhmodel_Object_8 has no skeleton. This needs to fixed before an animation can be set
+[2019.03.25-17.58.31:178][ 81]BlueprintLog: New page: Compile BP_MotionController
+[2019.03.25-17.58.32:423][143]LogTemp: Repeating last play command: VR Preview
+[2019.03.25-17.58.32:449][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.58.32:449][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.25-17.58.32:450][143]PIE: New page: PIE session: MainMap (Mar 25, 2019, 3:58:32 AM)
+[2019.03.25-17.58.32:450][143]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap
+[2019.03.25-17.58.32:530][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080500s)
+[2019.03.25-17.58.32:531][143]LogAIModule: Creating AISystem for world MainMap
+[2019.03.25-17.58.32:531][143]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2019.03.25-17.58.32:531][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMap.MainMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap (0.081296s)
+[2019.03.25-17.58.32:566][143]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.25-17.58.32:636][143]LogInit: FAudioDevice initialized.
+[2019.03.25-17.58.32:646][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.58.32:852][143]LogLoad: Game class is 'BP_GameMode_C'
+[2019.03.25-17.58.32:856][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.58.32:856][143]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.58.32:856][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.58.32:856][143]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.58.32:856][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.03.25-17.58.32:856][143]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.03.25-17.58.32:863][143]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.03.25-17.58.32:874][143]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.03.25-10.58.32
+[2019.03.25-17.58.32:876][143]LogWorld: Bringing up level for play took: 0.022110
+[2019.03.25-17.58.32:888][143]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.03.25-17.58.32:890][143]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.03.25-17.58.32:890][143]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.03.25-17.58.32:890][143]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.03.25-17.58.32:891][143]LogSlate: Slate User Unregistered.  User Index 8
+[2019.03.25-17.58.32:891][143]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.03.25-17.58.32:891][143]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.03.25-17.58.32:891][143]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.03.25-17.58.32:904][143]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap 0.14
+[2019.03.25-17.58.32:905][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.58.33:005][145]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.03.25-17.58.33:063][145]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.03.25-17.58.33:063][145]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:0309
+[2019.03.25-17.58.33:064][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.03.25-17.59.37:006][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.59.37:015][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.25-17.59.37:067][351]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.25-17.59.37:108][351]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.25-17.59.37:108][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.03.25-17.59.37:262][352]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.03.25-17.59.40:683][588]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.59.40:694][588]LogSlate: Window 'Message Log' being destroyed
+[2019.03.25-17.59.58:836][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.25-18.00.13:948][ 24]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.25-18.00.15:239][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.25-18.00.36:390][218]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.25-18.00.41:487][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.25-18.00.44:352][154]Cmd: MODE GRID=0
+[2019.03.25-18.00.48:389][567]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.330 s
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: 
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: Ensure condition failed: Y != 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMath.cpp] [Line: 81]
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: FMath::FMod(X=260393364619264.000000, Y=0.000000) : Y is zero, this is invalid and would result in NaN!
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: Stack: 
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffbc6f367a5 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba5325a8f UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba522f86f UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba52c6b7b UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba52f2557 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba52860a8 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba528b396 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba52bc57d UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba52c1072 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba52c0432 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba4cfa3b9 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba5214a62 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffba51e2172 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffbc6f01798 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffbc6f01c56 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffc0edf9af9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffc0edfaa74 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffbc735c500 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffbc734cac1 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffc28643dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: [Callstack] 0x00007ffc2b123691 ntdll.dll!UnknownFunction []
+[2019.03.25-18.00.48:389][567]LogOutputDevice: Error: 
+[2019.03.25-18.00.48:389][567]LogStats:                SubmitErrorReport -  0.000 s
