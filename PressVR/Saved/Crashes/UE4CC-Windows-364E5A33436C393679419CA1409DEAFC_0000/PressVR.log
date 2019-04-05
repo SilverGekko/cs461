@@ -1,0 +1,1387 @@
+﻿Log file open, 04/05/19 09:06:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PressVR
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.574421
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMixedReality
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogStreaming: Display: Took  0.273s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.28.0
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Applications/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.05-16.06.37:986][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.05-16.06.37:986][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.05-16.06.37:986][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.05-16.06.37:986][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.05-16.06.37:986][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.04.05-16.06.37:986][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.04.05-16.06.37:986][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.05-16.06.37:987][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.05-16.06.37:987][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.05-16.06.37:988][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.05-16.06.37:988][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.05-16.06.37:988][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.05-16.06.37:988][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.05-16.06.37:988][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.05-16.06.37:988][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.05-16.06.37:988][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.05-16.06.37:988][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.05-16.06.37:989][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.05-16.06.37:989][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.05-16.06.37:989][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.05-16.06.37:989][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.05-16.06.37:989][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.05-16.06.37:989][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.05-16.06.37:989][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.05-16.06.37:989][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.05-16.06.37:989][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.05-16.06.37:990][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.05-16.06.37:990][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.05-16.06.37:990][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.05-16.06.37:990][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.05-16.06.37:999][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.37:999][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.05-16.06.38:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.05-16.06.38:001][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.05-16.06.38:002][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:002][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.05-16.06.38:003][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.05-16.06.38:004][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.05-16.06.38:004][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.05-16.06.38:004][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.05-16.06.38:004][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:004][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.05-16.06.38:004][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.05-16.06.38:004][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.05-16.06.38:004][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.05-16.06.38:043][  0]LogHAL: Display: Platform has ~ 16 GB [16964153344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.05-16.06.38:043][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.05-16.06.38:044][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.05-16.06.38:044][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.05-16.06.38:044][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.04.05-16.06.38:044][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.05-16.06.38:044][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.04.05-16.06.38:045][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.05-16.06.38:046][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.05-16.06.38:047][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.05-16.06.38:048][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.05-16.06.38:048][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.05-16.06.38:049][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.05-16.06.38:049][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.05-16.06.38:049][  0]LogInit: Computer: DESKTOP-1KNH53N
+[2019.04.05-16.06.38:049][  0]LogInit: User: kylet
+[2019.04.05-16.06.38:049][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.04.05-16.06.38:049][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.05-16.06.38:050][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.04.05-16.06.38:050][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.05-16.06.38:050][  0]LogMemory: Process Physical Memory: 108.75 MB used, 108.76 MB peak
+[2019.04.05-16.06.38:050][  0]LogMemory: Process Virtual Memory: 92.74 MB used, 92.74 MB peak
+[2019.04.05-16.06.38:050][  0]LogMemory: Physical Memory: 6491.83 MB used,  9686.45 MB free, 16178.28 MB total
+[2019.04.05-16.06.38:051][  0]LogMemory: Virtual Memory: 4686.06 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.04.05-16.06.38:474][  0]LogInit: Using OS detected language (en-US).
+[2019.04.05-16.06.38:474][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.05-16.06.38:477][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.05-16.06.39:889][  0]LogStreaming: Display: Took  1.415s to InitEngineTextLocalization.
+[2019.04.05-16.06.39:889][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.05-16.06.39:986][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.05-16.06.39:987][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.05-16.06.40:790][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.05-16.06.41:001][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (Feature Level 11_0)
+[2019.04.05-16.06.41:001][  0]LogD3D11RHI:       6052/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.05-16.06.41:047][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.04.05-16.06.41:047][  0]LogD3D11RHI:       128/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.05-16.06.41:054][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.05-16.06.41:054][  0]LogD3D11RHI:       0/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.05-16.06.41:055][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.05-16.06.41:169][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.05-16.06.41:169][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.05-16.06.41:169][  0]LogWindows: EnumDisplayDevices:
+[2019.04.05-16.06.41:170][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.04.05-16.06.41:171][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.04.05-16.06.41:172][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.04.05-16.06.41:173][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
+[2019.04.05-16.06.41:174][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.04.05-16.06.41:174][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 with Max-Q Design
+[2019.04.05-16.06.41:174][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.04.05-16.06.41:174][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.04.05-16.06.41:174][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.04.05-16.06.41:338][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.05-16.06.41:408][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.05-16.06.42:600][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.05-16.06.42:647][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.05-16.06.42:695][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.05-16.06.42:744][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.05-16.06.42:791][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.05-16.06.42:842][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.05-16.06.42:888][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.05-16.06.42:934][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.05-16.06.42:949][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.05-16.06.43:161][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.05-16.06.43:264][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.05-16.06.43:264][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.05-16.06.43:323][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.05-16.06.43:323][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.05-16.06.43:355][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.05-16.06.43:383][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.05-16.06.43:411][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.05-16.06.43:445][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.05-16.06.43:551][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.05-16.06.43:551][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.05-16.06.43:551][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.05-16.06.43:640][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../cs461/PressVR/Intermediate/Shaders/WorkingDirectory/14068/).
+[2019.04.05-16.06.43:640][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kylet/AppData/Local/Temp/UnrealShaderWorkingDir/291065224607532A7B1EDE8816E9CAAF/'.
+[2019.04.05-16.06.43:643][  0]LogXGEController: Cleaning working directory: C:/Users/kylet/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.05-16.06.43:643][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.05-16.06.43:643][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.05-16.06.43:644][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.05-16.06.45:600][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.05-16.06.45:793][  0]LogDerivedDataCache: Loaded boot cache 0.19s 86MB C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.05-16.06.45:793][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.05-16.06.45:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../cs461/PressVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.05-16.06.45:794][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.05-16.06.45:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../cs461/PressVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.05-16.06.45:794][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.05-16.06.45:859][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.05-16.06.45:880][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.04.05-16.06.45:895][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kylet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.05-16.06.45:895][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.05-16.06.45:895][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.05-16.06.45:991][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.05-16.06.45:996][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.05-16.06.45:998][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.05-16.06.46:276][  0]LogAssetRegistry: FAssetRegistry took 0.0808 seconds to start up
+[2019.04.05-16.06.47:541][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.05-16.06.48:190][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.05-16.06.48:198][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.05-16.06.48:198][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.05-16.06.48:199][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.05-16.06.48:199][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.05-16.06.48:249][  0]LogNetVersion: PressVR 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 297391646)
+[2019.04.05-16.06.50:433][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 2 prioritized culture(s) in 0.366995 seconds
+[2019.04.05-16.06.50:462][  0]LogUObjectArray: 39790 objects as part of root set at end of initial load.
+[2019.04.05-16.06.50:462][  0]LogUObjectAllocator: 6917680 out of 0 bytes used by permanent object pool.
+[2019.04.05-16.06.50:462][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.05-16.06.53:954][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.04.05-16.06.53:965][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.05-16.06.53:982][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.05-16.06.56:768][  0]SourceControl: Source control is disabled
+[2019.04.05-16.06.56:768][  0]SourceControl: Source control is disabled
+[2019.04.05-16.06.56:773][  0]SourceControl: Source control is disabled
+[2019.04.05-16.06.56:777][  0]SourceControl: Source control is disabled
+[2019.04.05-16.06.57:138][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.05-16.06.57:410][  0]LogOcInput: OculusInput pre-init called
+[2019.04.05-16.07.04:478][  0]LogEngine: Initializing Engine...
+[2019.04.05-16.07.10:249][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.04.05-16.07.10:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.05-16.07.10:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.05-16.07.10:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.05-16.07.10:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.05-16.07.11:189][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.05-16.07.11:223][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.05-16.07.11:470][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.05-16.07.12:091][  0]LogInit: FAudioDevice initialized.
+[2019.04.05-16.07.12:092][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.05-16.07.12:694][  0]LogDerivedDataCache: Saved boot cache 0.60s 72MB C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.05-16.07.12:737][  0]LogInit: Texture streaming: Enabled
+[2019.04.05-16.07.12:786][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.05-16.07.12:824][  0]LogInit: Transaction tracking system initialized
+[2019.04.05-16.07.12:881][  0]BlueprintLog: New page: Editor Load
+[2019.04.05-16.07.13:066][  0]LocalizationService: Localization service is disabled
+[2019.04.05-16.07.14:170][  0]LogLinker: Warning: Can't find file '/Game/VehicleAdvBP/AdvancedVehicleOverview'
+[2019.04.05-16.07.14:170][  0]LogLinker: Warning: Can't find file '/Game/VehicleAdvBP/AdvancedVehicleOverview'
+[2019.04.05-16.07.14:170][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/VehicleAdvBP/AdvancedVehicleOverview.AdvancedVehicleOverview_C'
+[2019.04.05-16.07.15:010][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.05-16.07.15:010][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.05-16.07.15:011][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.05-16.07.15:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.05-16.07.15:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.05-16.07.15:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.05-16.07.15:012][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.05-16.07.15:083][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/' took 0.05s
+[2019.04.05-16.07.20:546][  0]SourceControl: Source control is disabled
+[2019.04.05-16.07.20:546][  0]Cmd: MAP LOAD FILE="../../../../../../cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.05-16.07.20:547][  0]LightingResults: New page: Lighting Build
+[2019.04.05-16.07.20:554][  0]MapCheck: New page: Map Check
+[2019.04.05-16.07.20:554][  0]LightingResults: New page: Lighting Build
+[2019.04.05-16.07.30:365][  0]LogAIModule: Creating AISystem for world MainMap
+[2019.04.05-16.07.30:381][  0]LogMaterial: Warning: Material /DatasmithContent/Materials/SketchUpMaster.SketchUpMaster needed to have new flag set bUsedWithStaticLighting !
+[2019.04.05-16.07.30:414][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.04.05-16.07.30:682][  0]MapCheck: Warning: SketchUpMaster Material /DatasmithContent/Materials/SketchUpMaster.SketchUpMaster was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.04.05-16.07.30:692][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.05-16.07.30:692][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-16.07.30:692][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-16.07.30:692][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-16.07.30:692][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.04.05-16.07.30:833][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.04.05-16.07.31:199][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.05-16.07.31:199][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-16.07.31:199][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-16.07.31:199][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-16.07.31:199][  0]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.04.05-16.07.31:200][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.04.05-16.07.31:515][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.05-16.07.31:515][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.05-16.07.31:516][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.05-16.07.31:516][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.05-16.07.31:516][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.05-16.07.31:516][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.05-16.07.31:544][  0]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.05-16.07.31:732][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.05-16.07.31:732][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.05-16.07.31:737][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.05-16.07.31:737][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.05-16.07.31:741][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.05-16.07.31:742][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.05-16.07.31:746][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.05-16.07.31:746][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.05-16.07.31:850][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.04.05-16.07.32:150][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.05-16.07.32:152][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.912ms to complete.
+[2019.04.05-16.07.32:170][  0]LogFileHelpers: Loading map 'MainMap' took 11.624
+[2019.04.05-16.07.32:231][  0]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.04.05-16.07.32:441][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-16.07.32:494][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-16.07.32:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-16.07.32:589][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-16.07.32:615][  0]LogCollectionManager: Loaded 0 collections in 0.006072 seconds
+[2019.04.05-16.07.32:679][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Saved/Collections/' took 0.01s
+[2019.04.05-16.07.32:679][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/Developers/kylet/Collections/' took 0.02s
+[2019.04.05-16.07.32:679][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/Collections/' took 0.02s
+[2019.04.05-16.07.32:680][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.05-16.07.32:738][  0]LogContentBrowser: Native class hierarchy populated in 0.0575 seconds. Added 2724 classes and 662 folders.
+[2019.04.05-16.07.32:765][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2019.04.05-16.07.32:774][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:777][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:780][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:782][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:787][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:790][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:798][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:801][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:803][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:806][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:809][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:811][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:814][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:817][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:819][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:822][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:828][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:838][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:841][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.32:847][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.05-16.07.33:023][  0]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.04.05-16.07.33:024][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.04.05-16.07.33:050][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2019.04.05-16.07.33:871][  0]LogSlate: Took 0.000768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.05-16.07.33:880][  0]LogSlate: Took 0.000745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.05-16.07.33:913][  0]LogSlate: Took 0.000632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.05-16.07.34:385][  0]LogRenderer: Reallocating scene render targets to support 1104x364 Format 26 NumSamples 1 (Frame:1).
+[2019.04.05-16.07.34:713][  0]LogSlate: Took 0.000562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.05-16.07.35:226][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2019.04.05-16.07.35:227][  0]LogLoad: (Engine Initialization) Total time: 62.11 seconds
+[2019.04.05-16.07.35:227][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.05-16.07.35:331][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.05-16.07.35:508][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.04.05-16.07.37:362][  4]LogSlate: Took 0.000599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.05-16.07.38:376][ 12]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.05-16.07.38:377][ 12]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.05-16.07.40:827][ 24]LogAssetRegistry: Asset discovery search completed in 54.5759 seconds
+[2019.04.05-16.07.40:841][ 24]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2019.04.05-16.07.40:842][ 24]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000365 seconds (updated 0 objects)
+[2019.04.05-16.07.42:203][ 32]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.04.05-16.07.42:251][ 33]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.04.05-16.07.46:963][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-16.07.50:576][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-16.07.50:822][201]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.05-16.07.51:666][222]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.05-16.07.52:418][241]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.05-16.07.52:986][255]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-16.10.17:549][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2019.04.05-16.10.19:332][ 74]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder4)
+[2019.04.05-16.10.34:776][280]Cmd: SELECT NONE
+[2019.04.05-16.11.00:146][663]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BP_PickupCube109)
+[2019.04.05-16.11.01:023][727]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.05-16.11.02:383][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-16.12.20:671][962]LogMaterial: Display: Missing cached shader map for material Roll_Mat, compiling. 
+[2019.04.05-16.12.20:673][962]LogMaterial: Warning: D:\cs461\PressVR\Content\Textures\Roll_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.04.05-16.12.20:673][962]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/Textures/Roll.Roll
+[2019.04.05-16.12.23:036][962]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.05-16.12.23:839][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:841][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:842][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:844][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:845][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:846][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:847][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:849][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:850][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:851][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:852][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:853][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:855][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:856][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:857][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:858][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:860][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:861][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:862][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:863][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:865][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:866][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:868][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:869][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:870][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:871][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:873][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:874][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:875][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:877][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:878][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:879][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:880][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:881][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:883][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:884][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:885][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:887][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:888][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:889][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:890][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:892][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:893][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:894][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:895][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:897][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:898][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:899][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:900][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:902][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:903][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:904][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:905][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:906][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:908][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:909][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:910][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:912][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:913][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:914][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:915][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:916][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:918][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:919][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:920][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:921][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:923][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:924][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:925][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:926][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:927][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:929][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:930][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:932][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:933][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:934][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:935][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:937][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:938][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:939][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:941][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:942][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:944][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:945][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:946][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:947][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:949][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:950][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:951][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:953][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:954][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:955][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:957][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:958][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:959][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:961][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:962][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:963][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:964][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:966][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:967][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:968][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:969][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:970][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:972][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:973][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:974][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:975][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:977][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:978][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:979][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:980][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:982][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:983][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:984][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:985][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:986][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:988][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:989][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:990][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:991][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:993][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:994][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:996][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:997][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:998][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.23:999][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:000][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:002][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:003][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:005][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:006][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:007][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:009][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:010][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:011][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:012][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:014][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:015][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:016][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:017][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:019][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:020][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:021][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:022][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:024][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:025][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:026][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:028][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:029][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:031][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:032][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:033][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:034][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:036][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:037][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:038][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:039][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:041][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:042][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:043][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:044][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:046][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:047][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:048][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:050][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:051][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:052][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:053][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:055][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:056][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:057][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:059][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:060][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:061][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:062][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:064][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:065][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:066][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:067][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:069][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:070][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:071][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:073][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:074][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:075][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:076][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:078][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:079][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:080][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:082][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:083][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:084][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:085][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:087][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:088][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:089][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:090][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:092][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:093][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:094][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:095][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:097][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:098][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:099][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:101][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:102][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:103][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:104][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:106][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:107][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:108][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:109][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:111][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:112][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:113][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:115][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:116][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:117][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:119][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:120][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:121][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:122][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:124][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:125][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:127][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:128][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:129][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:130][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:131][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:133][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:134][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:135][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:137][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:138][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:139][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:140][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:141][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:143][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:144][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:145][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:147][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:148][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:149][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:150][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:151][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:152][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:154][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:154][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:157][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:158][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:160][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:161][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:162][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:163][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:164][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:166][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:166][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:168][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:169][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:170][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:171][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:172][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:174][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:175][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:176][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:178][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:179][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:180][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:181][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:182][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:184][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:185][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:187][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:188][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:189][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:190][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:192][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:193][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:194][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:195][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:196][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:198][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:199][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:200][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:202][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:203][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:204][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:205][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:206][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:208][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:210][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:211][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:212][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:214][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:215][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:216][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:217][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:218][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:220][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:221][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:223][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:224][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:225][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:226][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:227][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:229][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:230][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:232][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:233][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:234][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:235][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:236][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:238][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:239][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:240][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:242][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:243][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:244][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:246][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:247][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:248][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:249][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:251][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:252][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:254][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:255][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:256][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:257][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:259][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:260][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:261][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:263][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:264][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:265][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:266][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:268][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:269][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:270][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:271][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:272][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:274][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:275][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:276][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:277][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:279][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:280][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:281][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:282][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:283][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:285][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:286][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:287][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:288][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:290][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:291][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:292][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:293][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:294][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:296][962]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2019.04.05-16.12.24:421][962]LogEditorActor: Deleted 360 Actors (8.091 secs)
+[2019.04.05-16.13.21:797][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-16.13.38:900][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-16.13.39:716][936]LogRenderer: Reallocating scene render targets to support 1108x364 Format 26 NumSamples 1 (Frame:17908).
+[2019.04.05-16.13.39:816][937]LogRenderer: Reallocating scene render targets to support 1116x364 Format 26 NumSamples 1 (Frame:17910).
+[2019.04.05-16.13.39:912][938]LogRenderer: Reallocating scene render targets to support 1120x364 Format 26 NumSamples 1 (Frame:17912).
+[2019.04.05-16.13.40:007][940]LogRenderer: Reallocating scene render targets to support 1124x364 Format 26 NumSamples 1 (Frame:17914).
+[2019.04.05-16.13.40:106][941]LogRenderer: Reallocating scene render targets to support 1132x364 Format 26 NumSamples 1 (Frame:17916).
+[2019.04.05-16.13.40:202][942]LogRenderer: Reallocating scene render targets to support 1140x364 Format 26 NumSamples 1 (Frame:17918).
+[2019.04.05-16.13.41:209][972]LogRenderer: Reallocating scene render targets to support 1148x364 Format 26 NumSamples 1 (Frame:17920).
+[2019.04.05-16.13.48:714][167]LogTemp: Repeating last play command: VR Preview
+[2019.04.05-16.13.49:154][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.05-16.13.49:154][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.05-16.13.49:207][167]PIE: New page: PIE session: MainMap (Apr 5, 2019, 2:13:49 AM)
+[2019.04.05-16.13.49:238][167]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap
+[2019.04.05-16.13.49:611][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.373342s)
+[2019.04.05-16.13.49:613][167]LogAIModule: Creating AISystem for world MainMap
+[2019.04.05-16.13.49:613][167]LogPlayLevel: PIE: World Init took: (0.002146s)
+[2019.04.05-16.13.49:614][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMap.MainMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap (0.376888s)
+[2019.04.05-16.13.49:859][167]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.05-16.13.49:888][167]LogInit: FAudioDevice initialized.
+[2019.04.05-16.13.49:920][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-16.13.50:495][167]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.05-16.13.50:509][167]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.05-16.13.50:509][167]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.05-16.13.50:509][167]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.05-16.13.50:510][167]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.05-16.13.50:510][167]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.05-16.13.50:510][167]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.05-16.13.50:520][167]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.05-16.13.50:544][167]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.04.05-09.13.50
+[2019.04.05-16.13.50:748][167]LogWorld: Bringing up level for play took: 0.247727
+[2019.04.05-16.13.50:929][167]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 20 classes and 0 folders.
+[2019.04.05-16.13.50:960][167]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.05-16.13.50:980][167]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.05-16.13.50:982][167]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.05-16.13.50:997][167]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.05-16.13.50:998][167]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.05-16.13.51:012][167]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap 1.126
+[2019.04.05-16.13.51:028][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.05-16.13.51:204][167]LogRenderer: Reallocating scene render targets to support 1148x576 Format 26 NumSamples 1 (Frame:1).
+[2019.04.05-16.13.51:324][168]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.05-16.13.51:325][168]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:0309
+[2019.04.05-16.13.51:325][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.05-16.13.54:550][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.05-16.13.54:560][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-16.13.54:649][239]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.05-16.13.54:719][239]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.05-16.13.54:720][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.05-16.13.55:301][240]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.04.05-16.15.51:824][113]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widget/MainHUD.MainHUD
+[2019.04.05-16.15.54:119][113]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 117 classes and 0 folders.
+[2019.04.05-16.15.58:217][113]LogSlate: Took 0.000432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.05-16.15.58:611][114]LogSlate: Took 0.000441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.05-16.16.34:773][676]LogSlate: Window 'MainHUD' being destroyed
+[2019.04.05-16.16.34:788][676]LogSlate: Window 'MainHUD' being destroyed
+[2019.04.05-16.16.36:494][782]LogSlate: Window 'Message Log' being destroyed
+[2019.04.05-16.16.36:506][782]LogSlate: Window 'Message Log' being destroyed
+[2019.04.05-16.17.09:963][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-16.17.17:568][186]LogMaterial: Display: Missing cached shader map for material defaultMat, compiling. 
+[2019.04.05-16.17.17:685][186]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.05-16.17.17:685][186]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-16.17.17:685][186]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-16.17.21:377][186]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.17.29:671][243]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.17.34:910][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/lambert1" FILE="../../../../../../cs461/PressVR/Content/Materials/lambert1.uasset" SILENT=true
+[2019.04.05-16.17.35:079][355]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/lambert12C7EAAC541C3E1F48F1A709F3F187418.tmp' to '../../../../../../cs461/PressVR/Content/Materials/lambert1.uasset'
+[2019.04.05-16.17.36:163][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PressVR/PaintStuff_pCube1" FILE="../../../../../../cs461/PressVR/Content/PressVR/PaintStuff_pCube1.uasset" SILENT=true
+[2019.04.05-16.17.36:232][355]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/PaintStuff_pCube105B89270467520EFB285D2BF19B71ADE.tmp' to '../../../../../../cs461/PressVR/Content/PressVR/PaintStuff_pCube1.uasset'
+[2019.04.05-16.17.36:284][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PressVR/PaintStuff_pCylinder9" FILE="../../../../../../cs461/PressVR/Content/PressVR/PaintStuff_pCylinder9.uasset" SILENT=true
+[2019.04.05-16.17.36:347][355]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/PaintStuff_pCylinder9EEF77905454636D6FB807D88195C6546.tmp' to '../../../../../../cs461/PressVR/Content/PressVR/PaintStuff_pCylinder9.uasset'
+[2019.04.05-16.17.36:393][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PressVR/VentOnTop_pCube1" FILE="../../../../../../cs461/PressVR/Content/PressVR/VentOnTop_pCube1.uasset" SILENT=true
+[2019.04.05-16.17.36:449][355]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/VentOnTop_pCube13E0681A54746324792601F8D27451B23.tmp' to '../../../../../../cs461/PressVR/Content/PressVR/VentOnTop_pCube1.uasset'
+[2019.04.05-16.17.43:072][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-16.17.56:789][ 46]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.04.05-16.17.56:791][ 46]LogMaterial: Warning: /Engine/Transient.Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.04.05-16.17.56:791][ 46]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2019.04.05-16.19.28:087][613]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.19.38:724][613]LogStaticMesh: Building static mesh SM_Button...
+[2019.04.05-16.19.39:618][613]LogStaticMesh: Built static mesh [1.13s] /Game/DemoRoom/Meshes/SM_Button.SM_Button
+[2019.04.05-16.19.39:795][613]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_ButtonLight_Bulb_Basic_2.ButtonMesh: Material index 2 is invalid.
+[2019.04.05-16.19.39:796][613]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_ButtonLight_Bulb_Basic_C /Game/VirtualRealityBP/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_ButtonLight_Bulb_Basic_2
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_ButtonLight_Bulb_Basic.BP_ButtonLight_Bulb_Basic_C:UserConstructionScript:0065
+[2019.04.05-16.19.39:799][613]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/VirtualRealityBP/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_ButtonLight_Bulb_Basic2_5.ButtonMesh: Material index 2 is invalid.
+[2019.04.05-16.19.39:799][613]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_ButtonLight_Bulb_Basic_C /Game/VirtualRealityBP/Maps/TutorialMap.TutorialMap:PersistentLevel.BP_ButtonLight_Bulb_Basic2_5
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_ButtonLight_Bulb_Basic.BP_ButtonLight_Bulb_Basic_C:UserConstructionScript:0065
+[2019.04.05-16.19.39:802][613]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_9:PersistentLevel.BP_ButtonLight_Bulb_Basic_C_0.ButtonMesh: Material index 2 is invalid.
+[2019.04.05-16.19.39:802][613]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_ButtonLight_Bulb_Basic_C /Engine/Transient.World_9:PersistentLevel.BP_ButtonLight_Bulb_Basic_C_0
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_ButtonLight_Bulb_Basic.BP_ButtonLight_Bulb_Basic_C:UserConstructionScript:0065
+[2019.04.05-16.19.50:032][614]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/MainMap_Auto174A8E4E1433E12C511EE15A463047049.tmp' to '../../../../../../cs461/PressVR/Saved/Autosaves/Game/VirtualRealityBP/Maps/MainMap_Auto1.umap'
+[2019.04.05-16.19.50:056][614]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MainMap' took 3.873
+[2019.04.05-16.19.50:056][614]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.873
+[2019.04.05-16.19.50:064][614]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_ButtonLight_Bulb_Basic] ([1] browsable assets)...
+[2019.04.05-16.19.50:064][614]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_ButtonLight_Bulb_Basic]
+[2019.04.05-16.19.50:180][614]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/BP_ButtonLight_Bulb_Basic_Auto1FC1BA12047DA084462511CAB82483CEA.tmp' to '../../../../../../cs461/PressVR/Saved/Autosaves/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_ButtonLight_Bulb_Basic_Auto1.uasset'
+[2019.04.05-16.19.50:181][614]LogFileHelpers: Auto-saving content packages took 0.119
+[2019.04.05-16.20.35:255][675]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (49.184 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.05-16.20.40:575][994]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_21:PersistentLevel.BP_Emergency_Stop_Button_C_0.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.05-16.20.40:575][994]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Engine/Transient.World_21:PersistentLevel.BP_Emergency_Stop_Button_C_0
+	Function /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.05-16.21.02:076][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-16.21.19:571][333]LogAssetEditorManager: Opening Asset editor for PhysicalMaterial /Game/ExampleContent/Audio/Physical_Materials/Rubber.Rubber
+[2019.04.05-16.21.24:472][612]LogSlate: Window 'Rubber - Generic Asset Editor' being destroyed
+[2019.04.05-16.21.24:476][612]LogSlate: Window 'Rubber - Generic Asset Editor' being destroyed
+[2019.04.05-16.21.29:149][725]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.21.32:191][794]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.21.49:610][563]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:BndEvt__Trigger collision_K2Node_ComponentBoundEvent_101_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:ReceiveBeginPlay' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:NumButtons' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:ButtonPressed' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:Target light' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:Button light material' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:Base' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:Trigger collision' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:EmergencyButtonButtom' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:EmergencyButtonButton' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C:UserConstructionScript' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.SKEL_BP_Emergency_Stop_Button_C' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:NumButtons' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:ButtonPressed' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:Target light' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:Button light material' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:Base' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:Trigger collision' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:185][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:EmergencyButtonButtom' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:186][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:EmergencyButtonButton' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:186][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:ReceiveBeginPlay' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:186][753]LogMetaData: Removing '/Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic_C' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.SKEL_BP_Light_Bulb_Basic_C:Toggle light' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.SKEL_BP_Light_Bulb_Basic_C:Light bulb material 2' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.SKEL_BP_Light_Bulb_Basic_C:Light bulb material 1' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.SKEL_BP_Light_Bulb_Basic_C:Light flash' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.SKEL_BP_Light_Bulb_Basic_C:Light bulb' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.SKEL_BP_Light_Bulb_Basic_C:Light' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.SKEL_BP_Light_Bulb_Basic_C:UserConstructionScript' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.SKEL_BP_Light_Bulb_Basic_C:Update light color' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.SKEL_BP_Light_Bulb_Basic_C' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic_C:Light bulb material 2' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic_C:Light bulb material 1' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic_C:Light flash' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic_C:Light bulb' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic_C:Light' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic_C:UserConstructionScript' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic_C:Toggle light' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:489][753]LogMetaData: Removing '/Game/BluePrints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic_C:Update light color' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:ReceiveBeginPlay' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:ReceiveTick' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:LockRotation' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:LockLocation' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:S1_Stage2_Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:S1_Stage1_Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:S1_Stage0_Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:S1_StageX_Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:HideText' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:Stage_Number' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:581][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:xHair' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:ObjectGrabed' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:T_IntroComplete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:T_Stage3Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:T_Stage2Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:T_Stage1Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:T_1_3' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:T_1_2' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:T_1_1' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:TutorialStage' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:InTutorial' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:T_NextAlert' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:ButtonsPressed' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:DefaultSceneRoot' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C:UserConstructionScript' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.SKEL_LevelDatabaseActor_C' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:LockRotation' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:LockLocation' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:S1_Stage2_Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:S1_Stage1_Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:S1_Stage0_Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:S1_StageX_Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:HideText' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:Stage_Number' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:xHair' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:ObjectGrabed' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:T_IntroComplete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:T_Stage3Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:T_Stage2Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:T_Stage1Complete' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:T_1_3' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:T_1_2' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:T_1_1' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:TutorialStage' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:InTutorial' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:T_NextAlert' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:ButtonsPressed' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:DefaultSceneRoot' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:582][753]LogMetaData: Removing '/Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor_C:UserConstructionScript' ref from Metadata '/Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.PackageMetaData'
+[2019.04.05-16.22.10:719][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Emergency_Stop_Button" FILE="../../../../../../cs461/PressVR/Content/BluePrints/BP_Emergency_Stop_Button.uasset" SILENT=true
+[2019.04.05-16.22.10:750][753]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/BP_Emergency_Stop_Button2AE8679140016502C54368A43CF3B5F8.tmp' to '../../../../../../cs461/PressVR/Content/BluePrints/BP_Emergency_Stop_Button.uasset'
+[2019.04.05-16.22.10:764][753]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/BP_Emergency_Stop_Button6EB4B9234AEC6B70A76714A2D3915438.tmp' to '../../../../../../cs461/PressVR/Content/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.uasset'
+[2019.04.05-16.22.10:787][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Light_Bulb_Basic" FILE="../../../../../../cs461/PressVR/Content/BluePrints/BP_Light_Bulb_Basic.uasset" SILENT=true
+[2019.04.05-16.22.10:815][753]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/BP_Light_Bulb_BasicA053360A43DF39E83F4A4A8BA8AC0A83.tmp' to '../../../../../../cs461/PressVR/Content/BluePrints/BP_Light_Bulb_Basic.uasset'
+[2019.04.05-16.22.10:829][753]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/BP_Light_Bulb_Basic9857AA964FE683C5FB51D6B370C63BDE.tmp' to '../../../../../../cs461/PressVR/Content/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.uasset'
+[2019.04.05-16.22.10:833][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LevelDatabaseActor" FILE="../../../../../../cs461/PressVR/Content/BluePrints/LevelDatabaseActor.uasset" SILENT=true
+[2019.04.05-16.22.10:845][753]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/LevelDatabaseActor7C1B36F243E4ACE857F31CA2B3F592B1.tmp' to '../../../../../../cs461/PressVR/Content/BluePrints/LevelDatabaseActor.uasset'
+[2019.04.05-16.22.10:857][753]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/LevelDatabaseActorE05A4B87447418720C0E10859506A91F.tmp' to '../../../../../../cs461/PressVR/Content/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.uasset'
+[2019.04.05-16.22.22:789][ 85]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.22.39:476][773]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.22.49:714][289]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ExampleContent/Blueprint_Communication/Blueprints/LevelDatabaseActor.LevelDatabaseActor'
+[2019.04.05-16.22.49:730][289]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button'
+[2019.04.05-16.22.49:731][289]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ExampleContent/Blueprint_Communication/Blueprints/BP_Light_Bulb_Basic.BP_Light_Bulb_Basic'
+[2019.04.05-16.22.51:881][418]LogTemp: Repeating last play command: VR Preview
+[2019.04.05-16.22.51:899][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.05-16.22.51:899][418]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.05-16.22.51:903][418]LogPlayLevel: [PlayLevel] Compiling BP_PickUpCoffee before play...
+[2019.04.05-16.22.52:199][418]LogPlayLevel: [PlayLevel] Compiling MonitorBP before play...
+[2019.04.05-16.22.52:358][418]LogPlayLevel: [PlayLevel] Compiling BP_PrinterHead before play...
+[2019.04.05-16.22.52:525][418]LogPlayLevel: [PlayLevel] Compiling BP_Player_Camera_Manager before play...
+[2019.04.05-16.22.52:544][418]LogPlayLevel: [PlayLevel] Compiling Widget before play...
+[2019.04.05-16.22.52:642][418]LogPlayLevel: [PlayLevel] Compiling MainHUD before play...
+[2019.04.05-16.22.52:671][418]LogPlayLevel: [PlayLevel] Compiling MainMap before play...
+[2019.04.05-16.22.52:851][418]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
+[2019.04.05-16.22.53:047][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 1147 ms (8 blueprints)
+[2019.04.05-16.22.53:047][418]PIE: New page: PIE session: MainMap (Apr 5, 2019, 2:22:53 AM)
+[2019.04.05-16.22.53:047][418]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap
+[2019.04.05-16.22.53:122][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074814s)
+[2019.04.05-16.22.53:123][418]LogAIModule: Creating AISystem for world MainMap
+[2019.04.05-16.22.53:123][418]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2019.04.05-16.22.53:123][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MainMap.MainMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap (0.075598s)
+[2019.04.05-16.22.53:154][418]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.05-16.22.53:160][418]LogInit: FAudioDevice initialized.
+[2019.04.05-16.22.53:165][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-16.22.53:286][418]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.05-16.22.53:289][418]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.05-16.22.53:289][418]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.05-16.22.53:289][418]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.05-16.22.53:289][418]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.05-16.22.53:289][418]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.05-16.22.53:289][418]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.05-16.22.53:291][418]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.05-16.22.53:297][418]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.04.05-09.22.53
+[2019.04.05-16.22.53:297][418]LogWorld: Bringing up level for play took: 0.010248
+[2019.04.05-16.22.53:311][418]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.05-16.22.53:311][418]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.05-16.22.53:311][418]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.05-16.22.53:312][418]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.05-16.22.53:312][418]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.05-16.22.53:312][418]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.05-16.22.53:312][418]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.05-16.22.53:316][418]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MainMap 1.43
+[2019.04.05-16.22.53:532][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.05-16.22.53:595][419]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.05-16.22.53:595][419]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:0309
+[2019.04.05-16.22.53:596][419]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.05-16.22.57:875][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.05-16.22.57:877][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-16.22.57:898][669]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.05-16.22.57:933][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.05-16.22.57:933][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.05-16.22.58:000][670]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.04.05-16.22.59:949][784]LogSlate: Window 'Message Log' being destroyed
+[2019.04.05-16.22.59:954][784]LogSlate: Window 'Message Log' being destroyed
+[2019.04.05-16.23.12:874][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Button2" FILE="../../../../../../cs461/PressVR/Content/Materials/M_Button2.uasset" SILENT=true
+[2019.04.05-16.23.12:889][525]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/M_Button2B42ECDB447EABB3D27E3BD87CAC3BC39.tmp' to '../../../../../../cs461/PressVR/Content/Materials/M_Button2.uasset'
+[2019.04.05-16.23.12:902][525]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/M_Button208503C7A41D0B6A3980D5F96289E6925.tmp' to '../../../../../../cs461/PressVR/Content/ExampleContent/Blueprint_Communication/Materials/M_Button2.uasset'
+[2019.04.05-16.23.12:924][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Light_Bulb_Base" FILE="../../../../../../cs461/PressVR/Content/Materials/M_Light_Bulb_Base.uasset" SILENT=true
+[2019.04.05-16.23.12:939][525]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/M_Light_Bulb_BaseFDB377334913F4CD04A29A859EBEA76E.tmp' to '../../../../../../cs461/PressVR/Content/Materials/M_Light_Bulb_Base.uasset'
+[2019.04.05-16.23.12:951][525]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/M_Light_Bulb_Base20270EF842BD4CFE4AB739B075486679.tmp' to '../../../../../../cs461/PressVR/Content/ExampleContent/Blueprint_Communication/Materials/M_Light_Bulb_Base.uasset'
+[2019.04.05-16.23.12:972][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Light_Bulb_Glass" FILE="../../../../../../cs461/PressVR/Content/Materials/M_Light_Bulb_Glass.uasset" SILENT=true
+[2019.04.05-16.23.12:989][525]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/M_Light_Bulb_GlassA1F30131453915FF864319BF64D6C110.tmp' to '../../../../../../cs461/PressVR/Content/Materials/M_Light_Bulb_Glass.uasset'
+[2019.04.05-16.23.13:001][525]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/M_Light_Bulb_Glass03F8957B4B7A01D949BA3885B4F0F4D7.tmp' to '../../../../../../cs461/PressVR/Content/ExampleContent/Blueprint_Communication/Materials/M_Light_Bulb_Glass.uasset'
+[2019.04.05-16.23.22:733][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_Lightbulb" FILE="../../../../../../cs461/PressVR/Content/Meshes/SM_Lightbulb.uasset" SILENT=true
+[2019.04.05-16.23.22:746][ 89]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/SM_Lightbulb134DE4DC4E886C5FF104F2BFD959A60C.tmp' to '../../../../../../cs461/PressVR/Content/Meshes/SM_Lightbulb.uasset'
+[2019.04.05-16.23.22:974][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Light_Bulb_Basic" FILE="../../../../../../cs461/PressVR/Content/BluePrints/BP_Light_Bulb_Basic.uasset" SILENT=true
+[2019.04.05-16.23.23:000][ 89]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/BP_Light_Bulb_BasicBEF95F234A05BDEB543B8C97F99C7E00.tmp' to '../../../../../../cs461/PressVR/Content/BluePrints/BP_Light_Bulb_Basic.uasset'
+[2019.04.05-16.23.28:798][324]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.23.42:775][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/T_Lightbulb_M" FILE="../../../../../../cs461/PressVR/Content/Textures/T_Lightbulb_M.uasset" SILENT=true
+[2019.04.05-16.23.42:939][101]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/T_Lightbulb_M7E68FD5C403780646EE23C95782F844A.tmp' to '../../../../../../cs461/PressVR/Content/Textures/T_Lightbulb_M.uasset'
+[2019.04.05-16.23.43:160][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Light_Bulb_Base" FILE="../../../../../../cs461/PressVR/Content/Materials/M_Light_Bulb_Base.uasset" SILENT=true
+[2019.04.05-16.23.43:168][101]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/M_Light_Bulb_Base0E555C164C3FE6FE3393D7A0F7C896BD.tmp' to '../../../../../../cs461/PressVR/Content/Materials/M_Light_Bulb_Base.uasset'
+[2019.04.05-16.23.57:811][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/MainMap" FILE="../../../../../../cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.05-16.23.58:551][969]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/MainMapB695B0D94E19552E4B5B7CAF71135176.tmp' to '../../../../../../cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap'
+[2019.04.05-16.23.58:593][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/MainMap_BuiltData" FILE="../../../../../../cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2019.04.05-16.24.00:424][969]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/MainMap_BuiltData0A6102A44FD48E96792E628041643D89.tmp' to '../../../../../../cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap_BuiltData.uasset'
+[2019.04.05-16.24.17:922][853]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.24.21:506][945]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.24.26:394][ 38]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.24.55:693][258]LogSlate: Window 'Replace References?' being destroyed
+[2019.04.05-16.24.55:698][258]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.24.56:093][258]LogStaticMesh: Building static mesh 1M_Cube...
+[2019.04.05-16.24.56:527][258]LogStaticMesh: Built static mesh [0.43s] /Game/Geometry/Meshes/1M_Cube.1M_Cube
+[2019.04.05-16.24.58:745][258]LogSlate: Window 'Save Content' being destroyed
+[2019.04.05-16.24.58:785][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/1M_Cube" FILE="../../../../../../cs461/PressVR/Content/Geometry/Meshes/1M_Cube.uasset" SILENT=true
+[2019.04.05-16.24.58:804][258]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/1M_CubeA0A947DE422DBE3387436389A07948A6.tmp' to '../../../../../../cs461/PressVR/Content/Geometry/Meshes/1M_Cube.uasset'
+[2019.04.05-16.24.58:808][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/CubeMaterial" FILE="../../../../../../cs461/PressVR/Content/Geometry/Meshes/CubeMaterial.uasset" SILENT=true
+[2019.04.05-16.24.58:816][258]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/CubeMaterial04E51701482B75F91B790AAD2E32B2BF.tmp' to '../../../../../../cs461/PressVR/Content/Geometry/Meshes/CubeMaterial.uasset'
+[2019.04.05-16.25.05:585][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/1M_Cube" FILE="../../../../../../cs461/PressVR/Content/Meshes/1M_Cube.uasset" SILENT=true
+[2019.04.05-16.25.05:597][650]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/1M_Cube3D0AF34D459D44809DE677BFFAFEF9D4.tmp' to '../../../../../../cs461/PressVR/Content/Meshes/1M_Cube.uasset'
+[2019.04.05-16.25.05:601][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/1M_Cube" FILE="../../../../../../cs461/PressVR/Content/Geometry/Meshes/1M_Cube.uasset" SILENT=true
+[2019.04.05-16.25.05:606][650]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/1M_Cube44FEB9F54DD1303CADBBA4BC8C07F8E9.tmp' to '../../../../../../cs461/PressVR/Content/Geometry/Meshes/1M_Cube.uasset'
+[2019.04.05-16.25.13:597][  0]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-16.25.13:951][  0]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.05-16.25.14:551][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.600 s
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: 
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: Ensure condition failed: Found [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 198]
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: Cannot remove redirection from /Game/Geometry/Meshes/CubeMaterial.CubeMaterial, it was not registered
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: Stack: 
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffed459ab12 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff01bd2e08 UE4Editor-AssetRegistry.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe90ea06a4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe90eabf16 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe905af578 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe90878a90 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe90872e9f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb73bc7bb UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb71a8e25 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb7242678 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb722857a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb721b44c UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b1de26 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b10de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b201eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b0ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff1978ca66 USER32.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff1978c582 USER32.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b216a9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb724f842 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb71d738c UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe90919816 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe90e9f798 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe7acedd2f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe7adfa5d9 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe7adf389a UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe7ad52123 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe7acf477f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb73bc7bb UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb71a8e25 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb7242678 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb722857a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ffeb721b44c UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b1de26 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b10de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b201eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b0ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff1978ca66 USER32.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff1978c582 USER32.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007fff05b21746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ffb45546 UE4Editor.exe!UnknownFunction []
+[2019.04.05-16.25.14:565][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ffb5596c UE4Editor.exe!UnknownFunction []
+[2019.04.05-16.25.14:566][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ffb559ea UE4Editor.exe!UnknownFunction []
+[2019.04.05-16.25.14:566][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ffb648da UE4Editor.exe!UnknownFunction []
+[2019.04.05-16.25.14:566][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ffb6659a UE4Editor.exe!UnknownFunction []
+[2019.04.05-16.25.14:566][  0]LogOutputDevice: Error: [Callstack] 0x00007fff19a281f4 KERNEL32.DLL!UnknownFunction []
+[2019.04.05-16.25.14:566][  0]LogOutputDevice: Error: [Callstack] 0x00007fff1ba3a251 ntdll.dll!UnknownFunction []
+[2019.04.05-16.25.14:566][  0]LogOutputDevice: Error: 
+[2019.04.05-16.25.14:577][  0]LogStats:                SubmitErrorReport -  0.000 s
