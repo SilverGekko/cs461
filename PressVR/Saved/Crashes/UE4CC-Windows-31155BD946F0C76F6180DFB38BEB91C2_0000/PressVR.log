@@ -1,0 +1,1546 @@
+﻿Log file open, 04/07/19 18:49:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PressVR
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.567653
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMixedReality
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogStreaming: Display: Took  0.158s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.08-01.49.55:376][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.08-01.49.55:377][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.08-01.49.55:377][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.08-01.49.55:377][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.08-01.49.55:381][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.04.08-01.49.55:381][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.08-01.49.55:382][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.08-01.49.55:382][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.08-01.49.55:382][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.08-01.49.55:412][  0]LogHAL: Display: Platform has ~ 32 GB [34308747264 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.08-01.49.55:412][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.08-01.49.55:412][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.08-01.49.55:413][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.08-01.49.55:413][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.08-01.49.55:414][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.08-01.49.55:414][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.08-01.49.55:414][  0]LogInit: Computer: DESKTOP-O3JUNJM
+[2019.04.08-01.49.55:414][  0]LogInit: User: StewartThor
+[2019.04.08-01.49.55:414][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.04.08-01.49.55:414][  0]LogInit: High frequency timer resolution =2.924196 MHz
+[2019.04.08-01.49.55:415][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.04.08-01.49.55:415][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.08-01.49.55:415][  0]LogMemory: Process Physical Memory: 112.41 MB used, 112.41 MB peak
+[2019.04.08-01.49.55:415][  0]LogMemory: Process Virtual Memory: 111.38 MB used, 111.38 MB peak
+[2019.04.08-01.49.55:415][  0]LogMemory: Physical Memory: 6700.09 MB used,  26019.28 MB free, 32719.37 MB total
+[2019.04.08-01.49.55:415][  0]LogMemory: Virtual Memory: 4721.27 MB used,  134213008.00 MB free, 134217728.00 MB total
+[2019.04.08-01.49.55:436][  0]LogInit: Using OS detected language (en-US).
+[2019.04.08-01.49.55:436][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.08-01.49.55:438][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.08-01.49.55:872][  0]LogStreaming: Display: Took  0.436s to InitEngineTextLocalization.
+[2019.04.08-01.49.55:872][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.08-01.49.55:915][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.08-01.49.55:915][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.08-01.49.56:149][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.08-01.49.56:218][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.04.08-01.49.56:218][  0]LogD3D11RHI:       11127/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.08-01.49.56:220][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.08-01.49.56:220][  0]LogD3D11RHI:       0/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.08-01.49.56:220][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.08-01.49.56:229][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.08-01.49.56:230][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.08-01.49.56:230][  0]LogWindows: EnumDisplayDevices:
+[2019.04.08-01.49.56:230][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.04.08-01.49.56:230][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.04.08-01.49.56:230][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.04.08-01.49.56:230][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.04.08-01.49.56:231][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.08-01.49.56:231][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.04.08-01.49.56:231][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.04.08-01.49.56:231][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.04.08-01.49.56:231][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.04.08-01.49.56:288][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.08-01.49.56:302][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.08-01.49.56:663][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.08-01.49.56:681][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.08-01.49.56:700][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.08-01.49.56:718][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.08-01.49.56:736][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.08-01.49.56:755][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.08-01.49.56:773][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.08-01.49.56:791][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.08-01.49.56:800][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-01.49.56:904][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.08-01.49.56:974][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.08-01.49.56:974][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.08-01.49.57:007][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.08-01.49.57:007][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.08-01.49.57:024][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.08-01.49.57:041][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.08-01.49.57:058][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.08-01.49.57:076][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.08-01.49.57:137][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.08-01.49.57:137][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.08-01.49.57:137][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.08-01.49.57:211][  0]LogShaderCompilers: Guid format shader working directory is 30 characters bigger than the processId version (E:/GitHub/cs461/PressVR/Intermediate/Shaders/WorkingDirectory/5084/).
+[2019.04.08-01.49.57:211][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Stewart_Thor/AppData/Local/Temp/UnrealShaderWorkingDir/64573D9C43994C1A8CD1E69238459061/'.
+[2019.04.08-01.49.57:214][  0]LogXGEController: Cleaning working directory: C:/Users/Stewart_Thor/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.08-01.49.57:214][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.08-01.49.57:214][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.08-01.49.57:214][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.08-01.49.57:913][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.08-01.49.57:980][  0]LogDerivedDataCache: Loaded boot cache 0.07s 86MB C:/Users/Stewart_Thor/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.08-01.49.57:980][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Stewart_Thor/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.08-01.49.57:980][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/GitHub/cs461/PressVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.08-01.49.57:980][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.08-01.49.57:980][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/GitHub/cs461/PressVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.08-01.49.57:980][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.08-01.49.58:001][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.08-01.49.58:006][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.04.08-01.49.58:019][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stewart_Thor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.08-01.49.58:019][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.08-01.49.58:019][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.08-01.49.58:047][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.08-01.49.58:049][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.08-01.49.58:050][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.08-01.49.58:151][  0]LogAssetRegistry: FAssetRegistry took 0.0385 seconds to start up
+[2019.04.08-01.49.58:570][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.08-01.49.58:748][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.08-01.49.58:753][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.08-01.49.58:753][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.08-01.49.58:753][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.08-01.49.58:753][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.08-01.49.58:769][  0]LogNetVersion: PressVR 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 297391646)
+[2019.04.08-01.49.59:424][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 2 prioritized culture(s) in 0.164824 seconds
+[2019.04.08-01.49.59:433][  0]LogUObjectArray: 39790 objects as part of root set at end of initial load.
+[2019.04.08-01.49.59:433][  0]LogUObjectAllocator: 6917680 out of 0 bytes used by permanent object pool.
+[2019.04.08-01.49.59:433][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.08-01.50.00:436][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.04.08-01.50.00:445][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.08-01.50.00:459][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.08-01.50.01:187][  0]SourceControl: Source control is disabled
+[2019.04.08-01.50.01:187][  0]SourceControl: Source control is disabled
+[2019.04.08-01.50.01:189][  0]SourceControl: Source control is disabled
+[2019.04.08-01.50.01:190][  0]SourceControl: Source control is disabled
+[2019.04.08-01.50.01:378][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.08-01.50.01:496][  0]LogOcInput: OculusInput pre-init called
+[2019.04.08-01.50.03:560][  0]LogEngine: Initializing Engine...
+[2019.04.08-01.50.03:561][  0]LogHMD: Oculus plugin initialized. Version: 4.21.2-4753647+++UE4+Release-4.21, OVRPlugin: 1.28.0
+[2019.04.08-01.50.03:563][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.08-01.50.03:563][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.08-01.50.03:563][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.08-01.50.03:563][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.08-01.50.03:828][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.08-01.50.03:844][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.08-01.50.03:867][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.08-01.50.03:908][  0]LogInit: FAudioDevice initialized.
+[2019.04.08-01.50.03:909][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.08-01.50.04:032][  0]LogDerivedDataCache: Saved boot cache 0.12s 86MB C:/Users/Stewart_Thor/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.08-01.50.04:043][  0]LogInit: Texture streaming: Enabled
+[2019.04.08-01.50.04:066][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.08-01.50.04:084][  0]LogInit: Transaction tracking system initialized
+[2019.04.08-01.50.04:116][  0]BlueprintLog: New page: Editor Load
+[2019.04.08-01.50.04:221][  0]LocalizationService: Localization service is disabled
+[2019.04.08-01.50.05:195][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/cs461/PressVR/Content/' took 0.02s
+[2019.04.08-01.50.05:195][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.08-01.50.05:195][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.08-01.50.05:195][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.08-01.50.05:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.08-01.50.05:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.08-01.50.05:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.08-01.50.05:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.08-01.50.06:889][  0]SourceControl: Source control is disabled
+[2019.04.08-01.50.06:890][  0]Cmd: MAP LOAD FILE="E:/GitHub/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.08-01.50.06:890][  0]LogEditorServer: Warning: Can't find file 'E:/GitHub/cs461/PressVR/Content/VirtualRealityBP/Maps/MainMap.umap'
+[2019.04.08-01.50.06:890][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.08-01.50.06:890][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.177ms to complete.
+[2019.04.08-01.50.06:891][  0]LogFileHelpers: Loading map 'MainMap' took 0.001
+[2019.04.08-01.50.07:018][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-01.50.07:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-01.50.07:036][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-01.50.07:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-01.50.07:061][  0]LogCollectionManager: Loaded 0 collections in 0.002512 seconds
+[2019.04.08-01.50.07:114][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/cs461/PressVR/Saved/Collections/' took 0.01s
+[2019.04.08-01.50.07:114][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/cs461/PressVR/Content/Developers/StewartThor/Collections/' took 0.01s
+[2019.04.08-01.50.07:114][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/cs461/PressVR/Content/Collections/' took 0.01s
+[2019.04.08-01.50.07:114][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.08-01.50.07:128][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2724 classes and 662 folders.
+[2019.04.08-01.50.07:140][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.08-01.50.07:150][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:157][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:175][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:181][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:186][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:192][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:197][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:203][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:209][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:215][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:221][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:226][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:232][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:237][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:243][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:248][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:270][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:276][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:313][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:318][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:324][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:329][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:335][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:341][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:351][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-01.50.07:557][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.08-01.50.07:570][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.04.08-01.50.07:697][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.08-01.50.07:702][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.08-01.50.07:713][  0]LogSlate: Took 0.005234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.08-01.50.07:843][  0]LogRenderer: Reallocating scene render targets to support 1144x640 Format 26 NumSamples 1 (Frame:1).
+[2019.04.08-01.50.07:971][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.08-01.50.07:971][  0]LogLoad: (Engine Initialization) Total time: 15.87 seconds
+[2019.04.08-01.50.07:971][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.08-01.50.07:982][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.08-01.50.07:982][  0]LogOcInput: OculusInput is initialized
+[2019.04.08-01.50.08:033][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.08-01.50.08:077][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.04.08-01.50.18:132][197]LogAssetRegistry: Asset discovery search completed in 20.0042 seconds
+[2019.04.08-01.50.18:134][197]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.08-01.50.18:134][197]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2019.04.08-02.42.18:081][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-02.42.59:959][364]LogSlate: Took 0.006703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.08-02.43.02:208][364]LogLinker: Warning: Can't find file '/Game/PressVR/EmergencyButtonButton'
+[2019.04.08-02.43.02:208][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/EmergencyButtonButton' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:208][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/EmergencyButtonButton
+[2019.04.08-02.43.02:208][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCube1'
+[2019.04.08-02.43.02:208][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCube1' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:208][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCube1
+[2019.04.08-02.43.02:209][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder1'
+[2019.04.08-02.43.02:209][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder1' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:209][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCylinder1
+[2019.04.08-02.43.02:209][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder2'
+[2019.04.08-02.43.02:209][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder2' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:209][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCylinder2
+[2019.04.08-02.43.02:209][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder3'
+[2019.04.08-02.43.02:209][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder3' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:209][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCylinder3
+[2019.04.08-02.43.02:210][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder4'
+[2019.04.08-02.43.02:210][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder4' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:210][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCylinder4
+[2019.04.08-02.43.02:210][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder5'
+[2019.04.08-02.43.02:210][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder5' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:210][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCylinder5
+[2019.04.08-02.43.02:210][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder6'
+[2019.04.08-02.43.02:210][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder6' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:210][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCylinder6
+[2019.04.08-02.43.02:211][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder7'
+[2019.04.08-02.43.02:211][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder7' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:211][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCylinder7
+[2019.04.08-02.43.02:211][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder8'
+[2019.04.08-02.43.02:212][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder8' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:212][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCylinder8
+[2019.04.08-02.43.02:212][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder9'
+[2019.04.08-02.43.02:213][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder9' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:213][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/PaintStuff_pCylinder9
+[2019.04.08-02.43.02:213][364]LogLinker: Warning: Can't find file '/Game/PressVR/VentOnTop_pCube1'
+[2019.04.08-02.43.02:213][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/VentOnTop_pCube1' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:213][364]LoadErrors: Error: /Game/Maps/TutorialMap : Can't find file for asset. /Game/PressVR/VentOnTop_pCube1
+[2019.04.08-02.43.02:271][364]LogLinker: Warning: Can't find file '/Game/PressVR/EmergencyButtonButton'
+[2019.04.08-02.43.02:271][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/EmergencyButtonButton' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:271][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCube1'
+[2019.04.08-02.43.02:271][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCube1' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:272][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder1'
+[2019.04.08-02.43.02:272][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder1' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:272][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder2'
+[2019.04.08-02.43.02:272][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder2' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:272][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder3'
+[2019.04.08-02.43.02:272][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder3' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:272][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder4'
+[2019.04.08-02.43.02:272][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder4' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:273][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder5'
+[2019.04.08-02.43.02:273][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder5' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:273][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder6'
+[2019.04.08-02.43.02:273][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder6' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:273][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder7'
+[2019.04.08-02.43.02:273][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder7' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:273][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder8'
+[2019.04.08-02.43.02:273][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder8' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:274][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder9'
+[2019.04.08-02.43.02:274][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder9' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:274][364]LogLinker: Warning: Can't find file '/Game/PressVR/VentOnTop_pCube1'
+[2019.04.08-02.43.02:274][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/VentOnTop_pCube1' while loading E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap.
+[2019.04.08-02.43.02:307][364]LogLinker: Warning: Can't find file '/Game/PressVR/EmergencyButtonButton'
+[2019.04.08-02.43.02:307][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/EmergencyButtonButton' while loading NULL.
+[2019.04.08-02.43.02:307][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCube1'
+[2019.04.08-02.43.02:307][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCube1' while loading NULL.
+[2019.04.08-02.43.02:307][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder1'
+[2019.04.08-02.43.02:307][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder1' while loading NULL.
+[2019.04.08-02.43.02:308][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder2'
+[2019.04.08-02.43.02:308][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder2' while loading NULL.
+[2019.04.08-02.43.02:308][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder3'
+[2019.04.08-02.43.02:308][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder3' while loading NULL.
+[2019.04.08-02.43.02:308][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder4'
+[2019.04.08-02.43.02:308][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder4' while loading NULL.
+[2019.04.08-02.43.02:308][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder5'
+[2019.04.08-02.43.02:308][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder5' while loading NULL.
+[2019.04.08-02.43.02:308][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder6'
+[2019.04.08-02.43.02:309][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder6' while loading NULL.
+[2019.04.08-02.43.02:309][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder7'
+[2019.04.08-02.43.02:309][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder7' while loading NULL.
+[2019.04.08-02.43.02:309][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder8'
+[2019.04.08-02.43.02:309][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder8' while loading NULL.
+[2019.04.08-02.43.02:309][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder9'
+[2019.04.08-02.43.02:309][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder9' while loading NULL.
+[2019.04.08-02.43.02:309][364]LogLinker: Warning: Can't find file '/Game/PressVR/VentOnTop_pCube1'
+[2019.04.08-02.43.02:309][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/VentOnTop_pCube1' while loading NULL.
+[2019.04.08-02.43.02:310][364]LogLinker: Warning: Can't find file '/Game/PressVR/EmergencyButtonButton'
+[2019.04.08-02.43.02:310][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/EmergencyButtonButton' while loading NULL.
+[2019.04.08-02.43.02:310][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCube1'
+[2019.04.08-02.43.02:310][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCube1' while loading NULL.
+[2019.04.08-02.43.02:310][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder1'
+[2019.04.08-02.43.02:310][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder1' while loading NULL.
+[2019.04.08-02.43.02:310][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder2'
+[2019.04.08-02.43.02:310][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder2' while loading NULL.
+[2019.04.08-02.43.02:310][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder3'
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder3' while loading NULL.
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder4'
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder4' while loading NULL.
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder5'
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder5' while loading NULL.
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder6'
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder6' while loading NULL.
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder7'
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder7' while loading NULL.
+[2019.04.08-02.43.02:311][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder8'
+[2019.04.08-02.43.02:312][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder8' while loading NULL.
+[2019.04.08-02.43.02:312][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder9'
+[2019.04.08-02.43.02:312][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder9' while loading NULL.
+[2019.04.08-02.43.02:312][364]LogLinker: Warning: Can't find file '/Game/PressVR/VentOnTop_pCube1'
+[2019.04.08-02.43.02:312][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/VentOnTop_pCube1' while loading NULL.
+[2019.04.08-02.43.02:866][364]LogLinker: Warning: Can't find file '/Game/PressVR/EmergencyButtonButton'
+[2019.04.08-02.43.02:866][364]LoadErrors: Failed to load /Game/PressVR/EmergencyButtonButton.EmergencyButtonButton Referenced by EmergencyButtonButton2
+[2019.04.08-02.43.02:866][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/EmergencyButtonButton' while loading NULL.
+[2019.04.08-02.43.02:866][364]LogLinker: Warning: Can't find file '/Game/PressVR/EmergencyButtonButton'
+[2019.04.08-02.43.02:866][364]LoadErrors: Failed to load /Game/PressVR/EmergencyButtonButton.EmergencyButtonButton Referenced by EmergencyButtonButton3
+[2019.04.08-02.43.02:866][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/EmergencyButtonButton' while loading NULL.
+[2019.04.08-02.43.02:866][364]LogLinker: Warning: Can't find file '/Game/PressVR/EmergencyButtonButton'
+[2019.04.08-02.43.02:867][364]LoadErrors: Failed to load /Game/PressVR/EmergencyButtonButton.EmergencyButtonButton Referenced by EmergencyButtonButton4
+[2019.04.08-02.43.02:867][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/EmergencyButtonButton' while loading NULL.
+[2019.04.08-02.43.02:867][364]LogLinker: Warning: Can't find file '/Game/PressVR/EmergencyButtonButton'
+[2019.04.08-02.43.02:867][364]LoadErrors: Failed to load /Game/PressVR/EmergencyButtonButton.EmergencyButtonButton Referenced by EmergencyButtonButton_56
+[2019.04.08-02.43.02:867][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/EmergencyButtonButton' while loading NULL.
+[2019.04.08-02.43.02:879][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCube1'
+[2019.04.08-02.43.02:879][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCube1.PaintStuff_pCube1 Referenced by PaintStuff_pCube1_22
+[2019.04.08-02.43.02:879][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCube1' while loading NULL.
+[2019.04.08-02.43.02:879][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder1'
+[2019.04.08-02.43.02:879][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCylinder1.PaintStuff_pCylinder1 Referenced by PaintStuff_pCylinder1_16
+[2019.04.08-02.43.02:879][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder1' while loading NULL.
+[2019.04.08-02.43.02:880][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder2'
+[2019.04.08-02.43.02:880][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCylinder2.PaintStuff_pCylinder2 Referenced by PaintStuff_pCylinder2_18
+[2019.04.08-02.43.02:880][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder2' while loading NULL.
+[2019.04.08-02.43.02:880][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder3'
+[2019.04.08-02.43.02:880][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCylinder3.PaintStuff_pCylinder3 Referenced by PaintStuff_pCylinder3_20
+[2019.04.08-02.43.02:880][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder3' while loading NULL.
+[2019.04.08-02.43.02:880][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder4'
+[2019.04.08-02.43.02:881][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCylinder4.PaintStuff_pCylinder4 Referenced by PaintStuff_pCylinder4_24
+[2019.04.08-02.43.02:881][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder4' while loading NULL.
+[2019.04.08-02.43.02:881][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder5'
+[2019.04.08-02.43.02:881][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCylinder5.PaintStuff_pCylinder5 Referenced by PaintStuff_pCylinder5_26
+[2019.04.08-02.43.02:881][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder5' while loading NULL.
+[2019.04.08-02.43.02:882][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder6'
+[2019.04.08-02.43.02:882][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCylinder6.PaintStuff_pCylinder6 Referenced by PaintStuff_pCylinder6_28
+[2019.04.08-02.43.02:882][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder6' while loading NULL.
+[2019.04.08-02.43.02:882][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder7'
+[2019.04.08-02.43.02:882][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCylinder7.PaintStuff_pCylinder7 Referenced by PaintStuff_pCylinder7_30
+[2019.04.08-02.43.02:882][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder7' while loading NULL.
+[2019.04.08-02.43.02:882][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder8'
+[2019.04.08-02.43.02:882][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCylinder8.PaintStuff_pCylinder8 Referenced by PaintStuff_pCylinder8_32
+[2019.04.08-02.43.02:883][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder8' while loading NULL.
+[2019.04.08-02.43.02:883][364]LogLinker: Warning: Can't find file '/Game/PressVR/PaintStuff_pCylinder9'
+[2019.04.08-02.43.02:883][364]LoadErrors: Failed to load /Game/PressVR/PaintStuff_pCylinder9.PaintStuff_pCylinder9 Referenced by PaintStuff_pCylinder9_34
+[2019.04.08-02.43.02:883][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/PaintStuff_pCylinder9' while loading NULL.
+[2019.04.08-02.43.02:888][364]LogLinker: Warning: Can't find file '/Game/PressVR/VentOnTop_pCube1'
+[2019.04.08-02.43.02:888][364]LoadErrors: Failed to load /Game/PressVR/VentOnTop_pCube1.VentOnTop_pCube1 Referenced by VentOnTop_pCube2
+[2019.04.08-02.43.02:888][364]LogLinker: Warning: Can't find file for asset '/Game/PressVR/VentOnTop_pCube1' while loading NULL.
+[2019.04.08-02.43.03:238][364]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2019.04.08-02.43.03:238][364]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:238][364]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:445][364]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:445][364]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:445][364]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:446][364]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:446][364]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:446][364]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:446][364]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:446][364]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:446][364]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:446][364]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.03:446][364]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.04:388][364]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.04:804][364]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 64X64)
+[2019.04.08-02.43.04:804][364]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.04:804][364]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.04:804][364]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.05:032][364]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.05:032][364]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.05:032][364]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.05:238][364]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2019.04.08-02.43.05:239][364]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:239][364]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:239][364]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2019.04.08-02.43.05:239][364]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:456][364]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:456][364]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:683][364]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:683][364]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:683][364]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:886][364]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:886][364]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 1024X1024)
+[2019.04.08-02.43.05:886][364]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:088][364]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:088][364]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:300][364]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:300][364]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 64X64)
+[2019.04.08-02.43.06:300][364]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:301][364]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:301][364]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:301][364]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:512][364]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:512][364]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:513][364]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2019.04.08-02.43.06:513][364]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2019.04.08-02.43.06:513][364]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:730][364]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:730][364]LogTexture: Display: Building textures: SkyOcclusion0_12 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:730][364]LogTexture: Display: Building textures: SkyOcclusion0_13 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:730][364]LogTexture: Display: Building textures: SkyOcclusion0_15 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:730][364]LogTexture: Display: Building textures: SkyOcclusion0_14 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:730][364]LogTexture: Display: Building textures: SkyOcclusion0_16 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:731][364]LogTexture: Display: Building textures: SkyOcclusion0_17 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:947][364]LogTexture: Display: Building textures: SkyOcclusion0_18 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:947][364]LogTexture: Display: Building textures: SkyOcclusion0_19 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:947][364]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:947][364]LogTexture: Display: Building textures: SkyOcclusion0_20 (AutoDXT, 1024X512)
+[2019.04.08-02.43.06:947][364]LogTexture: Display: Building textures: SkyOcclusion0_21 (AutoDXT, 1024X512)
+[2019.04.08-02.43.07:158][364]LogTexture: Display: Building textures: SkyOcclusion0_22 (AutoDXT, 1024X512)
+[2019.04.08-02.43.07:361][364]LogTexture: Display: Building textures: SkyOcclusion0_23 (AutoDXT, 64X32)
+[2019.04.08-02.43.07:361][364]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 1024X512)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X256)
+[2019.04.08-02.43.07:601][364]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2019.04.08-02.43.10:308][364]LogStaticMesh: Building static mesh 1M_Cube...
+[2019.04.08-02.43.10:319][364]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/1M_Cube.1M_Cube
+[2019.04.08-02.43.10:797][364]LogMaterial: Display: Missing cached shader map for material Roll_Mat, compiling. 
+[2019.04.08-02.43.10:798][364]LogMaterial: Warning: E:\GitHub\cs461\PressVR\Content\Textures\Roll_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.04.08-02.43.10:798][364]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/Textures/Roll.Roll
+[2019.04.08-02.43.10:849][364]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.08-02.43.10:901][364]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/TutorialMap.TutorialMap
+[2019.04.08-02.43.10:954][364]Cmd: MAP LOAD FILE="E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.08-02.43.10:954][364]LightingResults: New page: Lighting Build
+[2019.04.08-02.43.10:957][364]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2019.04.08-02.43.10:958][364]LoadErrors: New page: Loading map: TutorialMap.umap
+[2019.04.08-02.43.10:959][364]MapCheck: New page: Map Check
+[2019.04.08-02.43.10:959][364]LightingResults: New page: Lighting Build
+[2019.04.08-02.43.11:008][364]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.43.11:008][364]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.43.11:008][364]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.43.11:008][364]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.43.11:008][364]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.43.11:008][364]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.43.11:244][364]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.08-02.43.11:341][364]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.08-02.43.11:341][364]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.207ms to complete.
+[2019.04.08-02.43.11:341][364]LogFileHelpers: Loading map 'TutorialMap' took 0.389
+[2019.04.08-02.43.24:739][913]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.08-02.43.30:749][472]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.08-02.43.30:793][472]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PressVR
+[2019.04.08-02.43.30:793][472]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.08-02.43.30:793][472]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.04.08-02.43.30:793][472]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.08-02.43.30:797][472]LogTemp: BranchPath = DESKTOP-O3JUNJM/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-O3JUNJM/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.04.08-02.43.30:819][472]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Stewart_Thor\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.08-02.44.55:720][940]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2019.04.08-02.44.55:820][945]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=E:/GitHub/cs461/PressVR/PressVR.uproject BuildCookRun -nocompile -nocompileeditor -installed -nop4 -project=E:/GitHub/cs461/PressVR/PressVR.uproject -cook -stage -archive -archivedirectory=C:/Users/Stewart_Thor/Desktop/build -package -clientconfig=Development -ue4exe=UE4Editor-Cmd.exe -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -CrashReporter -utf8output
+[2019.04.08-02.44.56:227][991]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for E:\GitHub\cs461\PressVR\PressVR.uproject
+[2019.04.08-02.44.57:378][126]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND STARTED **********
+[2019.04.08-02.44.57:410][130]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\UnrealBuildTool.exe PressVR Win64 Development -Project=E:\GitHub\cs461\PressVR\PressVR.uproject  E:\GitHub\cs461\PressVR\PressVR.uproject -NoUBTMakefiles  -remoteini="E:\GitHub\cs461\PressVR" -skipdeploy -Manifest=E:\GitHub\cs461\PressVR\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\Stewart_Thor\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.21\UBT-PressVR-Win64-Development.txt"
+[2019.04.08-02.44.57:689][160]UATHelper: Packaging (Windows (64-bit)):   Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\cs461).
+[2019.04.08-02.45.03:883][195]UATHelper: Packaging (Windows (64-bit)):   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.08-02.45.26:979][264]UATHelper: Packaging (Windows (64-bit)):   Parsing headers for PressVR
+[2019.04.08-02.45.26:980][264]UATHelper: Packaging (Windows (64-bit)):     Running UnrealHeaderTool "E:\GitHub\cs461\PressVR\PressVR.uproject" "E:\GitHub\cs461\PressVR\Intermediate\Build\Win64\PressVR\Development\PressVR.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.08-02.45.35:335][289]UATHelper: Packaging (Windows (64-bit)):   Reflection code generated for PressVR in 8.3782629 seconds
+[2019.04.08-02.45.36:671][293]UATHelper: Packaging (Windows (64-bit)):   Writing manifest to E:\GitHub\cs461\PressVR\Intermediate\Build\Manifest.xml
+[2019.04.08-02.45.37:004][294]UATHelper: Packaging (Windows (64-bit)):   Building 3 actions with 16 processes...
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)):     [1/3] SharedPCH.Core.cpp
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)):     c:\program files\epic games\ue_4.21\engine\source\runtime\core\public\Windows/WindowsPlatformCompilerSetup.h(22): error C2338: Visual Studio 2017 versions 15.7 and 15.8 are known to have code generation bugs that affect UE4. Please update to version 15.9.
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)):   ERROR: UBT ERROR: Failed to produce item: E:\GitHub\cs461\PressVR\Binaries\Win64\PressVR.exe
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)):          (see C:\Users\Stewart_Thor\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.21\UBT-PressVR-Win64-Development.txt for full exception trace)
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)):   Total build time: 40.86 seconds (Parallel executor: 0.00 seconds)
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)): Took 41.1470586s to run UnrealBuildTool.exe, ExitCode=5
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)): ERROR: UnrealBuildTool failed. See log for more details. (C:\Users\Stewart_Thor\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.21\UBT-PressVR-Win64-Development.txt)
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)):        (see C:\Users\Stewart_Thor\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.21\Log.txt for full exception trace)
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=5 (5)
+[2019.04.08-02.45.38:667][298]UATHelper: Packaging (Windows (64-bit)): BUILD FAILED
+[2019.04.08-02.45.38:667][298]PackagingResults: Error: UBT ERROR: Failed to produce item: E:\GitHub\cs461\PressVR\Binaries\Win64\PressVR.exe
+[2019.04.08-02.45.38:667][298]PackagingResults: Error: UnrealBuildTool failed. See log for more details. (C:\Users\Stewart_Thor\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.21\UBT-PressVR-Win64-Development.txt)
+[2019.04.08-02.45.38:667][298]PackagingResults: Error: Unknown Error
+[2019.04.08-02.45.51:534][463]LogSlate: Took 0.006841 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.08-02.46.03:192][792]LogSlate: Window 'Output Log' being destroyed
+[2019.04.08-02.46.03:195][792]LogSlate: Window 'Output Log' being destroyed
+[2019.04.08-02.46.13:324][565]LogRenderer: Reallocating scene render targets to support 1152x640 Format 26 NumSamples 1 (Frame:4253).
+[2019.04.08-02.46.13:381][566]LogRenderer: Reallocating scene render targets to support 1172x640 Format 26 NumSamples 1 (Frame:4255).
+[2019.04.08-02.46.13:435][567]LogRenderer: Reallocating scene render targets to support 1220x640 Format 26 NumSamples 1 (Frame:4257).
+[2019.04.08-02.46.13:487][568]LogRenderer: Reallocating scene render targets to support 1272x640 Format 26 NumSamples 1 (Frame:4259).
+[2019.04.08-02.46.13:537][569]LogRenderer: Reallocating scene render targets to support 1308x640 Format 26 NumSamples 1 (Frame:4261).
+[2019.04.08-02.46.13:600][570]LogRenderer: Reallocating scene render targets to support 1324x640 Format 26 NumSamples 1 (Frame:4263).
+[2019.04.08-02.46.13:650][571]LogRenderer: Reallocating scene render targets to support 1332x640 Format 26 NumSamples 1 (Frame:4265).
+[2019.04.08-02.46.13:697][572]LogRenderer: Reallocating scene render targets to support 1336x640 Format 26 NumSamples 1 (Frame:4267).
+[2019.04.08-02.46.13:748][573]LogRenderer: Reallocating scene render targets to support 1344x640 Format 26 NumSamples 1 (Frame:4269).
+[2019.04.08-02.46.13:801][574]LogRenderer: Reallocating scene render targets to support 1352x640 Format 26 NumSamples 1 (Frame:4271).
+[2019.04.08-02.46.14:072][599]LogRenderer: Reallocating scene render targets to support 1356x640 Format 26 NumSamples 1 (Frame:4275).
+[2019.04.08-02.46.14:123][600]LogRenderer: Reallocating scene render targets to support 1360x640 Format 26 NumSamples 1 (Frame:4277).
+[2019.04.08-02.46.14:177][601]LogRenderer: Reallocating scene render targets to support 1364x640 Format 26 NumSamples 1 (Frame:4279).
+[2019.04.08-02.46.14:225][602]LogRenderer: Reallocating scene render targets to support 1376x640 Format 26 NumSamples 1 (Frame:4281).
+[2019.04.08-02.46.40:506][185]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.46.40:506][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.08-02.46.40:506][185]LogHMD: Initializing OVRPlugin session
+[2019.04.08-02.46.40:618][185]PIE: New page: PIE session: TutorialMap (Apr 7, 2019, 12:46:40 PM)
+[2019.04.08-02.46.40:631][185]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TutorialMap
+[2019.04.08-02.46.40:756][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124949s)
+[2019.04.08-02.46.40:757][185]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.08-02.46.40:757][185]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2019.04.08-02.46.40:757][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TutorialMap.TutorialMap to /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.126052s)
+[2019.04.08-02.46.40:817][185]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.08-02.46.40:829][185]LogInit: FAudioDevice initialized.
+[2019.04.08-02.46.40:836][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.46.40:914][185]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.04.08-02.46.40:955][185]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.08-02.46.40:960][185]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.46.40:960][185]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.46.40:961][185]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.46.40:961][185]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.46.40:961][185]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.46.40:961][185]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.46.40:971][185]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2019.04.07-19.46.40
+[2019.04.08-02.46.40:972][185]LogWorld: Bringing up level for play took: 0.014677
+[2019.04.08-02.46.40:993][185]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.04.08-02.46.40:997][185]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.08-02.46.40:997][185]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.08-02.46.40:997][185]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.08-02.46.40:999][185]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.08-02.46.41:000][185]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.08-02.46.41:000][185]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.08-02.46.41:000][185]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.08-02.46.41:000][185]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.08-02.46.41:000][185]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.46.41:000][185]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.46.41:000][185]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.46.41:002][185]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.08-02.46.41:002][185]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.08-02.46.41:007][185]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TutorialMap 1.376
+[2019.04.08-02.46.41:007][185]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.46.41:008][185]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.46.41:024][185]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.46.41:024][185]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.46.41:024][185]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.46.41:024][185]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.46.41:024][185]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.46.41:024][185]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.46.41:032][185]LogRenderer: Reallocating scene render targets to support 2688x1600 Format 26 NumSamples 1 (Frame:1).
+[2019.04.08-02.46.41:032][185]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.04.08-02.46.41:077][187]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.08-02.46.41:099][188]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.08-02.46.41:099][188]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:0309
+[2019.04.08-02.46.41:100][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.08-02.46.59:601][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.46.59:676][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.46.59:732][909]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.08-02.46.59:768][909]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.08-02.46.59:769][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.46.59:817][909]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.08-02.46.59:817][909]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.08-02.46.59:853][910]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.04.08-02.46.59:854][910]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.47.13:117][436]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2019.04.08-02.47.13:117][436]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2019.04.08-02.47.13:629][487]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.08-02.47.13:630][487]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.08-02.47.13:960][513]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap
+[2019.04.08-02.47.14:521][513]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 117 classes and 0 folders.
+[2019.04.08-02.47.15:484][513]LogSlate: Took 0.005152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.08-02.47.15:699][515]LogSlate: Took 0.006072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.08-02.48.00:650][275]LogTemp: Repeating last play command: VR Preview
+[2019.04.08-02.48.00:681][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.48.00:681][275]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.08-02.48.00:706][275]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
+[2019.04.08-02.48.00:737][275]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] This blueprint (self) is not a LevelDatabaseActor_C, therefore ' Target ' must have a connection.
+[2019.04.08-02.48.00:738][275]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] Variable node  Set T_NextAlert  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.04.08-02.48.00:739][275]LogBlueprint: Warning: [Compiler PersistentLevel.TutorialMap] [3488.64] Compile of PersistentLevel.TutorialMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 34 ms] (/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap)
+[2019.04.08-02.48.01:022][275]LogPlayLevel: PlayLevel: Blueprint regeneration took 341 ms (1 blueprints)
+[2019.04.08-02.48.01:022][275]BlueprintLog: Blueprint TutorialMap failed to compile
+[2019.04.08-02.48.04:389][275]LogSlate: Window 'Message' being destroyed
+[2019.04.08-02.48.39:685][996]LogTemp: Repeating last play command: VR Preview
+[2019.04.08-02.48.39:715][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.48.39:715][996]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.08-02.48.39:740][996]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
+[2019.04.08-02.48.40:046][996]LogPlayLevel: PlayLevel: Blueprint regeneration took 330 ms (1 blueprints)
+[2019.04.08-02.48.40:046][996]LogHMD: Initializing OVRPlugin session
+[2019.04.08-02.48.40:145][996]PIE: New page: PIE session: TutorialMap (Apr 7, 2019, 12:48:40 PM)
+[2019.04.08-02.48.40:145][996]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TutorialMap
+[2019.04.08-02.48.40:273][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.128004s)
+[2019.04.08-02.48.40:273][996]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.08-02.48.40:274][996]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2019.04.08-02.48.40:274][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TutorialMap.TutorialMap to /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.128973s)
+[2019.04.08-02.48.40:339][996]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.08-02.48.40:350][996]LogInit: FAudioDevice initialized.
+[2019.04.08-02.48.40:355][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.48.40:437][996]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.04.08-02.48.40:469][996]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.08-02.48.40:472][996]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.48.40:472][996]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.48.40:473][996]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.48.40:473][996]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.48.40:473][996]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.48.40:473][996]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.48.40:484][996]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2019.04.07-19.48.40
+[2019.04.08-02.48.40:484][996]LogWorld: Bringing up level for play took: 0.014675
+[2019.04.08-02.48.40:499][996]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.08-02.48.40:499][996]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.08-02.48.40:499][996]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.08-02.48.40:501][996]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.08-02.48.40:501][996]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.08-02.48.40:509][996]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TutorialMap 0.879
+[2019.04.08-02.48.40:510][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.48.40:511][996]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.48.40:564][996]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.48.40:564][996]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.04.08-02.48.40:579][998]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.08-02.48.40:580][998]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.08-02.48.40:580][998]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:0309
+[2019.04.08-02.48.40:581][998]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.08-02.48.55:646][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.48.55:724][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.48.55:802][175]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.08-02.48.55:844][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.08-02.48.55:844][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.48.55:974][176]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.08-02.48.55:974][176]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.49.27:910][789]LogSlate: Window 'TutorialMap* - Level Blueprint Editor' being destroyed
+[2019.04.08-02.49.32:758][362]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Widget/HUD_BP.HUD_BP
+[2019.04.08-02.49.42:442][429]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widget/MainHUD.MainHUD
+[2019.04.08-02.50.03:800][874]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widget/Widget.Widget
+[2019.04.08-02.50.09:345][476]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Widget/WidgetBlueprint.WidgetBlueprint
+[2019.04.08-02.50.27:985][637]LogTemp: Repeating last play command: VR Preview
+[2019.04.08-02.50.28:021][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.50.28:021][637]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.08-02.50.28:045][637]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
+[2019.04.08-02.50.28:354][637]LogPlayLevel: PlayLevel: Blueprint regeneration took 332 ms (1 blueprints)
+[2019.04.08-02.50.28:354][637]LogHMD: Initializing OVRPlugin session
+[2019.04.08-02.50.28:450][637]PIE: New page: PIE session: TutorialMap (Apr 7, 2019, 12:50:28 PM)
+[2019.04.08-02.50.28:450][637]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TutorialMap
+[2019.04.08-02.50.28:574][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123560s)
+[2019.04.08-02.50.28:574][637]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.08-02.50.28:574][637]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2019.04.08-02.50.28:575][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TutorialMap.TutorialMap to /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.124506s)
+[2019.04.08-02.50.28:637][637]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.08-02.50.28:647][637]LogInit: FAudioDevice initialized.
+[2019.04.08-02.50.28:653][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.50.28:714][637]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.04.08-02.50.28:740][637]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.08-02.50.28:743][637]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.50.28:743][637]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.50.28:743][637]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.50.28:743][637]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.50.28:744][637]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.50.28:744][637]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.50.28:755][637]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2019.04.07-19.50.28
+[2019.04.08-02.50.28:756][637]LogWorld: Bringing up level for play took: 0.015048
+[2019.04.08-02.50.28:768][637]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.08-02.50.28:771][637]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.08-02.50.28:771][637]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.08-02.50.28:771][637]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.08-02.50.28:772][637]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.08-02.50.28:772][637]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.50.28:772][637]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.50.28:772][637]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.50.28:775][637]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TutorialMap 1.144
+[2019.04.08-02.50.28:776][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.50.28:776][637]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.50.28:781][637]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.50.28:781][637]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.04.08-02.50.28:819][639]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.08-02.50.28:820][639]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.08-02.50.28:820][639]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:0309
+[2019.04.08-02.50.28:820][639]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.08-02.50.32:323][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.50.32:389][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.50.32:479][ 28]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.08-02.50.32:524][ 28]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.08-02.50.32:524][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.50.32:616][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.04.08-02.50.32:616][ 29]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.50.46:667][690]BlueprintLog: New page: Compile TutorialMap
+[2019.04.08-02.50.47:375][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TutorialMap" FILE="E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.08-02.50.48:654][727]LogSavePackage: Moving 'E:/GitHub/cs461/PressVR/Saved/TutorialMap72ADC7B9454D341C14BD39B4E301357E.tmp' to 'E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap'
+[2019.04.08-02.50.48:719][727]LogFileHelpers: Saving map 'TutorialMap' took 1.345
+[2019.04.08-02.50.51:060][999]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2019.04.08-02.50.54:169][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-02.50.54:229][244]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualReality/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2019.04.08-02.51.22:782][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-02.51.41:439][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Monitor4)
+[2019.04.08-02.51.46:599][340]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpCoffee_C (BP_PickUpCoffee7)
+[2019.04.08-02.51.53:545][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Group31_21)
+[2019.04.08-02.51.56:581][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Monitor)
+[2019.04.08-02.51.57:404][475]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpLaptop_C (BP_PickUpLaptop)
+[2019.04.08-02.52.05:611][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-02.52.16:359][612]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-02.52.16:439][621]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor
+[2019.04.08-02.52.38:397][ 87]LogLinker: Warning: Can't find file '/Game/Materials/Bench_01_Masked'
+[2019.04.08-02.52.38:397][ 87]LogLinker: Warning: Can't find file for asset '/Game/Materials/Bench_01_Masked' while loading E:/GitHub/cs461/PressVR/Content/Models/bench/Props/Bench_01_Low.uasset.
+[2019.04.08-02.52.38:397][ 87]LoadErrors: Error: /Game/Models/bench/Props/Bench_01_Low : Can't find file for asset. /Game/Materials/Bench_01_Masked
+[2019.04.08-02.52.38:397][ 87]LogLinker: Warning: Can't find file '/Game/Materials/Bench_01_Masked'
+[2019.04.08-02.52.38:397][ 87]LogLinker: Warning: Can't find file for asset '/Game/Materials/Bench_01_Masked' while loading E:/GitHub/cs461/PressVR/Content/Models/bench/Props/Bench_01_Low.uasset.
+[2019.04.08-02.52.38:803][ 87]LogTexture: Display: Building textures: Plastic_001_ROUGH (AutoDXT, 1024X1024)
+[2019.04.08-02.52.38:803][ 87]LogTexture: Display: Building textures: Plastic_001_COLOR (AutoDXT, 1024X1024)
+[2019.04.08-02.52.38:803][ 87]LogTexture: Display: Building textures: Bench_01_M (AutoDXT, 2048X2048)
+[2019.04.08-02.52.38:815][ 87]LogLinker: Warning: Can't find file '/Game/Materials/Bench_01_Masked'
+[2019.04.08-02.52.38:815][ 87]LoadErrors: Failed to load /Game/Materials/Bench_01_Masked.Bench_01_Masked Referenced by Bench_01_Low
+[2019.04.08-02.52.38:815][ 87]LogLinker: Warning: Can't find file for asset '/Game/Materials/Bench_01_Masked' while loading NULL.
+[2019.04.08-02.52.39:007][ 87]LogTexture: Display: Building textures: Bench_01_N (BC5, 2048X2048)
+[2019.04.08-02.52.39:007][ 87]LogTexture: Display: Building textures: Palm_Leaf_01_N (BC5, 1532X1532)
+[2019.04.08-02.52.39:007][ 87]LogTexture: Display: Building textures: Bench_01_D (AutoDXT, 2048X2048)
+[2019.04.08-02.52.39:217][ 87]LogTexture: Display: Building textures: Metal_Brushed_M (AutoDXT, 1984X1984)
+[2019.04.08-02.52.39:217][ 87]LogTexture: Display: Building textures: Floor_01_M (AutoDXT, 2048X2048)
+[2019.04.08-02.52.39:222][ 87]LogMaterial: Display: Missing cached shader map for material Plastic, compiling. 
+[2019.04.08-02.52.39:348][ 87]LogTexture: Display: Building textures: Floor_01_D (AutoDXT, 2048X2048)
+[2019.04.08-02.52.39:348][ 87]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/BluePrints/fan/Props/fanspin.fanspin
+[2019.04.08-02.52.39:354][ 87]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.08-02.52.39:354][ 87]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.08-02.52.39:354][ 87]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.08-02.52.39:354][ 87]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.08-02.52.39:354][ 87]LogAnimationCompression: Recompressing (AnimSequence /Game/BluePrints/fan/Props/fanspin.fanspin) using current/default (AnimCompress_RemoveLinearKeys_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.08-02.52.39:381][ 87]LogTexture: Display: Building textures: Floor_01_S (AutoDXT, 2048X2048)
+[2019.04.08-02.52.39:381][ 87]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/BluePrints/fan/Props/BaseAnimation.BaseAnimation
+[2019.04.08-02.52.39:381][ 87]LogAnimationCompression: Recompressing (AnimSequence /Game/BluePrints/fan/Props/BaseAnimation.BaseAnimation) using current/default (AnimCompress_RemoveLinearKeys_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.08-02.52.39:479][ 87]LogTexture: Display: Building textures: Palm_Leaf_01 (AutoDXT, 1532X1532)
+[2019.04.08-02.52.39:895][ 87]LogTexture: Display: Building textures: Tile_02_E (AutoDXT, 4096X4096)
+[2019.04.08-02.52.39:895][ 87]LogTexture: Display: Building textures: Floor_01_N (BC5, 2048X2048)
+[2019.04.08-02.52.40:101][ 87]LogTexture: Display: Building textures: Bench_01_SR (AutoDXT, 2048X2048)
+[2019.04.08-02.52.40:101][ 87]LogTexture: Display: Building textures: Bin_01_normals (BC5, 2048X2048)
+[2019.04.08-02.52.40:381][ 87]LogSkeletalMesh: Building Skeletal Mesh Fan_Blades_01...
+[2019.04.08-02.52.40:389][ 87]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/BluePrints/fan/Props/Fan_Blades_01.Fan_Blades_01
+[2019.04.08-02.52.40:390][ 87]LogSkeletalMesh: Building Skeletal Mesh Fan_01...
+[2019.04.08-02.52.40:433][ 87]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/BluePrints/fan/Props/Fan_01.Fan_01
+[2019.04.08-02.52.40:440][ 87]LogMaterial: Display: Missing cached shader map for material Master_Simple, compiling. 
+[2019.04.08-02.52.40:796][ 87]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.04.08-02.52.40:796][ 87]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.04.08-02.52.40:796][ 87]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.04.08-02.52.40:796][ 87]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.04.08-02.52.40:796][ 87]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.04.08-02.52.40:796][ 87]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.08-02.52.40:796][ 87]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.08-02.52.40:796][ 87]LogMaterial: Display: Missing cached shader map for material Master_Masked_CHEAP, compiling. 
+[2019.04.08-02.52.40:826][ 87]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.08-02.52.40:830][ 87]LogMaterial: Display: Missing cached shader map for material M_ColorGrid_LowSpec, compiling. 
+[2019.04.08-02.52.41:169][ 87]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.04.08-02.52.41:382][ 87]LogStaticMesh: Building static mesh Chair_02...
+[2019.04.08-02.52.41:609][ 87]LogStaticMesh: Built static mesh [0.23s] /Game/Models/Chair/Props/Chair_02.Chair_02
+[2019.04.08-02.52.41:697][ 87]LogStaticMesh: Building static mesh Prop_FireExtinguisher_01...
+[2019.04.08-02.52.41:730][ 87]LogStaticMesh: Built static mesh [0.03s] /Game/Models/fireExtenguisher/Props/Prop_FireExtinguisher_01.Prop_FireExtinguisher_01
+[2019.04.08-02.52.41:938][ 87]LogMaterial: Display: Missing cached shader map for material Plant_01, compiling. 
+[2019.04.08-02.52.42:051][ 87]LogStaticMesh: Building static mesh Bench_01_Low...
+[2019.04.08-02.52.42:075][ 87]LogStaticMesh: Built static mesh [0.02s] /Game/Models/bench/Props/Bench_01_Low.Bench_01_Low
+[2019.04.08-02.52.42:268][ 87]LogMaterial: Display: Missing cached shader map for material M_Dust_Particle, compiling. 
+[2019.04.08-02.52.42:642][ 87]LogStaticMesh: Building static mesh Bin_01...
+[2019.04.08-02.52.42:761][ 87]LogStaticMesh: Built static mesh [0.12s] /Game/Models/TrashBin/Props/Bin_01.Bin_01
+[2019.04.08-02.52.42:788][ 87]LogMaterial: Display: Missing cached shader map for material Bin_01, compiling. 
+[2019.04.08-02.52.42:872][ 87]LogStaticMesh: Building static mesh Plant_01...
+[2019.04.08-02.52.42:946][ 87]LogStaticMesh: Built static mesh [0.08s] /Game/Models/plant01/Props/Plant_01.Plant_01
+[2019.04.08-02.52.43:313][ 87]LogAIModule: Creating AISystem for world MainMap
+[2019.04.08-02.52.43:348][ 87]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.43:348][ 87]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.43:349][ 87]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.43:350][ 87]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.43:351][ 87]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.43:351][ 87]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.43:352][ 87]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.43:352][ 87]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.43:387][ 87]LogShaderCompilers: Display: Shaders left to compile 246
+[2019.04.08-02.52.43:398][ 87]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/MainMap.MainMap
+[2019.04.08-02.52.43:875][ 87]LogShaderCompilers: Display: Shaders left to compile 236
+[2019.04.08-02.52.44:117][ 87]LogShaderCompilers: Display: Shaders left to compile 226
+[2019.04.08-02.52.44:888][ 87]LogShaderCompilers: Display: Shaders left to compile 216
+[2019.04.08-02.52.44:927][ 87]LogShaderCompilers: Display: Shaders left to compile 206
+[2019.04.08-02.52.45:698][ 87]LogShaderCompilers: Display: Shaders left to compile 196
+[2019.04.08-02.52.45:717][ 87]LogShaderCompilers: Display: Shaders left to compile 186
+[2019.04.08-02.52.45:736][ 87]LogShaderCompilers: Display: Shaders left to compile 176
+[2019.04.08-02.52.46:036][ 87]LogShaderCompilers: Display: Shaders left to compile 166
+[2019.04.08-02.52.46:454][ 87]LogShaderCompilers: Display: Shaders left to compile 156
+[2019.04.08-02.52.46:471][ 87]LogShaderCompilers: Display: Shaders left to compile 146
+[2019.04.08-02.52.46:539][ 87]LogShaderCompilers: Display: Shaders left to compile 136
+[2019.04.08-02.52.46:574][ 87]LogShaderCompilers: Display: Shaders left to compile 126
+[2019.04.08-02.52.47:088][ 87]LogSlate: Window 'Save Content' being destroyed
+[2019.04.08-02.52.47:099][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TutorialMap" FILE="E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.08-02.52.47:707][ 87]LogShaderCompilers: Display: Shaders left to compile 116
+[2019.04.08-02.52.48:038][ 87]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.04.08-02.52.48:890][ 87]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.04.08-02.52.48:890][ 87]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.04.08-02.52.49:289][ 87]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.04.08-02.52.49:338][ 87]LogSavePackage: Moving 'E:/GitHub/cs461/PressVR/Saved/TutorialMapFFCD5D9544C61679CBFD49A26FDA16C2.tmp' to 'E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap'
+[2019.04.08-02.52.49:451][ 87]LogFileHelpers: Saving map 'TutorialMap' took 2.354
+[2019.04.08-02.52.49:455][ 87]Cmd: MAP LOAD FILE="E:/GitHub/cs461/PressVR/Content/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.08-02.52.49:455][ 87]LightingResults: New page: Lighting Build
+[2019.04.08-02.52.49:457][ 87]LoadErrors: New page: Loading map: MainMap.umap
+[2019.04.08-02.52.49:468][ 87]MapCheck: New page: Map Check
+[2019.04.08-02.52.49:469][ 87]LightingResults: New page: Lighting Build
+[2019.04.08-02.52.49:651][ 87]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.52.49:651][ 87]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.52.49:651][ 87]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.52.49:651][ 87]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.52.49:651][ 87]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.52.49:651][ 87]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.52.49:658][ 87]PIE: Warning: Trying to simulate physics on ''/Game/Maps/MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.08-02.52.49:688][ 87]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.49:688][ 87]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.49:690][ 87]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.49:691][ 87]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.49:693][ 87]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.49:693][ 87]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.49:696][ 87]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.49:696][ 87]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.50:176][ 87]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.04.08-02.52.50:186][ 87]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.04.08-02.52.50:343][ 87]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.04.08-02.52.50:343][ 87]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.08-02.52.50:343][ 87]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.439ms to complete.
+[2019.04.08-02.52.50:343][ 87]LogFileHelpers: Loading map 'MainMap' took 0.892
+[2019.04.08-02.52.51:091][ 87]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.08-02.52.51:311][ 88]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_20:PersistentLevel.BP_Emergency_Stop_Button_C_0.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.51:311][ 88]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Engine/Transient.World_20:PersistentLevel.BP_Emergency_Stop_Button_C_0
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.51:342][ 89]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.04.08-02.52.51:845][ 96]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.08-02.52.51:857][ 96]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.08-02.52.53:184][170]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/MainMap.MainMap
+[2019.04.08-02.52.53:244][170]Cmd: MAP LOAD FILE="E:/GitHub/cs461/PressVR/Content/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.08-02.52.53:244][170]LightingResults: New page: Lighting Build
+[2019.04.08-02.52.53:245][170]LoadErrors: New page: Loading map: MainMap.umap
+[2019.04.08-02.52.53:256][170]MapCheck: New page: Map Check
+[2019.04.08-02.52.53:256][170]LightingResults: New page: Lighting Build
+[2019.04.08-02.52.54:067][170]LogAIModule: Creating AISystem for world MainMap
+[2019.04.08-02.52.54:076][170]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.52.54:076][170]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.52.54:076][170]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.52.54:076][170]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.52.54:077][170]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.52.54:077][170]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.52.54:084][170]PIE: Warning: Trying to simulate physics on ''/Game/Maps/MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.08-02.52.54:112][170]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.54:112][170]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.54:113][170]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.54:114][170]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.54:115][170]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.54:115][170]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.54:117][170]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.08-02.52.54:118][170]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.08-02.52.54:565][170]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.08-02.52.54:565][170]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.08-02.52.54:576][170]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.08-02.52.54:740][170]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.08-02.52.54:740][170]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.395ms to complete.
+[2019.04.08-02.52.54:747][170]LogFileHelpers: Loading map 'MainMap' took 1.504
+[2019.04.08-02.53.03:880][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-02.53.08:044][579]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2019.04.08-02.53.08:044][579]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2019.04.08-02.53.09:795][776]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainMap.MainMap:PersistentLevel.MainMap
+[2019.04.08-02.53.22:764][782]LogSlate: Window 'MainMap - Level Blueprint Editor' being destroyed
+[2019.04.08-02.53.30:147][656]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/LevelDatabaseActor.LevelDatabaseActor
+[2019.04.08-02.53.41:827][946]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widget/MainHUD.MainHUD
+[2019.04.08-02.55.03:602][636]LogTemp: Repeating last play command: VR Preview
+[2019.04.08-02.55.03:651][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.08-02.55.03:651][636]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.08-02.55.03:668][636]LogPlayLevel: [PlayLevel] Compiling MainHUD before play...
+[2019.04.08-02.55.03:963][636]LogPlayLevel: PlayLevel: Blueprint regeneration took 312 ms (1 blueprints)
+[2019.04.08-02.55.03:963][636]LogHMD: Initializing OVRPlugin session
+[2019.04.08-02.55.04:060][636]PIE: New page: PIE session: MainMap (Apr 7, 2019, 12:55:04 PM)
+[2019.04.08-02.55.04:060][636]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.04.08-02.55.04:168][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.108429s)
+[2019.04.08-02.55.04:169][636]LogAIModule: Creating AISystem for world MainMap
+[2019.04.08-02.55.04:169][636]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2019.04.08-02.55.04:169][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.109455s)
+[2019.04.08-02.55.04:233][636]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.08-02.55.04:244][636]LogInit: FAudioDevice initialized.
+[2019.04.08-02.55.04:250][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.55.04:318][636]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.04.08-02.55.04:345][636]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.08-02.55.04:348][636]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.55.04:348][636]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.55.04:348][636]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.55.04:348][636]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.55.04:348][636]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.55.04:348][636]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.55.04:352][636]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.08-02.55.04:360][636]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.04.07-19.55.04
+[2019.04.08-02.55.04:362][636]LogWorld: Bringing up level for play took: 0.016034
+[2019.04.08-02.55.04:374][636]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.08-02.55.04:377][636]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.08-02.55.04:377][636]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.08-02.55.04:377][636]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.08-02.55.04:378][636]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.08-02.55.04:378][636]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.55.04:378][636]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.55.04:378][636]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.55.04:381][636]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.751
+[2019.04.08-02.55.04:382][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.08-02.55.04:382][636]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.55.04:389][636]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.55.04:389][636]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.04.08-02.55.04:436][638]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.08-02.55.04:438][638]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.08-02.55.04:438][638]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:0344
+[2019.04.08-02.55.04:438][638]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.08-02.55.22:201][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.08-02.55.22:267][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.55.22:347][457]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.08-02.55.22:387][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.08-02.55.22:387][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.08-02.55.22:482][458]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.04.08-02.55.22:484][458]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.55.30:348][331]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.08-02.55.30:377][331]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/TutorialMap.TutorialMap
+[2019.04.08-02.55.32:916][331]LogSlate: Window 'Save Content' being destroyed
+[2019.04.08-02.55.32:922][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/MainHUD" FILE="E:/GitHub/cs461/PressVR/Content/Widget/MainHUD.uasset" SILENT=true
+[2019.04.08-02.55.32:987][331]LogSavePackage: Moving 'E:/GitHub/cs461/PressVR/Saved/MainHUDAF30E9D8450C0628D7D3999ABFB655E0.tmp' to 'E:/GitHub/cs461/PressVR/Content/Widget/MainHUD.uasset'
+[2019.04.08-02.55.32:990][331]Cmd: MAP LOAD FILE="E:/GitHub/cs461/PressVR/Content/Maps/TutorialMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.08-02.55.32:990][331]LightingResults: New page: Lighting Build
+[2019.04.08-02.55.32:991][331]LoadErrors: New page: Loading map: TutorialMap.umap
+[2019.04.08-02.55.32:997][331]MapCheck: New page: Map Check
+[2019.04.08-02.55.32:997][331]LightingResults: New page: Lighting Build
+[2019.04.08-02.55.33:055][331]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.55.33:055][331]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.55.33:055][331]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.55.33:055][331]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.55.33:055][331]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.55.33:055][331]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.55.33:291][331]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.08-02.55.33:390][331]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.08-02.55.33:391][331]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.263ms to complete.
+[2019.04.08-02.55.33:391][331]LogFileHelpers: Loading map 'TutorialMap' took 0.402
+[2019.04.08-02.55.34:646][462]LogTemp: Repeating last play command: VR Preview
+[2019.04.08-02.55.34:681][462]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.55.34:681][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.08-02.55.34:681][462]LogHMD: Initializing OVRPlugin session
+[2019.04.08-02.55.34:773][462]PIE: New page: PIE session: TutorialMap (Apr 7, 2019, 12:55:34 PM)
+[2019.04.08-02.55.34:773][462]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TutorialMap
+[2019.04.08-02.55.34:901][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127369s)
+[2019.04.08-02.55.34:901][462]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.08-02.55.34:901][462]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2019.04.08-02.55.34:902][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TutorialMap.TutorialMap to /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.128270s)
+[2019.04.08-02.55.34:962][462]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.08-02.55.34:972][462]LogInit: FAudioDevice initialized.
+[2019.04.08-02.55.34:977][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.55.35:062][462]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.04.08-02.55.35:091][462]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.08-02.55.35:095][462]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.55.35:095][462]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.55.35:095][462]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.55.35:095][462]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.55.35:095][462]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.55.35:095][462]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.55.35:105][462]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2019.04.07-19.55.35
+[2019.04.08-02.55.35:106][462]LogWorld: Bringing up level for play took: 0.013702
+[2019.04.08-02.55.35:120][462]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.08-02.55.35:121][462]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.08-02.55.35:121][462]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.08-02.55.35:122][462]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.08-02.55.35:122][462]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.55.35:122][462]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.55.35:122][462]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.55.35:128][462]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TutorialMap -0.503
+[2019.04.08-02.55.35:128][462]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.55.35:129][462]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.55.35:134][462]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.55.35:134][462]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.04.08-02.55.35:165][464]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.08-02.55.35:166][464]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.08-02.55.35:166][464]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:0344
+[2019.04.08-02.55.35:166][464]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.08-02.55.37:915][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.55.37:988][759]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.55.38:033][759]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.08-02.55.38:073][759]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.08-02.55.38:073][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.55.38:151][760]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.04.08-02.55.38:152][760]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.55.42:654][290]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widget/MainHUD.MainHUD
+[2019.04.08-02.56.23:933][ 81]LogSlate: Took 0.014442 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.08-02.56.54:700][712]LogTemp: Repeating last play command: VR Preview
+[2019.04.08-02.56.54:747][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.56.54:747][712]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.08-02.56.54:764][712]LogPlayLevel: [PlayLevel] Compiling MainHUD before play...
+[2019.04.08-02.56.55:060][712]LogPlayLevel: PlayLevel: Blueprint regeneration took 313 ms (1 blueprints)
+[2019.04.08-02.56.55:060][712]LogHMD: Initializing OVRPlugin session
+[2019.04.08-02.56.55:168][712]PIE: New page: PIE session: TutorialMap (Apr 7, 2019, 12:56:55 PM)
+[2019.04.08-02.56.55:168][712]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TutorialMap
+[2019.04.08-02.56.55:293][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124098s)
+[2019.04.08-02.56.55:293][712]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.08-02.56.55:293][712]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2019.04.08-02.56.55:293][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TutorialMap.TutorialMap to /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.125014s)
+[2019.04.08-02.56.55:358][712]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.08-02.56.55:369][712]LogInit: FAudioDevice initialized.
+[2019.04.08-02.56.55:374][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.56.55:457][712]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.04.08-02.56.55:487][712]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.08-02.56.55:490][712]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.56.55:490][712]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.56.55:490][712]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.56.55:490][712]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.56.55:491][712]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.56.55:491][712]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.56.55:502][712]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2019.04.07-19.56.55
+[2019.04.08-02.56.55:502][712]LogWorld: Bringing up level for play took: 0.015220
+[2019.04.08-02.56.55:518][712]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.08-02.56.55:518][712]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.08-02.56.55:518][712]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.08-02.56.55:520][712]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.08-02.56.55:520][712]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.56.55:520][712]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.56.55:520][712]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.56.55:525][712]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TutorialMap -0.106
+[2019.04.08-02.56.55:526][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.56.55:526][712]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.56.55:532][712]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.56.55:532][712]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.04.08-02.56.55:564][714]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.08-02.56.55:566][714]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.08-02.56.55:566][714]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:02F0
+[2019.04.08-02.56.55:566][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.08-02.57.01:662][325]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.57.01:730][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.57.01:776][325]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.08-02.57.01:815][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.08-02.57.01:815][325]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.57.01:898][326]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.04.08-02.57.01:899][326]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.57.41:000][892]LogTemp: Repeating last play command: VR Preview
+[2019.04.08-02.57.41:047][892]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.57.41:048][892]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.08-02.57.41:064][892]LogPlayLevel: [PlayLevel] Compiling MainHUD before play...
+[2019.04.08-02.57.41:350][892]LogPlayLevel: PlayLevel: Blueprint regeneration took 302 ms (1 blueprints)
+[2019.04.08-02.57.41:351][892]LogHMD: Initializing OVRPlugin session
+[2019.04.08-02.57.41:452][892]PIE: New page: PIE session: TutorialMap (Apr 7, 2019, 12:57:41 PM)
+[2019.04.08-02.57.41:452][892]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TutorialMap
+[2019.04.08-02.57.41:576][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123542s)
+[2019.04.08-02.57.41:576][892]LogAIModule: Creating AISystem for world TutorialMap
+[2019.04.08-02.57.41:577][892]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2019.04.08-02.57.41:577][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TutorialMap.TutorialMap to /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.124461s)
+[2019.04.08-02.57.41:637][892]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.08-02.57.41:647][892]LogInit: FAudioDevice initialized.
+[2019.04.08-02.57.41:653][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.57.41:714][892]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.04.08-02.57.41:741][892]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.08-02.57.41:745][892]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.57.41:745][892]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.57.41:745][892]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.57.41:745][892]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.57.41:745][892]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.08-02.57.41:745][892]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.08-02.57.41:754][892]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2019.04.07-19.57.41
+[2019.04.08-02.57.41:755][892]LogWorld: Bringing up level for play took: 0.013114
+[2019.04.08-02.57.41:767][892]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.08-02.57.41:769][892]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.08-02.57.41:769][892]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.08-02.57.41:769][892]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.08-02.57.41:771][892]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.08-02.57.41:771][892]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.57.41:771][892]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.57.41:771][892]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.08-02.57.41:774][892]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TutorialMap 0.143
+[2019.04.08-02.57.41:775][892]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.57.41:775][892]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.57.41:781][892]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.04.08-02.57.41:781][892]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.04.08-02.57.41:817][894]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.08-02.57.41:819][894]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.08-02.57.41:819][894]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:02F0
+[2019.04.08-02.57.41:819][894]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.08-02.58.16:559][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.58.16:628][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-02.58.16:718][ 80]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.08-02.58.16:755][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.08-02.58.16:755][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2019.04.08-02.58.16:835][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.04.08-02.58.16:836][ 81]LogEngine: Changing dynamic resolution state.
+[2019.04.08-02.58.30:371][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-02.58.37:337][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-02.58.44:395][256]Cmd: TRANSACTION UNDO
+[2019.04.08-02.58.44:396][256]LogEditorTransaction: Undo Move Actors
+[2019.04.08-02.58.44:396][256]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.08-02.58.44:504][256]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.108 s
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: 
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2105]
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: 
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: Stack: 
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe76a285e8 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7450fe32 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7453acf6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7452140c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7458b427 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe745cf72f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7456726f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe74520b4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7451a786 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe74e20b33 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe62e9773e UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe62e97b5e UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe75c4206f UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe75c84c8e UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe62ea7562 UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe62e975e9 UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe75c869f9 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe75c79a36 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7ff8daa4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7ff80de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7ff901eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7ff7ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffee4776d41 USER32.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffee4776713 USER32.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ffe7ff91746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ff685935546 UE4Editor.exe!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ff68594596c UE4Editor.exe!UnknownFunction []
+[2019.04.08-02.58.44:504][256]LogOutputDevice: Error: [Callstack] 0x00007ff6859459ea UE4Editor.exe!UnknownFunction []
+[2019.04.08-02.58.44:505][256]LogOutputDevice: Error: [Callstack] 0x00007ff6859548da UE4Editor.exe!UnknownFunction []
+[2019.04.08-02.58.44:505][256]LogOutputDevice: Error: [Callstack] 0x00007ff68595659a UE4Editor.exe!UnknownFunction []
+[2019.04.08-02.58.44:505][256]LogOutputDevice: Error: [Callstack] 0x00007ffee4963dc4 KERNEL32.DLL!UnknownFunction []
+[2019.04.08-02.58.44:505][256]LogOutputDevice: Error: [Callstack] 0x00007ffee4c33691 ntdll.dll!UnknownFunction []
+[2019.04.08-02.58.44:505][256]LogOutputDevice: Error: 
+[2019.04.08-02.58.44:509][256]LogStats:                SubmitErrorReport -  0.000 s
