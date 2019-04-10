@@ -1,0 +1,1161 @@
+﻿Log file open, 04/10/19 11:48:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PressVR
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.407559
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogStreaming: Display: Took  0.072s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.28.0
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Applications/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.10-18.48.56:414][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.10-18.48.56:414][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.10-18.48.56:415][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.10-18.48.56:415][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.10-18.48.56:417][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.04.10-18.48.56:417][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.10-18.48.56:418][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.10-18.48.56:418][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.10-18.48.56:418][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.10-18.48.56:428][  0]LogHAL: Display: Platform has ~ 16 GB [16964153344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.10-18.48.56:428][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.10-18.48.56:428][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.10-18.48.56:428][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/cs461/PressVR/Saved/Config/Windows/Scalability.ini]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.10-18.48.56:429][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.10-18.48.56:430][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.10-18.48.56:430][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/cs461/PressVR/Saved/Config/Windows/Engine.ini]
+[2019.04.10-18.48.56:430][  0]LogInit: Computer: DESKTOP-1KNH53N
+[2019.04.10-18.48.56:430][  0]LogInit: User: kylet
+[2019.04.10-18.48.56:430][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.04.10-18.48.56:430][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.10-18.48.56:430][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.04.10-18.48.56:430][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.10-18.48.56:430][  0]LogMemory: Process Physical Memory: 109.45 MB used, 109.45 MB peak
+[2019.04.10-18.48.56:430][  0]LogMemory: Process Virtual Memory: 108.57 MB used, 108.57 MB peak
+[2019.04.10-18.48.56:430][  0]LogMemory: Physical Memory: 9620.80 MB used,  6557.48 MB free, 16178.28 MB total
+[2019.04.10-18.48.56:430][  0]LogMemory: Virtual Memory: 4700.98 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2019.04.10-18.48.56:453][  0]LogInit: Using OS detected language (en-US).
+[2019.04.10-18.48.56:453][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.10-18.48.56:453][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.10-18.48.56:844][  0]LogStreaming: Display: Took  0.391s to InitEngineTextLocalization.
+[2019.04.10-18.48.56:844][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.10-18.48.56:896][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.10-18.48.56:896][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.10-18.48.57:679][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.10-18.48.57:932][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (Feature Level 11_0)
+[2019.04.10-18.48.57:932][  0]LogD3D11RHI:       6052/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.10-18.48.57:953][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.04.10-18.48.57:953][  0]LogD3D11RHI:       128/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.10-18.48.57:955][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.10-18.48.57:955][  0]LogD3D11RHI:       0/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.10-18.48.57:955][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.10-18.48.57:984][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.10-18.48.57:985][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.10-18.48.57:985][  0]LogWindows: EnumDisplayDevices:
+[2019.04.10-18.48.57:985][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.04.10-18.48.57:985][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.04.10-18.48.57:985][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.04.10-18.48.57:985][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
+[2019.04.10-18.48.57:986][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.04.10-18.48.57:986][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 with Max-Q Design
+[2019.04.10-18.48.57:986][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.04.10-18.48.57:986][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.04.10-18.48.57:986][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.04.10-18.48.58:052][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.10-18.48.58:094][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.10-18.48.58:464][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.10-18.48.58:475][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.10-18.48.58:487][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.10-18.48.58:498][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.10-18.48.58:509][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.10-18.48.58:520][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.10-18.48.58:532][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.10-18.48.58:543][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.10-18.48.58:548][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-18.48.58:620][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.10-18.48.58:678][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.10-18.48.58:678][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.10-18.48.58:699][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.10-18.48.58:699][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.10-18.48.58:709][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.10-18.48.58:719][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.10-18.48.58:729][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.10-18.48.58:740][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.10-18.48.58:778][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.10-18.48.58:778][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.10-18.48.58:778][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.10-18.48.58:811][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../cs461/PressVR/Intermediate/Shaders/WorkingDirectory/22500/).
+[2019.04.10-18.48.58:811][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kylet/AppData/Local/Temp/UnrealShaderWorkingDir/9EEFF6974EDCB21A7CBA02BBDD049484/'.
+[2019.04.10-18.48.58:812][  0]LogXGEController: Cleaning working directory: C:/Users/kylet/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.10-18.48.58:812][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.10-18.48.58:812][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.10-18.48.58:812][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.10-18.48.59:300][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.10-18.48.59:346][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.10-18.48.59:346][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.10-18.48.59:346][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../cs461/PressVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.10-18.48.59:346][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.10-18.48.59:346][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../cs461/PressVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.10-18.48.59:346][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.10-18.48.59:359][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.10-18.48.59:363][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.04.10-18.48.59:376][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kylet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.10-18.48.59:377][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.10-18.48.59:377][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.10-18.48.59:503][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.10-18.48.59:504][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.10-18.48.59:505][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.10-18.48.59:586][  0]LogAssetRegistry: FAssetRegistry took 0.0357 seconds to start up
+[2019.04.10-18.48.59:858][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.10-18.48.59:975][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.10-18.48.59:977][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.10-18.48.59:977][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.10-18.48.59:977][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.10-18.48.59:977][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.10-18.49.00:077][  0]LogNetVersion: PressVR 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 297391646)
+[2019.04.10-18.49.00:688][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 2 prioritized culture(s) in 0.095991 seconds
+[2019.04.10-18.49.00:694][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.10-18.49.00:694][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.04.10-18.49.00:694][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.10-18.49.01:445][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.04.10-18.49.01:448][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.10-18.49.01:461][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.10-18.49.02:012][  0]SourceControl: Source control is disabled
+[2019.04.10-18.49.02:012][  0]SourceControl: Source control is disabled
+[2019.04.10-18.49.02:013][  0]SourceControl: Source control is disabled
+[2019.04.10-18.49.02:014][  0]SourceControl: Source control is disabled
+[2019.04.10-18.49.02:162][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.10-18.49.02:254][  0]LogOcInput: OculusInput pre-init called
+[2019.04.10-18.49.03:520][  0]LogEngine: Initializing Engine...
+[2019.04.10-18.49.03:523][  0]LogHMD: SteamVR initialized.  Driver: holographic  Display: WindowsHolographic
+[2019.04.10-18.49.03:525][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.10-18.49.03:525][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.10-18.49.03:525][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.10-18.49.03:525][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.10-18.49.03:745][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.10-18.49.03:755][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.10-18.49.03:774][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-18.49.03:789][  0]LogInit: FAudioDevice initialized.
+[2019.04.10-18.49.03:790][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.10-18.49.03:943][  0]LogDerivedDataCache: Saved boot cache 0.15s 72MB C:/Users/kylet/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.10-18.49.03:951][  0]LogInit: Texture streaming: Enabled
+[2019.04.10-18.49.03:962][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.10-18.49.03:972][  0]LogInit: Transaction tracking system initialized
+[2019.04.10-18.49.03:984][  0]BlueprintLog: New page: Editor Load
+[2019.04.10-18.49.04:025][  0]LocalizationService: Localization service is disabled
+[2019.04.10-18.49.04:306][  0]LogLinker: Warning: Can't find file '/Game/VehicleAdvBP/AdvancedVehicleOverview'
+[2019.04.10-18.49.04:306][  0]LogLinker: Warning: Can't find file '/Game/VehicleAdvBP/AdvancedVehicleOverview'
+[2019.04.10-18.49.04:306][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/VehicleAdvBP/AdvancedVehicleOverview.AdvancedVehicleOverview_C'
+[2019.04.10-18.49.04:550][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.10-18.49.04:550][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.10-18.49.04:550][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.10-18.49.04:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.10-18.49.04:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.10-18.49.04:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.10-18.49.04:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.10-18.49.04:729][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/' took 0.02s
+[2019.04.10-18.49.05:788][  0]SourceControl: Source control is disabled
+[2019.04.10-18.49.05:788][  0]Cmd: MAP LOAD FILE="../../../../../../cs461/PressVR/Content/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.10-18.49.05:788][  0]LightingResults: New page: Lighting Build
+[2019.04.10-18.49.05:789][  0]MapCheck: New page: Map Check
+[2019.04.10-18.49.05:790][  0]LightingResults: New page: Lighting Build
+[2019.04.10-18.49.06:354][  0]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
+[2019.04.10-18.49.06:354][  0]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TriggerLeft' for  InputAction TriggerLeft
+[2019.04.10-18.49.06:367][  0]LogBlueprint: Warning: [Compiler MotionControllerPawn] [0012.11] Compile of MotionControllerPawn successful, but with 2 Warning(s) [in 36 ms] (/Game/VirtualReality/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2019.04.10-18.49.06:592][  0]LogLinker: Warning: Can't find file '/Game/Materials/Bench_01_Masked'
+[2019.04.10-18.49.06:592][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/Bench_01_Masked' while loading ../../../../../../cs461/PressVR/Content/Models/bench/Props/Bench_01_Low.uasset.
+[2019.04.10-18.49.06:592][  0]LoadErrors: Error: /Game/Models/bench/Props/Bench_01_Low : Can't find file for asset. /Game/Materials/Bench_01_Masked
+[2019.04.10-18.49.06:592][  0]LogLinker: Warning: Can't find file '/Game/Materials/Bench_01_Masked'
+[2019.04.10-18.49.06:593][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/Bench_01_Masked' while loading ../../../../../../cs461/PressVR/Content/Models/bench/Props/Bench_01_Low.uasset.
+[2019.04.10-18.49.06:593][  0]LoadErrors: Error: /Game/Models/bench/Props/Bench_01_Low : Can't find file for asset. /Game/Materials/Bench_01_Masked
+[2019.04.10-18.49.07:171][  0]LogLinker: Warning: Can't find file '/Game/Materials/Bench_01_Masked'
+[2019.04.10-18.49.07:172][  0]LoadErrors: Failed to load /Game/Materials/Bench_01_Masked.Bench_01_Masked Referenced by Bench_01_Low
+[2019.04.10-18.49.07:172][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/Bench_01_Masked' while loading NULL.
+[2019.04.10-18.49.07:172][  0]LoadErrors: Failed to load /Game/Materials/Bench_01_Masked.Bench_01_Masked Referenced by Bench_01_Low
+[2019.04.10-18.49.08:119][  0]LogAIModule: Creating AISystem for world MainMap
+[2019.04.10-18.49.08:123][  0]LogMaterial: Warning: Material /DatasmithContent/Materials/SketchUpMaster.SketchUpMaster needed to have new flag set bUsedWithStaticLighting !
+[2019.04.10-18.49.08:151][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.04.10-18.49.08:205][  0]MapCheck: Warning: SketchUpMaster Material /DatasmithContent/Materials/SketchUpMaster.SketchUpMaster was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.04.10-18.49.08:208][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.04.10-18.49.08:238][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.10-18.49.08:238][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.10-18.49.08:238][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.10-18.49.08:238][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.10-18.49.08:238][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.04.10-18.49.08:323][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.10-18.49.08:324][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.10-18.49.08:324][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.10-18.49.08:324][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.10-18.49.08:324][  0]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.04.10-18.49.08:324][  0]LogMaterial: Display: Missing cached shader map for material SketchUpMaster, compiling. 
+[2019.04.10-18.49.08:393][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-18.49.08:393][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-18.49.08:393][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-18.49.08:393][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-18.49.08:393][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-18.49.08:393][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-18.49.08:400][  0]PIE: Warning: Trying to simulate physics on ''/Game/Maps/MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.10-18.49.08:439][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.10-18.49.08:439][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button2_6
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.10-18.49.08:441][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.10-18.49.08:441][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button3_9
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.10-18.49.08:442][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.10-18.49.08:442][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button4_12
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.10-18.49.08:443][  0]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.10-18.49.08:443][  0]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_Emergency_Stop_Button_3
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.10-18.49.08:465][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.10-18.49.08:513][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.10-18.49.08:513][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.226ms to complete.
+[2019.04.10-18.49.08:521][  0]LogFileHelpers: Loading map 'MainMap' took 2.734
+[2019.04.10-18.49.08:658][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-18.49.08:671][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-18.49.08:685][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-18.49.08:698][  0]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.04.10-18.49.08:699][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-18.49.08:705][  0]LogCollectionManager: Loaded 0 collections in 0.001469 seconds
+[2019.04.10-18.49.08:737][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Saved/Collections/' took 0.01s
+[2019.04.10-18.49.08:738][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/Developers/kylet/Collections/' took 0.00s
+[2019.04.10-18.49.08:738][  0]LogFileCache: Scanning file cache for directory 'D:/cs461/PressVR/Content/Collections/' took 0.02s
+[2019.04.10-18.49.08:738][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.10-18.49.08:753][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 2723 classes and 659 folders.
+[2019.04.10-18.49.08:760][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.10-18.49.08:762][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:769][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:769][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:774][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:774][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:775][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:776][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:777][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:777][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:778][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:779][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:780][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:781][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:781][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.10-18.49.08:829][  0]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.04.10-18.49.08:829][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.10-18.49.08:840][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.04.10-18.49.09:099][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.10-18.49.09:102][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.10-18.49.09:111][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.10-18.49.09:279][  0]LogRenderer: Reallocating scene render targets to support 1160x456 Format 26 NumSamples 1 (Frame:1).
+[2019.04.10-18.49.09:652][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.10-18.49.09:652][  0]LogLoad: (Engine Initialization) Total time: 15.40 seconds
+[2019.04.10-18.49.09:652][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.10-18.49.09:758][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.10-18.49.09:766][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-18.49.09:837][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.10-18.49.09:880][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.04.10-18.49.11:161][  9]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-18.49.11:182][  9]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-18.49.11:294][ 10]LogAssetRegistry: Asset discovery search completed in 11.7348 seconds
+[2019.04.10-18.49.11:299][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.10-18.49.11:299][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000161 seconds (updated 0 objects)
+[2019.04.10-18.49.12:048][ 36]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.04.10-18.49.12:193][ 39]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_13:PersistentLevel.BP_Emergency_Stop_Button_C_0.EmergencyButtonButton: Material index 2 is invalid.
+[2019.04.10-18.49.12:193][ 39]LogScript: Warning: Accessed None trying to read property Button light material
+	BP_Emergency_Stop_Button_C /Engine/Transient.World_13:PersistentLevel.BP_Emergency_Stop_Button_C_0
+	Function /Game/BluePrints/BP_Emergency_Stop_Button.BP_Emergency_Stop_Button_C:UserConstructionScript:0065
+[2019.04.10-18.49.12:598][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-18.49.12:667][ 66]LogTemp: Repeating last play command: VR Preview
+[2019.04.10-18.49.12:719][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-18.49.12:720][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-18.49.12:720][ 66]PIE: New page: PIE session: MainMap (Apr 10, 2019, 4:49:12 AM)
+[2019.04.10-18.49.12:733][ 66]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.04.10-18.49.12:899][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.165150s)
+[2019.04.10-18.49.12:900][ 66]LogAIModule: Creating AISystem for world MainMap
+[2019.04.10-18.49.12:901][ 66]LogPlayLevel: PIE: World Init took: (0.001528s)
+[2019.04.10-18.49.12:902][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.168023s)
+[2019.04.10-18.49.13:030][ 66]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-18.49.13:046][ 66]LogInit: FAudioDevice initialized.
+[2019.04.10-18.49.13:062][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-18.49.13:327][ 66]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.04.10-18.49.13:459][ 66]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.10-18.49.13:467][ 66]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-18.49.13:467][ 66]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-18.49.13:468][ 66]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-18.49.13:468][ 66]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-18.49.13:468][ 66]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-18.49.13:468][ 66]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-18.49.13:474][ 66]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.10-18.49.13:494][ 66]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.04.10-11.49.13
+[2019.04.10-18.49.13:496][ 66]LogWorld: Bringing up level for play took: 0.033194
+[2019.04.10-18.49.13:516][ 66]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.04.10-18.49.13:521][ 66]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.10-18.49.13:521][ 66]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.10-18.49.13:521][ 66]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.10-18.49.13:525][ 66]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.49.13:525][ 66]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.49.13:526][ 66]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-18.49.13:526][ 66]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.49.13:526][ 66]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-18.49.13:526][ 66]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-18.49.13:526][ 66]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-18.49.13:526][ 66]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-18.49.13:531][ 66]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.49.13:531][ 66]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.49.13:538][ 66]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.435
+[2019.04.10-18.49.13:539][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-18.49.13:613][ 67]LogRenderer: Reallocating scene render targets to support 3192x1596 Format 26 NumSamples 1 (Frame:1).
+[2019.04.10-18.49.13:793][ 68]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.10-18.49.14:144][ 69]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.10-18.49.14:145][ 69]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:02F0
+[2019.04.10-18.49.14:145][ 69]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.10-18.49.16:378][132]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.10-18.49.16:898][146]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.10-18.49.17:320][156]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.10-18.49.17:653][162]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.10-18.49.32:975][755]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-18.49.33:213][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-18.49.33:284][755]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.10-18.49.33:325][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-18.49.33:325][755]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-18.49.33:360][755]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-18.49.33:360][755]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.49.33:451][756]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.04.10-18.49.51:844][921]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-18.49.51:851][921]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-18.50.03:601][497]LogSlate: Window 'Plugins' being destroyed
+[2019.04.10-18.50.03:617][497]LogSlate: Window 'Plugins' being destroyed
+[2019.04.10-18.50.03:617][497]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.04.10-18.50.03:617][497]LogDirectoryWatcher: A directory notification for 'D:/Applications/Epic Games/UE_4.21/Enterprise/Plugins/' was aborted.
+[2019.04.10-18.50.43:222][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-18.50.45:355][898]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-18.50.47:845][898]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.10-18.50.47:952][899]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PressVR
+[2019.04.10-18.50.47:952][899]LogTemp: CWD: D:\Applications\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.10-18.50.47:952][899]LogTemp: Initial Dir: D:\Applications\Epic Games\UE_4.21
+[2019.04.10-18.50.47:952][899]LogTemp: Env CWD: D:\Applications\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.10-18.50.47:952][899]LogTemp: BranchPath = DESKTOP-1KNH53N/D/Applications/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-1KNH53N/D/Applications/Epic Games/UE_4.21/Engine/Binaries
+[2019.04.10-18.50.47:952][899]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\kylet\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.10-18.59.46:794][229]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.10-18.59.46:799][229]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.10-18.59.49:001][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-18.59.49:090][321]LogTemp: Repeating last play command: VR Preview
+[2019.04.10-18.59.49:127][321]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-18.59.49:127][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-18.59.49:127][321]PIE: New page: PIE session: MainMap (Apr 10, 2019, 4:59:49 AM)
+[2019.04.10-18.59.49:127][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.04.10-18.59.49:197][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070572s)
+[2019.04.10-18.59.49:197][321]LogAIModule: Creating AISystem for world MainMap
+[2019.04.10-18.59.49:198][321]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2019.04.10-18.59.49:198][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.071382s)
+[2019.04.10-18.59.49:229][321]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-18.59.49:235][321]LogInit: FAudioDevice initialized.
+[2019.04.10-18.59.49:242][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-18.59.49:321][321]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.10-18.59.49:325][321]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-18.59.49:325][321]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-18.59.49:325][321]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-18.59.49:325][321]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-18.59.49:325][321]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-18.59.49:325][321]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-18.59.49:327][321]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.10-18.59.49:333][321]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.04.10-11.59.49
+[2019.04.10-18.59.49:334][321]LogWorld: Bringing up level for play took: 0.011766
+[2019.04.10-18.59.49:349][321]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.10-18.59.49:349][321]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.10-18.59.49:349][321]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.10-18.59.49:350][321]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.59.49:351][321]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.59.49:351][321]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-18.59.49:351][321]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.59.49:351][321]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-18.59.49:351][321]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-18.59.49:351][321]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-18.59.49:351][321]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-18.59.49:354][321]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.59.49:354][321]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.10-18.59.49:357][321]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.256
+[2019.04.10-18.59.49:358][321]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-18.59.49:577][323]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.10-18.59.49:617][324]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.10-18.59.49:617][324]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:02F0
+[2019.04.10-18.59.49:617][324]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.10-19.00.05:800][957]LogBlueprintUserMessages: [VRPawn_507] 1
+[2019.04.10-19.00.05:800][957]LogBlueprintUserMessages: [VRPawn_507] 2b
+[2019.04.10-19.00.05:801][957]LogBlueprintUserMessages: [VRPawn_507] a
+[2019.04.10-19.00.05:801][957]LogBlueprintUserMessages: [VRPawn_507] yes yes yes
+[2019.04.10-19.00.06:854][991]LogBlueprintUserMessages: [VRPawn_507] 1
+[2019.04.10-19.00.06:854][991]LogBlueprintUserMessages: [VRPawn_507] 2
+[2019.04.10-19.00.06:854][991]LogBlueprintUserMessages: [VRPawn_507] 3
+[2019.04.10-19.00.07:355][ 12]LogBlueprintUserMessages: [VRPawn_507] 1
+[2019.04.10-19.00.07:355][ 12]LogBlueprintUserMessages: [VRPawn_507] 2b
+[2019.04.10-19.00.07:356][ 12]LogBlueprintUserMessages: [VRPawn_507] a
+[2019.04.10-19.00.07:356][ 12]LogBlueprintUserMessages: [VRPawn_507] yes yes yes
+[2019.04.10-19.00.07:909][ 28]LogBlueprintUserMessages: [VRPawn_507] 1
+[2019.04.10-19.00.07:909][ 28]LogBlueprintUserMessages: [VRPawn_507] 2
+[2019.04.10-19.00.07:909][ 28]LogBlueprintUserMessages: [VRPawn_507] 3
+[2019.04.10-19.00.36:421][385]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.00.36:627][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-19.00.36:666][385]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.10-19.00.36:718][385]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-19.00.36:718][385]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.00.36:758][385]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.00.36:758][385]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.00.36:772][385]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-19.00.36:836][386]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.04.10-19.00.38:239][447]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-19.00.38:273][447]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-19.00.40:204][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-19.00.41:392][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-19.00.42:323][599]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.10-19.00.42:444][601]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PressVR
+[2019.04.10-19.00.42:444][601]LogTemp: CWD: D:\Applications\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.10-19.00.42:444][601]LogTemp: Initial Dir: D:\Applications\Epic Games\UE_4.21
+[2019.04.10-19.00.42:444][601]LogTemp: Env CWD: D:\Applications\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.10-19.00.42:444][601]LogTemp: BranchPath = DESKTOP-1KNH53N/D/Applications/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-1KNH53N/D/Applications/Epic Games/UE_4.21/Engine/Binaries
+[2019.04.10-19.00.42:458][602]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\kylet\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.10-19.01.04:087][627]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.10-19.01.04:094][627]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.10-19.01.07:094][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.01.07:161][793]LogTemp: Repeating last play command: VR Preview
+[2019.04.10-19.01.07:187][793]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.01.07:187][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-19.01.07:187][793]PIE: New page: PIE session: MainMap (Apr 10, 2019, 5:01:07 AM)
+[2019.04.10-19.01.07:187][793]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.04.10-19.01.07:257][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069418s)
+[2019.04.10-19.01.07:257][793]LogAIModule: Creating AISystem for world MainMap
+[2019.04.10-19.01.07:258][793]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2019.04.10-19.01.07:258][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.070203s)
+[2019.04.10-19.01.07:289][793]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-19.01.07:301][793]LogInit: FAudioDevice initialized.
+[2019.04.10-19.01.07:310][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-19.01.07:402][793]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.10-19.01.07:405][793]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-19.01.07:405][793]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-19.01.07:405][793]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-19.01.07:405][793]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-19.01.07:405][793]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-19.01.07:405][793]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-19.01.07:407][793]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.10-19.01.07:413][793]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.04.10-12.01.07
+[2019.04.10-19.01.07:414][793]LogWorld: Bringing up level for play took: 0.010385
+[2019.04.10-19.01.07:430][793]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.10-19.01.07:430][793]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.10-19.01.07:430][793]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.10-19.01.07:431][793]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.01.07:432][793]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.01.07:432][793]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.01.07:432][793]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.01.07:432][793]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.01.07:432][793]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.01.07:432][793]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.01.07:432][793]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.01.07:433][793]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.01.07:433][793]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.01.07:440][793]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.338
+[2019.04.10-19.01.07:440][793]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.01.07:526][795]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.10-19.01.07:542][795]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.10-19.01.07:542][795]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:02F0
+[2019.04.10-19.01.07:543][795]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.10-19.01.53:478][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.01.53:655][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-19.01.53:693][382]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.10-19.01.53:747][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-19.01.53:747][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.01.53:797][382]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.01.53:797][382]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.01.53:813][382]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-19.01.53:873][383]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.04.10-19.01.57:297][554]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-19.01.57:313][554]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-19.02.00:697][716]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-19.02.01:948][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-19.02.02:881][766]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.10-19.02.02:999][768]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PressVR
+[2019.04.10-19.02.02:999][768]LogTemp: CWD: D:\Applications\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.10-19.02.02:999][768]LogTemp: Initial Dir: D:\Applications\Epic Games\UE_4.21
+[2019.04.10-19.02.02:999][768]LogTemp: Env CWD: D:\Applications\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.10-19.02.02:999][768]LogTemp: BranchPath = DESKTOP-1KNH53N/D/Applications/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-1KNH53N/D/Applications/Epic Games/UE_4.21/Engine/Binaries
+[2019.04.10-19.02.03:021][769]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\kylet\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.10-19.02.41:716][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.02.51:706][991]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.02.51:706][991]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.02.53:154][ 58]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.10-19.02.53:165][ 58]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualReality/Blueprints/BP_MotionController.BP_MotionController
+[2019.04.10-19.02.54:360][ 58]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.04.10-19.02.55:733][ 58]LogSlate: Took 0.032596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.10-19.02.56:290][ 59]LogSlate: Took 0.005812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.10-19.03.21:970][500]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualReality/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2019.04.10-19.04.43:049][810]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.10-19.04.43:086][810]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.10-19.04.43:981][853]LogTemp: Repeating last play command: VR Preview
+[2019.04.10-19.04.44:007][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.04.44:008][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-19.04.44:008][853]PIE: New page: PIE session: MainMap (Apr 10, 2019, 5:04:44 AM)
+[2019.04.10-19.04.44:008][853]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.04.10-19.04.44:078][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070866s)
+[2019.04.10-19.04.44:078][853]LogAIModule: Creating AISystem for world MainMap
+[2019.04.10-19.04.44:079][853]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2019.04.10-19.04.44:079][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.071699s)
+[2019.04.10-19.04.44:125][853]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-19.04.44:131][853]LogInit: FAudioDevice initialized.
+[2019.04.10-19.04.44:140][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-19.04.44:223][853]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.10-19.04.44:226][853]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-19.04.44:226][853]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-19.04.44:226][853]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-19.04.44:226][853]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-19.04.44:227][853]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-19.04.44:227][853]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-19.04.44:229][853]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.10-19.04.44:245][853]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.04.10-12.04.44
+[2019.04.10-19.04.44:246][853]LogWorld: Bringing up level for play took: 0.022535
+[2019.04.10-19.04.44:261][853]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.10-19.04.44:261][853]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.10-19.04.44:261][853]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.10-19.04.44:262][853]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.04.44:262][853]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.04.10-19.04.44:271][853]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 1.169
+[2019.04.10-19.04.44:272][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.04.44:410][855]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.10-19.04.44:448][856]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.10-19.04.44:448][856]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:02F0
+[2019.04.10-19.04.44:448][856]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.10-19.04.54:869][285]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.04.54:869][285]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.04.54:869][285]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.04.54:869][285]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.04.56:390][354]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.04.56:390][354]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.04.56:390][354]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.04.56:390][354]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.42:480][653]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.42:481][653]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.42:481][653]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.42:481][653]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.43:955][742]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.43:955][742]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.43:955][742]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.43:955][742]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.45:145][804]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.45:145][804]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.45:145][804]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.45:145][804]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.46:643][895]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.46:643][895]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.46:643][895]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.46:643][895]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.47:787][964]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.47:787][964]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.47:787][964]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.47:787][964]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.48:669][ 14]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.48:669][ 14]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.48:669][ 14]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.48:669][ 14]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.49:563][ 64]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.49:563][ 64]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.49:563][ 64]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.49:563][ 64]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.50:493][127]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.50:493][127]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.50:493][127]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.50:493][127]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.51:733][203]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.51:733][203]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.51:733][203]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.51:733][203]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.52:609][250]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.52:609][250]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.52:609][250]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.52:609][250]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.53:591][308]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.53:592][308]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.53:592][308]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.53:592][308]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.54:589][371]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.54:589][371]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.54:589][371]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.54:589][371]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.56:049][453]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.56:049][453]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.56:049][453]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.56:049][453]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.57:326][518]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.57:326][518]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.57:326][518]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.57:326][518]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.58:284][576]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.58:284][576]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.58:284][576]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.58:284][576]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.58:851][611]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.05.58:851][611]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.58:851][611]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.05.58:851][611]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.00:009][685]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.06.00:009][685]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.00:009][685]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.00:009][685]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.01:007][748]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.06.01:007][748]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.01:007][748]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.01:007][748]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.02:451][827]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.06.02:451][827]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.02:451][827]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.02:451][827]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.03:244][880]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.06.03:245][880]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.03:245][880]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.03:245][880]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.06.10:152][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.06.10:333][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-19.06.10:375][265]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.10-19.06.10:428][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-19.06.10:428][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.06.10:554][266]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.04.10-19.06.35:572][402]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMap' took 0.028
+[2019.04.10-19.06.35:671][402]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Blueprints/BP_MotionController] ([1] browsable assets)...
+[2019.04.10-19.06.35:731][402]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualReality/Blueprints/BP_MotionController.BP_MotionController]
+[2019.04.10-19.06.35:731][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Blueprints/BP_MotionController]
+[2019.04.10-19.06.35:990][402]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/BP_MotionController_Auto16C08F21C443B1D74F9D5FFBF7F486F2F.tmp' to '../../../../../../cs461/PressVR/Saved/Autosaves/Game/VirtualReality/Blueprints/BP_MotionController_Auto1.uasset'
+[2019.04.10-19.06.36:018][402]LogFileHelpers: Auto-saving content packages took 0.445
+[2019.04.10-19.07.04:805][489]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-19.07.04:813][489]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-19.14.54:110][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.14.54:231][447]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualReality/Blueprints/BP_MotionController.BP_MotionController
+[2019.04.10-19.15.18:794][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.16.00:407][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.16.40:890][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.16.43:629][806]BlueprintLog: New page: Compile BP_MotionController
+[2019.04.10-19.17.05:794][862]LogTemp: Repeating last play command: VR Preview
+[2019.04.10-19.17.05:820][862]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.17.05:820][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-19.17.05:820][862]PIE: New page: PIE session: MainMap (Apr 10, 2019, 5:17:05 AM)
+[2019.04.10-19.17.05:820][862]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.04.10-19.17.05:893][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072222s)
+[2019.04.10-19.17.05:894][862]LogAIModule: Creating AISystem for world MainMap
+[2019.04.10-19.17.05:894][862]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2019.04.10-19.17.05:894][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.072996s)
+[2019.04.10-19.17.05:939][862]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-19.17.05:950][862]LogInit: FAudioDevice initialized.
+[2019.04.10-19.17.05:959][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-19.17.06:044][862]LogLoad: Game class is 'BP_GameMode_C'
+[2019.04.10-19.17.06:048][862]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-19.17.06:048][862]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-19.17.06:048][862]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-19.17.06:048][862]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-19.17.06:048][862]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.10-19.17.06:048][862]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2019.04.10-19.17.06:050][862]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_LargePrinterDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2019.04.10-19.17.06:056][862]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2019.04.10-12.17.06
+[2019.04.10-19.17.06:057][862]LogWorld: Bringing up level for play took: 0.011896
+[2019.04.10-19.17.06:071][862]LogBlueprintUserMessages: [VRPawn_507] k
+[2019.04.10-19.17.06:071][862]LogBlueprintUserMessages: [VRPawn_507] kk
+[2019.04.10-19.17.06:071][862]LogBlueprintUserMessages: [VRPawn_507] kkk
+[2019.04.10-19.17.06:072][862]LogSlate: Slate User Unregistered.  User Index 8
+[2019.04.10-19.17.06:072][862]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.17.06:072][862]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.17.06:072][862]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2019.04.10-19.17.06:078][862]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.975
+[2019.04.10-19.17.06:078][862]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.17.06:186][864]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.04.10-19.17.06:233][865]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD'!
+[2019.04.10-19.17.06:233][865]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MainHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.MainHUD_C_0
+	Function /Game/Widget/MainHUD.MainHUD_C:ExecuteUbergraph_MainHUD:02F0
+[2019.04.10-19.17.06:233][865]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MainHUD Function:  Execute Ubergraph Main HUD Graph:  EventGraph Node:  Set ActiveTutorial
+[2019.04.10-19.17.22:232][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.17.22:439][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.10-19.17.22:480][451]LogSlate: Window 'PressVR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.10-19.17.22:530][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.10-19.17.22:530][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2019.04.10-19.17.22:635][452]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.04.10-19.18.11:094][682]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMap' took 0.030
+[2019.04.10-19.18.11:096][682]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Blueprints/BP_MotionController] ([1] browsable assets)...
+[2019.04.10-19.18.11:148][682]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualReality/Blueprints/BP_MotionController.BP_MotionController]
+[2019.04.10-19.18.11:148][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Blueprints/BP_MotionController]
+[2019.04.10-19.18.11:337][682]LogSavePackage: Moving '../../../../../../cs461/PressVR/Saved/BP_MotionController_Auto22BB3F9E34155FAE068C6C18F0452920D.tmp' to '../../../../../../cs461/PressVR/Saved/Autosaves/Game/VirtualReality/Blueprints/BP_MotionController_Auto2.uasset'
+[2019.04.10-19.18.11:339][682]LogFileHelpers: Auto-saving content packages took 0.242
+[2019.04.10-19.18.25:814][901]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-19.18.25:817][901]LogSlate: Window 'Message Log' being destroyed
+[2019.04.10-19.19.13:435][190]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Widget/WidgetBlueprint.WidgetBlueprint
+[2019.04.10-19.19.26:303][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.19.30:573][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.21.04:379][655]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.04.10-19.21.04:380][655]LogMaterial: Warning: /Engine/Transient.Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.04.10-19.21.04:380][655]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2019.04.10-19.21.08:027][796]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Widget/HUD_BP.HUD_BP
+[2019.04.10-19.21.25:327][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.21.34:438][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.04.10-19.22.20:342][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.22.33:082][414]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.10-19.22.41:628][862]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.10-19.22.51:972][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.10-19.22.52:039][432]BlueprintLog: New page: Compile BP_MotionController
+[2019.04.10-19.23.02:439][986]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_21:PersistentLevel.BP_MotionController_C_0.Widget' 
+[2019.04.10-19.23.02:442][986]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_21:PersistentLevel.BP_MotionController_C_0.Widget' 
+[2019.04.10-19.23.02:457][987]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_21:PersistentLevel.BP_MotionController_C_0.Widget' 
+[2019.04.10-19.23.04:893][112]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_21:PersistentLevel.BP_MotionController_C_0.Widget' 
+[2019.04.10-19.23.04:896][112]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_21:PersistentLevel.BP_MotionController_C_0.Widget' 
+[2019.04.10-19.23.04:916][113]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_21:PersistentLevel.BP_MotionController_C_0.Widget' 
+[2019.04.10-19.23.14:488][661]LogEditorTransaction: Undo Modify Component(s)
+[2019.04.10-19.23.14:836][672]LogRHI: Error: SyncInterval 0
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.BufferDesc.Width 18
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.BufferDesc.Height 68
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.BufferCount 1
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.OutputWindow 00000000001E07F0
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.Windowed true
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.SwapEffect 0
+[2019.04.10-19.23.14:837][672]LogRHI: Error: SwapChainDesc.Flags 2
+[2019.04.10-19.23.14:837][672]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:361 
+ with error E_INVALIDARG
+[2019.04.10-19.23.14:837][672]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.04.10-19.23.19:358][672]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.10-19.23.19:358][672]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.04.10-19.23.19:444][672]LogWindows: Error: === Critical error: ===
+[2019.04.10-19.23.19:444][672]LogWindows: Error: 
+[2019.04.10-19.23.19:444][672]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2019.04.10-19.23.19:444][672]LogWindows: Error: Rendering thread exception:
+[2019.04.10-19.23.19:444][672]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 251] 
+[2019.04.10-19.23.19:444][672]LogWindows: Error: Result failed 
+[2019.04.10-19.23.19:444][672]LogWindows: Error:  at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:361 
+[2019.04.10-19.23.19:444][672]LogWindows: Error:  with error E_INVALIDARG
+[2019.04.10-19.23.19:444][672]LogWindows: Error: 
+[2019.04.10-19.23.19:444][672]LogWindows: Error: 
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007ff84dbd9129 KERNELBASE.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff9448cd1a UE4Editor-Core.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff9426a967 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff941a0df7 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff88c30f16 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff88c0eb8e UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff88c1c798 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007ff809ab3905 UE4Editor-RHI.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007ff809ab3495 UE4Editor-RHI.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007ff809ab45bc UE4Editor-RHI.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007ff809aaba45 UE4Editor-RHI.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff8896179e UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff889679ca UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff94031798 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff94031c56 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007ff80c559af9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007ff80c55aa74 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff9448c500 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007fff9447cac1 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007ff84f327974 KERNEL32.DLL!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: [Callstack] 0x00007ff85101a271 ntdll.dll!UnknownFunction []
+[2019.04.10-19.23.19:444][672]LogWindows: Error: 
+[2019.04.10-19.23.19:444][672]LogWindows: Error: 
+[2019.04.10-19.23.19:444][672]LogWindows: Error: 
+[2019.04.10-19.23.19:444][672]LogWindows: Error: 
+[2019.04.10-19.23.19:460][672]LogExit: Executing StaticShutdownAfterError
+[2019.04.10-19.23.19:465][672]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.04.10-19.23.19:475][672]Log file closed, 04/10/19 12:23:19
