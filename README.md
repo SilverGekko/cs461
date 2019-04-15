@@ -19,17 +19,9 @@ Symon Ramos
 ## Project Goal
 The goal of this project is to demonstrate the feasibility of creating and using a Virtual Reality (VR) training program for HP Inc.'s industrial printer: the HP Page-Wide WebPress. When a customer purchases a Page-Wide WebPress, they must be flown out to an HP location that houses a WebPress to attend an intensive, week-long training seminar. This training program is not only time-consuming, but very expensive. This project aims to create a prototype VR training program to showcase the feasibility of replacing at least one of the in-person seminar days with a virtual reality program that can be shipped (a long with a VR headset) to the customer's location.
 
-## Architectural Design
-
 ## Installation
 
-## Virtual Environment
-
-## Interactive Tutorial
-
-## Training Module: Replacing Printheads
-
-## Future Implementation
+See "User Guide" in the LaTeX folder for information about how to test/run this project.
 
 ## Project Metrics
 1) A VR environment is constructed with a PageWide Web Press in the scene. This environment should include recognizable graphics, sounds, and appear to represent a real world work environment to a reasonable extent.
