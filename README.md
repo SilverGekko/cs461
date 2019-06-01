@@ -6,7 +6,7 @@
 **Group 73**
 
 <p align="left">
-  <img src="Screenshots/us.gif" width="1000" title="us.gif">
+  <img src="Screenshots/2019-02-25/us.gif" width="1000" title="us.gif">
 </p>
 
 ## Authors
