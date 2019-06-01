@@ -6,8 +6,7 @@
 **Group 73**
 
 <p align="left">
-  <img src="us.gif" width="1000" title="us.gif">
-  <img src="scene.png" width="1000" title="scene.png">
+  <img src="Screenshots/us.gif" width="1000" title="us.gif">
 </p>
 
 ## Authors
