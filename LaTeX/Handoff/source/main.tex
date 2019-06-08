@@ -1,0 +1,1280 @@
+\documentclass[onecolumn, draftclsnofoot,10pt, compsoc]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{titlesec}
+\usepackage{pdfpages}
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+\titleformat{\subsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{5}{\z@}%
+  {3.25ex \@plus1ex \@minus.2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{6}{\parindent}%
+  {3.25ex \@plus1ex \@minus .2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\def\toclevel@subsubsubsection{4}
+\def\toclevel@paragraph{5}
+\def\toclevel@paragraph{6}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\def\l@paragraph{\@dottedtocline{5}{10em}{5em}}
+\def\l@subparagraph{\@dottedtocline{6}{14em}{6em}}
+\makeatother
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+
+% A one to two page document stating user stories
+% Requirement example: a user must be able to learn how to use the web press from a remote location
+% Don't really need any reference to VR here; that is more of a design choice than a requirement
+% Concise; just whatever are the literal requirements that our project must fulfill
+\title{Capstone Hand Off Document}
+\author{Stephen Hoffmann, Stewart Rodger, Nicholas Pugliese, Kyle Tyler, Symon Ramos}
+\date{October 2018 - June 2019}
+\newpage
+
+\begin{document}
+\setlength\parindent{0pt}
+\maketitle
+
+\section*{Overview}
+This document describes the design and implementation of the 2018-2019 Senior Design Capstone team 73's project to develop a standalone Virtual Reality training scenario to train someone on an existing procedure for HP's Web Press printers. Our end goal was to develop a prototype that advocates Virtual Reality training as a viable means for HP to pursue at a larger scale.
+
+%TODO TODO TODO: 
+%Please make a new file to the right containing all of your weekly reports.
+%I already have everyone's tech reviews
+
+\tableofcontents
+
+\newpage
+
+%done, make revisions to team member roles as needed
+\section{Introduction to Project}
+
+%    Why was it requested?
+%    What is its importance?
+\subsection{Project Importance}
+This project was requested as the result of a need for personnel and HP customers to be trained on HP's Web Press printers. The current methodology of training requires extensive resources in order to fly customers to a location with an HP Web Press, provide food and a hotel rooms for the duration of the training, and halt any production on the Web Press while the training exercises are running. The current training method also can't account for cases where the Web Press breaks because it's not applicable to break a Web Press for the sole purpose of teaching personnel how to react in that scenario.
+\\\\
+This project is important to the future of HP as Virtual Reality can prove to be provide a great deal of benefit in regards to the current training procedure of the Web Press printers. While our project served as a means of a prototype, our meetings with HP personnel to discuss and advocate the potential future of Virtual Reality in their training methodology was very successful, leading to much speculation over the potential our project has to assist in the greater vision of the company as a whole. 
+
+%    Who requested it?
+%    Who was/were your client(s)?
+%    What was the role of the client(s)? (I.e., did they supervise only, or did they participate in doing development)
+\subsection{Client Introduction}
+Our client and requester for this project was Tim Holt, an employee and representative of HP. Tim comes from a gaming background and has been pursuing a prototype to present to upper management to promote allocation of resources towards the adoption of Virtual Reality training methods for the company's HP Web Press printers. This led to his requesting of a capstone team to further implement such a prototype. Tim fulfilled a role of supervision over our project's direction, providing us with the vision of which to implement our project towards while at the same time approving of the requirements we set for ourselves. We met with him various times throughout this project to discuss the current state of the project and any areas of improvement we could focus on. In large part, most of the developmental procedure was given to our discretion, allowing us the freedom to explore and expand our scenario in what we thought could work best to our advantage. 
+
+%    Who are the members of your team?
+%    What were their roles?
+\subsection{Team Introduction}
+Our team comprised of five members, which, while is more than the average senior design capstone team, worked to our advantage as we were able to clearly define roles in such a way where different aspects of project design and implementation were divided effectively to promote efficient development. We all came from different backgrounds and levels of expertise, greatly enabling our ability to hone in on specific parts of the project. As a result, greater quality and attention to detail was achieved. However, we were nevertheless able to assist each other through paired programming and in such a way that the responsibility of one particular facet was never solely on the shoulders of a particular member for the entire duration of the project.
+
+\subsubsection{Stephen Hoffmann}
+Stephen Hoffmann was tasked with the creating the 3D Model of the HP Web Press printer in addition to many various components, such as ink barrels, wipers, and more. With only pictures taken of the Web Press, he was able to implement low-poly but highly efficient and effective representations of the objects to the degree of detail needed to get the point across. In addition, Stephen also implemented many of the interfaces of interactions with various objects, from the opening of the printhead shield to the picking up of objects for additional interaction. 
+
+\subsubsection{Stewart Rodger}
+In this project, Stewart Rodger took on the chief role of developing the user interface (UI) for the entire training scenario in addition to the menu. Through the blueprint feature of Unreal, Stewart displayed sound computational understanding by implementing complex and sequential logic to create a workflow that adhered to the standards and design developed in earlier stages. 
+
+\subsubsection{Nicholas Pugliese}
+Nicholas Pugliese served as the team's manager and facilitated the overall growth and direction of our project, a role that greatly benefited every team member to a praiseworthy extent. From developing sections of the environment such as the training scenario to becoming, in large part, the focal point of contact between our client and other HP personnel, Nick offered his expertise and support at virtually every aspect of the project.
+
+\subsubsection{Kyle Tyler}
+While most of Kyle Tyler's work comprised of the from-scratch development of the environment, the warehouse, and the custom models in the warehouse, Kyle also displayed great versatility in his ability to assist in various aspects of the project, such as his outstanding work with the lighting and textures of the environment, the player rotation controls, and button logic via blueprints. 
+
+\subsubsection{Symon Ramos}
+Symon Ramos' contributions in large part encompassed the comprehensive and extensive research of the Web Press printer operator manuals and training procedures as a means to develop and design an accurate and effective training procedure that can easily be translated into Virtual Reality. Symon also implemented various models in the environment, controller scheme designs, and the accompanying audio of the training scenario.
+
+
+\newpage
+\section{Requirements Document}
+
+\subsection*{Revisions}
+
+\begin{table}[ht!]
+\begin{tabularx}{\textwidth}{|l|X|X|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+Section & Original & New \\ \hline
+Specific Requirements &  HP needs a less expensive way to train Web Press customers on its operation and maintenance. These customers must receive training that prepares them for the operation and maintenance of the HP Web Press at the same level of competency as the in-person training seminars at an HP Web Press location. Creating an entire training program to replace the current system is not within the scope of this project. Instead, this project will focus on laying the groundwork for a training program and creating a single training scenario that can be used to show the worth of a virtual reality training program.    & Creating an entire training program to replace the current system is not within the scope of this project. Instead, this project will focus on laying the groundwork for a training program and creating a single training scenario that can be used to show the worth of a virtual reality training program.   \\ \hline
+\end{tabularx}
+\end{table}
+
+\subsection*{Client Verification}
+
+\begin{Verbatim}[frame=single]
+Nick this is good - happy to sign off on it.
+
+-Tim Holt [2019-04-19, 13:22]
+\end{Verbatim}
+
+% What are a few things that are fundamental to the program?
+% What is the big idea -> user needs to learn web press remotely
+\subsection{General Requirements}
+There is a need for personnel and HP customers to be trained on HP's Web Press printers. The current methodology of training requires extensive resources in order to fly customers to a location with an HP Web Press, provide food and a hotel rooms for the duration of the training, and halt any production on the Web Press while the training exercises are running. The current training method also can't account for cases where the Web Press breaks because it's not applicable to break a Web Press for the sole purpose of teaching personnel how to react in that scenario.
+
+% What are some requirements specific to a certain part of the project?
+\subsection{Specific Requirements}
+HP needs a less expensive way to train Web Press customers on its operation and maintenance. These customers must receive training that prepares them for the operation and maintenance of the HP Web Press at the same level of competency as the in-person training seminars at an HP Web Press location. Creating an entire training program to replace the current system is not within the scope of this project. Instead, this project will focus on laying the groundwork for a training program and creating a single training scenario that can be used to show the worth of a virtual reality training program. 
+
+% Inputs/Outputs -> need computer, some kind of input device, visual output
+% \subsection{External interfaces}
+The customer must have access to facsimiles or analogs of the HP Web Press technology in order to gain familiarity with the real product. When they use a real Web Press for the first time after the remote training they must feel familiar with the physical hardware.
+
+Customers with no prior industrial printing experience should be able to complete the training with adequate knowledge retention.
+% Measurable effectiveness
+% Efficiency
+% Satisfaction criteria in specific contexts of use
+% \subsection{Usability}
+
+% Frame rate
+% Number of simultaneous users supported
+% Load times
+% I think performance (and other non-functional requirements) are a design document item, not solution requirements -N
+%\subsection{Performance}
+
+The new training program must also be more preferable by HP than their old training program and cause them to consider adopting this new method instead.
+
+% Constraints on the program imposed by external standards, regulatory requirements, or project limitations
+% Ex: OS constraints, memory, etc
+\subsection{Constraints}
+The training program should be significantly less expensive per customer to complete than the current in person training model. Ideally there should be no transportation or food expenses to account for. The customer should not have to leave their home or place of business to complete the training. It should be accessible to customers anywhere in the world that has an internet connection. The solution should only include existing HP products utilize preexisting business agreements HP possesses with current technology leaders. 
+
+\subsection{Gantt Chart}
+\bigskip
+\includegraphics[scale=.75]{ganttChart.PNG}
+
+
+\newpage
+\section{Design Document}
+        Proposed is a training program capable of providing the same level of training from a remote location away from real HP printer technology by the use of a virtual reality simulations. The program will contain several different modes and scenarios to be used in place of actual training on the HP facility.
+\newpage
+
+\subsection*{Revisions}
+
+\begin{table}[ht!]
+\begin{tabularx}{\textwidth}{|l|X|X|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+Section & Original & New \\ \hline
+Scope &     The software to be produced is to be called Web Press VR. This software product will allow users to learn how to use
+an HP PageWide Web Press in a completely virtual environment. Users will be able to use a Web Press virtually in a
+sandbox mode, a full training mode, and specific skill training modules. Letting users explore a Web Press in a sand
+box mode will give the user familiarity with the Web Press that will carry over into the real world. A full training mode
+will allow users to see what it is like to use a Web Press, from the beginning to the end of an operation cycle. The skill
+training modules will allow users to familiarize themselves with specific tasks and operations one may wish to perform
+with a Web Press.     &   The software to be produced is to be called Web Press VR. This software product will allow users to learn how to use
+an HP PageWide Web Press in a completely virtual environment. Users will be able to use a Web Press virtually in a
+sandbox mode, a full training mode, and specific skill training modules. Letting users explore a Web Press in a sand
+box mode will give the user familiarity with the Web Press that will carry over into the real world. A full training mode
+will allow users to see what it is like to use a Web Press, from the beginning to the end of an operation cycle. The skill
+training modules will allow users to familiarize themselves with specific tasks and operations one may wish to perform
+with a Web Press. Our goal is to facilitate the creation of a program, and to construct a prototype that can be shown off as a feasibility test to management at HP. This prototype will serve to create the conversation that money should be spent internally at HP to develop the VR program further.  \\ \hline
+\end{tabularx}
+\end{table}
+
+\subsection*{Client Verification}
+
+\begin{Verbatim}[frame=single]
+Nick this is good - happy to sign off on it.
+
+-Tim Holt [2019-04-19, 13:22]
+\end{Verbatim}
+
+\clearpage
+
+
+
+% 8. now you write!
+
+\subsection{Overview}
+\subsubsection{Scope}
+The software to be produced is to be called Web Press VR. This software product will allow users to learn how to use an HP PageWide Web Press in a completely virtual environment. Users will be able to use a Web Press virtually in a sandbox mode, a full training mode, and specific skill training modules. Letting users explore a Web Press in a sand box mode will give the user familiarity with the Web Press that will carry over into the real world. A full training mode will allow users to see what it is like to use a Web Press, from the beginning to the end of an operation cycle. The skill training modules will allow users to familiarize themselves with specific tasks and operations one may wish to perform with a Web Press.
+
+The benefits of using virtual reality to train people to use the Web Press are reductions in training costs, reductions in time required to train, and increases in total understanding of the system. An ultimate goal of the system is to streamline to whole training process, and to serve as a viable alternative to in-person training. We aim to show that virtual reality is an invaluable training tool, and has uses beyond just the scope of this particular product. Our goal is to facilitate the creation of a program, and to construct a prototype that can be shown off as a feasibility test to management at HP. This prototype will serve to create the conversation that money should be spent internally at HP to develop the VR program further.
+\subsubsection{Purpose}
+The purpose of our software is to be a virtual reality training application to work with modern virtual reality headsets. By taking advantage of the increased accessibility of virtual reality as well as the decreased cost of hardware, we hope to build an application that will reduce the costs associated with training people to use HP's PageWide Web Press product line. Developing these training scenarios will improve the effectiveness of HP's current training procedure as well as mitigate the costs and risks of handling real machinery by the trainees.
+\subsubsection{Intended Audience}
+The intended audience of our software will ultimately be personnel who are enrolled to be trained on HP's PageWide Web Press product line, whether it be HP employees or customers who have purchased the technology. Teachers and supervisors of the training program of HP would also be involved in the utilization of our software. Relative to the scope of our project, we intend for our software to be reviewed in-depth by our client and any other potential personnel that our client recommends. Our client will use our software as an additional means to prompt upper management of HP to invest and allocate more resources into the development of VR software that trains personnel on PageWide Web Press use. 
+\subsubsection{Conformance}
+The ultimate goal of the VR system is to provide an environment that allows the user to receive the same quality of training as if they were participating in an in-person training event at an actual HP PageWide Web Press location.
+
+\subsection{Definitions}
+\begin{enumerate}
+    \item Virtual Reality (VR) - A simulated computer environment that immerses the user in a 3D space
+    \item PageWide Web Press - Industrial HP printers for commercial printing. "PageWide" refers to the length of the printhead matching a standard 8.5"x11" piece of paper. Web refers to the name of the roll of paper to be printed
+    \item Headset - The VR component worn on a users head to providing visual and audio immersion
+    \item CAD - Computer Aided Design. Also the file type used for 3D models that represent real life objects, usually to exact specifications
+    \item GitHub - A website git tool used for version control when building software
+    \item Frame rate - The frequency at which a graphics program outputs frames of video.
+    \item Refresh rate - The frequency at which a display updates its image. Usually measured in refreshes per second (Hz)
+    \item GPU - The graphics processing unit, the device in charge of rendering and outputting on to display
+    \item HDMI - The display cable used to connect a VR Headset to a computer
+    \item Blueprints - Blueprints Visual Scripting. A node-based interface for creating gameplay elements in Unreal Engine
+    \item Object Oriented (OO) - A programming methodology that enables a system to be modeled as a set of object that can be controlled and manipulated in a modular manner
+    
+\end{enumerate}
+\subsection{Conceptual model for software design descriptions}
+The proposed system will provide the training in the form of a virtual reality re-creation of the HP PageWide Web Press using the Unreal Engine as a graphics solution. HP will provide 3D CAD models of the Web Press to be use as a baseline for developing our own interactive models. The models in the final application must be recognizable as real Web Press products to ensure high correlation between the knowledge received in the training program and the situations involved with running a real web press.
+
+The core of the program will be a set of training exercises that prepare different scenarios for the user such as fixing a broken part or restocking the machine with paper. The user must complete these objectives before they will receive a certification for that particular exercise.
+\subsubsection{Software design in context}
+The product will consist of one bundled application. The application will manage all aspects of the program, from booting, saving, and exiting. It will be required to have a headset running and connected to the computer to functionally run. A save folder will be kept for user preferences and performance metrics, and the application will only use system resources when a user is actively engaged with the headset on. No databases, networking, or external resources will be required to run the application. Everything will be handled inside the program bundle.
+
+% Hardware interfaces
+Required hardware for the software product include a virtual reality headset, a pair of virtual reality controllers, a computer with HDMI and USB support, and a discrete graphics card. The target virtual reality headset is the HP Microsoft Mixed Reality Headset, but the software should be designed to support the Oculus Rift, the Vive, and most other consumer VR headsets. The software will also require the use of a pair of virtual reality controllers, and those controllers must be compatible with whatever headset the software user chooses to use. The HP Microsoft Mixed Reality Headset requires one USB port and one HDMI port, but other headsets may require more input options. This headset also runs on relatively low end graphics cards, but other headsets may require a more powerful GPU. 
+
+% Software interfaces
+The only required software product needed to run the application we are developing is the Windows 10 operating system. Developing for other operating systems is out of the scope of the project at this time. 
+
+% Memory constraints
+There are no hard memory constraints on the software product, but the an application with a smaller memory footprint will allow the application to be more quickly installed and more easily run on systems with limited memory space. 
+\subsubsection{Software design descriptions within the life cycle}
+\begin{center}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=10cm, height=9cm]{agile.jpg}
+        \caption{The Agile Development Cycle. Adapted from \cite{1}.}
+        \label{fig:mesh1}
+    \end{figure}
+\end{center}
+
+We will be implementing an Agile development cycle for our project, as displayed above in  figure \ref{fig:mesh1}. This methodology emphasizes an active and collaborative approach to the software development life cycle. It involves designing, creating, and testing multiple iterations of the program and constantly evaluating its state with our client. Certain aspects of Agile development include gradual modifications to requirements, incremental versions of the program, frequent deliveries on products, integrated testing, and constant collaboration with stakeholders \cite{1}. We chose this development cycle to preemptively prepare for possible situations where we find that one design works better than another. The ability to change our direction to what would produce the best, most viable training module is a tremendous benefit that could assist in the probability of our success. While some aspects of the Waterfall methodology (which emphasizes a sequential progress flow) should be considered, such as adhering to overarching requirements and the general design format that our client would like to see in addition to comprehensive documentation, having the flexibility of Agile development will allow us to build a product that the client will more likely approve of.  
+
+\subsection{Design description information content}
+\subsubsection{Introduction}
+This section will contain the following: an identification of the software design descriptions, identified design stakeholders, identified design concerns, selected design viewpoints, design views, design overlays, and design rationale.
+
+\subsubsection{SDD identification}
+In order to substantiate and validate our progress, the performance metrics established in our Problem Statement document will be addressed. The performance metrics specify certain aspects of our project that we will strive to complete. At several points in our project's duration, we will measure our progress based on the metrics below:
+
+\begin{enumerate}
+\item A VR environment is constructed with a PageWide Web Press in the scene. This environment should include recognizable graphics, sounds, and appear to represent a real world work environment to a reasonable extent.
+
+\item The user can move around within the scene using the provided VR headset, and the user can interact with the press in at least one way using the provided controllers. 
+
+\item The interactive parts of the VR press simulate at least one major function in virtual reality that would be covered in the physical reality training. Instructions should be given to the user with in-game audio and visual cues.  
+
+\item The virtual reality press simulates failure when the VR press is operated incorrectly (controls used in the wrong order) in at least one (ideally all) of the functions in the training.
+
+\item Outside individuals with no prior knowledge can complete the training successfully, without triggering a failure (when allowed repeat attempts), using only the instructions and prompts within the VR simulation. 
+
+\item Positive user feedback on interaction and intuitive gameplay mechanisms, especially for users with no background in virtual reality or gaming controls in general.
+
+\item Framework that can be used to easily implement future training scenarios after completion of capstone.
+
+\item After completing the VR training program, users can correctly identify parts and functions of the real press that were covered in the program.
+\end{enumerate}
+
+The basis of our verification will be predicated on HP's evaluation of our performance. The performance metrics will prove to be useful as specific goals to strive for, but ultimately, HP and our client will determine the validity of our project. 
+
+\subsubsection{Design stakeholders and their concerns}
+Because of the fluid circumstances of our project, our client, Tim Holt, has defined our project goal to be that of a self-encapsulated program that contains a basic training module. An important aspect to our relationship with our stakeholder would be consistent interaction through weekly meetings in order to ensure that we are on the right track. Because of the limited time we have to develop the program, it is imperative that we actively ask questions and review our progress with our client on a regular basis. 
+\subsubsection{Design views}
+The main assumption in this document is that the contents of the training exercises/scenarios will be determined by HP during design planning meetings with Tim Holt, the project sponsor as development starts. We have not yet received technical manuals or descriptions of existing training seminars and as such have not been able to go through the these materials to gain an understanding of the contents of the scenarios.
+\subsubsection{Design viewpoints}
+At the conclusion of our project, we will have created training modules capable of being used with a correctly configured, mid-tier laptop and an HP Mixed Reality Headset. Resources include the CAD files and programs used to implement the modules. The program must be capable of being shared across physical distances so personnel can use it remotely. The documentation and instructions must also be clear and concise. For verification purposes, the personnel running the training modules can provide feedback in addition to any leadership supervising the training for the Web Press systems. One contingency to note is the demand for these training modules; if we had a limited number of personnel to train for the first time, we might not be able to receive enough feedback to properly make a case for the advancement of VR training for HP Web Press systems. 
+\newpage
+
+\subsubsection{Design elements}
+% Design Entities
+The following is a list of design entities with a description of their attributes, which include name, type, and purpose:
+
+\begin{itemize}
+    \item Name: Unreal Engine\\
+          Type: Framework / Engine\\
+          Description: A 3D engine from which we will build our application 
+    \item Name: Blueprints\\
+          Type: Generic templates\\
+          Description: A set of functions in Unreal Engine to be used for visual scripting to reduce programming time
+    \item Name: Sandbox Mode\\
+          Type: Module\\
+          Description: A portion of the program designed to allow users to freely interact with the 3D environment in an undirected setting 
+    \item Name: Training Mode\\
+          Type: Module\\
+          Description: A portion of the program designed to allow users to be given a set of instructions that they must follow to complete some task
+    \item Name: Player Controller\\
+          Type: Component\\
+          Description: A component which will allow the user to interact with the 3D environment, receiving input from a virtual reality headset and pair of controllers
+\end{itemize}
+
+\subsubsection{Design overlays}
+% Business Analysis
+Although we will have definitive methods with which to analyze the development of our modules, we will also begin the verification process during the business analysis portion of our project as well. Our design will require an extensive amount of verification as well in order to create as optimal and accurate a module as we can. Within our business analysis, we will be gathering data from previous virtual reality studies, instruction manuals, current training programs, and other resources to assist in the design of our modules. We will need to verify our design in terms of our use cases during every step of development. We will also speak with personnel involved with training in order to support our design plan for each module that we will strive to create. 
+
+% Code/Documentation Sharing and Accountability
+The management of our documentation, assignment submissions, code, CAD models, audio and video, notes, photos, and version control repositories will be a major factor that could allow us to provide a quantifiable measure with the resources we are developing. Software we will use will be Google Drive, Overleaf, and Github to share our code and documents. Verification will also involve monitoring the progress of each of our team members. By keeping each other accountable in the development of our tangible progress, we can strive for the optimization of a better product. 
+
+% Talking with client
+Among our requirements will be to regularly hold meetings with our client and be in constant discussion about our progress. We will be holding weekly meetings either at HP or on campus with our group and our client where we will go over our recent development and state our goals for the week. We will also document our progress on our individual class blog as well as within an informal work log. Emails will also be used to coordinate between our client throughout the week. In terms of our group dynamic, we will be communicating most often using Slack. In addition, we will also hold weekly meetings with our TA, Christopher Kawell for the class, updating him on our progress both as a group and individually. These meetings will be held in a scrum format where we will discuss what we've done and what we are planning to do. 
+\subsubsection{Design rationale}
+Many components of our project, such as which VR headset to use, have been predetermined by our client and is only subject to change should we have a justifiable alternative that could prove to be more beneficial to HP. As such, we will be using the Mixed Reality Headsets manufactured by HP as our hardware. Software-wise, we are going to use the Unreal Engine as it contains many design components that we would like to use in order to create our modules. 
+
+The management of our code and documentation will be done using the software described in the "Design overlays" section (Google Drive, Overleaf, and Github) due to each software's ease of access and applicability for each task. 
+
+The metrics used in the "SDD identification" section were included as a means to outline the items we should strive to accomplish. While some of the items are general, some are specific so as to emphasize the importance in crafting a detailed simulation that can improve user experience. This will aid in HP's evaluation of our performance. 
+
+
+\subsubsection{Design languages}
+The design language we are choosing to take advantage of is one that is a feature of Unreal Engine, which is Blueprints Visual Scripting. This design language is a system in Unreal Engine that acts as a complete gameplay scripting system that is based on the concept of using a node-based interface to create gameplay elements in the Unreal Editor. It is used to define object-oriented classes or objects. The system will allow our designers to implement features that would normally require writing code, and so will cut back on total development time. Any features that do not have a Blueprint solution will be implemented via programming, but most of the basic functionality of our system will be created using this system.
+
+\newpage
+
+\subsection{Design viewpoints}
+\subsubsection{Introduction}
+This section will describe several design viewpoints. It will illustrate these viewpoints in terms of design language selections, relates design concerns with viewpoints, and establishes language neutral names for these viewpoints. 
+
+\subsubsection{Context viewpoint}
+The environmental conditions will cover room-space requirements and safety measures for user and equipment.
+
+The training application will be designed for room-scale VR with 3x3 meter available space in mind. Less space would still function well, but will allow for less physical user motion, such as stepping forward, leaning, turning, and stretching arms. 
+
+The following simple protocols to setup the room environment will ensure safety of equipment and the user:
+\begin{enumerate}
+    \item Clean surrounding areas of all objects
+    \item Ensure cables are not twisted
+    \item Use the controller wrist straps
+    \item Understand user's physical boundaries
+\end{enumerate}
+\subsubsection{Composition viewpoint}
+The user will interface with the training program through a virtual reality headset. There are 2 main types of virtual reality headsets; built in motion camera headsets and external camera headsets. While the primary headset for the program will be a built in motion camera headset, Microsoft Mixed Reality, the training program will be equally compatible for both types of headsets.
+
+External camera headsets use 1 or more cameras placed away from the headset. The field of view created by the camera(s) is the area that the headset and controllers can be moved within. With a built in motion camera headset, there is only 1 camera, built into the headset itself, and its forward facing field of view is the area the controllers can be moved within. Both have their own flaws. With the former, the headset can not move outside the play area, leaving the in game avatar stuck in place. With the latter, the controllers must be in front of the user, if the user tried to place their controllers above their head or behind them the controllers would become stuck at the edge of the viewport. 
+
+The training program will use standard interface mechanics and inputs to guarantee cross compatibility with other forms of virtual reality headsets. Specifically, the program will highlight objects that can be interacted with, and will present button prompts to show which button is used to interact with the object.  
+
+The VR application will be built for windows 10 systems, knowing that the primary headset will be HP's Windows Mixed Reality headset. No other third party software will be needed. This includes distribution software such as Steam.
+\subsubsection{Logical viewpoint}
+
+The training program will be structured as a series of menus presented to the user. These menus will control which of the training modes and scenarios are presented to the user for completion. Figure \ref{fig:logic_uml} describes the flow of logic through the menus and selecting the training mode, with stop conditions for each state. The training program will be structured in the form of a modern video game. Users will be given scenarios to perform and must complete the requirements of said scenario in order to pass and receive qualification. These qualifications will be stored on a per-user basis to prove to the proctor that the user has indeed passed the training.
+
+\begin{center}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=15cm, height=9cm]{logical_view1.png}
+        \caption{UML Diagram for the logic flow of the training program.}
+        \label{fig:logic_uml}
+    \end{figure}
+\end{center}
+
+\subsubsection{Dependency viewpoint}
+The training program must contain a 3D recreation of the real HP Web Press in order to provide the most accurate training possible to the user. As much as possible, the program must behave in the same way as a real Web Press. HP will provide high quality 3D computer aided design files that can be imported into the Unreal Engine for our use.
+
+Unfortunately, these CAD file might prove to be too detailed for our programs use. The goal is to have a training program that can be run on a middle tier priced laptop, and if the CAD files are too large in file size and detail it will cause the laptop to not be able to run the program at the desired frame rate.
+
+In this event, we will redesign the CAD files to a more simple design to allow for the program to run at a smooth and stable frame rate.
+\subsubsection{Information viewpoint}
+There are only a few cases in which information is being managed for the user:
+\begin{enumerate}
+    \item Saving user scores
+    \item Saving users records of completed training
+    \item Saving user preferences
+\end{enumerate}
+All data will be stored locally on the machine the game is played on. No data is sent to or retrieved from the internet after the application has been installed. 
+
+% Data Gathering and Analysis
+After we develop our modules to the extent where we can begin user testing, we will want to quantify our project's performance by gathering data to analyze. As the purpose of our modules will be to train individuals on how to operate Web Press technology and based on our defined performance metrics, we will utilize the following to analyze our effectiveness: 
+\begin{enumerate}
+    \item User Feedback
+    \item Efficiency in performing certain tasks
+    \item Ability to implement new training scenarios
+\end{enumerate}
+Testing the system interface will be fully dependant on user feedback. We can develop objectives for the user to complete, such as mundane tasks like picking up objects and dropping them, to more complex scenarios. Feedback on interfaces will be based on a criteria of topics with questions pertaining to each. Questions will include asking how intuitive the task feels with little to no instructions, how responsive actions are, tester likes and dislikes about the functionality of in-game actions, and suggestions on what testers think they could benefit from.
+
+Testing will involve the creating an user-name and completing training, while closing the game between each completion to ensure the data is been saved and loaded properly. To test the saving of user preferences the preference will need to be changed and the game will need to be reset to verify changes.
+
+\subsubsection{Policies and regulations}
+Policy will be dictated by HP. This system will belong to them as a HP licensed product. We as a development team will own no rights.
+
+Official HP resources will be made available to this team under a non-disclosure agreement. These reference materials are not to be used in the final product, and instead are to be used in the creation of derivative models and works that will not fall under the non-disclosure agreement. The final program will be freely available to be shown off at the OSU Engineering Expo as part of the senior project capstone class.
+
+\subsubsection{Interface viewpoint}
+% User interfaces
+The user interfaces of the software product necessary to accomplish the software requirements include a virtual reality display of 3D environments, a navigation interface for users to move through a 3D space, and text UI elements to allow a user to access information in the application. It is important that the software product is comfortable and understandable for users. Virtual reality can adversely effect users who are sensitive to motion sickness, so a consistent frame rate in the application is important for user comfort. Users must also be able to understand their environment and clearly see what options are available to them, such as where they are able to move and what they are able to interact with.
+
+\subsubsection{Interaction viewpoint}
+The training program should be accessible to everyone. No prior virtual reality or video gaming experience should be necessary to complete the training exercises provided by the program.
+
+One of the biggest steps taken to keep the training program approachable will be the availability of different movement options for the user. The most common movement style in a typical VR game is teleportation: the user holds on button down on the controller and an indicator appears pointing to the location the user will be teleported to if they press another button. The user may move the pointer to a new location by moving the controller around in the virtual space, or they may cancel the movement command with a button press. Of course, the user will be able to physically walk around the real world and observe the same movement in the virtual world, but teleportation allows the user to have free reign of movement throughout the entire virtual space and not be limited to the dimensions of the physical surroundings.
+
+Additionally, the user will be able to move around with the traditional gaming style of pointing the analog stick in the direction they want to move. This option will have to be opted into by users as the consensus of virtual reality players is that movement in this manner tricks their eyes into believing that there is actually physical motion occurring without movement from the legs, which has a high percent chance to cause nausea.
+
+%Move this? ---> is this true?
+% this should still be true. -nick
+After the user completes a scenario or section of scenarios they must take a quiz about what they just accomplished. If they do not meet an information retention rate of at least 90\% they must complete the scenario or section of scenarios again until they are ale to achieve 90\% retention or better.
+
+Additionally, some scenarios may be time dependant and require the user to finish the scenario requirements in the allotted time. If they do not complete the scenarios in the allotted time the scenario is marked as failed and the user must attempt that scenario again before they are allowed to take that scenario or scenario section quiz and move on to different scenarios.
+\subsubsection{State dynamics viewpoint}
+The training program will have two modes: scenario and sandbox.
+
+Scenario mode puts the user into a predetermined event or series of events and requires them to participate until the desired outcome is achieved, or other limitations like a time limit runs out. For instance, one such scenario would be if the Web Press breaks down or has stopped printing the user must investigate the problem and return the press to a nominally functioning state. A subsection of the scenario mode will be the alarm gauntlet: a series of scenarios designed to test the users knowledge of the Web Presses many alarm systems and how to silence them by fixing the associated fault.
+
+Sandbox mode is more free form. There is no time limit or overarching goal to achieve. Sandbox mode allows the user to interact with the Web Press as if they were standing next to a real one in person. The user may practice any feature of the Web Press they desire and the Web Press will respond as expected. Sandbox mode allows for user to test things they might not get to test on the real Web Press such as what happens if the Web Press's paper feeder jams and is not fixed in the proper amount of time, and what happens to the rest of the system as a consequence.
+
+The significance of having both modes available allows personnel to first be trained to be trainable (via the sandbox mode) by familiarizing themselves with both Web Press and VR concepts. This invites them to succeed. Scenario mode, however, will teach the user how to deal with specific events, providing them with practical experience and can be more valuable in than sandbox mode in that it prepares the user how to handle such events, such as the Web Press breaking down. To justify and validate the use of two modes, user feedback will be gathered by HP personnel to inquire on the effectiveness of having scenario and sandbox mode.
+
+\subsubsection{Algorithm viewpoint}
+The goal will be to have four separate controller classes; Player controller, Quest-State Controller, UI controller, and Object Controller. From a high level viewpoint, each controller will use a modular class based design to allow expansion of features and modifications based on specific level design.
+
+Each controller will be in charge of a different portion of user interaction and feedback, while also working together to provide a full experience.
+
+\includegraphics[width=200pt]{AlgoDia.png}
+
+\subsubsubsection{Player Controller}
+The Player Controller will be in charge primarily of player input and translating that information into the virtual world. The Player Controller will also be in charge of all variables related to the player, such as player scores.
+\subsubsubsection{Quest-State Controller}
+The Quest-State Controller is in charge of all task oriented logic and the current state of the quest events.
+\subsubsubsection{UI Controller}
+The UI Controller will be managing all UI displayed to the user on screen. This includes touchable floating text, buttons, and scores. The variables for these variables will be referenced from the Player and Quest-State Controller.
+\subsubsubsection{Object Controller}
+The Object Controller class will be what all non player objects inherit, such as interactive objects. This will be in-charge of when an object can be initialized or destroyed, and whether or not it contains physical properties or other unique characteristics.
+
+\subsubsection{Resources viewpoint}
+Since this program will be run as an Unreal Application on internal company servers and computers, security will not be a major focus. Our team does understand that some printer models will not be of public knowledge (secret), so any public demo will use only public printer models.
+
+As far as data security is concerned, all files will be built and compiled using Unreal for internal use only. We will not be implementing any method to protect assets, such as CAD models, from being stolen from the company's internal servers.
+%\subsection{Bibliography}
+\begin{thebibliography}{}
+\bibitem{1}
+Project-Management, “10 Key Principles of Agile Software Development,” Best Project Management Software Reviews, Oct. 8, 2018. [Online]. Available: https://project-management.com/10-key-principles-of-agile-software-development/ [Accessed: Nov. 27, 2018].
+\end{thebibliography}
+
+
+\newpage
+\section{Tech Reviews}
+
+\subsection{Nicholas Pugliese}
+\subsubsection{Introduction}
+Our project is to create a virtual reality simulation in order to teach the user how to operate and maintain the HP Web Press from a remote location, augmenting the existing in-person seminars that HP holds for customers. The training program will share many of the same characteristics as a video game, and our team will utilize video game design principles to teach the user how to use the Web Press. This shift in paradigm changes how information will be passed to the user and how the user will be tested for knowledge retention. This tech review will compare and contrast "classroom" environments such as a traditional lecture/seminar style of teaching versus that of an interactive video game/program. The "technologies" being reviewed are methods of education, which can be classified as technology based on the first definition of technology from Merriam-Webster.
+
+\begin{displayquote}
+"\textbf{technology}: the practical application of knowledge especially in a particular area"
+\end{displayquote}
+
+\subsubsection{Traditional}
+The most common style of in-person teaching is the lecture format. Lectures involve a speaker or speakers talking to a large number of students about a topic or topics. While lecture formats are usually enhanced by means of visual aid in the form of either physical objects or a slideshow of images, they are generally oral communication. Students in lectures take notes and memorize lessons to retain information \cite{lecture}. An in-person lecture has time set aside during class for questions and clarifications. Achieving the same student/teacher interaction can be difficult in a remote environment. Prerecorded lectures also exist, and those may serve distance learning students better because they have the ability to pause and go back to rewatch a section over to let the information sink in and take better notes. However, this method lacks the near-instant feedback a student can receive by asking a question directly to the lecturer.
+
+Lecture formats are really good at teaching ideas and concepts. Learning how to operate a machine requires hands-on experience. A format for teaching this kind of hands-on knowledge, is often a laboratory or "Lab" class. Lab classes are usually longer than lectures (usually lasting 2-3 hours) and involve completing a task or tasks and documenting what happened in a formal write up. Lab work is usually a more-involved task that acts like a piece of homework. Another benefit of a lab format is that the lab teacher is present and can be asked questions.
+
+Lecture based formats allow experts to share their knowledge directly with the students. It is a great method for hammering in information in sequence that builds upon itself and can include showing example equations as well as work that can be done in class with pen and paper. This style would lend well to general information about the Web Press. However, the ceiling for useful skill knowledge can only reach so high. If a lecturer is describing how to do an action the student can write it down and memorize it, but there are fundamental lessons (such as learning to operate machinery) that can only be taught through through experience.
+
+\subsubsection{Video Games}
+Video games have the ability to implicitly teach the player with actions rather than words. For example, the video game Portal by Valve revolves around the namesake device the "portal gun." The gun is capable of firing two portals, one orange, one blue, on a surface. If you pass through one portal you appear out the other. The tutorial of Portal demonstrates this ability to the player by placing the device on a rotating pedestal in the center of a room. The player is forced to wait inside of an anti-chamber to the room the Portal Gun is in, connected by a locked door and a window. Inside the room the orange portal is stationary on a wall the player can clearly see and as the portal gun revolves it fires the blue portal onto different walls in the room. The player is encouraged to watch what the portal gun is doing simply by having nothing else to do in the room. Because of this funneling of the player's attention and subtle display of the game's main mechanic, the player has learned what they will need to do for the majority of the game without having to resort to a voice over or an essay of text giving instructions. The player has been taught without breaking immersion. \cite{portal}
+
+Half Life 2 by Valve uses this experimental style of teaching to pass knowledge to the player. In the beginning tutorial of Half-Life 2 the player is put into a room with several wooden creates and a wooden barricade placed over the exit door. Placed in the center of the room there is a metal crowbar. Through experimentation the player must realize that they can smash the wooden crates and eventually the obstruction over the exit door. This implementation of the experimental tutorial is different from the one in portal that is more guided. In Half-Life 2 the player may sit in the room for as long as they wish. The game will not prompt them to continue. It is solely player-diver to proceed in the game. This situation presented to the player early in the game sets the tone that things may be played around or experimented with, and that behavior will be rewarded.
+\cite{hl2}
+
+\subsubsection{Comparison}
+Video games have the ability to create situations like in Half-Life where it is up to the player/student to figure out how to proceed. This engagement requires the student to use their critical thinking skills rather than memorize information from a book or lecture. As the old proverb says" "If you give a person a fish, they will eat for a day. If you teach a person to fish, they'll eat for a lifetime." The essence of this is that learning how to do something lays the foundation of understanding so you can replicated the actions in the future. This is why creating a virtual reality training program will be vastly better than just recording a bunch of videos for the customers to watch. If they customers are engaged in their learning and have to figure things out they will not only retain more knowledge but also be able to apply the lessons learned to different situations in the future.
+
+Nick Babich in an article he wrote for Adobe says:
+\begin{displayquote}
+"Too much information received in a short period of time can easily overwhelm students. As a result, they become bored, disengaged, and usually not sure why they are learning about a topic in the first place." \cite{adobe}
+\end{displayquote}
+Granted, there are some students who will thrive in a fact-memorization environment. Part of the recommendation of this paper is to create two modes for our project to account for these different learning patterns from different kinds of people. The main area that can be explored in VR that can't be taught in lecture is this sense of experience. Babich also writes:
+\begin{displayquote}
+"When students read about something, they often want to experience it. With VR, they aren't limited to word descriptions or book illustrations; they can explore the topic and see how things are put together." \cite{adobe}
+\end{displayquote}
+With this added tool of visual learning students that might have been struggling to understand a concept can immediately see the merit of what they are being told to do. Results can formulate right in front of their eyes that reinforces their understanding of the material.
+
+Video games can embody this experimentation style of learning because they can create invisible barriers or teaching devices (such as the door unlocking only after you watch the portal gun for a while) that still act as a teacher, but are player reliant. This style of teaching by experimentation won't appeal to all students or players, but for the ones it does it creates a sense of accomplishment and internal motivation that bolsters the student/player's desire to play or learn more.
+
+This style of putting the player in a metaphorical box is one that is not unique to new media such as video games and virtual reality, it has existed in the form of puzzles for a very long time. Teaching via puzzles like the ones in video games uses the same techniques as a laboratory class: forcing the student to solve a problem using a limited set of information. Video games intrinsically have to employ this technique because game (and virtual reality programs) are interactive experiences. Not all games use the Portal and Half-Life 2 style of tutorial. Some games present the user with text descriptions of actions and the user must read to find out what things do. This tactic of bringing the user outside of the game to teach is not considered to be effective. \cite{tutorials}
+
+\subsubsection{Recommendation}
+For our project, I recommend to our group that we focus on creating a learning environment for two types of learners: those who learn by reading or from lectures ("readers"), and those who learn by doing ("doers"). This division of learners is made because virtual reality allows for the creation of an almost one-to-one ratio of real life hardware to virtual reality simulation. This simulation provides a large boost to the retained knowledge of "doers" because they are allowed to learn by experimentation and get to see a firsthand account of the knowledge in action. For "doers" a training mode will be created using the style of tutorials from Portal and Half-Life 2. This mode is analogous to a sandbox learning environment where the user has a goal, but no set of rules or guidelines to achieve that goal. They are free to do as they wish as long as the overarching task is completed. Our group will be examining more video games such as Portal and Half-Life 2 to find more example of good tutorials by experimentation to base the sandbox training scenarios off of. To keep the learner on track, a series of checkboxes or progress meters will be displayed on the heads-up-display of the user-interface. These progress meters don't specify how to complete their goals and instead only track if they have been completed. This visual indicator of program will help the "doers" to stay motivated in experimenting with the sandbox.
+
+The second learning environment I recommend our group to make is one for "readers." Learning by fact retention still remains a valid method of teaching, as evidenced by the hundreds of thousands of school using this method all over the world. If the sandbox mode just doesn't cut it for a learner, there needs to be an alternative. This alternative is a module-based lecture format that still requires the learner to go through the motions themselves to complete the task, but it preceds any user action with visual instructions on the screen overlaid on top of pictures of what the user is supposed to accomplish. This module mode will work better for learners that like to read up on what they are doing before jumping into the action. In addition to text on the screen, a voice over is an option the learner can opt into to go long with the text. Like the sandbox, the module mode will have progress meters on the screen available for the leaner to reference, with the difference that the user can click on or touch the progress meter to reactivate the module's instructions if they need to hear them again. The available repetition of the instructions will help the "reader" to not get lost in the module without direction.
+
+
+
+
+\begin{thebibliography}{00}
+\bibitem{lecture} 'Teaching with Lectures', [Online]. Available: \url{https://teachingcenter.wustl.edu/resources/teaching-methods/lectures/teaching-with-lectures/} [Accessed: 31- Oct- 2018]
+
+\bibitem{portal} Portal, Oct 10, 2007, [Video Game]. Available: \url{https://store.steampowered.com/app/400/Portal/} [Accessed: 31- Oct- 2018]
+
+\bibitem{hl2} Half-Life 2, Nov 16, 2004, [Video Game]. Available: \url{https://store.steampowered.com/app/220/HalfLife\_2/} [Accessed: 31- Oct- 2018]
+
+\bibitem{adobe} N. Babich 'How Virtual Reality Will Change How We Learn and How We Teach'. Jan. 9, 2018. [Online]. Available: \url{https://theblog.adobe.com/virtual-reality-will-change-learn-teach/} [Accessed: 3- Dec- 2018]
+
+\bibitem{tutorials} P. Suddaby,'The Many Ways to Show the Player How It's Done With In-Game Tutorials', August 31, 2012, [Online]. Available: \url{https://gamedevelopment.tutsplus.com/tutorials/the-many-ways-to-show-the-player-how-its-done-with-in-game-tutorials--gamedev-400} [Accessed: 1- Nov- 2018]
+
+
+\end{thebibliography}
+
+\subsection{Kyle Tyler}
+
+\subsubsection*{Abstract}
+Virtual reality (VR) training simulations provide the opportunity to implement an interactive learning experience that improves on traditional learning methodologies. We propose a series of VR-based training scenarios designed to train personnel on how to operate machinery from HP’s PageWide Web Press product line. Developing these training scenarios will improve the effectiveness of HP’s current training procedure as well as mitigate the costs and risks of handling real machinery by the trainees.
+
+In order to achieve our goals we must have virtual reality headsets, motion controllers, and a user interface standard that we follow. This tech review will compare three virtual reality headsets; the HP Microsoft Mixed Reality Headset, the Oculus Rift, and the HTC Vive. It will also compare the controllers that are paired with each headset. Lastly, it will compare different ways of handling user interface in virtual reality applications.
+\subsubsection{Headset Comparison}
+There are a large number of virtual reality headsets on the market now, but here we will focus on only three products: the HP Microsoft Mixed Reality Headset, the HTC Vive, and the Oculus Rift. They are the most common headsets currently in use, and represent the spectrum of modern VR hardware.
+
+\subsubsubsection{Minimum System Requirements}
+
+\paragraph{HP Microsoft Mixed Reality Headset}
+\begin{itemize}
+    \item CPU: Intel Mobile Core i5
+    \item GPU: Integrated Intel HD Graphics 620 equivalent or greater, DX12 API Capable GPU
+    \item RAM: 8GB+, Dual Channel required for integrated graphics
+    \item Video Output (for 60Hz displays): HDMI 1.4 or DisplayPort 1.2
+    \item Video Output (for 90Hz displays): HDMI 2.0 or DisplayPort 1.2 
+    \item USB: USB 3.0 Type-A or USB 3.1 Type-C Port with DisplayPort Alternate Mode
+    \item OS: Windows 7 or newer
+\end{itemize}
+
+\paragraph{Oculus Rift}
+\begin{itemize}
+    \item CPU: Intel Core i3-6100 or AMD FX 4350
+    \item GPU: NVIDIA GTX 960 or AMD Radeon RX 470
+    \item RAM: 8GB+
+    \item Video Output: HDMI 1.3
+    \item USB: One USB 3.0 and two USB 2.0
+    \item OS: Windows 8 or newer
+\end{itemize}
+
+\paragraph{HTC Vive}
+\begin{itemize}
+    \item CPU: Intel Core i5-4590 or AMD FX 8350
+    \item GPU: NVIDIA GTX 970 or AMD Radeon R9 290
+    \item RAM: 4GB+
+    \item Video Output: One HDMI 1.4 or one DisplayPort 1.2
+    \item USB: One USB 2.0
+    \item OS: Windows 7 or newer
+\end{itemize}
+
+% Comfort and reliability
+\subsubsubsection{User Experience and Performance}
+In terms of overall performance the HTC Vive and the Oculus Rift are nearly identical, and the HP Microsoft Mixed Reality headset has slight differences in performance. Both the Vive and Rift have a 1080x1200 pixel resolution per eye, whereas the HP headset has a 1440x1440 pixel resolution per eye \cite{headsetCompare}. A higher resolution helps to reduce pixel distortion and makes in-game text easier to read. All headsets are capable of a refresh rate of 90Hz, but the HP headset can also run at 60Hz for lower end systems that can not handle the higher frame rates. The field of view in the Oculus and Vive is 110 degrees, versus the 95 degrees of the HP headset. A larger field of view means that users can see more of the virtual environments at any given time, leading to a higher possible immersion factor. Another difference between the HP headset and the other two is that the HP headset uses an LCD display, which makes it more susceptible to motion blur, instead of the OLED displays that the other headsets use. One last point is that the Oculus and Vive are heavier and feel more solid and durable, but the HP headset has less weight so it is more portable, but feels flimsier. 
+
+
+\subsubsubsection{Tracking Methods}
+
+\paragraph{Inside-Out Tracking}
+The HP Microsoft Mixed Reality Headset uses inside-out tracking. This method of tracking is achieved by placing outward facing cameras directly on the headset. By having cameras directly on the headset, the need for external sensors is removed, cutting down on the amount of hardware required to use virtual reality. This technology is still relatively new, and thus has a few downsides. It requires a certain amount of ambient light in the room for the cameras to work correctly, and the tracking in these headsets is not as performant as the tracking ability of outside-in tracking systems. 
+
+\paragraph{Outside-In Tracking}
+The HTC Vive and the Oculus Rift use outside-in tracking. This method of tracking uses outside devices (external infrared cameras) to track headset and controller motion. At this time, outside-in tracking solutions are the most accurate and have the least amount of latency. The main downsides of this method of tracking are that there is more hardware required (and thus more USB ports), that there is more overall setup and space required to use these systems, and that tracking only works if the user is in the field of view of the cameras.  
+
+
+\subsubsection{Controller Comparison}
+The HP Microsoft Mixed Reality headset, HTC Vive, and Oculus Rift each have a pair of controllers that often come bundled with the headset; the HP Microsoft Mixed Reality Controller, the Vive Controller, and the Oculus Touch. These controllers are the piece of hardware that allows users to manipulate and interact with virtual environments, and thus are an important consideration when choosing which headset to use. 
+
+\subsubsubsection{Usability and Performance}
+
+\paragraph{HP Microsoft Mixed Reality Controller}
+\begin{center}
+\includegraphics[scale=.35]{hpController.png}
+\end{center}
+
+The HP Microsoft Mixed Reality Controllers are wireless controllers that support inside-out tracking, and thus require less initial set up than the other outside-in tracking systems. A lack of required setup time is good, but there are downsides; slightly more latency and the fact that the controllers will not be tracked if the user is not looking at them and they are not in the headset mounted camera view. The controllers are in between the Vive controllers and Oculus Touch in terms of weight and size, and have a slightly lower build quality. They have a trackpad, analogue stick, triggers, grip buttons, and a menu button.
+
+\paragraph{Vive Controller}
+\begin{center}
+\includegraphics[scale=.20]{viveController.jpg}
+\end{center}
+
+The Vive controllers sport wireless controllers that contain rechargeable lithium ion batteries. These controllers have circular touchpad buttons for thumbs, a side mounted grip button, a menu button, a system button, and a trigger on the underside of the controller. Vive controllers are the heaviest and potentially the most unwieldy, due to their overall large size. The controllers also support room scale VR, meaning that the player can actually walk around the room and the camera system will track their position, moving them in the virtual world. 
+
+\subparagraph{Oculus Touch}
+\begin{center}
+\includegraphics[scale=.30]{oculusController.png}
+\end{center}
+
+The Oculus Touch controllers are generally regarded as the best virtual reality controllers currently on the market. They are lightweight and natural feeling, have the best finger tracking around, and have a sleek appearance. One controller is about half the size of a modern gamepad, has two letter buttons, an analogue stick, two triggers, menu and start buttons, a set of buttons on the grip, and a touch sensor for the thumb next to the joystick \cite{controllerCompare}. Having more inputs than any other controller allows the Oculus touch to allow users to have more complex interactions with virtual environments. These controllers are also wireless and require AA batteries. The controllers require the use of a camera sensor and thus an additional USB 3.0 port. During initial setup the user is required to use their motion controllers and the sensors to map the play space, the area that the virtual reality system will allow to player to act in. 
+
+% VRUIs (Virtual Reality User Interfaces)
+% VRGUIs (Virtual Reality Graphical User Interfaces)
+\paragraph{User Interface (UI)}
+User interface is a broad topic and can be applied to many fields, but here we will be talking about UI as it is used in video games and other virtual reality applications. 
+
+% What they are and how they relate to VR
+\subsubsection{Types of user interfaces}
+
+\paragraph{Non-diegetic}
+The term non-diegetic is generally used in terms of sounds in film, where a non-diegetic sound is a sound whose source is not visible on screen or has not been implied to be present in the action. Non-diegetic UI is generally a UI element or elements that are overlaid on top of the screen to show things like menus, health bars, or other elements that must be view-able and/or intractable by the user. This type of UI is often referred to as Heads Up Display (HUD) in games. Non-diegetic UI does not particularly work in virtual reality, because overlaying something in front of the screen display forces UI elements too close to the eye to be able to focused on.    
+
+\paragraph{Spatial UI}
+Spatial UI refers to placing UI "in the world", allowing our eyes to focus on the UI element \cite{unity}. In virtual reality this means that UI lives in the same space as any other objects in the VR scene. This type of UI may need to be scaled according to user position, and may be scaled dynamically. A best practice is to position UI elements at a distance that is comfortable for reading, and scaling the elements based on how far away the user is at any given time. Spatial UI elements are often attached to the camera, so the element will stay fixed in the player view.
+
+\paragraph{Diegetic UI}
+Diegetic UI is having elements in the world environment display information to the user. This could refer to things such as in world screens and holographic displays attached to objects. The main difference between spatial UI and diegetic UI is that spatial UI is based on where the user is looking, and diegetic UI is often attached to a non-player object and is independent of player view.  
+
+\subsubsection{Conclusion}
+After researching virtual reality headsets, motion controllers, and user interface schemes, I believe that our project would be best served by using the Oculus Rift, the Oculus Touch controllers, and mostly diegetic UI with some spatial UI elements. As of this writing Oculus virtual reality products represent the cutting edge consumer hardware in the field and we would be best served by developing on this hardware. That being said, our client works with HP and the end product will most likely be used with the HP Microsoft Mixed Reality headset and controllers. This means that while we may do most development with Oculus hardware, we must also consider the fact that the end product must also run on the HP headset. At this point I do not believe that this will be a problem, as most VR applications written with commercial game engines, such as Unreal, are headset agnostic. We must be aware of hardware specific features though, and make sure nothing we implement requires a feature of a headset and controller combination that another may not support. 
+
+\bigskip
+\begin{thebibliography}{999}
+
+\bibitem{headsetCompare}
+  J. Newman and B. Cross,
+  'HTC Vive vs. Oculus Rift vs. Windows Mixed Reality: What's the difference?',
+  2018.
+  [Online].
+  Available: https://www.pcworld.com/article/3223202/virtual-reality/htc-vive-vs-oculus-rift-vs-windows-mixed-reality.html
+  [Accessed: 10-31-2018]
+
+\bibitem{controllerCompare}
+  N. Pino,
+  'Oculus Touch',
+  2017.
+  [Online].
+  Available: https://www.techradar.com/reviews/oculus-touch-controller
+  [Accessed: 11-2-2018]
+
+\bibitem{unity}
+  Unity,
+  'User Interfaces for VR'.
+  [Online].
+  Available: https://unity3d.com/learn/tutorials/topics/virtual-reality/user-interfaces-vr
+  [Accessed: 10-31-2018]
+ 
+\end{thebibliography}
+
+\subsection{Stephen Hoffmann}
+
+\subsubsection*{Abstract}
+HP is looking for a Virtual Reality solution to help train employees and costumers on their giant industrial printers. The proposed solution is to create a simulated game that will act as supplementary training based on different printer functions and scenarios. This will save time, while also saving money, by providing less in-person formal training at HP’s Corvallis training center. To achieve this goal, our group understands that games require a lot of 3d models. Models define everything you see and interact within a game and simulation. This tech review will go over a range of widely used graphics modeling solutions to find the best fit for this project’s goals.
+
+\subsubsection{Definitions}
+\begin{enumerate}
+    \item Model - A simulated object that is rendered to appear 3d.
+    \item Mesh - The Model's surface skin that is also made up of various geometry, usually triangles
+    \item CAD - A file type that holds 3d models, typically used by engineers
+    \item Kinematics - creating motion in animations with the use of physics.
+    \item UV Maps - The mesh of an object flattened onto a plane, typically used  to paint texture on to models.
+    \item Textures - The image the is rendered over a mesh to give the model color, texture, and even shading
+\end{enumerate}
+
+\subsubsection{Graphics 3d Modeling Tools}
+3D animation software suites cover typically the following features:
+
+\begin{enumerate}
+    \item 3D modeling
+    \item Mesh UV unwrapping
+    \item UV texturing
+    \item Frame by frame animation
+    \item Bone and Kinematic animation
+    \item 3D Sculpting and transformation
+    \item Physics and advanced simulation
+    \item Programming language based modifications
+    \item Rendering[1]
+\end{enumerate}
+
+Each feature can consist of a large amount of work depending on the goal, such that individuals can dedicate a whole career on just one of the features.
+
+3D graphics are used for many things, not only games. They are used to create scientific research models, simulations, animated movies, special effects, and much more. The tools that create these models are very complex and require considerable training and experience to use effectively. Depending on the application, producing acceptable results can be achieved in just a few weeks of training, however current industry standards can take an individual years to achieve with one application. So picking a certain tool can impact an entire career in 3d modeling. 
+ 
+Deciding on which tool to use will depend on goals, budget, and the benefits of the tool. I will be reviewing the top three products on the commercial market below, analyzing functionality in respect to modeling, animating, and texturing, while also looking for work-flow speed, costs, targeted audience.
+
+\subsubsection{Maya}
+Maya is an industry standard tool for 3d modeling and animation. This product is used by a lot of professional movie studios, as well as game companies. 
+
+Maya also is a fully developed application containing all features found in current competitive applications. What stands out most about Maya is the animation tool-set. Maya supports automatic blending of kinematics to 3d mesh(skin), along with multiple methods to create custom animation bindings. Maya also includes multiple tools and algorithms to transform 3d mesh in multiple ways[1]. 
+
+CAD files are also supported in0 Maya, which is the primary source reference for HP’s printer models. This well allow us to open HP’s custom models and create our own game version, which lowers our team’s time spend on asset creation. Maya does have some noteworthy drawbacks. Due to Maya’s large amount of features and functionality the work-flow can become slow, especially for beginners. However, in spite of this Maya has a quick learning curve due to the features and documentation, including free educational e-books.
+
+While Maya is free for students, Maya is priced at a steep \$3,500 due to targeting large businesses.
+\subsubsection{3DS Max}
+3DS Max is similar to Maya and is even published by the same Company, Auto-CAD. The primary difference is the targeted audience. 3DS Max is targeted towards designers and artists, such as Game Artists, Architects, and special effects designers. Like Maya, 3DS Max is priced at \$3500, while still being free to use for students. This program takes features away from Maya like scientific simulations and replaces them with stronger features suited for artists. These features include improved modeling tools and improved sculpting tools[1]. 
+
+3DS Max also supports work-flow management by providing linkers to other tools, like Unity, Unreal, and Photoshop. This allows you to work on textures or other game elements within a game engine, while still seeing all updates in 3DS Max load straight-in your game engine. This can greatly reduce overhead in development time due to the costs of always restructuring files and re-importing them in other programs. 
+
+3DS Max also supports custom tools and modifications created by third-party developers to add additional features to games, such as simulated non-physics based cloth movement, hair rendering, and humanoid-type model creation tools with preset animations and layering.
+
+HP’s CAD files are also supported for importing into 3DS MAX.
+
+\subsubsection{Blender} 
+Blender is a free open-source 3d modeling and animation tool. Blender is a very capable application that can accomplish anything that Maya and 3DS Max can create. The only issue is that blender is not as developed as other not open-source applications. One potential problem is that Blender does not have native support to import CAD files, which could be a potential issue due to project requirements. Blender also has the largest learning, of both Maya and 3DS Max, due to interface design and a shorter list of overall functionality, but documentation and resources are available. Blender is typically seen as a more manual and involved program for asset creation. 
+
+While Blender has an animation tool-set, it is not as in-depth as the other two programs, missing a few features such as complex layering, and automatic binding of bones. This makes animating take more time, increasing the average time it would take too work on each 3d Asset[2]. 
+
+Blender, however, does support a good sculpting tool-set, that is comparable to 3DS Max, but this does not help in game design due to the nature of need lower polygon count models. Sculpting is usually intended to create highly detailed 3d models that can contain hundreds-of-thousands of polygons[2]. 
+
+Lastly, Blender’s texturing work-flow is fairly straightforward and well supported. The UV unwrapping works intuitively, while also allowing the user to paint directly to the object’s surface. Similar to Maya and 3DS Max, Blender can export UV wraps for easy editing and painting with programs like Adobe Photoshop.
+
+\subsubsection{Conclusion}
+Each tool has unique sets of features but ultimately can achieve the same outcome. So when considering we can look at the project's requirements, the tool’s cost and difficulty to learn. 
+
+Starting with Maya, we see high costs, good features, and low learning curve. Along with this, Maya is also a great professional tool for investing time to learn, due to industry demands. 
+
+3DS Max is targeting specifically towards game design, with stronger modeling tools then Maya and a medium learning curve. Again, this is an industry tool, making 3DS Max a good tool to learn. 
+
+Blender is a free and open source program. Blender also has the necessary tools to accomplish the project's requirements, other than having to work around opening HP’s CAD models. Blender also has the highest learning curve and is not a professionally licensed tool. 
+
+Considering the above, 3DS Max stands out in the middle, in terms of project requirements, costs, and learning curve. While costs are high, our team will be able to use it for free, since this project is just a prototype for HP and not a product. If licensing issues a brought up later, then switching to Blender will be as simple as re-saving files in Blender.
+
+\subsubsection{References}
+\begin{enumerate}
+    \item “Comparison of 3ds Max and Maya,” Autodesk Support \& Learning. [Online]. Available\newline
+    https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/sfdcarticles/sfdcarticles/\newline
+    Comparison-of-3ds-Max-and-Maya.html. [Accessed: 10-Nov-2018].
+    \item  Foundation, “Features,” blender.org. [Online]. Available: https://www.blender.org/features/.\newline
+    [Accessed: 10-Nov-2018].
+\end{enumerate}
+
+\subsection{Symon Ramos}
+\subsubsection{Abstract}
+Virtual, Augmented, and Mixed Reality are growing technologies, each with their own merits and limitations. Many fields and industries are incorporating some sort of virtual immersion. As more studies are performed, an advancement of knowledge in the three technologies will occur, thereby assisting in their development and popularity.
+
+
+\subsubsection {Project Goal}
+ Improve the quality of learning and knowledge of HP's PageWide Web Press equipment and reduce expenses and resources spent by implementing virtual reality based training scenarios.
+ 
+\subsubsection{Introduction}
+    %Define what VR/AR/MR are
+    In a generation abundant with innovative technologies, Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR) are exciting forms of displaying information that have the potential to change the way we think, improve the way we teach, and revolutionize many fields and industries. 
+    %Purpose of VR/AR/MR
+    The goal of all three of these systems is to immerse a user in a virtual world that can be interacted with. This can be accomplished with the use of a headset, a set of virtual environment rendering equipment, or even a smartphone. How the virtual objects are displayed within the environment depends on which type (VR, AR, and MR) is being used. All three have strengths and limitations depending on the scenario, field, and availability of one over the others. This document will define each technology and its applicability before evaluating what contrasts it from the other two technologies. Afterwards, the technologies will be analyzed based on their relevance to our project.
+    
+\subsubsection{Virtual Reality}
+    %Define VR, Pro Cons
+    VR involves complete immersion into a virtual world. Consequently, because the user is fully immersed, the user fails to sense or identify their real-life surroundings. In addition, some individuals can be prone to a phenomenon known as VR sickness, where the visually induced perception of self-motion can cause disorientation, discomfort, headache, and nausea \cite{2}. One distinct advantage that VR has over AR and MR, however, is the fact that VR can fully immerse users into any given virtual environment, therefore not confining them to the real world they are in (like the classroom or the living room). Instead, as Farshid notes, users can virtually experience going skydiving, visiting famous location, and interacting with exotic animals without having to spend expenses and resources to experience those places \cite{2}. This ability to experience places and objects at any setting makes VR extremely versatile and portable, as it could be used at any location in the world with the same effect.
+
+    The most prominent method of experiencing VR is through the use of VR headsets, which are strapped to the head and, while obscuring vision from the real world, can fully immerse the user no matter what orientation they're is looking at. While most typically associate VR with headsets, there are other ways to accomplish full immersion into a virtual world, such as web applications like the website of the Metropolitan Museum of Art in New York, which provides a substantial virtual tour \cite{2}. Another example would be Google Cardboard as well as other similar headsets that only require the use of a smartphone to create a virtual reality experience. Having readily-available outlets such as those is key to the growth and expansion of VR, as the cost of high-end VR headsets is a limiting factor to its success. 
+
+    VR can be utilized in many fields, such as education and training. Unlike actual real world training, employees of companies who offer VR simulation training can perform modules as many times as they would like to grasp a concept, task, or procedure. Examples of areas where VR technology is improving learning include sales, public speaking, medical surgery, and operating heavy-duty equipment \cite{2}. VR has also been used in education to create more engaging environments that allow students to seamlessly interact with virtual models to teach them concepts in the fields of cosmology, physics, geography, and biology \cite{2}. As VR continues to expand, more fields and industries will find more applicable uses for the technology.
+ 
+\subsubsection{Augmented Reality}
+    %Define AR, Pro Cons
+    AR, in contrast to VR, is predicated on partial immersion of the virtual world, where virtual objects are displayed in the real world. This allows users to participate in the physical environment while manipulating virtual objects, allowing them to sense and adapt to their surroundings and react accordingly \cite{1}. As described in Farshid's paper in Business Horizons, "actual objects and people cast an information shadow: an aura of data which, when captured and processed intelligently, can offer extraordinary value to consumers" \cite{2}. AR is unique in that it produces information that is readily accessible to users and allows them to perceive digital content in the real world. AR can be generated through many methods such as smart glasses that utilize retinal projection to display virtual data to the wearer's eyes (such as Google Glass or Vaunt by Intel) and (the more commonly used) smartphones \cite{2}. AR layers, as specified by Farshid, can be sensory (which involves the use of sound, video, graphics, or haptics) or only display data \cite{2}.  
+    
+    One notable example that expresses the novelty of AR is the AR application that Realtor.com has developed which allows potential home buyers to use their phone camera to instantly display information about a certain home, such as last sale price, taxes, and lot size, enabling the user to determine whether an actual market price listing is fair \cite{2}. Another area of life that AR could affect is the act of shopping at grocery stores. With AR-enabled smart glasses or phones, users would be able to quickly and easily be conveyed information about the foods they are looking at, such as dietary restrictions \cite{2}. Driving could also be advanced with the inclusion of AR, which could allow businesses to better display directions and information for possible tourists. Other possible fields where AR could be used are in entertainment, medicine, robotics, and training/maintenance tasks \cite{2}. In regards to maintenance tasks, there are many studies where AR was used as a support mechanism to augment information from manuals when performing tasks on military turrets and aircraft \cite{1}. In the medical field, AR has also been used to guide interactions and improve skills in real-life scenarios \cite{3}. A combination of visual, auditory, and tactile information all assist in rehabilitative experiences for participants. In addition, flexibility was noted as another advantage of AR. These studies have found that having the information displayed directly in the user's field of vision improves efficiency significantly by minimizing the time taken to look back and forth from the manual.
+
+\subsubsection{Mixed Reality}
+    %Define MR, Pro Cons
+    MR is a type of virtual immersion that is within the spectrum of augmented reality and virtual reality. Often regarded more as a form of augmented reality, MR will augment virtual objects into the real world with the objective of making the object be integrated as seamlessly into the real world as possible. Typically a physical foundation, such as a table, the ground, or specially-designed markers, is used in MR scenarios to convey information. 
+    
+    By combining aspects of the real world with virtual objects, MR can allow us to experience scenarios that don't actually exist, such as a live video stream of the real world. One notable example of MR is within the field of healthcare, where mannequins that can be used as a physical representation of a person and have augmentations appear on the mannequin to better convey information \cite{2}. Another example that shows the influence that MR can have to technology is the rise and popularity of the app, Pokemon Go, which blends the real world with creatures from an imaginary one \cite{2}. The novelty of seeing your environment within your game, whether it be on the street or on campus or on a hiking trail, can improve the quality of an experience. 
+
+\subsubsection{Conclusion}
+    While each of these three technologies utilize virtual objects and environments to display information in a novel and effective way, the differences between the three are notable. VR fully immerses users into a virtual environment of the application's design albeit void of any real world interaction. While both AR and MR have a real world interaction component in their presentation of information, they are bound by the real world and can't fully immerse the user in an entirely different location. 
+    Ultimately, as technological advancements are made over time, the fields of VR/AR/MR will grow in both understanding and interest. As explored in this document, there are many applications for each and there are scenarios where one might be favored over the other types of simulations. As research continues, the uncertainty between using one method versus the others will gradually decrease, allowing each to form an identity around particular regions of applicability, such as in education/academics, assembly tasks, and locomotive assistance. 
+    
+    In regards to the project given to our team to improve the current training method for personnel to learn how to operate HP Web Press printers, using VR to implement new modules was a preliminary decision already made by our client. It's still worth reviewing the advantages and disadvantages to each of the three technologies, however, as it can improve our understanding of why VR is the most applicable option. AR has some merit in that augmentations can be performed on the Web Press printers themselves, thereby displaying additional information (similar to the military turret maintenance example) to assist in task performance, but it ultimately doesn't remedy one major aspect of the project's goal, which is to improve the cost-effectiveness of training personnel. Using AR would still require the allocation of time and resources to use the Web Press printers, whereas in VR, the printer can be created as a virtual object. The argument to use MR also concludes similarly for AR, as both would achieve similar benefits at the cost of similar limitations. Thus, our project goal aligns best with what VR can offer, which ultimately justifies the use of the technology for this project. 
+
+
+\begin{thebibliography}{}
+\bibitem{1}
+M. Sidiq and T. Lanker and K. Makhdoomi, "International Journal of Computer Science and Mobile Computing", Vol. 6. Issue 6, June 2017. pp. 324-327.
+\bibitem{2}
+M. Farshid, J. Paschen, T. Eriksson, and J. Kietzmann, "Go boldly!: Explore augmented reality (AR), virtual reality (VR), and mixed reality (MR) for business", Business Horizons, Vol. 61. Issue 5, 2018. pp. 657-663.
+\bibitem{3}
+F. Gallun, A. Seitz, T. Vallier, D. Lewis,  "Designing rehabilitative experiences for virtual, mixed, and augmented reality environments", The Journal of the Acoustical Society of America, Vol. 143. Issue 3, 2018.
+\end{thebibliography}
+
+
+
+\subsection{Stewart Rodger}
+
+\subsubsection*{Abstract}
+Virtual Reality shows considerable promise in cutting costs and speeding up training for large machinery like the Page-Wide Web Press. By using a virtual training program, companies can drastically shorten the in person training. Our team will develop a series of virtual training programs for HPs PageWide Web Press product line designed to achieve these goals. In order to achieve this we must have a strong grasp on the the various perspectives and data collection methods necessary to ensure a maximally effective training simulation.      
+
+\subsubsection{Game/Simulation Perspective}
+In any game or simulation, there are 3 primary camera positions. "First Person" places the camera on the controlled object or avatar, showing things at eye level. "Third Person" positions the camera behind and slightly above the controlled character. "Overhead" is a camera that is placed high above the scene or level, pointed down. In the image below, A is overhead, B is 1st person, and C and D are 3rd person. [1] 
+
+\includegraphics[width=\textwidth]{13o.png}
+
+It is commonly known in game development that the choice of perspective is important to the overall design and "failure to take this particular gameplay element seriously will very likely result in your game controlling horribly, and having a disjointed 'feel'"[2]. Focusing on the camera's value for simulations, there are a few distinct benefits for each option. 
+
+\subsubsubsection{Overhead View}
+The overhead view provides a complete view of the scene without having to move the camera. This can simplify the control scheme as the user does not need to worry about controlling the view. The other main benefit of this view is that the user can see everything in the room or scene at once. This allows the user to see cause and effect when interacting with objects that have effects that might be out of view with other camera angles. The downsides is that this is the most dissociative of the camera angles. With overhead view is actions feel the least real, and for complex situations the camera may need to change as it is unable to show the side of a object or machine in detail.
+
+\subsubsubsection{3rd Person View}
+The 3rd person camera is the middle ground option. The 3rd person camera still provides a larger field of view than 1st person, while showing the simulation in a more realistic was as the camera is closer to eye level and can properly show the sides of objects. Unfortunately, the 3rd person camera requires the most input controls of the three, and it also is still less immersive than 1st person because the 3rd person allows you to see the back of the avatar being controlled.  
+
+\subsubsubsection{1st Person View}
+1st person camera angle is the most immersive of the three [2], with the camera simulating the actual field of view for the controlled character. The downside of first person view is that the the controls can be the most disorienting for users who are inexperienced with virtual environments. First person has a distinct advantage in one area, It is uniquely compatible with a Virtual Reality (VR) headset and control scheme. VR generally does not make 3rd person or Overhead camera controls more convenient or simpler, however it provides both of these benefits to first person view. 
+
+
+\subsubsection{Data Collection}
+An important part of any training simulation is the collection of data. The right kinds of data, collected periodically throughout the test runs, can show what parts of a simulation are flawed, or what parts of the training require more explanation or instruction. However, do to the costs of implementation, "evaluators should focus more on what are those important aspects in game experience (like playability) that we should measure in order to be able to evaluate the game properly, and then select the tools that meet those requirements." [3] There are a few different ways to go about saving user data, the most beneficial are Success/failure counting and Time counting, however there also is an extreme form of data collection through interaction counting.
+
+\subsubsubsection{Success/Failure counting}
+Success/Failure counting involves having a system in place to count the number of times a user fails for each task they are attempting to complete. Every time a user, preferably a new test user, is run though the training program, the success/failure count is collected so that we can see what sections were the most prone to errors. The number of failures should be lowered as much as possible though the addition of new objective markers, more or clearer instructions, and the reevaluation of the program to ensure that the success/failure rate is improving. An important aspect of success/failure counting is what to count as an objective worthy of counting the failures for. This results in 2 different methods for success/failure counting, "Basic" and "Hidden".
+
+\paragraph{Basic success/failure}
+"Basic" success/failure counting only counts the failure if the user fails to properly complete a objective that they know is a clear objective. For example, if they are provided with a list of tasks to complete, the system will only count if they have failed or completed those tasks. This is the most basic form of failure counting, and it can provide a lot of valuable data about the tasks and the quality of the instructions or simulation. In addition it is relatively quick and cheap to implement. The downsides are that it may miss valuable data by being limited in scope. That is where "hidden" success/failure counting comes in.
+
+\paragraph{Hidden success/failure}
+ "Hidden" success/failure counting works as an extension of "Basic" counting.  Instead of counting just the clear objectives, you also have a number of objectives that are not displayed (for example: Did the user interact with the objects in the ideal order, even if that order was not required to succeed?). This provides substantially more data at the cost of development time, as there is no simple list of things to do like with "Basic" counting. This method also cost time later as the data it provides will take more time to sort through. 
+
+\subsubsubsection{Time Counting}
+The 2nd main form of data collection is time counting. With this form of data collection the system starts and runs a number of stopwatches in the background and saves the results for specific tasks. A timer begins when the user starts a task and saves when they complete it. The extent of this varies directly with the amount of data the developer is willing to collect and sort through. 
+
+
+\paragraph{Count total time}
+Just like with success/failure, time counting can be applied in a limited capacity, focusing on only the main objectives. In this case the developer can track time from training program launch to success, and track the individual objective attempt times, while keeping development costs/time low. 
+
+
+\paragraph{Count time between specific actions}
+Also similar to success/failure, time counting can be applied to an ever expanding quantity of other hidden objectives. An example could be tracking the time a user spends from when they start the training program to when they first move to learn if they are taking a long time interpreting the instructions.
+
+
+\subsubsubsection{Interaction Counting}
+Interaction counting is exactly how it sounds in the context of the previous two methods. Systems are put in place in the background of the simulation to count every time the user interacts with a specific object or objects. The number of objects that are being watched can vary from 1 to every interact-able object, and clicking on the screen. It is directly expandable to meet the time and cost constraints of development, and it can provide data that the previous methods might miss. Unfortunately, this comes at the cost of a greatly increased data interpretation time. One of the greatest benefits of this method is less about improving user interaction and more about bug fixing. With this method in place, assuming a large enough percentage of objects being tracked, it is possible to recreate the users inputs to find the specific series of events that caused a bug or error to occur. 
+
+
+\subsubsection*{Conclusion}
+For the purposes of this VR training program, 1st person view is the obvious choice. VR will help negate the extra control complications, while providing the most immersive simulation experience we can deliver. For data collection, We will want to use basic form of success/failure and time counting. This will get us the most viable user data while minimizing the amount of extra development time or data analysis time. 
+
+\newpage
+\subsubsection*{References}
+[1] https://www.researchgate.net/figure/The-four-views-A-overhead-B-first-person-C-third-person-high-D-third-person-low\_fig1\_221474898
+\break
+[2]  https://www.gamasutra.com/blogs/MichelSabbagh/20150827/252341/The\_important\_differences\_between\_firstperson\_and\_thirdperson\_games.php
+\break
+[3]  http://tampub.uta.fi/bitstream/handle/10024/79391/gradu03017.pdf;sequence=1
+
+\newpage
+\section{Weekly Blog Posts}
+
+\subsection{Nicholas Pugliese}
+
+\input{PuglieseWeeklyReports.tex}
+
+\subsection{Kyle Tyler}
+
+\input{TylerWeeklyReports.tex}
+
+\subsection{Stephen Hoffmann}
+
+\input{HoffmannWeeklyReports}
+
+\subsection{Symon Ramos}
+
+\input{RamosWeeklyReports.tex}
+
+
+\input{RodgerWeeklyReports}
+
+
+\newpage
+\section{Final Poster}
+
+See next page for a full-size image of our team's poster.
+
+\begin{figure}[hbtp]
+    \makebox[\linewidth]{
+        \includegraphics[scale=0.19]{poster.jpg}
+    }
+    \caption{Our Team's Poster}
+\end{figure}
+
+\newpage
+
+\section{Project Documentation}
+%    How does your project work? (Could include the following...) 
+%        What is its structure?
+%        What is its Theory of Operation?
+%        Block and flow diagrams are good here.
+%    How does one install your software, if any?
+%    How does one run it?
+%    Are there any special hardware, OS, or runtime requirements to run your software?
+%    Any user guides, API documentation, etc.
+
+\subsection{Required Software and Hardware}
+
+The following hardware items are required to successfully run the application:
+
+\begin{itemize}
+    \item A Laptop with the following:
+        \begin{itemize}
+            \item Windows 10 Operating System or later
+            \item Intel® Core™ i5 or better
+            \item AMD Ryzen 5 1400 3.4Ghz quad core or better
+            \item At least 8GB of RAM
+            \item At least 10 GB of Disk Space.
+            \item Bluetooth 4.0 Support 
+        \end{itemize}
+    \item Any of the following graphics cards: 
+        \begin{itemize}
+            \item Integrated Intel HD Graphics 620 or greater 
+            \item DX12-capable integrated GPU
+            \item Nvidia MX150 discrete GPU
+            \item Nvidia GeForce GTX 1050 discrete GPU
+            \item Nvidia 965M discrete GPU
+            \item AMD Radeon RX 460/560
+        \end{itemize}
+    \item A Windows Mixed Reality Headset
+    \item A Pair of Windows Mixed Reality Controllers
+    \item A Bluetooth Dongle
+\end{itemize}
+
+
+In addition, the following software applications are also required: 
+\begin{itemize}
+    \item Steam 
+        \begin{itemize}
+            \item Steam VR Windows Headset Extension
+        \end{itemize}
+    \item Unreal Engine %FIXME: Put Unreal Version
+    \item Windows Mixed Reality Drivers (which will be installed upon first-time use of the headset)
+\end{itemize}
+
+\subsection{Installation Guide}
+\subsubsection{Download the Project}
+
+Our project can be found on GitHub with the following link:
+
+\noindent
+\href{https://github.com/SilverGekko/cs461}{https://github.com/SilverGekko/cs461}\\
+
+\noindent
+The Executable file can be found under the "releases" section of the github page.
+
+%\noindent In order to download the project to your local computer, please use the GitHub interface or run the following command on your terminal: 
+\\
+%git clone https://github.com/SilverGekko/cs461.git
+
+In order to test the application, download the zip file from the releases page: Releases->CodeFreeze, unzip it, and run the executable file called "PressVR" contained within the subfoler "WindowsNoEditor."
+
+\subsubsection{Configure the Windows Mixed Reality Headset}
+
+Please refer to the link to the official setup guide below in order to successfully configure the Windows Mixed Reality Headset.
+
+\noindent
+\href{https://support.microsoft.com/en-us/help/4043101/windows-10-set-up-windows-mixed-reality}{https://support.microsoft.com/en-us/help/4043101/windows-10-set-up-windows-mixed-reality}\\
+
+Here are additional resources to assist in the installation of the Windows Mixed Reality environment onto your computer. 
+
+\noindent
+\href{https://www.windowscentral.com/how-set-your-windows-mixed-reality-headset}{https://www.windowscentral.com/how-set-your-windows-mixed-reality-headset}\\
+\noindent
+\href{https://help.irisvr.com/hc/en-us/articles/115015806747-First-Time-Setup-with-Windows-Mixed-Reality-MR-Headsets}{https://help.irisvr.com/hc/en-us/articles/115015806747-First-Time-Setup-with-Windows-Mixed-Reality-MR-Headsets}\\
+
+\subsubsection{Ensure Steam VR is used}
+
+First, make sure Steam is installed on the current system:
+
+\noindent
+\href{https://store.steampowered.com/about/}{https://store.steampowered.com/about/}
+
+\noindent
+The Steam VR Plugin can be found here: 
+
+\noindent 
+\href{https://store.steampowered.com/app/719950/Windows_Mixed_Reality_for_SteamVR/}{https://store.steampowered.com/app/719950/Windows\_Mixed\_Reality\_for\_SteamVR/}\\
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.85\textwidth]{steamplugin.JPG}
+    \caption{Steam VR Plugin}
+    \label{fig:printerModel}
+\end{figure}
+
+\subsubsection{Launch Project}
+
+After performing the steps above, please perform the following in order to successfully launch the project: 
+\begin{itemize}
+    \item Find the executable file within the release zip file: PressVR->WindowsNoEditor->PressVR.exe
+\end{itemize}
+
+Once the game has launched put on the headset, pick up the controllers, and refer to section 6 for a description of the scenario.
+
+
+\subsection{Basic Controls}
+ Figure \ref{fig:controllers} is a description of the project's controller scheme.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.85\textwidth]{VRPressInfographic.JPG}
+    \caption{Windows Mixed Reality Controller Scheme}
+    \label{fig:controllers}
+\end{figure}
+
+
+\subsubsection{Environment}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.85\textwidth]{press1.png}
+    \caption{Web Press Printer 3D Model}
+    \label{fig:printerModel}
+\end{figure}
+
+The entire virtual environment is a 3D model of a warehouse. Models we have added include the Web Press printer itself (modeled after the T240 model), ink barrels, computers, desks, chairs, an office space to serve as our tutorial room, lights, E-Stop buttons, spare printheads, tables, cabinets, and cautionary tape. The Web Press printer is comprised of multiple models, including the printer itself, the winder and unwinder (which is where the paper is fed in and out respectively), and individual printheads of different colors. 
+
+We have also implemented basic functionality with the buttons on the Web Press and the ability to toggle lights on the printer. This is indicated in the figure below: 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.85\textwidth]{button.png}
+    \caption{The Emergency Stop Button}
+    \label{fig:stopbutton}
+\end{figure}
+
+\subsection{Tutorial Scenario}
+
+We have implemented a tutorial mode (created in the office space of our environment) in which the user will be tasked with performing basic actions in a cohesive narrative. 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.85\textwidth]{tutorialSpace.png}
+    \caption{The Tutorial Environment}
+    \label{fig:tutorial}
+\end{figure}
+
+
+In this tutorial space, the user are asked to look around, focus their screen towards something, move around, grab items, and interact with the environment. 
+All users are given the option of going through the tutorial mode before attempting the training module.
+
+There are three main tutorial sections to illustrate the basic skills needed to use the Virtual Reality program:
+
+\begin{itemize}
+    \item Looking around the room in VR ("Seeing" tutorial)
+    \item Using the hand-held controllers to teleport ("Moving" tutorial)
+    \item Picking up objects and pressing buttons ("Interacting" tutorial)
+\end{itemize}
+
+Each of these tutorials takes places in a section of the environment designed to look like an office cubicle. This tutorial space takes place in a separate level than the Web Press itself. The user may leave this tutorial level and go to the main Web Press level by clicking a button on the user interface. The tutorial instructs the user to do this once the three tutorials listed above are done, but an experienced user may exit the tutorial at any time by accessing the same menu.
+
+\subsubsubsection{Sight}
+The seeing tutorial teaches the user that they may look around with full 3D motion while wearing the headset. The tutorial is completed by making the user point to an onscreen crosshair at a computer monitor on a desk. This process is repeated on three total monitors ranging from in front of the user, to almost directly behind them. The idea is to force the user to physically turn their body around so they learn the extent of the control they have over the viewport with the headset.
+
+\subsubsubsection{Movement}
+The moving tutorial teaches the user that they can move around the virtual space by pressing a button on the controller, pointing, and releasing to teleport to that location. The tutorial is completed when the user teleports away from the starting position. This teaches the user how to move around the environment, which they will need to do to complete the training scenarios.   
+
+\subsubsubsection{Interaction}
+The interacting tutorial teaches the user that there are objects in the virtual environment that may be interacted with using the handheld controllers by moving the controller over the object in the virtual space and holding down the trigger button. All of the objects in the virtual space that may be grabbed like this are colored the same sky blue color as shown in figure \ref{fig:skyblue}.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.5]{touchMeBlue.png}
+    \caption{The specific shade of blue that informs the user they may pick up and manipulate the object.}
+    \label{fig:skyblue}
+\end{figure}
+
+\subsection{Training Scenario}
+
+\subsubsection{Replacing Printheads}
+
+The T2XX Web Press Operating Manual outlines a sequential series of steps that the user has to complete in order to successfully remove the existing printhead and insert the new one. In a later section detailing common troubleshooting scenarios, several scenarios where the replacement of printheads would be applicable are included, such as when a printhead is overheating. Figure 8 below outlines the user workflow of the replacement of printheads. It should be followed until the voice over informs the user that the scenario is complete. If at any point the user gets stuck they may open the menu (see figure 3) and select the training scenario again to restart the scenario.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.85\textwidth]{PrintheadInstallationWorkflow.jpg}
+    \caption{The Printhead Installation Workflow}
+    \label{fig:workflow}
+\end{figure}
+\subsection{Developer Notes}
+
+Please contact HP personnel for more information and inquiries should further development be desired.
+
+Future Implementation that could be considered is as follows: 
+\begin{itemize}
+    \item Additional training scenarios, such as the replacement of printer wiper cassettes.
+    \item Refinement of 3D environment.
+    \item Support for additional headsets.
+    \item Additional Web Press Models. 
+    \item An expanded warehouse environment that includes office space.
+\end{itemize}
+
+\subsection{Version Log}
+This section was last updated on 6/5/19.
+
+
+
+
+
+\newpage
+\section{Recommended Technical Resources for Learning More}
+
+%    What web sites were helpful? (Listed in order of helpfulness.)
+%    What, if any, reference books really helped?
+%    Were there any people on campus that were really helpful?
+
+Websites:
+
+\begin{itemize}
+    \item Unreal Engine Documentation:
+    \\https://docs.unrealengine.com/en-US/Platforms/MR/WMRSDKRequirements/index.html
+    \item Youtube (an example tutorial):
+    \\https://www.youtube.com/watch?v=j8gjvKyaQuU
+    \item Unreal Engine AnswerHub:
+    \\https://answers.unrealengine.com/index.html
+    \item Unreal Engine Forums:
+    \\https://forums.unrealengine.com/
+    \item Unreal Engine Reddit:
+    \\https://www.reddit.com/r/unrealengine/
+    \\item Oculus Documentation:
+    \\https://developer.oculus.com/documentation
+\end{itemize}
+
+People:
+
+\begin{itemize}
+    \item Professor de Amicis was a great resource and taught those of us in his CS419 (VR and AR development) class a lot about virtual reality and developing with Unreal Engine.
+\end{itemize}
+
+\section{Conclusions and Reflections}
+
+\subsection{Nicholas Pugliese}
+\begin{enumerate}
+    \item \textbf{What technical information did you learn?}
+    
+    I learned a lot about how Games/Graphics projects are developed using more advanced software like Unreal Engine. There is a lot more story-boarding that goes on rather than code writing. The biggest technical thing I had to learn this term was how to develop for Virtual Reality. Since VR technology is so new it's really under-documented, which makes debugging hard. I also learned that developing in a physics engine can lead to very weird bugs when working with turning physics on and off. We have a bug in the final build where if you place an object in a trash can, both the object and the trash can will fly off into oblivion. I also learned how to build a 3D game project in the Unreal Engine, import resources from Sketchup and CAD files, place them in a scene, render the scene, and export it to an executable for demontration on another machine.
+    
+    \item \textbf{What non-technical information did you learn?}
+    
+    I learned a lot about the bureaucracy about getting a new, innovative idea off the ground in a company that doesn't want to spend money. This "using VR to teach" idea is very new within HP, and people are exicted about. However, most people currently see it as something they want to get into, but do not wish to spend the resources on a prototype that might never amount to what they needed it to be.
+    
+    \item \textbf{What have you learned about project work?}
+    
+    I learned that no matter what, tasks in the project will take longer to complete than you think they will. The best laid plans of mice and men often go awry, as they say. I also learned that working with team member pair programming can lead to either the best code I've ever written, or close to it.
+    
+    \item \textbf{What have you learned about project management?}
+    
+    This project was the first that I've participated in where we used software tools to help tract what needed to be done. I think it helped us a ton with realizing what needed to be done overall instead of getting lost in the weeds with certain details that might not matter until later, and focus on getting the core project done. I learned that spending time organizing is equally if not more important than doing the actual work. If you don't know what you need to do, you can't do it.
+    
+    \item \textbf{What have you learned about working in teams?}
+    
+    Much like parallel programming, you lose performance when working in a group due to inter-process communication. All group members have to spend time talking about what they did so the others don't re-do work or accidentally break things. The most important part is to have patience and to trust what your group is doing. I tend to worry too much about everything, so I had to learn to take a step back and let my team do their parts while I did mine.
+    
+    \item \textbf{If you could do it all over, what would you do differently?}
+    
+    I would have broken down everything we possibly could into sub-tasks and given those tasks due dates. We kinda did break everything up, but we left them as needed to be completed whenever someone finished it. I think we could have polished the features we have, as well as created a wider variety of training modes and scenarios. This is mostly hindsight, since it took the time in the first place because we were learning everything as we went.
+    
+\end{enumerate}
+\subsection{Kyle Tyler}
+\begin{enumerate}
+    \item \textbf{What technical information did you learn?}
+    
+    I learned a lot about game engine technology and game development in general. Unreal Engine was a tool I had never used before, so learning to make things work with it was a real technical challenge, but it definitely made me a stronger developer. Another thing I learned was about the current state of virtual reality hardware and software production. It is a young and growing field, so there was a lot of information that was hard to find or cutting edge, which was pretty exciting. 
+    
+    \item \textbf{What non-technical information did you learn?}
+    
+    I learned a lot about the VR landscape and some of the work that is being done in that field. I talked to VR professionals who do this for a living, and learned how the field has grown with the advent of cheaper technology and improved hardware. 
+    
+    \item \textbf{What have you learned about project work?}
+    
+    I learned that the only important thing with project work is the project itself. It can be easy to get distracted and work on tiny pieces because they are fun and interesting, but that will hurt the project in the long run. The critical pieces need to be implemented as soon as possible, and everything else will be built up around that. 
+    
+    \item \textbf{What have you learned about project management?}
+    
+    In terms of project management I learned a lot about how important plans are, but also being flexible and moving goals. There were many times where we had to reduce scope and move priorities around.
+    
+    \item \textbf{What have you learned about working in teams?}
+    
+    I learned about the importance of communication, having a plan, and knowing what everybody is working on at all times. I have never worked on such a big project with so many people, so it was critical to quickly learn that everybody needs to be on the same page at all times. If it feels like you are communicating too much, you are probably communicating just about enough.
+    
+    \item \textbf{If you could do it all over, what would you do differently?}
+    
+    I would have used a more common and well-supported VR headset, because we ran into a lot of problems trying to get our hardware too work well with software who only supported our HMD in a beta version. I also would have started working on the major pieces sooner, instead of tinkering with little fun parts first. That was hard because we were all still learning how to use the technology, so if I started again I would have a lot more knowledge that would make me much more productive.
+    
+\end{enumerate}
+\subsection{Stephen Hoffmann}
+\begin{enumerate}
+    \item \textbf{What technical information did you learn?}
+    
+    I didn't know anything about unreal and how to create games in Unreal. I was able to learn a lot of Unreal's tool set, as well as incorporating skills I already have into unreal, such as programming and 3d modeling for VR applications.
+    
+    \item \textbf{What non-technical information did you learn?}
+    
+    Discovering VR applications and how we can incorporate VR for future applications that are such as technical training for real world scenarios. The VR workspace is much larger than just gaming, and that is important information.
+    
+    \item \textbf{What have you learned about project work?}
+    
+    Project work is something we have to do on big projects, and this project helped me learn the important of roles and good divisions of works. I think our team excelled in this, which made hitting deadlines much easier.
+    
+    \item \textbf{What have you learned about project management?}
+    
+    Project management came down to knowing deadlines and the feasible amount of work each team member can do. We where always outlining future work, and estimations on how long tasks would  take. This helped manage our time and help achieve our goals.
+    
+    \item \textbf{What have you learned about working in teams?}
+    
+    Everyone has different preferences on how they work best, with also what kinds of tasks they like the best. We where good at utilizing each others personal strengths and that helped us trust and rely on each other that we would get work done.
+    
+    \item \textbf{If you could do it all over, what would you do differently?}
+    
+    Start development in the first term, even if we weren't suppose to. Starting to build a basic work environment to play with could have allowed each of us to learn faster, which could have lead to more outreaching goals for our program, such as another training scenario.
+    
+\end{enumerate}
+\subsection{Symon Ramos}
+\begin{enumerate}
+    \item \textbf{What technical information did you learn?}
+    \\
+    I learned basic development with the Unreal interface. One of the things I was tasked with was helping to create the inside environment of the warehouse where the scenario took place. We used Sketch-Up in tandem with Unreal in order to add 3D models into the virtual space. I also learned troubleshooting skills and concepts relevant to Virtual Reality development, such as the need of using certain software (EX: SteamVR) in order to boot systems rather than relying solely on the software that came with the hardware. 
+    \\\\
+    I also learned that there is a lot of substantial value in creating Virtual Reality systems that aren't necessarily high-fidelity, but are capable of getting the point across. We decided to create the environment in a low-poly state that enabled us to efficiently and effectively convey the various steps that we wanted the operator to be able to undergo. This was all in attempts to promote and facilitate learning amongst our participants. 
+        
+    \item \textbf{What non-technical information did you learn?}
+    
+    I learned a great deal about the many tasks a Web Press operator has to undertake in order to monitor and repair a Web Press printer. We had the pleasure of being able to visit the HP site and tour their facility, as well as the Web Press printers we would soon model. I was also mainly tasked with the research and analysis of the various aspects of the Web Press printer through the manuals that our client provided for us. I was able to become well-versed in the many applications to which a Web Press would need maintenance and supervision, such as when a printhead is overheating or when a wiper is in need of replacement. 
+    
+    \item \textbf{What have you learned about project work?}
+    
+    I found in this project that there are many different roles that can be fulfilled, all of which are necessary in order to create and bring forth a good project. I believe that this is something that I can very easily foresee being prevalent in industry: the delegation of tasks and roles to different team members so that their expertise can fit according to their ability while at the same time allowing leeway for all team members to learn from each other and gain experience in all levels and facets of a given project.
+    
+    \item \textbf{What have you learned about project management?}
+    
+    Project management, as I discovered in this project, is hugely necessary in the development and structure of the project. Without good project management, while a task might end up getting completed, could have overburdened the entire team with a negative experience and an unwarranted disorganization that is only alleviated with successful project management. 
+    \\
+    I also learned that project management pertains to the entire team and not just a particular individual. While we were fortunate enough to be able to have a team member serve as the de facto project manager, we managed our own respective roles and the roles of others to the degree that it enabled us to keep each other accountable throughout the entire process, thereby promoting quality work.
+    
+    \item \textbf{What have you learned about working in teams?}
+    
+    When working in teams of 5 for a project of this scope, I learned that the delegation of tasks and the adoption of roles is integral to the effectiveness of the project's implementation and can also greatly improve the quality of the final result due to the honed-in focus of the tasks given to us. Another advantage to working in a team of this size and caliber were the many opportunities to pair program and work on a particular task or troubleshoot a particular issue with. Having different backgrounds and levels of expertise enabled us to share knowledge with other team members and grow our entire knowledge base in this way.
+    
+    \item \textbf{If you could do it all over, what would you do differently?}
+    
+    While I enjoyed the project throughout its entire duration, I would, in retrospect, be more proactive about gaining feedback from our client and making sure, on a week-to-week basis, gathering his thoughts on our current vision. While it worked for this project, I feel like it would be a good habit to develop for industry to have a very close and interactive relationship with management. I would also most likely seek out other facets of the project with greater intensity to become even more familiar with Virtual Reality design and implementation.
+    
+\end{enumerate}
+\subsection{Stewart Rodger}
+\begin{enumerate}
+    \item \textbf{What technical information did you learn?}
+    
+    I already had basic familiarity with the Unreal Engine, however over the course of this project I learned the ins and outs of program flow within an Unreal Blueprint, Sound implementation, UI/Mentu implementation, and general programming experience within the same engine. I also learned about interfacing custom programs in unreal with both Microsoft Mixed Reality Headsets and the Oculus Rift.
+    
+    \item \textbf{What non-technical information did you learn?}
+    
+    On the non-technical side I learned a lot about how users can respond to a specific interface or task flow that may seem obvious to every member of the team, but may fly over the head of a new user. 
+    
+    \item \textbf{What have you learned about project work?}
+    
+    This project has fully convinced me of the importance of early documentation and implementation research in project work. To make sure the project goes as well as possible it is important to have the project appropriately defined, with specific goals, tools, and timelines. 
+    
+    \item \textbf{What have you learned about project management?}
+    
+    This project has reinforced my understanding of project management, specifically that the project should be broken down into tasks early, and the tasks should be issued to specific team members or selected by them as soon as possible to maintain productiveness.
+    
+    \item \textbf{What have you learned about working in teams?}
+    
+    From this project I learned that teamwork will often not be "equal", and that it is more important to play to all members strengths to get the best version of the result out.
+    
+    \item \textbf{If you could do it all over, what would you do differently?}
+    
+    If I could do it all over again I would condense the first term into 1 month, and try and get access to the hardware much earlier than we were able to. We often found ourselves going over repeated information for the assignments and would have befitted from being able to begin work sooner.
+    
+\end{enumerate}
+
+\end{document}
